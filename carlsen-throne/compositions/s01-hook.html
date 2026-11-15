@@ -1,0 +1,76 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: #05070f;
+    }
+    #s01-top {
+      top: 300px;
+    }
+    #s01-numwrap {
+      position: relative;
+      height: 270px;
+      width: 100%;
+      margin-top: 26px;
+    }
+    .s01-num {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      text-align: center;
+      font-size: 250px;
+    }
+    #s01-num2 {
+      color: var(--red);
+    }
+    #s01-days {
+      font-size: 150px;
+      top: 50px;
+    }
+    #s01-sub {
+      margin-top: 0;
+    }
+    #s01-gap {
+      top: 960px;
+    }
+  </style>
+  <div id="root" data-composition-id="s01" data-width="1080" data-height="1920">
+    <div id="s01-cam" class="cam"><img id="s01-plate" class="plate" src="assets/img/img01-throne.png" alt="" /></div>
+    <div class="vig"></div>
+    <div id="s01-top" class="band">
+      <span id="s01-chip" class="chip">World #1 · since 2011</span>
+      <div id="s01-numwrap">
+        <div id="s01-num1" class="hero s01-num">#1</div>
+        <div id="s01-num2" class="hero s01-num">#2?</div>
+        <div id="s01-days" class="hero s01-num">16 DAYS</div>
+      </div>
+      <div id="s01-sub" class="sub">until the new FIDE list</div>
+    </div>
+    <div id="s01-gap" class="band"><span id="s01-gapchip" class="chip red">Only 5.4 points left</span></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // camera: lands from a slight push and keeps travelling down the throne
+    tl.fromTo("#s01-cam", { scale: 1.12, y: -30 }, { scale: 1.02, y: 20, duration: 6.62, ease: "power1.out" }, 0);
+    // frame 0 is the thumbnail: chip and #1 already on screen
+    tl.fromTo("#s01-chip", { opacity: 1 }, { opacity: 1, duration: 0.01 }, 0);
+    tl.fromTo("#s01-num1", { opacity: 1, y: 0 }, { opacity: 1, y: 0, duration: 0.01 }, 0);
+    // slot roll #1 -> #2? on "two"
+    tl.fromTo("#s01-num2", { opacity: 0, y: 120, filter: "blur(10px)" }, { opacity: 0, y: 120, filter: "blur(10px)", duration: 0.01 }, 0);
+    tl.to("#s01-num1", { y: -140, opacity: 0, filter: "blur(10px)", duration: 0.16, ease: "power3.in" }, 1.7);
+    tl.to("#s01-num2", { y: 0, opacity: 1, filter: "blur(0px)", duration: 0.32, ease: "expo.out" }, 1.82);
+    // 16 days on "sixteen"
+    tl.fromTo("#s01-days", { opacity: 0, scale: 1.6, filter: "blur(14px)" }, { opacity: 0, scale: 1.6, filter: "blur(14px)", duration: 0.01 }, 0);
+    tl.to("#s01-num2", { opacity: 0, scale: 0.7, filter: "blur(8px)", duration: 0.14, ease: "power2.in" }, 3.48);
+    tl.to("#s01-days", { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.45, ease: "expo.out" }, 3.56);
+    tl.fromTo("#s01-sub", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 3.9);
+    // 5.4 points slam on "Five points"
+    tl.fromTo("#s01-gapchip", { opacity: 0, scale: 2.2, rotation: -6 }, { opacity: 1, scale: 1, rotation: -3, duration: 0.32, ease: "back.out(1.6)" }, 5.5);
+    // exit: whip up
+    tl.to("#root", { y: -260, filter: "blur(18px)", duration: 0.22, ease: "power3.in" }, 6.4);
+    window.__timelines["s01"] = tl;
+  </script>
+</template>

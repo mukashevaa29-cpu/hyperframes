@@ -1,0 +1,129 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: radial-gradient(ellipse 80% 60% at 50% 50%, #142247 0%, #070d1f 70%, #03060d 100%);
+    }
+    #s10-top {
+      top: 300px;
+    }
+    #s10-chart {
+      position: absolute;
+      left: 150px;
+      right: 222px;
+      top: 420px;
+      height: 680px;
+    }
+    #s10-base {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.4);
+    }
+    #s10-axis {
+      position: absolute;
+      left: -10px;
+      bottom: 14px;
+      font-weight: 900;
+      font-size: 28px;
+      color: rgba(255, 255, 255, 0.55);
+      letter-spacing: 0.06em;
+    }
+    .s10-col {
+      position: absolute;
+      bottom: 4px;
+      width: 240px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #s10-col-m {
+      left: 20px;
+    }
+    #s10-col-f {
+      right: 20px;
+    }
+    .s10-bar {
+      width: 190px;
+      border-radius: 22px 22px 0 0;
+      transform-origin: bottom center;
+    }
+    #s10-bar-m {
+      height: 380px;
+      background: var(--blue);
+    }
+    #s10-bar-f {
+      height: 233px;
+      background: var(--orange);
+    }
+    .s10-av {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 16px;
+    }
+    .s10-val {
+      font-weight: 900;
+      font-size: 56px;
+      line-height: 1;
+      margin-bottom: 14px;
+      text-shadow: 0 6px 0 rgba(0, 0, 0, 0.45);
+    }
+    #s10-gap {
+      position: absolute;
+      left: 270px;
+      right: 270px;
+      top: 296px;
+      height: 147px;
+      border: 8px dashed var(--gold);
+      border-left: none;
+      border-right: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #s10-gapnum {
+      font-weight: 900;
+      font-size: 100px;
+      color: var(--gold);
+      text-shadow: 0 8px 0 rgba(0, 0, 0, 0.45);
+      background: #070d1f;
+      padding: 0 14px;
+    }
+  </style>
+  <div id="root" data-composition-id="s10" data-width="1080" data-height="1920">
+    <div id="s10-top" class="band"><span id="s10-chip" class="chip dark">Live ratings · Nov 2026</span></div>
+    <div id="s10-chart">
+      <div id="s10-col-m" class="s10-col">
+        <div class="avatar ring-blue s10-av"><img src="assets/img/av-magnus.png" alt="Magnus Carlsen" /></div>
+        <div class="s10-val" style="color: var(--blue)">2804.0</div>
+        <div id="s10-bar-m" class="s10-bar"></div>
+      </div>
+      <div id="s10-col-f" class="s10-col">
+        <div class="avatar ring-orange s10-av"><img src="assets/img/av-fabi.png" alt="Fabiano Caruana" /></div>
+        <div class="s10-val" style="color: var(--orange)">2798.6</div>
+        <div id="s10-bar-f" class="s10-bar"></div>
+      </div>
+      <div id="s10-gap"><span id="s10-gapnum">5.4</span></div>
+      <div id="s10-base"></div>
+      <div id="s10-axis">2790</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // local t = absolute - 48.70
+    tl.fromTo("#root", { y: 260, filter: "blur(18px)" }, { y: 0, filter: "blur(0px)", duration: 0.28, ease: "power3.out" }, 0);
+    tl.fromTo("#s10-chip", { opacity: 0 }, { opacity: 1, duration: 0.2 }, 0.1);
+    tl.fromTo(".s10-bar", { scaleY: 0 }, { scaleY: 1, duration: 0.6, ease: "expo.out", stagger: 0.08 }, 0.12);
+    tl.fromTo([".s10-av", ".s10-val"], { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.3, ease: "power3.out", stagger: 0.05 }, 0.3);
+    // the gap lands on "five point four"
+    tl.fromTo("#s10-gap", { opacity: 0, scaleY: 0.3 }, { opacity: 1, scaleY: 1, duration: 0.3, ease: "back.out(1.8)" }, 0.86);
+    tl.fromTo("#s10-gapnum", { scale: 1.8 }, { scale: 1, duration: 0.3, ease: "expo.out" }, 0.86);
+    // exit: blur swap
+    tl.to("#root", { opacity: 0, filter: "blur(8px)", duration: 0.16, ease: "power2.in" }, 1.94);
+    window.__timelines["s10"] = tl;
+  </script>
+</template>
