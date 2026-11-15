@@ -18,7 +18,7 @@
     }
   </style>
   <div id="root" data-composition-id="s08" data-width="1080" data-height="1920">
-    <div id="s08-cam" class="cam"><img class="plate" src="assets/img/img05-shock.png" alt="" /></div>
+    <div id="s08-cam" class="cam"><img class="plate" src="assets/img/img05-shock.jpg" alt="" /></div>
     <div class="vig"></div>
     <div id="s08-top" class="band">
       <div id="s08-num" class="hero">−15.8</div>
@@ -28,7 +28,7 @@
   <script>
     const tl = gsap.timeline({ paused: true });
     // local t = absolute - 43.80
-    tl.fromTo("#s08-cam", { scale: 1.22 }, { scale: 1.06, duration: 2.3, ease: "expo.out" }, 0);
+    tl.fromTo("#s08-cam", { scale: 1.32, y: 240 }, { scale: 1.16, y: 230, duration: 2.3, ease: "expo.out" }, 0);
     // slam on "sixteen"
     tl.fromTo("#s08-num", { opacity: 0, scale: 2.6, filter: "blur(16px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.3, ease: "expo.out" }, 0.65);
     tl.to("#s08-cam", { x: 14, duration: 0.04, yoyo: true, repeat: 5, ease: "none" }, 0.68);

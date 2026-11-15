@@ -34,11 +34,11 @@
       margin-top: 0;
     }
     #s01-gap {
-      top: 960px;
+      top: 720px;
     }
   </style>
   <div id="root" data-composition-id="s01" data-width="1080" data-height="1920">
-    <div id="s01-cam" class="cam"><img id="s01-plate" class="plate" src="assets/img/img01-throne.png" alt="" /></div>
+    <div id="s01-cam" class="cam"><img id="s01-plate" class="plate" src="assets/img/img01-throne.jpg" alt="" /></div>
     <div class="vig"></div>
     <div id="s01-top" class="band">
       <span id="s01-chip" class="chip">World #1 · since 2011</span>
@@ -54,7 +54,7 @@
   <script>
     const tl = gsap.timeline({ paused: true });
     // camera: lands from a slight push and keeps travelling down the throne
-    tl.fromTo("#s01-cam", { scale: 1.12, y: -30 }, { scale: 1.02, y: 20, duration: 6.62, ease: "power1.out" }, 0);
+    tl.fromTo("#s01-cam", { scale: 1.26, y: 250 }, { scale: 1.22, y: 270, duration: 6.62, ease: "power1.out" }, 0);
     // frame 0 is the thumbnail: chip and #1 already on screen
     tl.fromTo("#s01-chip", { opacity: 1 }, { opacity: 1, duration: 0.01 }, 0);
     tl.fromTo("#s01-num1", { opacity: 1, y: 0 }, { opacity: 1, y: 0, duration: 0.01 }, 0);

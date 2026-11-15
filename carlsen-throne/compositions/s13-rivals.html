@@ -32,7 +32,7 @@
     }
   </style>
   <div id="root" data-composition-id="s13" data-width="1080" data-height="1920">
-    <div id="s13-cam" class="cam"><img class="plate" src="assets/img/img08-rivals.png" alt="" /></div>
+    <div id="s13-cam" class="cam"><img class="plate" src="assets/img/img08-rivals.jpg" alt="" /></div>
     <div class="vig"></div>
     <div id="s13-top" class="band">
       <div id="s13-draws" class="hero s13-line">12 DRAWS<div id="s13-strike"></div></div>
@@ -43,7 +43,7 @@
     const tl = gsap.timeline({ paused: true });
     // local t = absolute - 57.80
     tl.fromTo("#root", { y: 260, filter: "blur(18px)" }, { y: 0, filter: "blur(0px)", duration: 0.28, ease: "power3.out" }, 0);
-    tl.fromTo("#s13-cam", { scale: 1.04 }, { scale: 1.14, duration: 3.8, ease: "power1.inOut" }, 0);
+    tl.fromTo("#s13-cam", { scale: 1.12, y: 170 }, { scale: 1.16, y: 150, duration: 3.8, ease: "power1.inOut" }, 0);
     tl.fromTo("#s13-draws", { opacity: 0, scale: 1.4, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.35, ease: "expo.out" }, 0.1);
     // struck through on "couldn't"
     tl.fromTo("#s13-strike", { scaleX: 0 }, { scaleX: 1, duration: 0.22, ease: "power3.out" }, 1.04);
