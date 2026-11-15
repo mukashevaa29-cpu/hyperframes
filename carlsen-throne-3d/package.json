@@ -1,0 +1,12 @@
+{
+  "name": "carlsen-throne-3d",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.9.52 preview",
+    "check": "npx --yes hyperframes@0.9.52 check",
+    "render": "npx --yes hyperframes@0.9.52 render",
+    "publish": "npx --yes hyperframes@0.9.52 publish",
+    "setup": "npm i --no-save three@0.160.0 && cp node_modules/three/build/three.min.js lib/three.min.js"
+  }
+}

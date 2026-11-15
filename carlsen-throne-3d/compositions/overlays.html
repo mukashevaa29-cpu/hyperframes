@@ -1,0 +1,73 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+    #ov-top {
+      top: 300px;
+    }
+    #ov-numwrap {
+      position: relative;
+      height: 250px;
+      width: 100%;
+      margin-top: 22px;
+    }
+    .ov-num {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      text-align: center;
+      font-size: 250px;
+    }
+    #ov-num2 {
+      color: var(--red);
+    }
+    #ov-days {
+      top: 300px;
+    }
+    #ov-daysnum {
+      font-size: 150px;
+    }
+    #ov-july {
+      top: 300px;
+    }
+    #ov-streak {
+      top: 300px;
+    }
+  </style>
+  <div id="root" data-composition-id="overlays" data-width="1080" data-height="1920">
+    <div id="ov-top" class="band">
+      <span id="ov-chip" class="chip">World #1 · since 2011</span>
+      <div id="ov-numwrap">
+        <div id="ov-num1" class="hero ov-num">#1</div>
+        <div id="ov-num2" class="hero ov-num">#2?</div>
+      </div>
+    </div>
+    <div id="ov-days" class="band">
+      <div id="ov-daysnum" class="hero">16 DAYS</div>
+      <div id="ov-dayssub" class="sub">until the new FIDE list</div>
+    </div>
+    <div id="ov-july" class="band"><span id="ov-julychip" class="chip">July 2011 → today</span></div>
+    <div id="ov-streak" class="band"><span id="ov-streakchip" class="chip dark">Longest streak at #1</span></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // shots 1-2: "#1" is on frame 0, rolls to "#2?" on "two"
+    tl.fromTo("#ov-num2", { opacity: 0, y: 120, filter: "blur(10px)" }, { opacity: 0, y: 120, filter: "blur(10px)", duration: 0.01 }, 0);
+    tl.fromTo("#ov-num1", { y: 0, opacity: 1, filter: "blur(0px)" }, { y: -140, opacity: 0, filter: "blur(10px)", duration: 0.16, ease: "power3.in" }, 1.7);
+    tl.to("#ov-num2", { y: 0, opacity: 1, filter: "blur(0px)", duration: 0.32, ease: "expo.out" }, 1.82);
+    tl.fromTo("#ov-top", { opacity: 1 }, { opacity: 0, duration: 0.08 }, 3.27);
+    // shot 3: 16 days
+    tl.fromTo("#ov-days", { opacity: 0, scale: 1.5, filter: "blur(14px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 3.52);
+    tl.to("#ov-days", { opacity: 0, duration: 0.08 }, 5.37);
+    // shot 5: the reign
+    tl.fromTo("#ov-julychip", { opacity: 0, y: -24 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.6)" }, 6.9);
+    tl.to("#ov-julychip", { opacity: 0, duration: 0.08 }, 10.32);
+    // shot 7: the towers
+    tl.fromTo("#ov-streakchip", { opacity: 0, y: -24 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.6)" }, 13.05);
+    window.__timelines["overlays"] = tl;
+  </script>
+</template>
