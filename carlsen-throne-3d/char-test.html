@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script src="lib/three.min.js"></script>
+    <script src="lib/characters.js"></script>
+    <style>
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+      canvas { position: absolute; inset: 0; width: 1080px; height: 1920px; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="7" data-width="1080" data-height="1920">
+      <canvas id="ct" class="clip" data-start="0" data-duration="7" data-track-index="0" width="1080" height="1920"></canvas>
+      <audio id="vo" class="clip" src="assets/vo/vo-107.ogg" data-start="0" data-duration="7" data-track-index="1"></audio>
+    </div>
+    <script>
+      const W = 1080, H = 1920;
+      const r = new THREE.WebGLRenderer({ canvas: document.getElementById("ct"), antialias: true, preserveDrawingBuffer: true });
+      r.setSize(W, H, false);
+      r.shadowMap.enabled = true;
+      r.shadowMap.type = THREE.PCFSoftShadowMap;
+      r.toneMapping = THREE.ACESFilmicToneMapping;
+      r.toneMappingExposure = 1.35;
+      const cam = new THREE.PerspectiveCamera(30, W / H, 0.05, 100);
+      const C = window.HFChars;
+      const V = (x, y, z) => new THREE.Vector3(x, y, z);
+      const lerp = (a, b, k) => a + (b - a) * k;
+      const ease = (x) => { x = Math.min(1, Math.max(0, x)); return 1 - Math.pow(1 - x, 3); };
+
+      function light(scene, key, rim) {
+        scene.add(new THREE.HemisphereLight(0xbcd2ff, 0x1a1410, 0.9));
+        const k = new THREE.DirectionalLight(key, 2.6);
+        k.position.set(2, 5, 4);
+        k.castShadow = true;
+        k.shadow.mapSize.set(2048, 2048);
+        Object.assign(k.shadow.camera, { left: -4, right: 4, top: 4, bottom: -4 });
+        k.shadow.bias = -0.0004;
+        scene.add(k);
+        const rl = new THREE.DirectionalLight(rim, 1.8);
+        rl.position.set(-3, 3, -4);
+        scene.add(rl);
+        return rl;
+      }
+      /* scene A: Magnus on a chess-king throne */
+      const A = new THREE.Scene();
+      A.background = new THREE.Color(0x0b1430);
+      A.fog = new THREE.Fog(0x0b1430, 6, 20);
+      const rimA = light(A, 0xfff1dc, 0x4f8dff);
+      const fl = new THREE.Mesh(new THREE.CircleGeometry(4, 64), new THREE.MeshStandardMaterial({ color: 0x1a2648, roughness: 0.35, metalness: 0.2 }));
+      fl.rotation.x = -Math.PI / 2; fl.receiveShadow = true; A.add(fl);
+      const tm = new THREE.MeshStandardMaterial({ color: 0xe9ebf2, roughness: 0.3 });
+      const box = (w, h, d, x, y, z) => { const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), tm); m.position.set(x, y, z); m.castShadow = m.receiveShadow = true; A.add(m); return m; };
+      box(0.75, 0.12, 0.6, 0, 0.5, 0); box(0.7, 0.45, 0.5, 0, 0.22, 0);
+      box(0.78, 1.0, 0.12, 0, 1.02, -0.3);
+      box(0.1, 0.3, 0.6, -0.42, 0.66, 0); box(0.1, 0.3, 0.6, 0.42, 0.66, 0);
+      const crown = new THREE.Mesh(new THREE.CylinderGeometry(0.34, 0.24, 0.28, 8, 1, true), tm); crown.position.set(0, 1.66, -0.3); A.add(crown);
+      const crossV = box(0.07, 0.3, 0.07, 0, 1.95, -0.3); const crossH = box(0.22, 0.07, 0.07, 0, 1.97, -0.3);
+      const beam = new THREE.Mesh(new THREE.ConeGeometry(1.6, 6, 40, 1, true), new THREE.MeshBasicMaterial({ color: 0x6aa8ff, transparent: true, opacity: 0.06, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide }));
+      beam.position.set(0, 3, 0); A.add(beam);
+      const mag = C.make(C.MAGNUS); mag.root.position.set(0, 0.08, 0.06); A.add(mag.root);
+      const magA = C.track([
+        [0, { smile: 0.9, brow: 0, headYaw: 0, headRoll: 0.05, lookX: 0 }],
+        [1.75, { smile: 0.9, brow: 0, headRoll: 0.05 }],
+        [1.95, { smile: -0.8, brow: -0.9, surprise: 0.4, headRoll: -0.04, lookX: -0.8, lookY: 0.4 }],
+        [3.4, { smile: -0.8, brow: -0.9, surprise: 0.2, lookX: -0.8 }],
+      ]);
+      const blinkM = C.blinkTrack(4, 10);
+
+      /* scene B: Magnus vs Fabi at the board */
+      const B = new THREE.Scene();
+      B.background = new THREE.Color(0x2a1d14);
+      B.fog = new THREE.Fog(0x2a1d14, 6, 18);
+      light(B, 0xffe2b8, 0xff9a3c);
+      const flB = new THREE.Mesh(new THREE.PlaneGeometry(20, 20), new THREE.MeshStandardMaterial({ color: 0x3a2a1e, roughness: 0.7 }));
+      flB.rotation.x = -Math.PI / 2; flB.receiveShadow = true; B.add(flB);
+      const table = new THREE.Mesh(new THREE.BoxGeometry(0.9, 0.06, 0.7), new THREE.MeshStandardMaterial({ color: 0x6b4a2f, roughness: 0.5 }));
+      table.position.set(0, 0.74, 0); table.castShadow = table.receiveShadow = true; B.add(table);
+      for (const x of [-0.4, 0.4]) for (const z of [-0.3, 0.3]) { const l = new THREE.Mesh(new THREE.BoxGeometry(0.05, 0.74, 0.05), table.material); l.position.set(x, 0.37, z); B.add(l); }
+      const bc = document.createElement("canvas"); bc.width = bc.height = 512; const bx = bc.getContext("2d");
+      for (let i = 0; i < 8; i++) for (let j = 0; j < 8; j++) { bx.fillStyle = (i + j) % 2 ? "#769656" : "#eeeed2"; bx.fillRect(i * 64, j * 64, 64, 64); }
+      const bt = new THREE.CanvasTexture(bc); bt.colorSpace = THREE.SRGBColorSpace;
+      const brd = new THREE.Mesh(new THREE.BoxGeometry(0.44, 0.02, 0.44), [0, 0, new THREE.MeshStandardMaterial({ map: bt }), 0, 0, 0].map((m) => m || new THREE.MeshStandardMaterial({ color: 0x4a2f1b })));
+      brd.position.set(0, 0.78, 0); brd.receiveShadow = true; B.add(brd);
+      const pm = [new THREE.MeshStandardMaterial({ color: 0xf4f1e6, roughness: 0.3 }), new THREE.MeshStandardMaterial({ color: 0x2a2d36, roughness: 0.3 })];
+      const rnd = (() => { let a = 7; return () => ((a = (a * 16807) % 2147483647) / 2147483647); })();
+      for (let i = 0; i < 14; i++) { const p = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.018, 0.04 + rnd() * 0.04, 16), pm[i % 2]); p.position.set(-0.19 + Math.floor(rnd() * 8) * 0.055, 0.81, -0.19 + Math.floor(rnd() * 8) * 0.055); p.castShadow = true; B.add(p); }
+      const chair = (x, ry) => { const g = new THREE.Group(); const cm = new THREE.MeshStandardMaterial({ color: 0x4a3324, roughness: 0.6 }); const s = new THREE.Mesh(new THREE.BoxGeometry(0.42, 0.05, 0.42), cm); s.position.y = 0.47; const bk = new THREE.Mesh(new THREE.BoxGeometry(0.42, 0.5, 0.05), cm); bk.position.set(0, 0.72, -0.2); g.add(s, bk); g.position.x = x; g.rotation.y = ry; B.add(g); };
+      chair(-0.72, Math.PI / 2); chair(0.72, -Math.PI / 2);
+      const m2 = C.make(C.MAGNUS); m2.root.position.set(-0.68, 0.05, 0); m2.root.rotation.y = Math.PI / 2; B.add(m2.root);
+      const fb = C.make(C.FABI); fb.root.position.set(0.68, 0.05, 0); fb.root.rotation.y = -Math.PI / 2; B.add(fb.root);
+      const blinkF = C.blinkTrack(11, 10);
+      const magB = C.track([[3.35, { brow: 0.7, smile: -0.5, lean: 0.35, lookY: -0.9 }], [5.4, { brow: 0.9, smile: -0.9, lean: 0.45, lookY: -0.9, teeth: 1 }]]);
+      const fabB = C.track([[3.35, { brow: 0, smile: 0.1, lean: 0.25, lookY: -0.8 }], [4.9, { brow: 0, smile: 0.1, lookY: -0.8, lean: 0.25 }], [5.1, { brow: -0.2, smile: 0.85, lookY: 0, lookX: -0.6, lean: 0.15, headPitch: -0.12 }]]);
+
+      function renderAt(t) {
+        if (t < 3.35) {
+          const st = magA(t);
+          Object.assign(st, { sit: 1, t: t, blink: blinkM(t), armLx: -1.4, armRx: -1.4, foreLx: -0.15, foreRx: -0.15, armLz: 0.05, armRz: 0.05 });
+          mag.pose(st);
+          const red = Math.min(1, Math.max(0, (t - 1.8) / 0.3));
+          rimA.color.setRGB(lerp(0.31, 1, red), lerp(0.55, 0.25, red), lerp(1, 0.25, red));
+          beam.material.color.setRGB(lerp(0.42, 1, red), lerp(0.66, 0.3, red), lerp(1, 0.3, red));
+          const k = ease(t / 1.75);
+          if (t < 1.75) { cam.position.copy(V(0, 1.2, 6.2).lerp(V(0, 1.35, 4.2), k)); cam.lookAt(0, 1.15, 0); }
+          else { const k2 = ease((t - 1.75) / 1.6); cam.position.copy(V(-0.7, 1.4, 2.4).lerp(V(-0.45, 1.42, 1.85), k2)); cam.lookAt(0.02, 1.38, 0); }
+          cam.updateProjectionMatrix();
+          r.render(A, cam);
+        } else {
+          const sm = magB(t); Object.assign(sm, { sit: 1, t: t, blink: blinkM(t), armLx: -0.9, armRx: -0.9, foreLx: -0.9, foreRx: -0.9 }); m2.pose(sm);
+          const sf = fabB(t); Object.assign(sf, { sit: 1, t: t + 1, blink: blinkF(t), armLx: -1.0, armRx: -1.0, foreLx: -1.1, foreRx: -1.1 }); fb.pose(sf);
+          const k = ease((t - 3.35) / 3.6);
+          if (t < 5.0) { cam.position.copy(V(0, 1.25, 3.4).lerp(V(0.1, 1.2, 2.6), k)); cam.lookAt(0, 1.0, 0); }
+          else { const k2 = ease((t - 5.0) / 2); cam.position.copy(V(-0.15, 1.33, 1.2).lerp(V(-0.05, 1.33, 1.0), k2)); cam.lookAt(0.68, 1.3, 0); }
+          cam.updateProjectionMatrix();
+          r.render(B, cam);
+        }
+      }
+      window.addEventListener("hf-seek", (e) => renderAt(e.detail.time));
+      renderAt(0);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>
