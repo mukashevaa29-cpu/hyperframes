@@ -394,6 +394,7 @@
     floor.rotation.x = -Math.PI / 2;
     floor.receiveShadow = true;
     scene.add(floor);
+    floor.visible = false;
     const dais = new THREE.Mesh(
       new THREE.CylinderGeometry(3.2, 3.6, 0.4, 48),
       new THREE.MeshStandardMaterial({ color: 0x1a2440, roughness: 0.4 }),
@@ -401,20 +402,45 @@
     dais.position.y = 0.2;
     dais.receiveShadow = true;
     scene.add(dais);
+    dais.visible = false;
     const types = ["king", "queen", "rook", "bishop", "rook", "queen"];
     for (let i = 0; i < 6; i++) {
       for (const side of [-1, 1]) {
         const p = piece(types[i], side < 0 ? "white" : "black", 3.4);
         p.position.set(side * 6.2, 0, 3 - i * 5.5);
+        p.visible = false;
         scene.add(p);
       }
     }
-    /* the giant white king stands behind him: the throne he is defending */
-    const statue = piece("king", "white", 2.6);
-    statue.position.set(0, 0.4, -2.2);
-    scene.add(statue);
+    /* painted room behind him, same art style as the characters */
+    const back = new THREE.Mesh(
+      new THREE.PlaneGeometry(11, 19.6),
+      new THREE.MeshBasicMaterial({ map: tex.throneRoom, toneMapped: false, fog: false }),
+    );
+    back.position.set(0, 4.9, -7);
+    scene.add(back);
+    const blobTex = canvasTex(256, 128, (ctx, w, h) => {
+      const g = ctx.createRadialGradient(w / 2, h / 2, 4, w / 2, h / 2, w / 2);
+      g.addColorStop(0, "rgba(0,0,0,0.55)");
+      g.addColorStop(1, "rgba(0,0,0,0)");
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, w, h);
+    });
+    const blob = new THREE.Mesh(
+      new THREE.PlaneGeometry(2.6, 1.0),
+      new THREE.MeshBasicMaterial({
+        map: blobTex,
+        transparent: true,
+        depthWrite: false,
+        toneMapped: false,
+        fog: false,
+      }),
+    );
+    blob.rotation.x = -Math.PI / 2;
+    blob.position.set(0, 0.02, 2.65);
+    scene.add(blob);
     const throne = puppet(tex.magnus, "st", 3.7);
-    throne.position.set(0, 0.4, 0.4);
+    throne.position.set(0, 0, 2.6);
     scene.add(throne);
     const cones = [];
     for (const x of [-2.6, 0, 2.6]) {
@@ -462,7 +488,7 @@
         hall.mood(0);
         hall.fgA.position.set(-2.0, 0, 10.4);
         hall.fgB.position.set(2.2, 0, 11.0);
-        setCam(mix(V(0, 1.4, 16), V(0, 2.2, 10.5), k), V(0, lerp(2.4, 2.9, k), 0), 40);
+        setCam(mix(V(0, 1.9, 10.6), V(0, 2.3, 9.2), k), V(0, lerp(3.2, 3.35, k), 0), 40);
         hall.dust(t);
         faceCam(hall.throne);
         animatePuppet(hall.throne, t, [[0, "smug"]], [0.95]);
@@ -478,7 +504,7 @@
         hall.mood(seg(u, 0.05, 0.3));
         hall.fgA.position.set(-4.3, 0, 6.2);
         hall.fgB.position.set(30, 0, 0);
-        setCam(mix(V(-1.6, 3.0, 6.4), V(-1.1, 3.3, 5.0), k), V(0.0, 3.55, 0.4), 36);
+        setCam(mix(V(-1.3, 3.2, 7.6), V(-0.9, 3.35, 6.6), k), V(0.0, 3.95, 2.6), 36);
         hall.dust(t);
         faceCam(hall.throne);
         animatePuppet(
@@ -955,8 +981,9 @@
     loadTex("assets/cut/rivals.webp"),
     loadTex("assets/cut/shock.webp"),
     loadSet("assets/chars/magnus/", MAGNUS_ART),
+    loadTex("assets/bg/throne-room.jpg"),
   ]).then((r) => {
-    build({ throne: r[1], rivals: r[2], shock: r[3], magnus: r[4] });
+    build({ throne: r[1], rivals: r[2], shock: r[3], magnus: r[4], throneRoom: r[5] });
     ready = true;
     renderAt(lastT);
   });
