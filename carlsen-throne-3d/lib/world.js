@@ -326,6 +326,49 @@
 
   /* ---------- sets ---------- */
   const SHOTS = [];
+  /* a character cut-out that swaps expression art, blinks and settles with a small pop */
+  function puppet(set, prefix, height) {
+    const any = set[prefix + "-smug"] || set[Object.keys(set)[0]];
+    const aspect = any.image.width / any.image.height;
+    const m = new THREE.Mesh(
+      new THREE.PlaneGeometry(height * aspect, height),
+      new THREE.MeshBasicMaterial({
+        map: any,
+        transparent: true,
+        alphaTest: 0.5,
+        toneMapped: false,
+      }),
+    );
+    m.geometry.translate(0, height / 2, 0);
+    m.userData = { set: set, prefix: prefix, tint: 0 };
+    return m;
+  }
+  /* face(t): [[time, "expr"], ...]; blinks: times; returns nothing, sets the art for time t */
+  function animatePuppet(m, t, face, blinks) {
+    let expr = face[0][1];
+    let since = 99;
+    for (const f of face) {
+      if (t >= f[0]) {
+        expr = f[1];
+        since = t - f[0];
+      }
+    }
+    let blink = false;
+    for (const b of blinks) if (t >= b && t < b + 0.11) blink = true;
+    const set = m.userData.set;
+    const key = m.userData.prefix + "-" + expr;
+    const tex = (blink && set[key + "-blink"]) || set[key];
+    if (m.material.map !== tex) {
+      m.material.map = tex;
+      m.material.needsUpdate = true;
+    }
+    const pop = since < 0.25 ? Math.sin((since / 0.25) * Math.PI) * 0.035 : 0;
+    m.scale.set(1 - pop * 0.5, 1 + pop, 1);
+    m.rotation.z = Math.sin(t * 1.4) * 0.008;
+    const k = m.userData.tint || 0;
+    m.material.color.setRGB(1, 1 - 0.18 * k, 1 - 0.18 * k);
+  }
+
   function buildHall(tex) {
     const scene = new THREE.Scene();
     scene.background = new THREE.Color(0x05080f);
@@ -366,16 +409,12 @@
         scene.add(p);
       }
     }
-    const throne = new THREE.Mesh(
-      new THREE.PlaneGeometry((5.6 * 705) / 1235, 5.6),
-      new THREE.MeshBasicMaterial({
-        map: tex.throne,
-        transparent: true,
-        alphaTest: 0.55,
-        toneMapped: false,
-      }),
-    );
-    throne.position.set(0, 0.4 + 2.8, 0);
+    /* the giant white king stands behind him: the throne he is defending */
+    const statue = piece("king", "white", 2.6);
+    statue.position.set(0, 0.4, -2.2);
+    scene.add(statue);
+    const throne = puppet(tex.magnus, "st", 3.7);
+    throne.position.set(0, 0.4, 0.4);
     scene.add(throne);
     const cones = [];
     for (const x of [-2.6, 0, 2.6]) {
@@ -405,7 +444,7 @@
     function mood(k) {
       for (const c of cones) c.material.color.copy(blue).lerp(red, k);
       L.rim.color.copy(rimBlue).lerp(red, k);
-      throne.material.color.setRGB(1, 1 - 0.18 * k, 1 - 0.18 * k);
+      throne.userData.tint = k;
     }
     return { scene: scene, throne: throne, fgA: fgA, fgB: fgB, dust: dustUpdate, mood: mood };
   }
@@ -423,9 +462,10 @@
         hall.mood(0);
         hall.fgA.position.set(-2.0, 0, 10.4);
         hall.fgB.position.set(2.2, 0, 11.0);
-        setCam(mix(V(0, 1.2, 19), V(0, 1.8, 13.5), k), V(0, lerp(2.2, 2.6, k), 0), 42);
+        setCam(mix(V(0, 1.4, 16), V(0, 2.2, 10.5), k), V(0, lerp(2.4, 2.9, k), 0), 40);
         hall.dust(t);
         faceCam(hall.throne);
+        animatePuppet(hall.throne, t, [[0, "smug"]], [0.95]);
       },
     });
     /* 2 · 1.75–3.35 · low side angle, the hall turns red on "#2?" */
@@ -438,9 +478,18 @@
         hall.mood(seg(u, 0.05, 0.3));
         hall.fgA.position.set(-4.3, 0, 6.2);
         hall.fgB.position.set(30, 0, 0);
-        setCam(mix(V(-4.2, 0.8, 10.5), V(-3.0, 1.1, 8.8), k), V(0.1, 2.9, 0), 40);
+        setCam(mix(V(-1.6, 3.0, 6.4), V(-1.1, 3.3, 5.0), k), V(0.0, 3.55, 0.4), 36);
         hall.dust(t);
         faceCam(hall.throne);
+        animatePuppet(
+          hall.throne,
+          t,
+          [
+            [0, "smug"],
+            [1.82, "worried"],
+          ],
+          [2.95],
+        );
       },
     });
 
@@ -877,13 +926,37 @@
       );
     });
   }
+  const MAGNUS_ART = [
+    "st-smug",
+    "st-smug-blink",
+    "st-worried",
+    "st-worried-blink",
+    "st-stern",
+    "st-stern-blink",
+    "st-think",
+    "st-think-blink",
+    "st-win",
+    "st-win-blink",
+    "st-shock",
+    "sit-focus",
+    "sit-offer",
+    "sit-stress",
+  ];
+  function loadSet(dir, names) {
+    return Promise.all(names.map((n) => loadTex(dir + n + ".webp"))).then((ts) => {
+      const o = {};
+      names.forEach((n, i) => (o[n] = ts[i]));
+      return o;
+    });
+  }
   const buildPromise = Promise.all([
     document.fonts.load('900 100px "Nunito"'),
     loadTex("assets/cut/throne.webp"),
     loadTex("assets/cut/rivals.webp"),
     loadTex("assets/cut/shock.webp"),
+    loadSet("assets/chars/magnus/", MAGNUS_ART),
   ]).then((r) => {
-    build({ throne: r[1], rivals: r[2], shock: r[3] });
+    build({ throne: r[1], rivals: r[2], shock: r[3], magnus: r[4] });
     ready = true;
     renderAt(lastT);
   });
