@@ -1,0 +1,39 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: transparent;
+    }
+    #s09-top {
+      top: 300px;
+    }
+    .s09-stat {
+      font-size: 140px;
+    }
+    #s09-wins {
+      color: var(--green);
+    }
+    #s09-loss {
+      color: #fff;
+      margin-top: 10px;
+    }
+  </style>
+  <div id="root" data-composition-id="s09" data-width="1080" data-height="1920">
+    <div id="s09-top" class="band">
+      <div id="s09-wins" class="hero s09-stat">5 WINS</div>
+      <div id="s09-loss" class="hero s09-stat">0 LOSSES</div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // local t = absolute - 46.10
+    tl.fromTo("#root", { x: -300, filter: "blur(18px)" }, { x: 0, filter: "blur(0px)", duration: 0.28, ease: "power3.out" }, 0);
+    tl.fromTo("#s09-wins", { opacity: 0, scale: 1.5, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.35, ease: "expo.out" }, 0.83);
+    tl.fromTo("#s09-loss", { opacity: 0, scale: 1.5, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.35, ease: "expo.out" }, 1.76);
+    // exit: whip up into the gap bars
+    tl.to("#root", { y: -260, filter: "blur(18px)", duration: 0.2, ease: "power3.in" }, 2.4);
+    window.__timelines["s09"] = tl;
+  </script>
+</template>

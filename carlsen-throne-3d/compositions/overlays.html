@@ -37,6 +37,13 @@
     #ov-streak {
       top: 300px;
     }
+    #ov-count {
+      top: 330px;
+    }
+    #ov-countnum {
+      font-size: 190px;
+      font-variant-numeric: tabular-nums;
+    }
   </style>
   <div id="root" data-composition-id="overlays" data-width="1080" data-height="1920">
     <div id="ov-top" class="band">
@@ -51,6 +58,10 @@
       <div id="ov-dayssub" class="sub">until the new FIDE list</div>
     </div>
     <div id="ov-july" class="band"><span id="ov-julychip" class="chip">July 2011 → today</span></div>
+    <div id="ov-count" class="band">
+      <div id="ov-countnum" class="hero">0</div>
+      <div class="sub">days at world #1</div>
+    </div>
     <div id="ov-streak" class="band"><span id="ov-streakchip" class="chip dark">Longest streak at #1</span></div>
   </div>
   <script>
@@ -66,6 +77,24 @@
     // shot 5: the reign
     tl.fromTo("#ov-julychip", { opacity: 0, y: -24 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.6)" }, 6.9);
     tl.to("#ov-julychip", { opacity: 0, duration: 0.08 }, 10.32);
+    // shot 6: the days count up on "Over five thousand six hundred days"
+    tl.fromTo("#ov-count", { opacity: 0, scale: 1.3, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.3, ease: "expo.out" }, 10.45);
+    const counter = { v: 0 };
+    tl.fromTo(
+      counter,
+      { v: 0 },
+      {
+        v: 5600,
+        duration: 1.7,
+        ease: "power3.out",
+        onUpdate: () => {
+          const n = Math.round(counter.v);
+          document.querySelector("#ov-countnum").textContent = n.toLocaleString("en-US") + (n >= 5600 ? "+" : "");
+        },
+      },
+      10.45,
+    );
+    tl.to("#ov-count", { opacity: 0, filter: "blur(8px)", duration: 0.12 }, 12.83);
     // shot 7: the towers
     tl.fromTo("#ov-streakchip", { opacity: 0, y: -24 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.6)" }, 13.05);
     window.__timelines["overlays"] = tl;

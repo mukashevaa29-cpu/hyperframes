@@ -1,0 +1,117 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: transparent;
+    }
+    #s07-top {
+      top: 300px;
+    }
+    #s07-halves {
+      display: flex;
+      gap: 16px;
+      margin-top: 34px;
+    }
+    .s07-half {
+      width: 120px;
+      height: 120px;
+      border-radius: 22px;
+      background: rgba(10, 14, 30, 0.85);
+      font-weight: 900;
+      font-size: 70px;
+      line-height: 120px;
+      text-align: center;
+      box-shadow: 0 6px 0 rgba(0, 0, 0, 0.35), inset 0 0 0 3px rgba(255, 255, 255, 0.18);
+    }
+    #s07-clock {
+      position: absolute;
+      left: 254px;
+      top: 370px;
+      width: 500px;
+      padding: 26px 0 30px;
+      border-radius: 30px;
+      background: #13161f;
+      text-align: center;
+      box-shadow: 0 14px 0 rgba(0, 0, 0, 0.45), inset 0 0 0 4px rgba(255, 80, 80, 0.6);
+    }
+    #s07-clock-l {
+      font-weight: 900;
+      font-size: 34px;
+      letter-spacing: 0.08em;
+      color: rgba(255, 255, 255, 0.65);
+    }
+    .s07-digits {
+      position: relative;
+      height: 170px;
+    }
+    .s07-d {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      font-weight: 900;
+      font-size: 170px;
+      line-height: 170px;
+      color: var(--red);
+      font-variant-numeric: tabular-nums;
+    }
+    #s07-result {
+      top: 380px;
+    }
+    #s07-res-big {
+      font-weight: 900;
+      font-size: 160px;
+      line-height: 1;
+      color: #fff;
+      text-shadow: 0 8px 0 rgba(0, 0, 0, 0.5);
+    }
+  </style>
+  <div id="root" data-composition-id="s07" data-width="1080" data-height="1920">
+    <div id="s07-top" class="band">
+      <span id="s07-chip" class="chip dark">Budapest · Nov 2026</span>
+      <div id="s07-halves">
+        <div class="s07-half">½</div><div class="s07-half">½</div><div class="s07-half">½</div><div class="s07-half">½</div><div class="s07-half">½</div>
+      </div>
+    </div>
+    <div id="s07-clock">
+      <div id="s07-clock-l">MAGNUS · CLOCK</div>
+      <div class="s07-digits">
+        <div class="s07-d" id="s07-d4">0:04</div>
+        <div class="s07-d" id="s07-d3">0:03</div>
+        <div class="s07-d" id="s07-d2">0:02</div>
+        <div class="s07-d" id="s07-d1">0:01</div>
+      </div>
+    </div>
+    <div id="s07-result" class="band">
+      <div id="s07-res-big">0 – 1</div>
+      <span id="s07-res-chip" class="chip red" style="margin-top: 18px">Martirosyan wins</span>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // local t = absolute - 37.50
+    tl.fromTo("#root", { opacity: 0 }, { opacity: 1, duration: 0.15 }, 0);
+    tl.fromTo("#s07-chip", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.6)" }, 0.48);
+    // five draws on "Five draws"
+    tl.fromTo(".s07-half", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.22, ease: "back.out(2)", stagger: 0.08 }, 1.36);
+    // clock runs down on "Then, in time trouble"
+    tl.to("#s07-halves", { opacity: 0, y: -30, filter: "blur(8px)", duration: 0.16, ease: "power2.in" }, 2.45);
+    tl.fromTo("#s07-clock", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(1.6)" }, 2.55);
+    tl.fromTo(".s07-d", { opacity: 0 }, { opacity: 0, duration: 0.01 }, 0);
+    tl.to("#s07-d4", { opacity: 1, duration: 0.01 }, 2.55);
+    tl.to("#s07-d4", { opacity: 0, duration: 0.01 }, 2.95);
+    tl.to("#s07-d3", { opacity: 1, duration: 0.01 }, 2.95);
+    tl.to("#s07-d3", { opacity: 0, duration: 0.01 }, 3.3);
+    tl.to("#s07-d2", { opacity: 1, duration: 0.01 }, 3.3);
+    tl.to("#s07-d2", { opacity: 0, duration: 0.01 }, 3.65);
+    tl.to("#s07-d1", { opacity: 1, duration: 0.01 }, 3.65);
+    tl.to("#s07-clock", { x: 10, duration: 0.04, yoyo: true, repeat: 5, ease: "none" }, 3.7);
+    // result on "he loses"
+    tl.to("#s07-clock", { opacity: 0, scale: 0.7, filter: "blur(10px)", duration: 0.14, ease: "power2.in" }, 3.88);
+    tl.fromTo("#s07-result", { opacity: 0, scale: 1.5, filter: "blur(12px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.35, ease: "expo.out" }, 3.95);
+    // exit: hard cut with a jolt into the shock close-up
+    window.__timelines["s07"] = tl;
+  </script>
+</template>

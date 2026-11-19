@@ -1,0 +1,168 @@
+<template>
+  <style>
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: transparent;
+    }
+    #s05-stage {
+      position: absolute;
+      left: 90px;
+      top: 560px;
+      width: 900px;
+      height: 900px;
+      perspective: 1400px;
+    }
+    #s05-board {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(8, 1fr);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 30px 0 #3b2a1a, 0 60px 90px rgba(0, 0, 0, 0.6);
+      filter: blur(5px);
+    }
+    .s05-sq {
+      background: #eeeed2;
+    }
+    .s05-sq.d {
+      background: #769656;
+    }
+    #s05-pieces {
+      position: absolute;
+      inset: 0;
+      filter: blur(5px);
+      font-size: 96px;
+      line-height: 1;
+    }
+    #s05-pieces span {
+      position: absolute;
+      text-shadow: 0 6px 0 rgba(0, 0, 0, 0.35);
+    }
+    #s05-top {
+      top: 300px;
+    }
+    #s05-eval {
+      position: absolute;
+      left: 120px;
+      top: 560px;
+      width: 70px;
+      height: 760px;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #f4f4f4;
+      box-shadow: 0 8px 0 rgba(0, 0, 0, 0.4), inset 0 0 0 3px rgba(255, 255, 255, 0.25);
+    }
+    #s05-eval-black {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 100%;
+      background: #1b1d22;
+      transform-origin: top center;
+    }
+    #s05-evallabel {
+      position: absolute;
+      left: 210px;
+      top: 390px;
+    }
+    #s05-stamp {
+      position: absolute;
+      left: 120px;
+      right: 192px;
+      top: 820px;
+      text-align: center;
+    }
+    #s05-stamp-inner {
+      display: inline-block;
+      padding: 18px 40px 26px;
+      border: 12px solid var(--red);
+      border-radius: 30px;
+      color: var(--red);
+      font-weight: 900;
+      font-size: 110px;
+      line-height: 1;
+      background: rgba(10, 6, 6, 0.55);
+    }
+    #s05-stamp-sub {
+      display: block;
+      font-size: 46px;
+      letter-spacing: 0.08em;
+      margin-top: 10px;
+    }
+    #s05-tb {
+      top: 440px;
+    }
+    #s05-score {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .s05-side {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .s05-side .avatar {
+      width: 230px;
+      height: 230px;
+    }
+    .s05-big {
+      font-weight: 900;
+      font-size: 200px;
+      line-height: 1;
+      margin-top: 20px;
+      text-shadow: 0 8px 0 rgba(0, 0, 0, 0.45);
+    }
+    #s05-colon {
+      font-weight: 900;
+      font-size: 160px;
+      color: rgba(255, 255, 255, 0.7);
+      margin-top: 230px;
+    }
+  </style>
+  <div id="root" data-composition-id="s05" data-width="1080" data-height="1920">
+    <div id="s05-top" class="band">
+      <span id="s05-chip" class="chip">Game 12 · move 31</span>
+    </div>
+    <div id="s05-eval"><div id="s05-eval-black"></div></div>
+    <div id="s05-evallabel"><span id="s05-better" class="chip blue">Magnus (black): better</span></div>
+    <div id="s05-stamp"><span id="s05-stamp-inner">½ – ½<span id="s05-stamp-sub">DRAW OFFERED</span></span></div>
+    <div id="s05-tb" class="band">
+      <span id="s05-tbchip" class="chip">Rapid tiebreak</span>
+      <div id="s05-score">
+        <div class="s05-side"><div class="avatar ring-blue"><img src="assets/img/av-magnus.png" alt="Magnus Carlsen" /></div><div id="s05-n1" class="s05-big" style="color: var(--blue)">3</div></div>
+        <div id="s05-colon">:</div>
+        <div class="s05-side"><div class="avatar ring-orange"><img src="assets/img/av-fabi.png" alt="Fabiano Caruana" /></div><div id="s05-n2" class="s05-big" style="color: var(--orange)">0</div></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    // local t = absolute - 24.50
+    tl.fromTo("#root", { x: 300, filter: "blur(18px)" }, { x: 0, filter: "blur(0px)", duration: 0.28, ease: "power3.out" }, 0);
+    tl.fromTo("#s05-chip", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.6)" }, 0.14);
+    // eval bar: Magnus (black) pulls ahead on "better"
+    tl.fromTo("#s05-eval", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 0.5);
+    tl.fromTo("#s05-eval-black", { scaleY: 0.5 }, { scaleY: 0.5, duration: 0.01 }, 0);
+    tl.to("#s05-eval-black", { scaleY: 0.64, duration: 0.6, ease: "expo.out" }, 1.74);
+    tl.fromTo("#s05-better", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 1.74);
+    // draw offered: stamp slam on "draw"
+    tl.fromTo("#s05-stamp-inner", { opacity: 0, scale: 2.4, rotation: -14 }, { opacity: 1, scale: 1, rotation: -7, duration: 0.28, ease: "back.out(1.4)" }, 2.86);
+    // tiebreak on "Then won the tiebreak"
+    tl.to(["#s05-eval", "#s05-evallabel", "#s05-stamp", "#s05-top"], { opacity: 0, filter: "blur(14px)", duration: 0.22, ease: "power2.in" }, 4.1);
+    tl.fromTo("#s05-tb", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.4, ease: "expo.out" }, 4.24);
+    tl.fromTo("#s05-n1", { opacity: 0, scale: 0.4 }, { opacity: 0, scale: 0.4, duration: 0.01 }, 0);
+    tl.fromTo("#s05-n2", { opacity: 0, scale: 0.4 }, { opacity: 0, scale: 0.4, duration: 0.01 }, 0);
+    tl.to("#s05-n1", { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2)" }, 5.57);
+    tl.to("#s05-n2", { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2)" }, 5.7);
+    // exit: colour flood to the podium's dark
+    tl.to("#root", { opacity: 0, duration: 0.2, ease: "power2.in" }, 6.7);
+    window.__timelines["s05"] = tl;
+  </script>
+</template>
