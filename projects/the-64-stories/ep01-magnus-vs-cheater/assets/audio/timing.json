@@ -1,0 +1,672 @@
+{
+  "p1_start": 0.15,
+  "clip_start": 28.7,
+  "p2_start": 30.95,
+  "words": [
+    {
+      "text": "This",
+      "start": 0.15,
+      "end": 0.382
+    },
+    {
+      "text": "guy",
+      "start": 0.452,
+      "end": 0.672
+    },
+    {
+      "text": "challenged",
+      "start": 0.754,
+      "end": 1.299
+    },
+    {
+      "text": "Magnus",
+      "start": 1.381,
+      "end": 1.787
+    },
+    {
+      "text": "Carlsen",
+      "start": 1.857,
+      "end": 2.368
+    },
+    {
+      "text": "to",
+      "start": 2.437,
+      "end": 2.553
+    },
+    {
+      "text": "a",
+      "start": 2.658,
+      "end": 2.681
+    },
+    {
+      "text": "live",
+      "start": 2.762,
+      "end": 3.145
+    },
+    {
+      "text": "game.",
+      "start": 3.215,
+      "end": 3.842
+    },
+    {
+      "text": "But",
+      "start": 4.022,
+      "end": 4.185
+    },
+    {
+      "text": "he",
+      "start": 4.22,
+      "end": 4.278
+    },
+    {
+      "text": "wasn't",
+      "start": 4.347,
+      "end": 4.684
+    },
+    {
+      "text": "alone.",
+      "start": 4.742,
+      "end": 5.427
+    },
+    {
+      "text": "Aleksandar.",
+      "start": 5.607,
+      "end": 6.791
+    },
+    {
+      "text": "Rated",
+      "start": 6.953,
+      "end": 7.36
+    },
+    {
+      "text": "twenty-one",
+      "start": 7.522,
+      "end": 8.161
+    },
+    {
+      "text": "eighteen.",
+      "start": 8.196,
+      "end": 9.043
+    },
+    {
+      "text": "Magnus?",
+      "start": 9.223,
+      "end": 10.001
+    },
+    {
+      "text": "Twenty-eight",
+      "start": 10.164,
+      "end": 10.79
+    },
+    {
+      "text": "ninety-two.",
+      "start": 10.895,
+      "end": 11.824
+    },
+    {
+      "text": "World",
+      "start": 12.004,
+      "end": 12.503
+    },
+    {
+      "text": "champion.",
+      "start": 12.585,
+      "end": 13.386
+    },
+    {
+      "text": "This",
+      "start": 13.566,
+      "end": 13.775
+    },
+    {
+      "text": "should",
+      "start": 13.81,
+      "end": 13.996
+    },
+    {
+      "text": "be",
+      "start": 14.031,
+      "end": 14.123
+    },
+    {
+      "text": "over",
+      "start": 14.193,
+      "end": 14.472
+    },
+    {
+      "text": "in",
+      "start": 14.541,
+      "end": 14.646
+    },
+    {
+      "text": "twenty",
+      "start": 14.716,
+      "end": 15.099
+    },
+    {
+      "text": "moves.",
+      "start": 15.168,
+      "end": 15.877
+    },
+    {
+      "text": "But",
+      "start": 16.057,
+      "end": 16.232
+    },
+    {
+      "text": "move",
+      "start": 16.301,
+      "end": 16.603
+    },
+    {
+      "text": "after",
+      "start": 16.65,
+      "end": 16.905
+    },
+    {
+      "text": "move,",
+      "start": 16.975,
+      "end": 17.335
+    },
+    {
+      "text": "Aleksandar",
+      "start": 17.369,
+      "end": 18.055
+    },
+    {
+      "text": "plays",
+      "start": 18.124,
+      "end": 18.426
+    },
+    {
+      "text": "perfectly.",
+      "start": 18.496,
+      "end": 19.262
+    },
+    {
+      "text": "Not",
+      "start": 19.425,
+      "end": 19.668
+    },
+    {
+      "text": "good.",
+      "start": 19.738,
+      "end": 20.272
+    },
+    {
+      "text": "Perfect.",
+      "start": 20.452,
+      "end": 21.148
+    },
+    {
+      "text": "Because",
+      "start": 21.328,
+      "end": 21.619
+    },
+    {
+      "text": "someone",
+      "start": 21.642,
+      "end": 21.99
+    },
+    {
+      "text": "was",
+      "start": 22.025,
+      "end": 22.153
+    },
+    {
+      "text": "whispering",
+      "start": 22.222,
+      "end": 22.768
+    },
+    {
+      "text": "in",
+      "start": 22.826,
+      "end": 22.896
+    },
+    {
+      "text": "his",
+      "start": 22.954,
+      "end": 23.07
+    },
+    {
+      "text": "ear.",
+      "start": 23.139,
+      "end": 23.557
+    },
+    {
+      "text": "Stockfish.",
+      "start": 23.737,
+      "end": 24.654
+    },
+    {
+      "text": "The",
+      "start": 24.793,
+      "end": 24.909
+    },
+    {
+      "text": "strongest",
+      "start": 24.956,
+      "end": 25.432
+    },
+    {
+      "text": "chess",
+      "start": 25.478,
+      "end": 25.757
+    },
+    {
+      "text": "engine",
+      "start": 25.827,
+      "end": 26.175
+    },
+    {
+      "text": "on",
+      "start": 26.221,
+      "end": 26.361
+    },
+    {
+      "text": "Earth.",
+      "start": 26.43,
+      "end": 26.918
+    },
+    {
+      "text": "Even",
+      "start": 27.098,
+      "end": 27.365
+    },
+    {
+      "text": "Magnus",
+      "start": 27.435,
+      "end": 27.899
+    },
+    {
+      "text": "noticed.",
+      "start": 28.004,
+      "end": 28.781
+    },
+    {
+      "text": "So",
+      "start": 30.95,
+      "end": 31.124
+    },
+    {
+      "text": "Magnus",
+      "start": 31.194,
+      "end": 31.577
+    },
+    {
+      "text": "stopped",
+      "start": 31.635,
+      "end": 31.983
+    },
+    {
+      "text": "attacking.",
+      "start": 32.018,
+      "end": 32.726
+    },
+    {
+      "text": "He",
+      "start": 32.906,
+      "end": 33.022
+    },
+    {
+      "text": "traded",
+      "start": 33.069,
+      "end": 33.417
+    },
+    {
+      "text": "queens.",
+      "start": 33.487,
+      "end": 34.23
+    },
+    {
+      "text": "Then",
+      "start": 34.392,
+      "end": 34.601
+    },
+    {
+      "text": "rooks.",
+      "start": 34.683,
+      "end": 35.368
+    },
+    {
+      "text": "And",
+      "start": 35.53,
+      "end": 35.693
+    },
+    {
+      "text": "dragged",
+      "start": 35.762,
+      "end": 36.134
+    },
+    {
+      "text": "him",
+      "start": 36.169,
+      "end": 36.285
+    },
+    {
+      "text": "into",
+      "start": 36.331,
+      "end": 36.505
+    },
+    {
+      "text": "a",
+      "start": 36.587,
+      "end": 36.61
+    },
+    {
+      "text": "long,",
+      "start": 36.679,
+      "end": 37.051
+    },
+    {
+      "text": "slow",
+      "start": 37.086,
+      "end": 37.422
+    },
+    {
+      "text": "endgame.",
+      "start": 37.492,
+      "end": 38.247
+    },
+    {
+      "text": "Because",
+      "start": 38.427,
+      "end": 38.74
+    },
+    {
+      "text": "Stockfish",
+      "start": 38.763,
+      "end": 39.309
+    },
+    {
+      "text": "doesn't",
+      "start": 39.367,
+      "end": 39.669
+    },
+    {
+      "text": "move",
+      "start": 39.715,
+      "end": 39.948
+    },
+    {
+      "text": "the",
+      "start": 39.982,
+      "end": 40.052
+    },
+    {
+      "text": "pieces.",
+      "start": 40.099,
+      "end": 40.76
+    },
+    {
+      "text": "A",
+      "start": 40.94,
+      "end": 41.009
+    },
+    {
+      "text": "human",
+      "start": 41.079,
+      "end": 41.427
+    },
+    {
+      "text": "does.",
+      "start": 41.497,
+      "end": 42.054
+    },
+    {
+      "text": "And",
+      "start": 42.234,
+      "end": 42.373
+    },
+    {
+      "text": "copying",
+      "start": 42.443,
+      "end": 42.826
+    },
+    {
+      "text": "every",
+      "start": 42.884,
+      "end": 43.081
+    },
+    {
+      "text": "move",
+      "start": 43.139,
+      "end": 43.453
+    },
+    {
+      "text": "takes",
+      "start": 43.499,
+      "end": 43.743
+    },
+    {
+      "text": "time.",
+      "start": 43.801,
+      "end": 44.474
+    },
+    {
+      "text": "Magnus",
+      "start": 44.654,
+      "end": 45.025
+    },
+    {
+      "text": "had",
+      "start": 45.083,
+      "end": 45.304
+    },
+    {
+      "text": "over",
+      "start": 45.374,
+      "end": 45.594
+    },
+    {
+      "text": "a",
+      "start": 45.652,
+      "end": 45.676
+    },
+    {
+      "text": "minute.",
+      "start": 45.745,
+      "end": 46.268
+    },
+    {
+      "text": "Aleksandar",
+      "start": 46.43,
+      "end": 47.22
+    },
+    {
+      "text": "had",
+      "start": 47.278,
+      "end": 47.44
+    },
+    {
+      "text": "seconds.",
+      "start": 47.51,
+      "end": 48.207
+    },
+    {
+      "text": "Ten.",
+      "start": 48.311,
+      "end": 48.88
+    },
+    {
+      "text": "Five.",
+      "start": 49.06,
+      "end": 49.687
+    },
+    {
+      "text": "Zero.",
+      "start": 49.867,
+      "end": 50.645
+    },
+    {
+      "text": "Time's",
+      "start": 50.825,
+      "end": 51.232
+    },
+    {
+      "text": "up.",
+      "start": 51.301,
+      "end": 51.685
+    },
+    {
+      "text": "Magnus",
+      "start": 51.865,
+      "end": 52.283
+    },
+    {
+      "text": "wins.",
+      "start": 52.387,
+      "end": 53.049
+    },
+    {
+      "text": "Aleksandar",
+      "start": 53.211,
+      "end": 53.978
+    },
+    {
+      "text": "was",
+      "start": 54.036,
+      "end": 54.152
+    },
+    {
+      "text": "later",
+      "start": 54.222,
+      "end": 54.512
+    },
+    {
+      "text": "accused",
+      "start": 54.547,
+      "end": 54.965
+    },
+    {
+      "text": "of",
+      "start": 55.011,
+      "end": 55.057
+    },
+    {
+      "text": "using",
+      "start": 55.127,
+      "end": 55.394
+    },
+    {
+      "text": "Stockfish.",
+      "start": 55.464,
+      "end": 56.23
+    },
+    {
+      "text": "Which",
+      "start": 56.41,
+      "end": 56.619
+    },
+    {
+      "text": "means",
+      "start": 56.688,
+      "end": 56.944
+    },
+    {
+      "text": "the",
+      "start": 56.99,
+      "end": 57.06
+    },
+    {
+      "text": "strongest",
+      "start": 57.118,
+      "end": 57.606
+    },
+    {
+      "text": "engine",
+      "start": 57.675,
+      "end": 57.977
+    },
+    {
+      "text": "on",
+      "start": 58.023,
+      "end": 58.105
+    },
+    {
+      "text": "Earth",
+      "start": 58.174,
+      "end": 58.395
+    },
+    {
+      "text": "just",
+      "start": 58.465,
+      "end": 58.708
+    },
+    {
+      "text": "lost",
+      "start": 58.778,
+      "end": 59.034
+    },
+    {
+      "text": "to",
+      "start": 59.092,
+      "end": 59.15
+    },
+    {
+      "text": "Magnus.",
+      "start": 59.219,
+      "end": 59.928
+    },
+    {
+      "text": "Savage.",
+      "start": 60.108,
+      "end": 60.793
+    },
+    {
+      "text": "How",
+      "start": 60.973,
+      "end": 61.124
+    },
+    {
+      "text": "many",
+      "start": 61.171,
+      "end": 61.345
+    },
+    {
+      "text": "moves",
+      "start": 61.391,
+      "end": 61.705
+    },
+    {
+      "text": "would",
+      "start": 61.751,
+      "end": 61.902
+    },
+    {
+      "text": "you",
+      "start": 61.937,
+      "end": 62.007
+    },
+    {
+      "text": "last",
+      "start": 62.076,
+      "end": 62.355
+    },
+    {
+      "text": "against",
+      "start": 62.401,
+      "end": 62.843
+    },
+    {
+      "text": "Stockfish?",
+      "start": 63.023,
+      "end": 63.836
+    },
+    {
+      "text": "Comment",
+      "start": 64.016,
+      "end": 64.399
+    },
+    {
+      "text": "a",
+      "start": 64.445,
+      "end": 64.469
+    },
+    {
+      "text": "number.",
+      "start": 64.538,
+      "end": 65.142
+    }
+  ]
+}
