@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root {
+        --ground: #000000;
+        --ink: #ffffff;
+        --font-display: "Inter", sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--ground);
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+        background: var(--ground);
+        font-family: var(--font-display);
+      }
+      #title-wrap {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #title {
+        color: var(--ink);
+        font-size: 200px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="5"
+      data-width="1080"
+      data-height="1920"
+      data-composition-variables='[{"id":"title","type":"string","label":"Title","default":"Тест"}]'
+    >
+      <div id="title-wrap" class="clip" data-start="0" data-duration="5" data-track-index="0">
+        <h1 id="title" data-var-text="title">Тест</h1>
+      </div>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo(
+        "#title",
+        { opacity: 0, y: 40, filter: "blur(12px)" },
+        { opacity: 1, y: 0, filter: "blur(0px)", duration: 1.6, ease: "power2.out" },
+        0.4,
+      );
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
