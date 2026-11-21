@@ -1,0 +1,13 @@
+[  0.14] In 1950, Claude Shannon worked out how long a computer would need to calculate its first move, a one with 90 zeros, in years.
+[  9.30] Because chess has more possible games than there are atoms in the universe, way more, solving chess means knowing the result of perfect play from move one.
+[ 18.22] Checkers, solved in 2007, dozens of computers, 18 years, the answer, a draw.
+[ 24.34] Chess is way bigger.
+[ 25.72] Just the legal positions make a number with 45 digits.
+[ 29.00] So far, we have solved every position with seven pieces or less.
+[ 32.36] It took a supercomputer and 140 terabytes, and it found a checkmate that takes 549 moves.
+[ 41.06] Eight pieces, [sighs]
+[ 42.64] still not finished.
+[ 43.84] All 32, with today's computers, impossible.
+[ 47.14] The best engines mostly draw each other, so perfect chess is probably a draw, but nobody can prove it.
+[ 53.14] Follow for more chess you didn't know.
+[ 54.92] [outro music]
