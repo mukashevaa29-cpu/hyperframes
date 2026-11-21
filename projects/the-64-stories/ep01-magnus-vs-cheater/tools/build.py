@@ -62,17 +62,17 @@ def board(p, position, size=880, tilt=52, theme="green", extra=""):
           f'<div id="{p}-hi-b" class="hi" style="width:{sq:.1f}px;height:{sq:.1f}px"></div>')
     return (
         f'<div class="board-wrap" style="width:{size}px;height:{size}px;margin-left:-{size / 2:.0f}px">'
-        f'<div id="{p}-board" class="board" style="width:{size}px;height:{size}px;transform:rotateX({tilt}deg);'
-        f'background-color:{light};background-image:conic-gradient({dark} 0 25%,transparent 0 50%,{dark} 0 75%,transparent 0);'
-        f'background-size:{sq*2:.1f}px {sq*2:.1f}px">'
-        f'<div class="board-edge"></div>{hi}{"".join(pieces)}{extra}</div></div>'
+        f'<div id="{p}-board" class="board" style="width:{size}px;height:{size}px;transform:rotateX({tilt}deg)">'
+        f'<div id="{p}-orbit" class="orbit" style="background-color:{light};background-image:conic-gradient({dark} 0 25%,transparent 0 50%,{dark} 0 75%,transparent 0);'
+        f'background-size:{sq*2:.1f}px {sq*2:.1f}px"><div class="board-edge"></div>{hi}{"".join(pieces)}{extra}</div></div></div>'
     )
 
 
 # ---------------------------------------------------------------- sets
 
 def room_bg(p):
-    return f'''<div class="set room">
+    return f'''<div class="set room"><div class="plant"><div class="pot"></div><div class="leaf l1"></div><div class="leaf l2"></div><div class="leaf l3"></div></div>
+  <div class="poster"><div>♛</div></div>
   <div class="win"><div class="sky"></div>
     <div class="cloud" style="left:90px;top:120px"></div><div class="cloud" style="left:560px;top:60px;transform:scale(.8)"></div>
     <div class="hedge"></div><div class="lawn"></div>
@@ -82,20 +82,68 @@ def room_bg(p):
 
 
 def stream_bg(p, hue="purple"):
-    return f'''<div class="set stream {hue}"><div class="beam b1"></div><div class="beam b2"></div><div class="beam b3"></div>
-  <div class="floor-glow"></div><div class="dust"></div></div>'''
+    return f'''<div class="set stream {hue}"><div class="ledwall"></div><div class="beam b1"></div><div class="beam b2"></div><div class="beam b3"></div>
+  <div class="rig"></div><div class="floor-glow"></div><div class="dust"></div></div>'''
+
+
+def fg_pieces(left="n", right="r", y=1480, size=430):
+    return (f'<div class="fgp" data-layout-ignore style="left:-120px;top:{y}px;width:{size}px;height:{size * 1.4:.0f}px">{piece_svg(left, False)}</div>'
+            f'<div class="fgp" data-layout-ignore style="right:-110px;top:{y + 60}px;width:{size * 0.9:.0f}px;height:{size * 1.26:.0f}px">{piece_svg(right, False)}</div>')
+
+
+def chat(id_, msgs, x=40, y=560, w=430):
+    rows = "".join(f'<div id="{id_}-{i}" class="chat-row"><b style="color:{c}">{u}</b> {m}</div>' for i, (u, c, m) in enumerate(msgs))
+    return f'<div class="chat" data-layout-ignore style="left:{x}px;top:{y}px;width:{w}px"><div class="chat-h">LIVE CHAT</div>{rows}</div>'
+
+
+def chat_js(s, id_, n, t0, step=0.45):
+    for i in range(n):
+        s.add(f"tl.fromTo('#{id_}-{i}', {{ opacity: 0, x: -30 }}, {{ opacity: 1, x: 0, duration: 0.2, ease: 'power2.out', immediateRender: false }}, {round(t0 + i * step, 3)});")
+
+
+def rest_arm():
+    return ('<path d="M600,820 C580,700 520,560 446,506" stroke="#F4F1EC" stroke-width="120" fill="none" stroke-linecap="round"/>'
+            '<path d="M640,800 C620,720 580,640 520,580" stroke="#D9D4CC" stroke-width="40" fill="none" stroke-linecap="round" opacity=".7"/>'
+            '<circle cx="432" cy="476" r="54" fill="#F3CBA6"/><path d="M404,452 q22,-16 48,-4" stroke="#fff" stroke-width="7" fill="none" opacity=".45" stroke-linecap="round"/>')
+
+
+def dateline(text, year):
+    return f'<div class="dateline">{text} · <b>{year}</b></div>'
+
+
+def magnus_room():
+    return '''<div class="set mroom">
+  <div class="lampglow"></div>
+  <div class="painting"><div class="pt1"></div><div class="pt2"></div><div class="pt3"></div></div>
+  <div class="shelf2"></div><div class="book" style="left:120px;height:120px;background:#3B6E8F"></div><div class="book" style="left:162px;height:100px;background:#C9A04E"></div><div class="book" style="left:198px;height:130px;background:#7A3B2E"></div>
+  <div class="trophy"></div>
+  <div class="floorlamp"><div class="shade"></div><div class="pole"></div></div>
+  <div class="armchair"></div></div>'''
+
+
+def laptop(y=1240, glow=True):
+    g = '<div class="screenglow"></div>' if glow else ""
+    return f'{g}<div class="laptop" style="top:{y}px"><div class="lid"><div class="lid-logo">♞</div></div><div class="base"></div></div><div class="mug" style="top:{y + 200}px"></div>'
+
+
+ENGINE_LINES = ["depth 42  +3.21  Nf3 d5 c4 e6 Nc3 Be7", "depth 43  +3.24  Bf4 O-O e3 c5 dxc5", "nodes 1.2B   nps 98M   tb 6-man",
+                "best: Nd4!!   eval +3.30", "depth 44  +3.27  Rd1 Qa5 Bd3 dxc4", "pv: Ne4 Bxe4 dxe4 Qxd8 Rxd8"]
 
 
 def teal_bg(p):
-    return '<div class="set tealw"><div class="grid-floor"></div><div class="halo"></div></div>'
+    lines = "".join(f'<div class="eline" style="top:{1330 + i * 58}px;left:{60 + (i * 37) % 120}px">{l}</div>' for i, l in enumerate(ENGINE_LINES))
+    return (f'<div class="set tealw"><div class="grid-floor"></div><div class="halo"></div>{lines}'
+            '<div class="evalbar"><div class="evalfill"></div><div class="evaltxt">+3.2</div></div></div>')
 
 
 def dark_bg(p):
-    return '<div class="set darkhall"><div class="spot"></div><div class="crowd"></div></div>'
+    heads = "".join(f'<div class="head" style="left:{(i * 83) % 1200 - 40}px;top:{1430 + (i * 37) % 90}px;width:{150 + (i * 13) % 50}px;height:{190 + (i * 17) % 50}px"></div>' for i in range(16))
+    return f'<div class="set darkhall"><div class="spot"></div><div class="spot s2"></div><div class="crowd">{heads}</div></div>'
 
 
 def desk(y=1500, color="#B9824F"):
-    return f'<div class="desk" style="top:{y}px;background:linear-gradient({color},#8C5A33)"></div>'
+    return (f'<div class="desk" style="top:{y}px;background:linear-gradient({color},#8C5A33)"></div>'
+            f'<div class="kbd" style="top:{y + 40}px"></div><div class="mug" style="top:{y - 80}px;left:880px"></div>')
 
 
 def char(svg, x, y, w, extra=""):
@@ -155,10 +203,50 @@ COMMON_CSS = f"""
 .darkhall .spot {{ position:absolute; left:50%; top:-100px; width:900px; height:1500px; margin-left:-450px; background:radial-gradient(ellipse at 50% 0,rgba(255,230,180,.45),transparent 70%); }}
 .desk {{ position:absolute; left:-80px; right:-80px; height:700px; box-shadow:0 -6px 0 #D69A62 inset; }}
 .char {{ position:absolute; }}
+.dateline {{ position:absolute; left:50%; top:205px; transform:translateX(-50%); white-space:nowrap; font-family:Inter,sans-serif; font-weight:800; font-size:30px; letter-spacing:.22em; color:#2B1E12; background:rgba(255,255,255,.6); padding:8px 22px; border-radius:30px; }}
+.dateline b {{ color:#C8261E; }}
+.ledwall {{ position:absolute; left:80px; right:80px; top:120px; height:900px; background-image:radial-gradient(circle,rgba(255,255,255,.16) 3px,transparent 4px); background-size:36px 36px; border-radius:30px; opacity:.7; }}
+.rig {{ position:absolute; left:0; right:0; top:60px; height:26px; background:#0E0A22; box-shadow:0 10px 0 rgba(0,0,0,.25); }}
+.fgp {{ position:absolute; filter:blur(9px); opacity:.96; }}
+.chat {{ position:absolute; background:rgba(12,10,30,.62); border-radius:18px; padding:14px 18px; font-family:Inter,sans-serif; font-size:28px; color:#fff; line-height:1.35; }}
+.chat-h {{ font-weight:900; font-size:22px; letter-spacing:.14em; color:#FF5A4F; margin-bottom:6px; }}
+.chat-row {{ opacity:0; margin:2px 0; }}
+.mroom {{ background:radial-gradient(ellipse at 20% 10%,#FFF3DC,#E9D8BF 40%,#CDB494 100%); }}
+.mroom .lampglow {{ position:absolute; left:-200px; top:-100px; width:1000px; height:1000px; background:radial-gradient(circle,rgba(255,236,190,.85),transparent 65%); }}
+.mroom .painting {{ position:absolute; left:760px; top:300px; width:340px; height:480px; background:#C8261E; border:14px solid #F6F0E6; box-shadow:0 18px 30px rgba(60,30,10,.3); overflow:hidden; }}
+.mroom .pt1 {{ position:absolute; left:-40px; top:80px; width:300px; height:80px; background:#F07A3A; rotate:-24deg; border-radius:40px; }}
+.mroom .pt2 {{ position:absolute; left:60px; top:260px; width:320px; height:60px; background:#7E1410; rotate:18deg; border-radius:30px; }}
+.mroom .pt3 {{ position:absolute; left:120px; top:20px; width:90px; height:90px; background:#F6C04A; border-radius:50%; }}
+.mroom .shelf2 {{ position:absolute; left:90px; top:520px; width:330px; height:22px; background:#8A5A36; box-shadow:0 10px 16px rgba(60,30,10,.25); }}
+.mroom .book {{ position:absolute; bottom:auto; top:400px; width:34px; border-radius:4px; transform-origin:bottom; }}
+.mroom .trophy {{ position:absolute; left:300px; top:410px; width:80px; height:110px; background:linear-gradient(#FFD45A,#C9921E); border-radius:0 0 40px 40px; clip-path:polygon(0 0,100% 0,80% 60%,62% 70%,62% 88%,80% 100%,20% 100%,38% 88%,38% 70%,20% 60%); }}
+.mroom .floorlamp {{ position:absolute; left:40px; top:700px; }}
+.mroom .shade {{ width:220px; height:150px; background:linear-gradient(#FFF7E0,#F2DDB0); clip-path:polygon(20% 0,80% 0,100% 100%,0 100%); }}
+.mroom .pole {{ width:14px; height:900px; margin-left:103px; background:#5A4632; }}
+.mroom .armchair {{ position:absolute; left:170px; top:720px; width:800px; height:1000px; border-radius:200px 200px 40px 40px; background:linear-gradient(#F4F1EC,#D9D3C8); box-shadow:inset -30px 0 0 rgba(0,0,0,.05); }}
+.laptop {{ position:absolute; left:240px; width:600px; }}
+.laptop .lid {{ height:380px; border-radius:24px 24px 6px 6px; background:linear-gradient(#D4D8DE,#AEB4BC); display:flex; align-items:center; justify-content:center; box-shadow:0 20px 40px rgba(0,0,0,.35); }}
+.laptop .lid-logo {{ font-size:110px; color:#EEF1F4; text-shadow:0 2px 0 rgba(0,0,0,.15); }}
+.laptop .base {{ height:34px; margin:0 -40px; border-radius:0 0 30px 30px; background:linear-gradient(#C2C7CE,#8D949C); }}
+.screenglow {{ position:absolute; left:140px; top:620px; width:800px; height:700px; background:radial-gradient(ellipse,rgba(150,200,255,.28),transparent 65%); mix-blend-mode:screen; }}
+.mug {{ position:absolute; left:860px; width:120px; height:130px; border-radius:12px 12px 30px 30px; background:linear-gradient(90deg,#F6F6F6,#D8D8D8); box-shadow:28px 20px 0 -10px transparent, inset -18px 0 0 rgba(0,0,0,.06); }}
+.kbd {{ position:absolute; left:250px; width:580px; height:70px; border-radius:14px; background:#2A2D35; box-shadow:0 8px 0 #1A1C22; }}
+.room .plant {{ position:absolute; left:960px; top:1150px; }}
+.room .pot {{ position:absolute; top:140px; left:-50px; width:130px; height:120px; background:#C46A3C; border-radius:0 0 30px 30px; }}
+.room .leaf {{ position:absolute; width:90px; height:200px; background:#3E9A4A; border-radius:50% 50% 50% 50% / 70% 70% 30% 30%; transform-origin:50% 100%; top:-40px; }}
+.room .leaf.l1 {{ rotate:-30deg; left:-60px; }} .room .leaf.l2 {{ rotate:5deg; left:-20px; background:#4FB35A; }} .room .leaf.l3 {{ rotate:35deg; left:20px; }}
+.room .poster {{ position:absolute; left:-10px; top:1180px; width:150px; height:200px; background:#2B2F3A; border:10px solid #FBF7EF; color:#FFC83A; font-size:110px; display:flex; align-items:center; justify-content:center; }}
+.eline {{ position:absolute; font-family:'Space Mono',monospace; font-size:30px; color:rgba(124,245,232,.45); white-space:nowrap; }}
+.evalbar {{ position:absolute; left:110px; top:540px; width:40px; height:760px; border-radius:20px; background:#1B1B1B; overflow:hidden; border:4px solid rgba(255,255,255,.6); }}
+.evalfill {{ position:absolute; left:0; right:0; bottom:0; height:78%; background:#F4F2EC; }}
+.evaltxt {{ position:absolute; left:-4px; top:6px; width:48px; text-align:center; font-family:'Space Mono',monospace; font-weight:700; font-size:14px; color:#fff; }}
+.darkhall .spot.s2 {{ left:15%; rotate:20deg; opacity:.6; }}
+.darkhall .head {{ position:absolute; border-radius:50% 50% 20% 20%; background:#120D08; box-shadow:0 -4px 0 rgba(255,220,170,.12); }}
 .char svg {{ overflow:visible; }}
 .board-wrap {{ position:absolute; left:50%; perspective:1700px; perspective-origin:50% 0%; }}
 .board {{ position:relative; transform-style:preserve-3d; transform-origin:50% 100%; border-radius:6px; }}
-.board-edge {{ position:absolute; inset:-18px; background:#5A3A22; border-radius:12px; transform:translateZ(-2px); box-shadow:0 40px 80px rgba(0,0,0,.45); }}
+.board-edge {{ position:absolute; inset:-18px; transform:translateZ(-2px); background:#5A3A22; border-radius:12px; transform:translateZ(-2px); box-shadow:0 40px 80px rgba(0,0,0,.45); }}
+.orbit {{ position:absolute; inset:0; transform-style:preserve-3d; border-radius:6px; }}
 .pc {{ position:absolute; transform-style:preserve-3d; }}
 .pc-stand {{ position:absolute; left:4%; width:92%; height:128%; bottom:12%; transform-origin:50% 100%; }}
 .pc-shadow {{ position:absolute; left:14%; width:72%; height:40%; bottom:8%; border-radius:50%; background:rgba(0,0,0,.28); }}
@@ -193,9 +281,14 @@ function blink(tl, p, t) {
   tl.set('#' + p + '-lid-closed', { opacity: 1 }, t);
   tl.set('#' + p + '-lid-closed', { opacity: 0 }, t + 0.1);
 }
-function shotIn(tl, cam, t, dur, dir, push) {
+function shotIn(tl, cam, t, dur, dir, push, roll) {
   tl.fromTo(cam, { x: 170 * dir, filter: 'blur(18px)' }, { x: 0, filter: 'blur(0px)', duration: 0.2, ease: 'power3.out' }, t);
-  tl.fromTo(cam, { scale: 1.0 }, { scale: 1.0 + (push || 0.07) * dur, duration: dur, ease: 'none' }, t);
+  tl.fromTo(cam, { scale: 1.0 + (push > 0 ? 0.04 : 0) }, { scale: 1.04 + (push || 0.07) * dur, duration: dur, ease: 'none' }, t);
+  tl.fromTo(cam, { rotation: roll }, { rotation: -roll * 0.45, duration: dur, ease: 'power2.out' }, t);
+}
+function orbit(tl, p, t, dur, a, b) {
+  tl.fromTo('#' + p + '-orbit', { rotation: a }, { rotation: b, duration: dur, ease: 'sine.inOut' }, t);
+  tl.fromTo('#' + p + '-orbit .pc', { rotation: -a }, { rotation: -b, duration: dur, ease: 'sine.inOut' }, t);
 }
 function popIn(tl, sel, t, s) {
   tl.fromTo(sel, { opacity: 0, scale: 0.4 * (s || 1) }, { opacity: 1, scale: 1.1, duration: 0.12, ease: 'power2.out', immediateRender: false }, t);
@@ -228,14 +321,23 @@ class Scene:
     def loc(self, t):
         return round(t - self.start, 3)
 
-    def shot(self, t0, t1, body, dir=1, push=0.07):
+    def shot(self, t0, t1, body, dir=1, push=0.07, fg=None):
         self.n += 1
+        if fg is None:
+            fg = ('-orbit"' in body) or ('set stream' in body)
+        if fg:
+            body += fg_pieces("n" if self.n % 2 else "b", "r" if self.n % 2 else "q")
         sid = f"{self.sid}-s{self.n}"
         a, b = self.loc(t0), self.loc(t1)
         self.shots.append(
             f'<div id="{sid}" class="shot clip" data-start="{a}" data-duration="{round(b - a, 3)}" data-track-index="0">'
             f'<div id="{sid}-cam" class="cam"><div id="{sid}-shake" class="shake">{body}</div></div></div>')
-        self.js.append(f"shotIn(tl, '#{sid}-cam', {a}, {round(b - a, 3)}, {dir}, {push});")
+        roll = 0 if push == 0 else (3.2 if self.n % 2 else -3.2) * (1 if dir >= 0 else -1)
+        self.js.append(f"shotIn(tl, '#{sid}-cam', {a}, {round(b - a, 3)}, {dir}, {push}, {roll});")
+        import re as _re
+        for k, bid in enumerate(_re.findall(r'id="([\w-]+)-orbit"', body)):
+            sgn = 1 if (self.n + k) % 2 else -1
+            self.js.append(f"orbit(tl, '{bid}', {a}, {round(b - a, 3)}, {-9 * sgn}, {5 * sgn});")
         return sid
 
     def add(self, line):
@@ -329,8 +431,11 @@ POS_A = {"a8": "r", "c8": "b", "d8": "q", "f8": "r", "g8": "k", "a7": "p", "b7":
          "a1": "R", "c1": "B", "d1": "Q", "f1": "R", "g1": "K", "d3": "B"}
 s = Scene("board", 13.5, 21.3)
 tb, tnot, tperf = T("But", 2), T("Not"), T("Perfect")
-s.shot(s.start, tb - 0.06, stream_bg("b", "blue") + char(magnus("b1m", "smug") + hands("b1m", y=760), 540, 300, 900) + f'<div style="position:absolute;left:0;right:0;top:820px">{board("b1", POS_A)}</div>'
-       + tag("b1-tag", "OVER IN 20 MOVES?", YELLOW, y=330, size=58), push=0.05)
+s.shot(s.start, tb - 0.06, magnus_room() + char(magnus("b1m", "smug", look=(0, 12)) + rest_arm(), 540, 420, 1000) + laptop(1250)
+       + dateline("ONLINE · CHESS24", "2019") + '<div style="position:absolute;left:60px;top:300px" class="live">● LIVE</div>'
+       + tag("b1-tag", "OVER IN 20 MOVES?", YELLOW, y=330, size=58), push=0.05, fg=False)
+s.add("tl.set('#b1m-head', { rotation: -5, transformOrigin: '50% 90%' }, 0);")
+s.add(f"blink(tl, 'b1m', {round(s.loc(T('should')) , 3)});")
 s.add(f"popIn(tl, '#b1-tag', {s.loc(T('over'))});")
 s.shot(tb - 0.06, tnot - 0.06, stream_bg("b", "blue") + char(cheater("b2a", "smug") + hands("b2a", y=760), 540, 280, 900) + f'<div style="position:absolute;left:0;right:0;top:820px">{board("b2", POS_A)}</div>'
        + '<div id="b2-bang" class="badge" style="left:800px;top:700px">!!</div>'
@@ -372,21 +477,24 @@ s.shot(tsf - 0.06, teven - 0.06, teal_bg("w") + char(robot("w2r", "on"), 540, 52
 s.add(f"tl.fromTo('#w2-name', {{ opacity: 0, y: 20 }}, {{ opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }}, {s.loc(tsf) + 0.05});")
 s.add(f"popIn(tl, '#w2-tag', {s.loc(T('strongest'))});")
 s.add(f"tl.fromTo('#w2r-bulb', {{ fill: '#1FB5A8' }}, {{ fill: '#7CF5E8', duration: 0.2, repeat: 5, yoyo: true }}, {s.loc(tsf) + 0.3});")
-s.shot(teven - 0.06, s.end, stream_bg("w", "purple") + char(magnus("w3m", "focus", look=(12, 2)) + hands("w3m", y=760), 540, 560, 1000)
-       + '<div style="position:absolute;left:60px;top:220px" class="live">● LIVE</div>'
+s.shot(teven - 0.06, s.end, magnus_room() + char(magnus("w3m", "focus", look=(8, 14)) + rest_arm(), 540, 420, 1000) + laptop(1250)
+       + dateline("ONLINE · CHESS24", "2019") + '<div style="position:absolute;left:60px;top:300px" class="live">● LIVE</div>'
        + '<div id="w3-q" class="bignum" style="position:absolute;left:760px;top:420px;font-size:200px;color:#FFC83A;opacity:0">?</div>', dir=-1)
 s.add(f"popIn(tl, '#w3-q', {s.loc(T('noticed'))});")
+s.add(f"tl.set('#w3m-head', {{ rotation: -6, transformOrigin: '50% 90%' }}, {s.loc(teven - 0.06)});")
 scenes.append(s)
 
 # ===================== S5 REAL CLIP 28.7 – 30.95
 s = Scene("clip", 28.7, 30.95)
 s.shot(s.start, s.end, stream_bg("c", "purple")
        + namecard("c-name", "MAGNUS CARLSEN", "WORLD CHAMPION · LIVE ON CHESS24", y=250)
-       + '<div class="frame-card" style="left:40px;top:520px;width:1000px;height:700px;background:#fff"></div>', dir=0, push=0)
+       + '<div class="frame-card" style="left:40px;top:520px;width:1000px;height:700px;background:#fff;padding:12px"><div style="width:100%;height:100%;border-radius:12px;background:linear-gradient(#5a4a40,#2a2220)"></div></div>'
+       + chat("c-chat", [("blitz_goblin", "#FFC83A", "he sees it 👀"), ("kn1ght_rider", "#5AB8FF", "2118 playing like 3500??"), ("pawnstar", "#B8F23A", "engine. 100%")], x=40, y=1290, w=1000), dir=0, push=0, fg=False)
 s.shots.append('<video id="c-cam" class="clip" src="assets/video/magnus_cam.mp4" data-start="0.15" data-duration="2.1" data-track-index="1" '
                'data-has-audio="true" playsinline style="position:absolute;left:52px;top:532px;width:976px;height:676px;object-fit:cover;z-index:5;border-radius:12px"></video>'
                '<div style="position:absolute;left:74px;top:554px;z-index:6" class="live">● LIVE</div>')
 s.add("tl.fromTo('#c-name', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 0.1);")
+chat_js(s, "c-chat", 3, 0.3, 0.5)
 scenes.append(s)
 
 # ===================== S6 ENDGAME 30.95 – 38.4
