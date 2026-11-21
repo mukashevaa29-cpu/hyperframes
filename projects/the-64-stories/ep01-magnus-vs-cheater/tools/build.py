@@ -544,7 +544,7 @@ s.shot(s.start, s.end, stream_bg("c", "purple")
        + namecard("c-name", "MAGNUS CARLSEN", "WORLD CHAMPION · LIVE ON CHESS24", y=250)
        + '<div class="frame-card" style="left:40px;top:520px;width:1000px;height:700px;background:#fff;padding:12px"><div style="width:100%;height:100%;border-radius:12px;background:linear-gradient(#5a4a40,#2a2220)"></div></div>'
        + chat("c-chat", [("blitz_goblin", "#FFC83A", "he sees it 👀"), ("kn1ght_rider", "#5AB8FF", "2118 playing like 3500??"), ("pawnstar", "#B8F23A", "engine. 100%")], x=40, y=1290, w=1000), dir=0, push=0, fg=False)
-s.shots.append('<video id="c-cam" class="clip" src="assets/video/magnus_cam.mp4" data-start="0.15" data-duration="2.1" data-track-index="1" '
+s.shots.append('<video id="c-cam" class="clip" src="assets/video/magnus_cam.mp4" data-start="0" data-duration="2.25" data-track-index="1" '
                'data-has-audio="true" playsinline style="position:absolute;left:52px;top:532px;width:976px;height:676px;object-fit:cover;z-index:5;border-radius:12px"></video>'
                '<div style="position:absolute;left:74px;top:554px;z-index:6" class="live">● LIVE</div>')
 s.add("tl.fromTo('#c-name', { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 0.1);")
@@ -704,7 +704,7 @@ if cur:
     groups.append(cur)
 # the real clip quote, from the source transcript (227.95 = media start)
 quote = [("\"Yeah,", 228.38, 228.48), ("this", 228.50, 228.62), ("guy's", 228.66, 228.94), ("playing", 228.96, 229.18), ("really", 229.30, 229.48), ("well.\"", 229.52, 229.68)]
-qw = [{"text": t, "start": round(TIMING["clip_start"] + a - 227.95, 3), "end": round(TIMING["clip_start"] + b - 227.95, 3)} for t, a, b in quote]
+qw = [{"text": t, "start": round(TIMING["clip_start"] + a - 228.10, 3), "end": round(TIMING["clip_start"] + b - 228.10, 3)} for t, a, b in quote]
 groups.append(qw[:3])
 groups.append(qw[3:])
 groups.sort(key=lambda g: g[0]["start"])
