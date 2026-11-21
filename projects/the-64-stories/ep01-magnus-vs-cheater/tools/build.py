@@ -13,9 +13,9 @@ sys.path.insert(0, os.path.dirname(__file__))
 from chars import magnus, cheater, robot, hands  # noqa: E402
 
 W, H = 1080, 1920
-TOTAL = 66.5
 TIMING = json.load(open("assets/audio/timing.json"))
 WORDS = TIMING["words"]
+TOTAL = round(WORDS[-1]["end"] + 1.4, 2)
 
 YELLOW, LIME, RED, BLUE, TEAL = "#FFC83A", "#B8F23A", "#FF5A4F", "#5AB8FF", "#2CD3C4"
 
@@ -423,7 +423,16 @@ SQ = 880 / 8
 scenes = []
 
 # ===================== S1 HOOK 0 – 5.55
-s = Scene("hook", 0, 5.55)
+B_HOOK = round(T("Aleksandar") - 0.06, 3)
+B_RAT = round(T("This", 2) - 0.07, 3)
+B_BOARD = round(T("Because") - 0.03, 3)
+B_CLIP = TIMING["clip_start"]
+B_END = TIMING["p2_start"]
+B_ENDG = round(T("Because", 2) - 0.03, 3)
+B_HUM = round(T("Magnus", 5) - 0.05, 3)
+B_CLK = round(T("Aleksandar", 4) - 0.11, 3)
+B_VER = round(T("How") - 0.02, 3)
+s = Scene("hook", 0, B_HOOK)
 t1 = T("But")  # 4.02
 sid = s.shot(0, t1 - 0.06, alex_room() + desk(1430)
              + char(cheater("h1a", "smug") + hands("h1a", y=760), 540, 640, 820)
@@ -444,7 +453,7 @@ s.add(f"part(tl, 'h2a', 'mouth', 'flat', {s.loc(T('alone')) + 0.3});")
 scenes.append(s)
 
 # ===================== S2 RATINGS 5.55 – 13.5
-s = Scene("ratings", 5.55, 13.5)
+s = Scene("ratings", B_HOOK, B_RAT)
 ta, tm, tw = T("Aleksandar"), T("Magnus", 2), T("World")
 s.shot(ta - 0.05, tm - 0.1, stream_bg("r", "blue")
        + f'<div class="frame-card" style="left:190px;top:560px;width:700px;height:800px;background:linear-gradient(#3C7BE0,#1D4FA8);border:14px solid #fff">'
@@ -474,7 +483,7 @@ POS_A = {"a8": "r", "c8": "b", "d8": "q", "f8": "r", "g8": "k", "a7": "p", "b7":
          "c6": "p", "e6": "p", "f6": "n", "d7": "n", "d5": "p", "f5": "p",
          "c4": "P", "d4": "P", "e3": "P", "f3": "N", "c3": "N", "a2": "P", "b2": "P", "g2": "P", "h2": "P", "f2": "P",
          "a1": "R", "c1": "B", "d1": "Q", "f1": "R", "g1": "K", "d3": "B"}
-s = Scene("board", 13.5, 21.3)
+s = Scene("board", B_RAT, B_BOARD)
 tb, tnot, tperf = T("But", 2), T("Not"), T("Perfect")
 s.shot(s.start, tb - 0.06, magnus_room() + char(magnus("b1m", "smug", look=(0, 12)) + rest_arm(), 540, 420, 1000) + laptop(1250)
        + dateline("ONLINE · CHESS24", "2019") + '<div style="position:absolute;left:60px;top:300px" class="live">● LIVE</div>'
@@ -502,7 +511,7 @@ s.add(f"slam(tl, '#b4-stamp', '#{sid}-shake', {s.loc(tperf)});")
 scenes.append(s)
 
 # ===================== S4 WHISPER 21.3 – 28.7
-s = Scene("whisper", 21.3, 28.7)
+s = Scene("whisper", B_BOARD, B_CLIP)
 tsf, teven = T("Stockfish"), T("Even")
 s.shot(s.start, tsf - 0.06, alex_room(False)
        + char(cheater("w1a", "neutral", look=(-10, 0)), 380, 300, 1250)
@@ -530,7 +539,7 @@ s.add(f"tl.set('#w3m-head', {{ rotation: -6, transformOrigin: '50% 90%' }}, {s.l
 scenes.append(s)
 
 # ===================== S5 REAL CLIP 28.7 – 30.95
-s = Scene("clip", 28.7, 30.95)
+s = Scene("clip", B_CLIP, B_END)
 s.shot(s.start, s.end, stream_bg("c", "purple")
        + namecard("c-name", "MAGNUS CARLSEN", "WORLD CHAMPION · LIVE ON CHESS24", y=250)
        + '<div class="frame-card" style="left:40px;top:520px;width:1000px;height:700px;background:#fff;padding:12px"><div style="width:100%;height:100%;border-radius:12px;background:linear-gradient(#5a4a40,#2a2220)"></div></div>'
@@ -547,7 +556,7 @@ POS_E1 = {"a8": "r", "d8": "q", "g8": "k", "a7": "p", "b7": "p", "c7": "p", "g7"
           "a2": "P", "b2": "P", "c2": "P", "g2": "P", "h2": "P", "f3": "P", "c3": "N", "e3": "B", "c1": "K", "d1": "Q", "a1": "R", "h8": "r", "h1": "R"}
 POS_E2 = {"d8": "r", "h8": "r", "e7": "k", "a7": "p", "b7": "p", "c7": "p", "g7": "p", "h6": "p", "e5": "p", "c6": "n", "b4": "b",
           "a2": "P", "b2": "P", "c2": "P", "g2": "P", "h2": "P", "f3": "P", "c3": "N", "e3": "B", "d3": "R", "e1": "R", "c1": "K"}
-s = Scene("endgame", 30.95, 38.4)
+s = Scene("endgame", B_END, B_ENDG)
 the, tand = T("He", case=True), T("And", case=True)
 s.shot(s.start, the - 0.06, stream_bg("e", "purple") + char(magnus("e1m", "focus") + hands("e1m", y=760), 540, 380, 900)
        + f'<div style="position:absolute;left:0;right:0;top:1060px">{board("e1", POS_E1, size=820)}</div>'
@@ -569,7 +578,7 @@ s.add(f"popIn(tl, '#e3-tag', {s.loc(T('endgame'))});")
 scenes.append(s)
 
 # ===================== S7 HUMAN 38.4 – 44.6
-s = Scene("human", 38.4, 44.6)
+s = Scene("human", B_ENDG, B_HUM)
 ta2, tcopy = T("A", case=True), T("copying")
 s.shot(s.start, ta2 - 0.06, teal_bg("u") + logo("u1r", 540, 420, 640, rot=6)
        + f'<div style="position:absolute;left:0;right:0;top:1180px;transform:scale(.7);transform-origin:50% 0">{board("u1", POS_E2)}</div>'
@@ -595,7 +604,7 @@ for k in range(4):
 scenes.append(s)
 
 # ===================== S8 CLOCK 44.6 – 53.1
-s = Scene("clock", 44.6, 53.1)
+s = Scene("clock", B_HUM, B_CLK)
 tten, tzero, ttime, tmw = T("Ten"), T("Zero"), T("Time's"), T("Magnus", 6)
 CL = ('<div style="position:absolute;left:50px;top:560px;width:980px;height:640px;border-radius:40px;background:linear-gradient(#7A4A28,#4E2E18);box-shadow:0 40px 80px rgba(0,0,0,.6)"></div>'
       '<div style="position:absolute;left:250px;top:500px;width:110px;height:70px;border-radius:14px;background:#C9C2B5"></div>'
@@ -608,8 +617,8 @@ CL = ('<div style="position:absolute;left:50px;top:560px;width:980px;height:640p
       '<div class="frame-card" style="left:630px;top:180px;width:280px;height:280px;border-radius:50%;background:linear-gradient(#3C7BE0,#1D4FA8);border:10px solid #fff">'
       f'<svg viewBox="100 60 400 400" width="100%" height="100%">{cheater("{p}a", "nervous").replace("{{", "{{{{").replace("}}", "}}}}")}</svg></div>')
 s.shot(s.start, tten - 0.06, dark_bg("k") + CL.format(p="k1")
-       + tag("k1-tag", "OVER A MINUTE", LIME, "#0E2A00", y=1060, size=44, row="right:500px")
-       + tag("k1-tag2", "SECONDS", RED, "#fff", y=1060, size=44, row="left:500px"), push=0.04)
+       + tag("k1-tag", "OVER A MINUTE", LIME, "#0E2A00", y=480, size=40, row="right:500px")
+       + tag("k1-tag2", "SECONDS", RED, "#fff", y=480, size=40, row="left:500px"), push=0.04)
 s.add(f"popIn(tl, '#k1-tag', {s.loc(T('minute'))});")
 s.add(f"popIn(tl, '#k1-tag2', {s.loc(T('seconds'))});")
 s.add(f"tl.fromTo('#k1-ca', {{ scale: 1 }}, {{ scale: 1.08, duration: 0.15, yoyo: true, repeat: 1 }}, {s.loc(T('seconds'))});")
@@ -636,7 +645,7 @@ for i in range(22):
 scenes.append(s)
 
 # ===================== S9 VERDICT 53.1 – 60.95
-s = Scene("verdict", 53.1, 60.95)
+s = Scene("verdict", B_CLK, B_VER)
 twh, tsav = T("Which"), T("Savage")
 sid = s.shot(s.start, twh - 0.06, alex_room(False) + desk(1450) + logo("v1r", 860, 700, 300, rot=12)
              + char(cheater("v1a", "nervous") + hands("v1a", y=760), 480, 520, 980)
@@ -659,7 +668,7 @@ s.add(f"blink(tl, 'v3m', {s.loc(tsav) + 0.5});")
 scenes.append(s)
 
 # ===================== S10 CTA 60.95 – 66.5
-s = Scene("cta", 60.95, TOTAL)
+s = Scene("cta", B_VER, TOTAL)
 s.shot(s.start, TOTAL - 0.25, stream_bg("z", "blue")
        + f'<div class="frame-card" style="left:50px;top:660px;width:470px;height:580px;background:linear-gradient(#E0503C,#A82A1D);border:12px solid #fff">'
        + f'<svg viewBox="0 0 600 800" width="100%" height="100%">{magnus("z1m", "smug")}</svg></div>'
@@ -742,7 +751,6 @@ FLASH = [T("Stockfish"), T("Even") - 0.06, TIMING["clip_start"], T("Savage") - 0
 fx_js = []
 for t in FLASH:
     fx_js.append(f"tl.fromTo('#fx-flash', {{ opacity: 0.95 }}, {{ opacity: 0, duration: 0.2, ease: 'power2.out', immediateRender: false }}, {round(t, 3)});")
-fx_js.append(f"tl.set('#fx-wm', {{ opacity: 0 }}, {TOTAL - 0.25});")
 fx_js.append(f"tl.fromTo('#fx-grain', {{ x: 0, y: 0 }}, {{ x: -320, y: -260, duration: {TOTAL}, ease: 'steps({int(TOTAL * 12)})' }}, 0);")
 open("compositions/fx.html", "w").write(f"""<template id="fx-template">
   <style>
@@ -756,7 +764,6 @@ open("compositions/fx.html", "w").write(f"""<template id="fx-template">
   <div id="root" data-composition-id="fx" data-width="{W}" data-height="{H}">
     <svg id="fx-grain" viewBox="0 0 1500 2300"><filter id="fx-n"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7"/></filter><rect width="1500" height="2300" filter="url(#fx-n)"/></svg>
     <div id="fx-vig"></div>
-    <div id="fx-wm" data-layout-ignore><b>@the64stories</b><span>IF YOU SEE THIS ON YOUTUBE, IT'S STOLEN</span></div>
     <div id="fx-flash"></div>
   </div>
   <script>
@@ -816,8 +823,13 @@ for i, (n, t, v) in enumerate(sorted(SFX, key=lambda x: x[1])):
         lanes_end.append(0); lane = len(lanes_end) - 1
     lanes_end[lane] = t + d
     sfx_tags.append(f'<audio id="sfx{i}" src="assets/audio/sfx/{n}.mp3" data-start="{t}" data-duration="{d}" data-track-index="{5 + lane}" data-volume="{v}"></audio>')
-audio = [f'<audio id="vo1" src="assets/audio/vo_part1_tight.mp3" data-start="{TIMING["p1_start"]}" data-duration="{round(adur('assets/audio/vo_part1_tight.mp3'), 3)}" data-track-index="3" data-volume="1"></audio>',
-         f'<audio id="vo2" src="assets/audio/vo_part2_tight.mp3" data-start="{TIMING["p2_start"]}" data-duration="{round(min(adur('assets/audio/vo_part2_tight.mp3'), TOTAL - TIMING["p2_start"]), 3)}" data-track-index="3" data-volume="1"></audio>',
+tz, tt = T("Zero"), T("Time's")
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "3", "-i", "assets/audio/sfx/bed_a.mp3", "-stream_loop", "2", "-i", "assets/audio/sfx/bed_b.mp3", "-filter_complex",
+                f"[0:a]atrim=0:{tz + 0.08:.3f},afade=t=in:d=0.3,afade=t=out:st={tz - 0.12:.3f}:d=0.2,asetpts=PTS-STARTPTS[a];"
+                f"[1:a]volume=-9dB,atrim=0:{TOTAL - tt:.3f},afade=t=out:st={TOTAL - tt - 1.5:.3f}:d=1.5,adelay={int(tt * 1000)}|{int(tt * 1000)},asetpts=PTS-STARTPTS[b];"
+                f"[a][b]amix=inputs=2:normalize=0,atrim=0:{TOTAL},aformat=channel_layouts=stereo[o]", "-map", "[o]", "-c:a", "libmp3lame", "-b:a", "128k", "assets/audio/music.mp3"], check=True)
+audio = [f'<audio id="vo1" src="assets/audio/vo_final_1.mp3" data-start="{TIMING["p1_start"]}" data-duration="{round(adur('assets/audio/vo_final_1.mp3'), 3)}" data-track-index="3" data-volume="1"></audio>',
+         f'<audio id="vo2" src="assets/audio/vo_final_2.mp3" data-start="{TIMING["p2_start"]}" data-duration="{round(min(adur('assets/audio/vo_final_2.mp3'), TOTAL - TIMING["p2_start"]), 3)}" data-track-index="3" data-volume="1"></audio>',
          f'<audio id="music" src="assets/audio/music.mp3" data-start="0" data-duration="{TOTAL}" data-track-index="4" data-volume="0.32"></audio>']
 audio += sfx_tags
 
