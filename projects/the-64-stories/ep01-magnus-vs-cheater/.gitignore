@@ -2,3 +2,4 @@ assets/audio/*_tight.wav
 assets/audio/vo_part?.mp3
 .hyperframes/
 renders/
+assets/audio/v2/*.mp3

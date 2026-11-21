@@ -70,6 +70,25 @@ def board(p, position, size=880, tilt=52, theme="green", extra=""):
 
 # ---------------------------------------------------------------- sets
 
+def logo(id_, x, y, w, rot=-6):
+    return (f'<div id="{id_}" class="sflogo" data-layout-ignore style="left:{x - w / 2:.0f}px;top:{y:.0f}px;width:{w:.0f}px;rotate:{rot}deg">'
+            f'<img src="assets/img/stockfish_logo.png" style="width:100%;display:block" alt="Stockfish"/></div>')
+
+
+def alex_room(monitor=True):
+    cans = "".join(f'<div class="can" style="left:{70 + i * 46}px;background:linear-gradient(90deg,{c},#111 140%)"></div>' for i, c in enumerate(["#33E0C4", "#B04CFF", "#33E0C4", "#FF4D8D"]))
+    mon = ('<div class="mon2"><div class="mon2-screen"><img src="assets/img/stockfish_logo.png" style="width:62%;display:block;margin:18px auto 6px"/>'
+           '<div class="mon2-eval">+3.2 · depth 42</div></div><div class="mon2-stand"></div></div>') if monitor else ""
+    return f'''<div class="set aroom">
+  <div class="awin"><div class="moon"></div><div class="city"></div></div>
+  <div class="led top"></div><div class="led side"></div>
+  <div class="aposter p1">♞<span>BLITZ</span></div><div class="aposter p2"><span>GG</span></div>
+  <div class="ashelf"></div>{cans}
+  <div class="bed"><div class="pillow"></div><div class="blanket"></div></div>
+  <div class="gchair"><div class="gchair-stripe"></div></div>
+  {mon}</div>'''
+
+
 def room_bg(p):
     return f'''<div class="set room"><div class="plant"><div class="pot"></div><div class="leaf l1"></div><div class="leaf l2"></div><div class="leaf l3"></div></div>
   <div class="poster"><div>♛</div></div>
@@ -141,8 +160,8 @@ def dark_bg(p):
     return f'<div class="set darkhall"><div class="spot"></div><div class="spot s2"></div><div class="crowd">{heads}</div></div>'
 
 
-def desk(y=1500, color="#B9824F"):
-    return (f'<div class="desk" style="top:{y}px;background:linear-gradient({color},#8C5A33)"></div>'
+def desk(y=1500, color="#3A3E5C"):
+    return (f'<div class="desk" style="top:{y}px;background:linear-gradient({color},#22243A)"></div>'
             f'<div class="kbd" style="top:{y + 40}px"></div><div class="mug" style="top:{y - 80}px;left:880px"></div>')
 
 
@@ -203,6 +222,33 @@ COMMON_CSS = f"""
 .darkhall .spot {{ position:absolute; left:50%; top:-100px; width:900px; height:1500px; margin-left:-450px; background:radial-gradient(ellipse at 50% 0,rgba(255,230,180,.45),transparent 70%); }}
 .desk {{ position:absolute; left:-80px; right:-80px; height:700px; box-shadow:0 -6px 0 #D69A62 inset; }}
 .char {{ position:absolute; }}
+.sflogo {{ position:absolute; filter:drop-shadow(0 24px 30px rgba(0,0,0,.45)); }}
+.aroom {{ background:linear-gradient(#232642,#1A1C30 60%,#141526); }}
+.aroom .awin {{ position:absolute; left:520px; top:170px; width:560px; height:620px; border:22px solid #343854; border-radius:8px; overflow:hidden; background:linear-gradient(#0E1640,#24337A 70%,#3A3F8F); }}
+.aroom .moon {{ position:absolute; right:90px; top:70px; width:110px; height:110px; border-radius:50%; background:#F4F0D8; box-shadow:0 0 60px rgba(244,240,216,.55); }}
+.aroom .city {{ position:absolute; left:0; right:0; bottom:0; height:260px; background:
+  linear-gradient(#0B0F26,#0B0F26) 0 100%/90px 200px no-repeat, linear-gradient(#10163A,#10163A) 100px 100%/120px 240px no-repeat,
+  linear-gradient(#0B0F26,#0B0F26) 240px 100%/80px 170px no-repeat, linear-gradient(#10163A,#10163A) 340px 100%/140px 230px no-repeat,
+  linear-gradient(#0B0F26,#0B0F26) 500px 100%/100px 190px no-repeat; }}
+.aroom .city::after {{ content:''; position:absolute; inset:0; background-image:radial-gradient(circle,#FFD873 3px,transparent 4px); background-size:34px 40px; background-position:10px 60px; opacity:.5; }}
+.aroom .led {{ position:absolute; background:linear-gradient(90deg,#B04CFF,#33E0C4,#B04CFF); box-shadow:0 0 40px 14px rgba(150,80,255,.45); }}
+.aroom .led.top {{ left:-40px; right:-40px; top:110px; height:10px; }}
+.aroom .led.side {{ left:470px; top:120px; width:8px; height:900px; background:linear-gradient(#33E0C4,#B04CFF); box-shadow:0 0 40px 12px rgba(51,224,196,.35); }}
+.aroom .aposter {{ position:absolute; background:#2E3150; border:8px solid #EDEAF7; color:#33E0C4; font-family:'Archivo Black',sans-serif; display:flex; flex-direction:column; align-items:center; justify-content:center; }}
+.aroom .aposter.p1 {{ left:90px; top:180px; width:220px; height:300px; font-size:150px; line-height:1; }}
+.aroom .aposter.p1 span {{ font-size:40px; color:#FF4D8D; }}
+.aroom .aposter.p2 {{ left:330px; top:240px; width:130px; height:170px; background:#FF4D8D; color:#fff; font-size:56px; }}
+.aroom .ashelf {{ position:absolute; left:50px; top:640px; width:300px; height:18px; background:#4A4E70; }}
+.aroom .can {{ position:absolute; top:550px; width:36px; height:90px; border-radius:6px; }}
+.aroom .bed {{ position:absolute; left:-120px; top:1060px; width:520px; height:400px; background:#3B3F66; border-radius:30px; }}
+.aroom .pillow {{ position:absolute; left:150px; top:-40px; width:220px; height:100px; background:#E8E6F4; border-radius:50px; }}
+.aroom .blanket {{ position:absolute; left:0; right:0; top:60px; bottom:0; background:repeating-linear-gradient(45deg,#5B4FB0 0 40px,#4E43A0 40px 80px); border-radius:20px; }}
+.aroom .gchair {{ position:absolute; left:290px; top:620px; width:500px; height:1100px; border-radius:180px 180px 40px 40px; background:linear-gradient(90deg,#141420,#24243A 50%,#141420); }}
+.aroom .gchair-stripe {{ position:absolute; left:40px; top:120px; width:46px; height:640px; border-radius:23px; background:#33E0C4; opacity:.85; box-shadow:368px 0 0 #33E0C4; }}
+.aroom .mon2 {{ position:absolute; left:800px; top:820px; width:300px; }}
+.aroom .mon2-screen {{ height:220px; border:12px solid #0C0C12; border-radius:14px; background:#0F2E2B; box-shadow:0 0 50px rgba(51,224,196,.45); rotate:-8deg; overflow:hidden; }}
+.aroom .mon2-eval {{ text-align:center; font-family:'Space Mono',monospace; font-weight:700; font-size:22px; color:#7CF5E8; }}
+.aroom .mon2-stand {{ width:30px; height:120px; margin:0 auto; background:#0C0C12; }}
 .dateline {{ position:absolute; left:50%; top:205px; transform:translateX(-50%); white-space:nowrap; font-family:Inter,sans-serif; font-weight:800; font-size:30px; letter-spacing:.22em; color:#2B1E12; background:rgba(255,255,255,.6); padding:8px 22px; border-radius:30px; }}
 .dateline b {{ color:#C8261E; }}
 .ledwall {{ position:absolute; left:80px; right:80px; top:120px; height:900px; background-image:radial-gradient(circle,rgba(255,255,255,.16) 3px,transparent 4px); background-size:36px 36px; border-radius:30px; opacity:.7; }}
@@ -379,7 +425,7 @@ scenes = []
 # ===================== S1 HOOK 0 – 5.55
 s = Scene("hook", 0, 5.55)
 t1 = T("But")  # 4.02
-sid = s.shot(0, t1 - 0.06, room_bg("h") + desk(1430)
+sid = s.shot(0, t1 - 0.06, alex_room() + desk(1430)
              + char(cheater("h1a", "smug") + hands("h1a", y=760), 540, 640, 820)
              + '<div class="title" style="top:150px"><div class="l1">STOCKFISH</div><div class="l2">COULDN\'T BEAT HIM</div></div>'
              + f'<div id="h-vs" class="frame-card" style="left:690px;top:420px;width:300px;height:330px;background:#C93A3A;border:10px solid #fff;opacity:0">'
@@ -388,12 +434,11 @@ sid = s.shot(0, t1 - 0.06, room_bg("h") + desk(1430)
 s.add(f"popIn(tl, '#h-vs', {s.loc(T('Magnus'))});")
 s.add(f"popIn(tl, '#h-vs-tag', {s.loc(T('Magnus')) + 0.15});")
 s.add("blink(tl, 'h1a', 2.1);")
-sid = s.shot(t1 - 0.06, s.end, room_bg("h") + desk(1500)
-             + char(robot("h2r", "off"), 830, 760, 380)
+sid = s.shot(t1 - 0.06, s.end, alex_room() + desk(1500)
+             + logo("h2r", 860, 640, 330, rot=10)
              + char(cheater("h2a", "smug") + hands("h2a", y=760), 470, 560, 980)
              + tag("h2-tag", "NOT ALONE", RED, "#fff", y=300, size=56))
-s.add("tl.fromTo('#h2r', { y: 260 }, { y: 0, duration: 0.45, ease: 'back.out(1.6)' }, 0.62);")
-s.add(f"part(tl, 'h2r', 'eyes', 'on', {s.loc(T('alone'))});")
+s.add("tl.fromTo('#h2r', { y: 300, rotation: 30, opacity: 0 }, { y: 0, rotation: 0, opacity: 1, duration: 0.45, ease: 'back.out(1.6)' }, 0.62);")
 s.add(f"popIn(tl, '#h2-tag', {s.loc(T('alone'))});")
 s.add(f"part(tl, 'h2a', 'mouth', 'flat', {s.loc(T('alone')) + 0.3});")
 scenes.append(s)
@@ -446,7 +491,7 @@ for i, (fr, to, w) in enumerate([("f6", "e4", T("move", 1)), ("e7", "d6", T("mov
     s.add(f"popIn(tl, '#b2-bang', {s.loc(w) + 0.22});")
     s.add(f"tl.to('#b2-bang', {{ opacity: 0, duration: 0.1 }}, {s.loc(w) + 0.5});")
 s.add(f"popIn(tl, '#b2-tag', {s.loc(T('perfectly'))});")
-s.shot(tnot - 0.06, tperf - 0.06, room_bg("b") + desk(1450) + char(cheater("b3a", "smug") + hands("b3a", y=760), 540, 520, 1000)
+s.shot(tnot - 0.06, tperf - 0.06, alex_room() + desk(1450) + char(cheater("b3a", "smug") + hands("b3a", y=760), 540, 520, 1000)
        + tag("b3-tag", "GOOD", "#FFFFFF", "#1B1B1B", y=280, size=80)
        + '<div class="tag-row" style="top:300px"><div id="b3-strike" style="width:320px;height:16px;background:#FF5A4F;rotate:-8deg;margin-top:46px;opacity:0"></div></div>')
 s.add(f"popIn(tl, '#b3-tag', {s.loc(T('good'))});")
@@ -459,9 +504,9 @@ scenes.append(s)
 # ===================== S4 WHISPER 21.3 – 28.7
 s = Scene("whisper", 21.3, 28.7)
 tsf, teven = T("Stockfish"), T("Even")
-s.shot(s.start, tsf - 0.06, room_bg("w")
+s.shot(s.start, tsf - 0.06, alex_room(False)
        + char(cheater("w1a", "neutral", look=(-10, 0)), 380, 300, 1250)
-       + char(robot("w1r", "whisper"), 900, 420, 520)
+       + logo("w1r", 880, 560, 360, rot=-12)
        + '<svg id="w1-waves" viewBox="0 0 200 200" style="position:absolute;left:560px;top:620px;width:200px;opacity:0">'
        + '<path d="M150,40 Q110,100 150,160" stroke="#2CD3C4" stroke-width="12" fill="none" stroke-linecap="round"/>'
        + '<path d="M110,60 Q80,100 110,140" stroke="#2CD3C4" stroke-width="12" fill="none" stroke-linecap="round"/>'
@@ -469,14 +514,14 @@ s.shot(s.start, tsf - 0.06, room_bg("w")
 s.add(f"tl.fromTo('#w1r', {{ x: 120 }}, {{ x: 0, duration: 0.5, ease: 'power3.out' }}, {s.loc(T('someone'))});")
 for k in range(5):
     s.add(f"tl.fromTo('#w1-waves', {{ opacity: 0, x: 30 }}, {{ opacity: 1, x: 0, duration: 0.15, immediateRender: false }}, {s.loc(T('whispering')) + k * 0.36});")
-    s.add(f"tl.set('#w1r-mouth-talk', {{ opacity: {k % 2} }}, {s.loc(T('whispering')) + k * 0.18});")
+    s.add(f"tl.to('#w1r', {{ y: {-10 if k % 2 else 0}, duration: 0.18 }}, {s.loc(T('whispering')) + k * 0.18});")
 s.add(f"tl.to('#w1-waves', {{ opacity: 0, duration: 0.1 }}, {s.loc(tsf) - 0.2});")
-s.shot(tsf - 0.06, teven - 0.06, teal_bg("w") + char(robot("w2r", "on"), 540, 520, 980)
+s.shot(tsf - 0.06, teven - 0.06, teal_bg("w") + logo("w2r", 540, 470, 820, rot=-4)
        + namecard("w2-name", "STOCKFISH", "CHESS ENGINE", y=200)
        + tag("w2-tag", "STRONGEST ON EARTH", TEAL, "#062A27", y=1340, size=54))
 s.add(f"tl.fromTo('#w2-name', {{ opacity: 0, y: 20 }}, {{ opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }}, {s.loc(tsf) + 0.05});")
 s.add(f"popIn(tl, '#w2-tag', {s.loc(T('strongest'))});")
-s.add(f"tl.fromTo('#w2r-bulb', {{ fill: '#1FB5A8' }}, {{ fill: '#7CF5E8', duration: 0.2, repeat: 5, yoyo: true }}, {s.loc(tsf) + 0.3});")
+s.add(f"tl.fromTo('#w2r', {{ scale: 0.6, rotation: -20 }}, {{ scale: 1, rotation: 0, duration: 0.5, ease: 'back.out(1.7)' }}, {s.loc(tsf)});")
 s.shot(teven - 0.06, s.end, magnus_room() + char(magnus("w3m", "focus", look=(8, 14)) + rest_arm(), 540, 420, 1000) + laptop(1250)
        + dateline("ONLINE · CHESS24", "2019") + '<div style="position:absolute;left:60px;top:300px" class="live">● LIVE</div>'
        + '<div id="w3-q" class="bignum" style="position:absolute;left:760px;top:420px;font-size:200px;color:#FFC83A;opacity:0">?</div>', dir=-1)
@@ -526,12 +571,12 @@ scenes.append(s)
 # ===================== S7 HUMAN 38.4 – 44.6
 s = Scene("human", 38.4, 44.6)
 ta2, tcopy = T("A", case=True), T("copying")
-s.shot(s.start, ta2 - 0.06, teal_bg("u") + char(robot("u1r", "whisper"), 540, 470, 760)
+s.shot(s.start, ta2 - 0.06, teal_bg("u") + logo("u1r", 540, 420, 640, rot=6)
        + f'<div style="position:absolute;left:0;right:0;top:1180px;transform:scale(.7);transform-origin:50% 0">{board("u1", POS_E2)}</div>'
        + tag("u1-tag", "NO HANDS", RED, "#fff", y=250, size=60))
 s.add(f"popIn(tl, '#u1-tag', {s.loc(T('pieces'))});")
 s.add(f"tl.fromTo('#u1r', {{ rotation: 0, transformOrigin: '50% 80%' }}, {{ keyframes: [{{ rotation: -6 }}, {{ rotation: 6 }}, {{ rotation: 0 }}], duration: 0.8, ease: 'sine.inOut' }}, {s.loc(T('pieces')) - 0.3});")
-s.shot(ta2 - 0.06, tcopy - 0.25, room_bg("u") + char(cheater("u2a", "neutral", look=(0, 14)), 540, 220, 760)
+s.shot(ta2 - 0.06, tcopy - 0.25, alex_room() + char(cheater("u2a", "neutral", look=(0, 14)), 540, 220, 760)
        + f'<div style="position:absolute;left:0;right:0;top:860px">{board("u2", POS_E2)}</div>'
        + f'<div id="u2-hand" style="position:absolute;left:330px;top:1110px;width:120px;height:120px;border-radius:50%;background:#F3CBA6;box-shadow:inset -10px -10px 0 #E2AE87"></div>'
        + tag("u2-tag", "HUMAN", YELLOW, y=230, size=64), dir=-1)
@@ -539,7 +584,7 @@ s.add(f"popIn(tl, '#u2-tag', {s.loc(T('human'))});")
 s.add(f"tl.to('#u2-hand', {{ x: 140, y: -70, duration: 0.6, ease: 'power2.inOut' }}, {s.loc(T('human')) - 0.2});")
 s.add(f"tl.to('#u2-c6', {{ x: {SQ}, y: {SQ}, duration: 0.6, ease: 'power2.inOut' }}, {s.loc(T('does')) - 0.1});")
 s.add(f"tl.to('#u2-hand', {{ x: 260, y: 30, duration: 0.6, ease: 'power2.inOut', overwrite: 'auto' }}, {s.loc(T('does')) - 0.1});")
-s.shot(tcopy - 0.25, s.end, room_bg("u") + desk(1420) + char(cheater("u3a", "nervous", look=(-12, 0)) + hands("u3a", y=760), 540, 520, 980)
+s.shot(tcopy - 0.25, s.end, alex_room() + desk(1420) + char(cheater("u3a", "nervous", look=(-12, 0)) + hands("u3a", y=760), 540, 520, 980)
        + '<div class="frame-card" style="left:70px;top:230px;width:330px;height:200px;background:#141414;border:10px solid #2B2B2B;display:flex;align-items:center;justify-content:center">'
        + '<div id="u3-clock" style="font-family:\'Space Mono\',monospace;font-weight:700;font-size:96px;color:#FF5A4F">0:41</div></div>'
        + tag("u3-tag", "COPY... PASTE...", "#FFFFFF", "#1B1B1B", y=300, size=44, row="left:420px"))
@@ -593,20 +638,20 @@ scenes.append(s)
 # ===================== S9 VERDICT 53.1 – 60.95
 s = Scene("verdict", 53.1, 60.95)
 twh, tsav = T("Which"), T("Savage")
-sid = s.shot(s.start, twh - 0.06, room_bg("v") + desk(1450) + char(robot("v1r", "off"), 850, 700, 360)
+sid = s.shot(s.start, twh - 0.06, alex_room(False) + desk(1450) + logo("v1r", 860, 700, 300, rot=12)
              + char(cheater("v1a", "nervous") + hands("v1a", y=760), 480, 520, 980)
              + stamp("v1-stamp", "ACCUSED", RED, y=300, size=140))
 s.add(f"slam(tl, '#v1-stamp', '#{sid}-shake', {s.loc(T('accused'))});")
-s.add(f"part(tl, 'v1r', 'eyes', 'whisper', {s.loc(T('Stockfish', 3))});")
 s.add(f"tl.to('#v1r', {{ y: 120, duration: 0.4, ease: 'power2.in' }}, {s.loc(T('Stockfish', 3)) + 0.3});")
 sparks = "".join(f'<div id="sp{i}" class="spark" style="left:{420 + (i * 61) % 260}px;top:{560 + (i * 43) % 200}px;rotate:{i * 47}deg"></div>' for i in range(10))
-s.shot(twh - 0.06, tsav - 0.06, teal_bg("v") + char(robot("v2r", "on"), 540, 520, 980) + sparks
+s.shot(twh - 0.06, tsav - 0.06, teal_bg("v") + logo("v2r", 540, 470, 820, rot=-4)
+       + '<svg id="v2-crack" viewBox="0 0 820 700" style="position:absolute;left:130px;top:470px;width:820px;opacity:0" data-layout-ignore><path d="M410,0 L380,180 L450,260 L360,420 L430,520 L390,700" stroke="#101010" stroke-width="14" fill="none" stroke-linejoin="round"/><path d="M450,260 L600,300 L700,250 M360,420 L200,470 L120,440" stroke="#101010" stroke-width="10" fill="none" stroke-linejoin="round"/></svg>' + sparks
        + tag("v2-tag", "LOST TO A HUMAN", RED, "#fff", y=260, size=60), dir=-1)
-s.add(f"part(tl, 'v2r', 'eyes', 'panic', {s.loc(T('lost'))});")
-s.add(f"part(tl, 'v2r', 'mouth', 'talk', {s.loc(T('lost'))});")
+s.add(f"tl.fromTo('#v2-crack', {{ opacity: 0, scale: 0.6 }}, {{ opacity: 1, scale: 1, duration: 0.12, ease: 'power4.out' }}, {s.loc(T('lost'))});")
 s.add(f"popIn(tl, '#v2-tag', {s.loc(T('lost'))});")
 s.add(f"tl.to('#v2r', {{ rotation: 8, y: 60, transformOrigin: '50% 90%', duration: 0.6, ease: 'power2.in' }}, {s.loc(T('Magnus', 7)) - 0.1});")
-s.add(f"tl.to('#v2r', {{ filter: 'grayscale(1) brightness(0.7)', duration: 0.5 }}, {s.loc(T('Magnus', 7))});")
+s.add(f"tl.to('#v2r', {{ filter: 'grayscale(1) brightness(0.7) drop-shadow(0 24px 30px rgba(0,0,0,.45))', duration: 0.5 }}, {s.loc(T('Magnus', 7))});")
+s.add(f"tl.to('#v2-crack', {{ rotation: 8, y: 60, transformOrigin: '50% 90%', duration: 0.6, ease: 'power2.in' }}, {s.loc(T('Magnus', 7)) - 0.1});")
 for i in range(10):
     s.add(f"tl.fromTo('#sp{i}', {{ opacity: 1, x: 0, y: 0 }}, {{ opacity: 0, x: {(i - 5) * 50}, y: {-120 - (i * 31) % 160}, duration: 0.5, ease: 'power2.out' }}, {s.loc(T('lost')) + (i % 4) * 0.05});")
 s.shot(tsav - 0.06, s.end, stream_bg("v", "purple") + char(magnus("v3m", "smug") + hands("v3m", y=760), 540, 440, 1160), push=0.09)
@@ -619,7 +664,7 @@ s.shot(s.start, TOTAL - 0.25, stream_bg("z", "blue")
        + f'<div class="frame-card" style="left:50px;top:660px;width:470px;height:580px;background:linear-gradient(#E0503C,#A82A1D);border:12px solid #fff">'
        + f'<svg viewBox="0 0 600 800" width="100%" height="100%">{magnus("z1m", "smug")}</svg></div>'
        + f'<div class="frame-card" style="left:560px;top:660px;width:470px;height:580px;background:linear-gradient(#2A8F8A,#0F3E45);border:12px solid #fff">'
-       + f'<svg viewBox="0 0 600 800" width="100%" height="100%">{robot("z1r", "on")}</svg></div>'
+       + '<img src="assets/img/stockfish_logo.png" style="position:absolute;left:6%;top:18%;width:88%"/></div>'
        + '<div class="bignum" style="position:absolute;left:0;right:0;top:880px;text-align:center;font-size:120px;color:#fff">VS</div>'
        + tag("z-q", "HOW MANY MOVES VS STOCKFISH?", YELLOW, y=330, size=44)
        + tag("z-c", "COMMENT A NUMBER", TEAL, "#062A27", y=430, size=40)
