@@ -113,8 +113,9 @@ def character(cid, who, x, y, scale=1.0, mood="neutral", arms=(8, -8), flip=Fals
         head.append(f'<g fill="none" stroke="#2a2a33" stroke-width="3"><circle cx="-17" cy="{hy+2}" r="13"/>'
                     f'<circle cx="17" cy="{hy+2}" r="13"/><path d="M-4,{hy+2} L4,{hy+2}"/></g>')
     # brows: rotate around inner ends for emotion
-    head.append(f'<rect id="{cid}-browL" transform="translate(0 0) rotate(0 -6 -281)" x="-28" y="{hy-22}" width="22" height="6" rx="3" fill="#2a1f1a"/>'
-                f'<rect id="{cid}-browR" transform="translate(0 0) rotate(0 6 -281)" x="6" y="{hy-22}" width="22" height="6" rx="3" fill="#2a1f1a"/>')
+    bl, br, bdy = BROWS.get(mood, (0, 0, 0))
+    head.append(f'<rect id="{cid}-browL" transform="translate(0 {bdy}) rotate({bl} -6 -281)" x="-28" y="{hy-22}" width="22" height="6" rx="3" fill="#2a1f1a"/>'
+                f'<rect id="{cid}-browR" transform="translate(0 {bdy}) rotate({br} 6 -281)" x="6" y="{hy-22}" width="22" height="6" rx="3" fill="#2a1f1a"/>')
     head.append(f'<rect x="-3" y="{hy+12}" width="6" height="10" rx="3" fill="{P["skin2"] if c["skin"]==P["skin"] else P["skin3"]}" opacity="0.7"/>')
     if c["extra"] == "moustache":
         head.append(f'<path d="M-20,{hy+30} Q0,{hy+20} 20,{hy+30} Q0,{hy+36} -20,{hy+30} Z" fill="#2a2422"/>')

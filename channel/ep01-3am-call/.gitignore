@@ -9,3 +9,5 @@ video/renders/
 video/node_modules/
 *.mp4
 video/assets/audio/
+thumbnail/*.png
+thumbnail/*.woff2

@@ -115,6 +115,8 @@ CSS = """
 .clock.r{color:#ff5a6e;box-shadow:0 0 34px rgba(255,90,110,.3),0 6px 0 rgba(0,0,0,.4)}
 .bubble{font:800 30px Montserrat;color:#fff;background:#15151c;border:2px solid #ffd43b;border-radius:14px;padding:14px 22px;white-space:nowrap;position:relative}
 .bubble:after{content:"";position:absolute;left:34px;bottom:-16px;border:9px solid transparent;border-top:12px solid #ffd43b}
+.wm{width:1920px;text-align:center;font:800 40px Montserrat;letter-spacing:.32em;color:#ffd43b;white-space:nowrap}
+.sticker.done{background:#3a3b47;color:#e6e7ee}
 .dark{position:absolute;inset:0;background:#02030a;opacity:0}
 .flash{position:absolute;inset:0;background:#fff;opacity:0}
 /* cards */
