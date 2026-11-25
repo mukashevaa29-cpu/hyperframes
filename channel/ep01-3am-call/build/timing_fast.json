@@ -1,0 +1,3374 @@
+{
+  "duration": 512.128,
+  "units": [
+    {
+      "i": 1,
+      "kind": "line",
+      "text": "Tuesday. 2:59 AM.",
+      "start": 0.377,
+      "end": 2.831,
+      "words": [
+        { "w": "Tuesday.", "c": null, "s": 0.377, "e": 0.969 },
+        { "w": "2:59", "c": "y", "s": 1.166, "e": 1.976 },
+        { "w": "AM.", "c": null, "s": 2.053, "e": 2.831 }
+      ]
+    },
+    {
+      "i": 2,
+      "kind": "line",
+      "text": "You're asleep.",
+      "start": 3.058,
+      "end": 4.108,
+      "words": [
+        { "w": "You're", "c": null, "s": 3.058, "e": 3.266 },
+        { "w": "asleep.", "c": null, "s": 3.288, "e": 4.109 }
+      ]
+    },
+    {
+      "i": 3,
+      "kind": "line",
+      "text": "Your phone is face down on the nightstand. 41 percent.",
+      "start": 4.335,
+      "end": 7.84,
+      "words": [
+        { "w": "Your", "c": null, "s": 4.335, "e": 4.499 },
+        { "w": "phone", "c": null, "s": 4.532, "e": 4.729 },
+        { "w": "is", "c": null, "s": 4.762, "e": 4.827 },
+        { "w": "face", "c": null, "s": 4.882, "e": 5.091 },
+        { "w": "down", "c": null, "s": 5.135, "e": 5.332 },
+        { "w": "on", "c": null, "s": 5.375, "e": 5.442 },
+        { "w": "the", "c": null, "s": 5.474, "e": 5.54 },
+        { "w": "nightstand.", "c": null, "s": 5.584, "e": 6.142 },
+        { "w": "41", "c": "y", "s": 6.449, "e": 6.843 },
+        { "w": "percent.", "c": null, "s": 6.931, "e": 7.84 }
+      ]
+    },
+    {
+      "i": 4,
+      "kind": "line",
+      "text": "Across the hall, your little brother Leo fell asleep with his tablet on his chest.",
+      "start": 7.953,
+      "end": 12.597,
+      "words": [
+        { "w": "Across", "c": null, "s": 7.953, "e": 8.391 },
+        { "w": "the", "c": null, "s": 8.435, "e": 8.5 },
+        { "w": "hall,", "c": null, "s": 8.544, "e": 8.972 },
+        { "w": "your", "c": null, "s": 9.169, "e": 9.311 },
+        { "w": "little", "c": null, "s": 9.355, "e": 9.552 },
+        { "w": "brother", "c": null, "s": 9.574, "e": 9.858 },
+        { "w": "Leo", "c": "y", "s": 9.925, "e": 10.198 },
+        { "w": "fell", "c": null, "s": 10.275, "e": 10.45 },
+        { "w": "asleep", "c": null, "s": 10.494, "e": 10.79 },
+        { "w": "with", "c": null, "s": 10.823, "e": 10.943 },
+        { "w": "his", "c": null, "s": 10.975, "e": 11.053 },
+        { "w": "tablet", "c": null, "s": 11.096, "e": 11.447 },
+        { "w": "on", "c": null, "s": 11.491, "e": 11.557 },
+        { "w": "his", "c": null, "s": 11.6, "e": 11.688 },
+        { "w": "chest.", "c": null, "s": 11.731, "e": 12.597 }
+      ]
+    },
+    {
+      "i": 5,
+      "kind": "line",
+      "text": "Downstairs, there's the old landline your grandma refuses to cancel.",
+      "start": 12.71,
+      "end": 16.478,
+      "words": [
+        { "w": "Downstairs,", "c": null, "s": 12.71, "e": 13.455 },
+        { "w": "there's", "c": null, "s": 13.62, "e": 13.849 },
+        { "w": "the", "c": null, "s": 13.872, "e": 13.937 },
+        { "w": "old", "c": null, "s": 13.97, "e": 14.091 },
+        { "w": "landline", "c": "b", "s": 14.145, "e": 14.573 },
+        { "w": "your", "c": null, "s": 14.606, "e": 14.704 },
+        { "w": "grandma", "c": null, "s": 14.737, "e": 15.043 },
+        { "w": "refuses", "c": null, "s": 15.131, "e": 15.536 },
+        { "w": "to", "c": null, "s": 15.58, "e": 15.635 },
+        { "w": "cancel.", "c": null, "s": 15.69, "e": 16.478 }
+      ]
+    },
+    {
+      "i": 6,
+      "kind": "line",
+      "text": "And at 3:00 AM exactly, all three of them ring.",
+      "start": 16.592,
+      "end": 20.14,
+      "words": [
+        { "w": "And", "c": null, "s": 16.592, "e": 16.767 },
+        { "w": "at", "c": null, "s": 16.81, "e": 16.876 },
+        { "w": "3:00", "c": "y", "s": 16.942, "e": 17.238 },
+        { "w": "AM", "c": null, "s": 17.402, "e": 17.556 },
+        { "w": "exactly,", "c": null, "s": 17.621, "e": 18.355 },
+        { "w": "all", "c": null, "s": 18.585, "e": 18.782 },
+        { "w": "three", "c": null, "s": 18.837, "e": 19.056 },
+        { "w": "of", "c": null, "s": 19.089, "e": 19.143 },
+        { "w": "them", "c": null, "s": 19.188, "e": 19.308 },
+        { "w": "ring.", "c": "r", "s": 19.374, "e": 20.141 }
+      ]
+    },
+    {
+      "i": 7,
+      "kind": "line",
+      "text": "At the same time.",
+      "start": 20.253,
+      "end": 21.524,
+      "words": [
+        { "w": "At", "c": null, "s": 20.253, "e": 20.384 },
+        { "w": "the", "c": null, "s": 20.428, "e": 20.493 },
+        { "w": "same", "c": null, "s": 20.538, "e": 20.757 },
+        { "w": "time.", "c": null, "s": 20.79, "e": 21.524 }
+      ]
+    },
+    {
+      "i": 8,
+      "kind": "line",
+      "text": "Not just in your house.",
+      "start": 21.637,
+      "end": 22.995,
+      "words": [
+        { "w": "Not", "c": null, "s": 21.637, "e": 21.867 },
+        { "w": "just", "c": null, "s": 21.91, "e": 22.075 },
+        { "w": "in", "c": null, "s": 22.119, "e": 22.174 },
+        { "w": "your", "c": null, "s": 22.217, "e": 22.326 },
+        { "w": "house.", "c": null, "s": 22.371, "e": 22.995 }
+      ]
+    },
+    {
+      "i": 9,
+      "kind": "line",
+      "text": "In every house on your street.",
+      "start": 23.108,
+      "end": 24.729,
+      "words": [
+        { "w": "In", "c": null, "s": 23.108, "e": 23.284 },
+        { "w": "every", "c": null, "s": 23.339, "e": 23.525 },
+        { "w": "house", "c": null, "s": 23.579, "e": 23.798 },
+        { "w": "on", "c": null, "s": 23.842, "e": 23.908 },
+        { "w": "your", "c": null, "s": 23.952, "e": 24.061 },
+        { "w": "street.", "c": null, "s": 24.094, "e": 24.729 }
+      ]
+    },
+    {
+      "i": 10,
+      "kind": "line",
+      "text": "In every city.",
+      "start": 24.842,
+      "end": 26.069,
+      "words": [
+        { "w": "In", "c": null, "s": 24.842, "e": 25.018 },
+        { "w": "every", "c": null, "s": 25.073, "e": 25.28 },
+        { "w": "city.", "c": null, "s": 25.335, "e": 26.069 }
+      ]
+    },
+    {
+      "i": 11,
+      "kind": "line",
+      "text": "On every continent.",
+      "start": 26.295,
+      "end": 27.698,
+      "words": [
+        { "w": "On", "c": null, "s": 26.295, "e": 26.459 },
+        { "w": "every", "c": null, "s": 26.514, "e": 26.701 },
+        { "w": "continent.", "c": null, "s": 26.756, "e": 27.697 }
+      ]
+    },
+    {
+      "i": 12,
+      "kind": "line",
+      "text": "Eight billion phones.",
+      "start": 27.925,
+      "end": 29.37,
+      "words": [
+        { "w": "Eight", "c": "y", "s": 27.925, "e": 28.165 },
+        { "w": "billion", "c": null, "s": 28.22, "e": 28.549 },
+        { "w": "phones.", "c": null, "s": 28.604, "e": 29.371 }
+      ]
+    },
+    {
+      "i": 13,
+      "kind": "line",
+      "text": "One ring.",
+      "start": 29.596,
+      "end": 30.648,
+      "words": [
+        { "w": "One", "c": "r", "s": 29.596, "e": 29.815 },
+        { "w": "ring.", "c": null, "s": 29.87, "e": 30.648 }
+      ]
+    },
+    {
+      "i": 14,
+      "kind": "line",
+      "text": "You turn yours over.",
+      "start": 30.875,
+      "end": 32.32,
+      "words": [
+        { "w": "You", "c": null, "s": 30.875, "e": 31.028 },
+        { "w": "turn", "c": null, "s": 31.083, "e": 31.28 },
+        { "w": "yours", "c": null, "s": 31.335, "e": 31.564 },
+        { "w": "over.", "c": null, "s": 31.619, "e": 32.321 }
+      ]
+    },
+    {
+      "i": 15,
+      "kind": "line",
+      "text": "The caller ID doesn't say Unknown.",
+      "start": 32.433,
+      "end": 34.58,
+      "words": [
+        { "w": "The", "c": null, "s": 32.433, "e": 32.587 },
+        { "w": "caller", "c": null, "s": 32.619, "e": 32.893 },
+        { "w": "ID", "c": null, "s": 32.948, "e": 33.112 },
+        { "w": "doesn't", "c": null, "s": 33.233, "e": 33.485 },
+        { "w": "say", "c": null, "s": 33.517, "e": 33.659 },
+        { "w": "Unknown.", "c": "b", "s": 33.725, "e": 34.58 }
+      ]
+    },
+    {
+      "i": 16,
+      "kind": "line",
+      "text": "It shows a number you know by heart.",
+      "start": 34.693,
+      "end": 36.972,
+      "words": [
+        { "w": "It", "c": null, "s": 34.693, "e": 34.836 },
+        { "w": "shows", "c": null, "s": 34.869, "e": 35.154 },
+        { "w": "a", "c": null, "s": 35.208, "e": 35.241 },
+        { "w": "number", "c": null, "s": 35.328, "e": 35.58 },
+        { "w": "you", "c": null, "s": 35.635, "e": 35.712 },
+        { "w": "know", "c": null, "s": 35.767, "e": 35.898 },
+        { "w": "by", "c": null, "s": 35.964, "e": 36.074 },
+        { "w": "heart.", "c": null, "s": 36.15, "e": 36.972 }
+      ]
+    },
+    {
+      "i": 17,
+      "kind": "line",
+      "text": "Your own.",
+      "start": 37.085,
+      "end": 38.005,
+      "words": [
+        { "w": "Your", "c": null, "s": 37.085, "e": 37.293 },
+        { "w": "own.", "c": "r", "s": 37.348, "e": 38.005 }
+      ]
+    },
+    {
+      "i": 18,
+      "kind": "line",
+      "text": "Your thumb is already over the green button.",
+      "start": 38.429,
+      "end": 40.926,
+      "words": [
+        { "w": "Your", "c": null, "s": 38.429, "e": 38.638 },
+        { "w": "thumb", "c": null, "s": 38.681, "e": 38.911 },
+        { "w": "is", "c": null, "s": 38.966, "e": 39.064 },
+        { "w": "already", "c": null, "s": 39.13, "e": 39.503 },
+        { "w": "over", "c": null, "s": 39.558, "e": 39.71 },
+        { "w": "the", "c": null, "s": 39.755, "e": 39.82 },
+        { "w": "green", "c": null, "s": 39.853, "e": 40.061 },
+        { "w": "button.", "c": null, "s": 40.116, "e": 40.926 }
+      ]
+    },
+    {
+      "i": 19,
+      "kind": "line",
+      "text": "And then, downstairs, the landline stops ringing.",
+      "start": 41.04,
+      "end": 44.457,
+      "words": [
+        { "w": "And", "c": null, "s": 41.04, "e": 41.225 },
+        { "w": "then,", "c": null, "s": 41.28, "e": 41.477 },
+        { "w": "downstairs,", "c": null, "s": 41.522, "e": 42.289 },
+        { "w": "the", "c": null, "s": 42.486, "e": 42.584 },
+        { "w": "landline", "c": null, "s": 42.65, "e": 43.121 },
+        { "w": "stops", "c": "r", "s": 43.164, "e": 43.493 },
+        { "w": "ringing.", "c": null, "s": 43.558, "e": 44.457 }
+      ]
+    },
+    {
+      "i": 20,
+      "kind": "line",
+      "text": "Because somebody just answered it.",
+      "start": 44.57,
+      "end": 46.454,
+      "words": [
+        { "w": "Because", "c": null, "s": 44.57, "e": 44.898 },
+        { "w": "somebody", "c": null, "s": 44.931, "e": 45.227 },
+        { "w": "just", "c": null, "s": 45.282, "e": 45.457 },
+        { "w": "answered", "c": "r", "s": 45.501, "e": 45.786 },
+        { "w": "it.", "c": null, "s": 45.819, "e": 46.454 }
+      ]
+    },
+    {
+      "i": 21,
+      "kind": "line",
+      "text": "Nobody will ever fully explain what happened that week.",
+      "start": 47.114,
+      "end": 49.875,
+      "words": [
+        { "w": "Nobody", "c": null, "s": 47.114, "e": 47.421 },
+        { "w": "will", "c": null, "s": 47.454, "e": 47.585 },
+        { "w": "ever", "c": null, "s": 47.64, "e": 47.782 },
+        { "w": "fully", "c": null, "s": 47.837, "e": 48.078 },
+        { "w": "explain", "c": null, "s": 48.133, "e": 48.461 },
+        { "w": "what", "c": null, "s": 48.505, "e": 48.625 },
+        { "w": "happened", "c": null, "s": 48.67, "e": 48.943 },
+        { "w": "that", "c": null, "s": 48.965, "e": 49.086 },
+        { "w": "week.", "c": null, "s": 49.141, "e": 49.875 }
+      ]
+    },
+    {
+      "i": 22,
+      "kind": "line",
+      "text": "But the people who made it to Monday all followed the same rules.",
+      "start": 49.988,
+      "end": 53.229,
+      "words": [
+        { "w": "But", "c": null, "s": 49.988, "e": 50.142 },
+        { "w": "the", "c": null, "s": 50.163, "e": 50.228 },
+        { "w": "people", "c": null, "s": 50.261, "e": 50.48 },
+        { "w": "who", "c": null, "s": 50.503, "e": 50.601 },
+        { "w": "made", "c": null, "s": 50.656, "e": 50.82 },
+        { "w": "it", "c": null, "s": 50.853, "e": 50.908 },
+        { "w": "to", "c": null, "s": 50.941, "e": 50.995 },
+        { "w": "Monday", "c": null, "s": 51.061, "e": 51.401 },
+        { "w": "all", "c": null, "s": 51.466, "e": 51.663 },
+        { "w": "followed", "c": null, "s": 51.729, "e": 52.058 },
+        { "w": "the", "c": null, "s": 52.091, "e": 52.157 },
+        { "w": "same", "c": null, "s": 52.19, "e": 52.408 },
+        { "w": "rules.", "c": null, "s": 52.452, "e": 53.23 }
+      ]
+    },
+    {
+      "i": 23,
+      "kind": "line",
+      "text": "Thirteen of them.",
+      "start": 53.342,
+      "end": 54.482,
+      "words": [
+        { "w": "Thirteen", "c": null, "s": 53.342, "e": 53.792 },
+        { "w": "of", "c": null, "s": 53.835, "e": 53.89 },
+        { "w": "them.", "c": null, "s": 53.934, "e": 54.481 }
+      ]
+    },
+    {
+      "i": 24,
+      "kind": "line",
+      "text": "Night by night.",
+      "start": 54.708,
+      "end": 56.11,
+      "words": [
+        { "w": "Night", "c": null, "s": 54.708, "e": 54.993 },
+        { "w": "by", "c": null, "s": 55.037, "e": 55.136 },
+        { "w": "night.", "c": null, "s": 55.224, "e": 56.11 }
+      ]
+    },
+    {
+      "i": 25,
+      "kind": "line",
+      "text": "From the first ring, to the moment you realize who has been reading these rules to you.",
+      "start": 56.337,
+      "end": 61.419,
+      "words": [
+        { "w": "From", "c": null, "s": 56.337, "e": 56.556 },
+        { "w": "the", "c": null, "s": 56.6, "e": 56.665 },
+        { "w": "first", "c": null, "s": 56.698, "e": 56.961 },
+        { "w": "ring,", "c": null, "s": 57.026, "e": 57.421 },
+        { "w": "to", "c": null, "s": 57.684, "e": 57.793 },
+        { "w": "the", "c": null, "s": 57.848, "e": 57.914 },
+        { "w": "moment", "c": null, "s": 57.979, "e": 58.342 },
+        { "w": "you", "c": null, "s": 58.407, "e": 58.506 },
+        { "w": "realize", "c": null, "s": 58.593, "e": 59.02 },
+        { "w": "who", "c": null, "s": 59.053, "e": 59.162 },
+        { "w": "has", "c": null, "s": 59.195, "e": 59.283 },
+        { "w": "been", "c": null, "s": 59.327, "e": 59.458 },
+        { "w": "reading", "c": "r", "s": 59.513, "e": 59.754 },
+        { "w": "these", "c": null, "s": 59.798, "e": 59.962 },
+        { "w": "rules", "c": null, "s": 60.006, "e": 60.258 },
+        { "w": "to", "c": null, "s": 60.302, "e": 60.367 },
+        { "w": "you.", "c": null, "s": 60.455, "e": 61.419 }
+      ]
+    },
+    {
+      "i": 26,
+      "kind": "chapter",
+      "text": "Night one. The first ring.",
+      "start": 61.532,
+      "end": 63.854,
+      "words": [
+        { "w": "Night", "c": null, "s": 61.532, "e": 61.784 },
+        { "w": "one.", "c": null, "s": 61.839, "e": 62.19 },
+        { "w": "The", "c": null, "s": 62.496, "e": 62.616 },
+        { "w": "first", "c": null, "s": 62.66, "e": 62.934 },
+        { "w": "ring.", "c": null, "s": 63.01, "e": 63.854 }
+      ]
+    },
+    {
+      "i": 27,
+      "kind": "line",
+      "text": "At 3:00 AM, the first thing everyone does is the same.",
+      "start": 64.373,
+      "end": 68.141,
+      "words": [
+        { "w": "At", "c": null, "s": 64.373, "e": 64.548 },
+        { "w": "3:00", "c": "y", "s": 64.603, "e": 64.865 },
+        { "w": "AM,", "c": null, "s": 64.909, "e": 65.402 },
+        { "w": "the", "c": null, "s": 65.632, "e": 65.72 },
+        { "w": "first", "c": null, "s": 65.775, "e": 65.972 },
+        { "w": "thing", "c": null, "s": 66.005, "e": 66.147 },
+        { "w": "everyone", "c": null, "s": 66.191, "e": 66.552 },
+        { "w": "does", "c": null, "s": 66.596, "e": 66.946 },
+        { "w": "is", "c": null, "s": 67.012, "e": 67.122 },
+        { "w": "the", "c": null, "s": 67.176, "e": 67.253 },
+        { "w": "same.", "c": null, "s": 67.297, "e": 68.141 }
+      ]
+    },
+    {
+      "i": 28,
+      "kind": "line",
+      "text": "They answer.",
+      "start": 68.254,
+      "end": 69.437,
+      "words": [
+        { "w": "They", "c": null, "s": 68.254, "e": 68.44 },
+        { "w": "answer.", "c": null, "s": 68.506, "e": 69.437 }
+      ]
+    },
+    {
+      "i": 29,
+      "kind": "line",
+      "text": "Not because they're brave.",
+      "start": 69.663,
+      "end": 71.241,
+      "words": [
+        { "w": "Not", "c": null, "s": 69.663, "e": 69.849 },
+        { "w": "because", "c": null, "s": 69.893, "e": 70.156 },
+        { "w": "they're", "c": null, "s": 70.189, "e": 70.375 },
+        { "w": "brave.", "c": null, "s": 70.397, "e": 71.241 }
+      ]
+    },
+    {
+      "i": 30,
+      "kind": "line",
+      "text": "Because a ringing phone is the oldest command we have.",
+      "start": 71.354,
+      "end": 74.552,
+      "words": [
+        { "w": "Because", "c": null, "s": 71.354, "e": 71.66 },
+        { "w": "a", "c": null, "s": 71.682, "e": 71.715 },
+        { "w": "ringing", "c": null, "s": 71.781, "e": 72.033 },
+        { "w": "phone", "c": null, "s": 72.076, "e": 72.361 },
+        { "w": "is", "c": null, "s": 72.416, "e": 72.537 },
+        { "w": "the", "c": null, "s": 72.592, "e": 72.658 },
+        { "w": "oldest", "c": null, "s": 72.723, "e": 72.986 },
+        { "w": "command", "c": null, "s": 73.029, "e": 73.314 },
+        { "w": "we", "c": null, "s": 73.369, "e": 73.457 },
+        { "w": "have.", "c": null, "s": 73.523, "e": 74.552 }
+      ]
+    },
+    {
+      "i": 32,
+      "kind": "line",
+      "text": "Rule one.",
+      "start": 75.448,
+      "end": 76.456,
+      "words": [
+        { "w": "Rule", "c": null, "s": 75.448, "e": 75.711 },
+        { "w": "one.", "c": null, "s": 75.766, "e": 76.456 }
+      ]
+    },
+    {
+      "i": 33,
+      "kind": "line",
+      "text": "Never answer a call from your own number.",
+      "start": 76.588,
+      "end": 79.085,
+      "words": [
+        { "w": "Never", "c": null, "s": 76.588, "e": 76.916 },
+        { "w": "answer", "c": null, "s": 76.993, "e": 77.245 },
+        { "w": "a", "c": null, "s": 77.3, "e": 77.332 },
+        { "w": "call", "c": null, "s": 77.388, "e": 77.628 },
+        { "w": "from", "c": null, "s": 77.705, "e": 77.837 },
+        { "w": "your", "c": null, "s": 77.88, "e": 78.001 },
+        { "w": "own", "c": "r", "s": 78.044, "e": 78.165 },
+        { "w": "number.", "c": null, "s": 78.208, "e": 79.085 }
+      ]
+    },
+    {
+      "i": 34,
+      "kind": "line",
+      "text": "It isn't a glitch.",
+      "start": 79.198,
+      "end": 80.6,
+      "words": [
+        { "w": "It", "c": null, "s": 79.198, "e": 79.362 },
+        { "w": "isn't", "c": null, "s": 79.407, "e": 79.636 },
+        { "w": "a", "c": null, "s": 79.68, "e": 79.702 },
+        { "w": "glitch.", "c": null, "s": 79.745, "e": 80.6 }
+      ]
+    },
+    {
+      "i": 35,
+      "kind": "line",
+      "text": "Your carrier didn't get hacked.",
+      "start": 80.713,
+      "end": 82.334,
+      "words": [
+        { "w": "Your", "c": null, "s": 80.713, "e": 80.877 },
+        { "w": "carrier", "c": null, "s": 80.932, "e": 81.26 },
+        { "w": "didn't", "c": null, "s": 81.305, "e": 81.502 },
+        { "w": "get", "c": null, "s": 81.535, "e": 81.655 },
+        { "w": "hacked.", "c": null, "s": 81.71, "e": 82.334 }
+      ]
+    },
+    {
+      "i": 36,
+      "kind": "line",
+      "text": "Something is calling from the inside of the network, and it borrowed the one number it knew you would never block.",
+      "start": 82.447,
+      "end": 87.924,
+      "words": [
+        { "w": "Something", "c": null, "s": 82.447, "e": 82.775 },
+        { "w": "is", "c": null, "s": 82.82, "e": 82.885 },
+        { "w": "calling", "c": null, "s": 82.94, "e": 83.247 },
+        { "w": "from", "c": null, "s": 83.312, "e": 83.444 },
+        { "w": "the", "c": null, "s": 83.476, "e": 83.542 },
+        { "w": "inside", "c": null, "s": 83.597, "e": 83.915 },
+        { "w": "of", "c": null, "s": 83.948, "e": 83.992 },
+        { "w": "the", "c": null, "s": 84.035, "e": 84.101 },
+        { "w": "network,", "c": null, "s": 84.145, "e": 84.638 },
+        { "w": "and", "c": null, "s": 84.802, "e": 84.933 },
+        { "w": "it", "c": null, "s": 84.989, "e": 85.043 },
+        { "w": "borrowed", "c": null, "s": 85.098, "e": 85.448 },
+        { "w": "the", "c": null, "s": 85.492, "e": 85.558 },
+        { "w": "one", "c": null, "s": 85.624, "e": 85.799 },
+        { "w": "number", "c": null, "s": 85.854, "e": 86.127 },
+        { "w": "it", "c": null, "s": 86.193, "e": 86.258 },
+        { "w": "knew", "c": null, "s": 86.303, "e": 86.456 },
+        { "w": "you", "c": null, "s": 86.5, "e": 86.565 },
+        { "w": "would", "c": null, "s": 86.598, "e": 86.73 },
+        { "w": "never", "c": null, "s": 86.774, "e": 86.982 },
+        { "w": "block.", "c": null, "s": 87.037, "e": 87.924 }
+      ]
+    },
+    {
+      "i": 37,
+      "kind": "line",
+      "text": "Let it ring.",
+      "start": 88.037,
+      "end": 89.001,
+      "words": [
+        { "w": "Let", "c": null, "s": 88.037, "e": 88.223 },
+        { "w": "it", "c": null, "s": 88.256, "e": 88.322 },
+        { "w": "ring.", "c": null, "s": 88.376, "e": 89.001 }
+      ]
+    },
+    {
+      "i": 38,
+      "kind": "line",
+      "text": "It rings exactly thirteen times.",
+      "start": 89.227,
+      "end": 91.549,
+      "words": [
+        { "w": "It", "c": null, "s": 89.227, "e": 89.37 },
+        { "w": "rings", "c": null, "s": 89.425, "e": 89.655 },
+        { "w": "exactly", "c": null, "s": 89.709, "e": 90.192 },
+        { "w": "thirteen", "c": "y", "s": 90.257, "e": 90.684 },
+        { "w": "times.", "c": null, "s": 90.739, "e": 91.549 }
+      ]
+    },
+    {
+      "i": 39,
+      "kind": "line",
+      "text": "Then the screen goes black, and the phone shows 41 percent again, as if nothing happened.",
+      "start": 91.662,
+      "end": 97.139,
+      "words": [
+        { "w": "Then", "c": null, "s": 91.662, "e": 91.881 },
+        { "w": "the", "c": null, "s": 91.925, "e": 91.991 },
+        { "w": "screen", "c": null, "s": 92.013, "e": 92.265 },
+        { "w": "goes", "c": null, "s": 92.32, "e": 92.506 },
+        { "w": "black,", "c": null, "s": 92.549, "e": 92.988 },
+        { "w": "and", "c": null, "s": 93.097, "e": 93.228 },
+        { "w": "the", "c": null, "s": 93.273, "e": 93.338 },
+        { "w": "phone", "c": null, "s": 93.371, "e": 93.699 },
+        { "w": "shows", "c": null, "s": 93.743, "e": 93.984 },
+        { "w": "41", "c": "y", "s": 94.039, "e": 94.444 },
+        { "w": "percent", "c": null, "s": 94.532, "e": 94.806 },
+        { "w": "again,", "c": null, "s": 94.85, "e": 95.288 },
+        { "w": "as", "c": null, "s": 95.551, "e": 95.704 },
+        { "w": "if", "c": null, "s": 95.758, "e": 95.835 },
+        { "w": "nothing", "c": null, "s": 95.901, "e": 96.164 },
+        { "w": "happened.", "c": null, "s": 96.219, "e": 97.139 }
+      ]
+    },
+    {
+      "i": 40,
+      "kind": "line",
+      "text": "But down the street, a dog starts barking.",
+      "start": 97.252,
+      "end": 99.837,
+      "words": [
+        { "w": "But", "c": null, "s": 97.252, "e": 97.438 },
+        { "w": "down", "c": null, "s": 97.482, "e": 97.668 },
+        { "w": "the", "c": null, "s": 97.712, "e": 97.777 },
+        { "w": "street,", "c": null, "s": 97.81, "e": 98.205 },
+        { "w": "a", "c": null, "s": 98.271, "e": 98.347 },
+        { "w": "dog", "c": null, "s": 98.413, "e": 98.632 },
+        { "w": "starts", "c": null, "s": 98.687, "e": 98.95 },
+        { "w": "barking.", "c": null, "s": 98.993, "e": 99.837 }
+      ]
+    },
+    {
+      "i": 41,
+      "kind": "line",
+      "text": "Then another.",
+      "start": 99.95,
+      "end": 100.958,
+      "words": [
+        { "w": "Then", "c": null, "s": 99.95, "e": 100.147 },
+        { "w": "another.", "c": null, "s": 100.202, "e": 100.958 }
+      ]
+    },
+    {
+      "i": 42,
+      "kind": "line",
+      "text": "Then every dog in the neighborhood.",
+      "start": 101.184,
+      "end": 102.98,
+      "words": [
+        { "w": "Then", "c": null, "s": 101.184, "e": 101.381 },
+        { "w": "every", "c": null, "s": 101.436, "e": 101.633 },
+        { "w": "dog", "c": null, "s": 101.699, "e": 101.951 },
+        { "w": "in", "c": null, "s": 101.994, "e": 102.049 },
+        { "w": "the", "c": null, "s": 102.082, "e": 102.148 },
+        { "w": "neighborhood.", "c": null, "s": 102.181, "e": 102.98 }
+      ]
+    },
+    {
+      "i": 43,
+      "kind": "line",
+      "text": "And you hear your grandma's slippers on the stairs.",
+      "start": 103.093,
+      "end": 105.635,
+      "words": [
+        { "w": "And", "c": null, "s": 103.093, "e": 103.236 },
+        { "w": "you", "c": null, "s": 103.279, "e": 103.357 },
+        { "w": "hear", "c": null, "s": 103.422, "e": 103.554 },
+        { "w": "your", "c": null, "s": 103.597, "e": 103.707 },
+        { "w": "grandma's", "c": null, "s": 103.74, "e": 104.134 },
+        { "w": "slippers", "c": null, "s": 104.167, "e": 104.507 },
+        { "w": "on", "c": null, "s": 104.55, "e": 104.616 },
+        { "w": "the", "c": null, "s": 104.649, "e": 104.714 },
+        { "w": "stairs.", "c": null, "s": 104.747, "e": 105.635 }
+      ]
+    },
+    {
+      "i": 45,
+      "kind": "line",
+      "text": "Rule two.",
+      "start": 106.531,
+      "end": 107.714,
+      "words": [
+        { "w": "Rule", "c": null, "s": 106.531, "e": 106.816 },
+        { "w": "two.", "c": null, "s": 106.859, "e": 107.714 }
+      ]
+    },
+    {
+      "i": 46,
+      "kind": "line",
+      "text": "If someone in your house answered, do not ask them what they heard.",
+      "start": 107.846,
+      "end": 111.658,
+      "words": [
+        { "w": "If", "c": null, "s": 107.846, "e": 108.0 },
+        { "w": "someone", "c": null, "s": 108.055, "e": 108.35 },
+        { "w": "in", "c": null, "s": 108.383, "e": 108.438 },
+        { "w": "your", "c": null, "s": 108.481, "e": 108.591 },
+        { "w": "house", "c": null, "s": 108.635, "e": 108.865 },
+        { "w": "answered,", "c": null, "s": 108.898, "e": 109.358 },
+        { "w": "do", "c": null, "s": 109.664, "e": 109.763 },
+        { "w": "not", "c": "r", "s": 109.828, "e": 109.971 },
+        { "w": "ask", "c": null, "s": 110.025, "e": 110.223 },
+        { "w": "them", "c": null, "s": 110.277, "e": 110.398 },
+        { "w": "what", "c": null, "s": 110.442, "e": 110.562 },
+        { "w": "they", "c": null, "s": 110.595, "e": 110.716 },
+        { "w": "heard.", "c": null, "s": 110.781, "e": 111.658 }
+      ]
+    },
+    {
+      "i": 47,
+      "kind": "line",
+      "text": "Grandma is standing in the kitchen doorway, still holding the receiver.",
+      "start": 111.771,
+      "end": 115.408,
+      "words": [
+        { "w": "Grandma", "c": null, "s": 111.771, "e": 112.154 },
+        { "w": "is", "c": null, "s": 112.176, "e": 112.231 },
+        { "w": "standing", "c": null, "s": 112.263, "e": 112.571 },
+        { "w": "in", "c": null, "s": 112.614, "e": 112.669 },
+        { "w": "the", "c": null, "s": 112.702, "e": 112.768 },
+        { "w": "kitchen", "c": null, "s": 112.811, "e": 113.063 },
+        { "w": "doorway,", "c": null, "s": 113.107, "e": 113.61 },
+        { "w": "still", "c": null, "s": 113.775, "e": 114.016 },
+        { "w": "holding", "c": null, "s": 114.082, "e": 114.356 },
+        { "w": "the", "c": null, "s": 114.41, "e": 114.476 },
+        { "w": "receiver.", "c": null, "s": 114.542, "e": 115.408 }
+      ]
+    },
+    {
+      "i": 48,
+      "kind": "line",
+      "text": "The cord is swinging.",
+      "start": 115.521,
+      "end": 116.835,
+      "words": [
+        { "w": "The", "c": null, "s": 115.521, "e": 115.675 },
+        { "w": "cord", "c": null, "s": 115.718, "e": 115.904 },
+        { "w": "is", "c": null, "s": 115.948, "e": 116.013 },
+        { "w": "swinging.", "c": null, "s": 116.046, "e": 116.835 }
+      ]
+    },
+    {
+      "i": 49,
+      "kind": "line",
+      "text": "She's smiling.",
+      "start": 116.948,
+      "end": 117.999,
+      "words": [
+        { "w": "She's", "c": null, "s": 116.948, "e": 117.167 },
+        { "w": "smiling.", "c": null, "s": 117.189, "e": 118.0 }
+      ]
+    },
+    {
+      "i": 50,
+      "kind": "line",
+      "text": "She says it was Grandpa.",
+      "start": 118.225,
+      "end": 119.715,
+      "words": [
+        { "w": "She", "c": null, "s": 118.225, "e": 118.39 },
+        { "w": "says", "c": null, "s": 118.444, "e": 118.608 },
+        { "w": "it", "c": null, "s": 118.653, "e": 118.708 },
+        { "w": "was", "c": null, "s": 118.741, "e": 118.817 },
+        { "w": "Grandpa.", "c": "y", "s": 118.86, "e": 119.715 }
+      ]
+    },
+    {
+      "i": 51,
+      "kind": "line",
+      "text": "He called to say he's coming home.",
+      "start": 119.828,
+      "end": 121.712,
+      "words": [
+        { "w": "He", "c": null, "s": 119.828, "e": 119.959 },
+        { "w": "called", "c": null, "s": 120.004, "e": 120.234 },
+        { "w": "to", "c": null, "s": 120.256, "e": 120.299 },
+        { "w": "say", "c": null, "s": 120.343, "e": 120.475 },
+        { "w": "he's", "c": null, "s": 120.529, "e": 120.65 },
+        { "w": "coming", "c": null, "s": 120.683, "e": 120.912 },
+        { "w": "home.", "c": null, "s": 120.967, "e": 121.712 }
+      ]
+    },
+    {
+      "i": 52,
+      "kind": "line",
+      "text": "Grandpa died in 2009.",
+      "start": 121.825,
+      "end": 123.973,
+      "words": [
+        { "w": "Grandpa", "c": null, "s": 121.825, "e": 122.187 },
+        { "w": "died", "c": null, "s": 122.242, "e": 122.483 },
+        { "w": "in", "c": null, "s": 122.526, "e": 122.581 },
+        { "w": "2009.", "c": "y", "s": 122.636, "e": 123.973 }
+      ]
+    },
+    {
+      "i": 53,
+      "kind": "line",
+      "text": "You want to ask what his voice sounded like.",
+      "start": 124.086,
+      "end": 126.144,
+      "words": [
+        { "w": "You", "c": null, "s": 124.086, "e": 124.195 },
+        { "w": "want", "c": null, "s": 124.24, "e": 124.371 },
+        { "w": "to", "c": null, "s": 124.392, "e": 124.437 },
+        { "w": "ask", "c": null, "s": 124.492, "e": 124.689 },
+        { "w": "what", "c": null, "s": 124.743, "e": 124.853 },
+        { "w": "his", "c": null, "s": 124.886, "e": 124.962 },
+        { "w": "voice", "c": null, "s": 125.017, "e": 125.258 },
+        { "w": "sounded", "c": null, "s": 125.279, "e": 125.542 },
+        { "w": "like.", "c": null, "s": 125.587, "e": 126.145 }
+      ]
+    },
+    {
+      "i": 54,
+      "kind": "line",
+      "text": "Don't.",
+      "start": 126.258,
+      "end": 127.309,
+      "words": [{ "w": "Don't.", "c": null, "s": 126.258, "e": 127.309 }]
+    },
+    {
+      "i": 55,
+      "kind": "line",
+      "text": "The people who asked started hearing it too.",
+      "start": 127.828,
+      "end": 130.501,
+      "words": [
+        { "w": "The", "c": null, "s": 127.828, "e": 127.982 },
+        { "w": "people", "c": null, "s": 128.014, "e": 128.223 },
+        { "w": "who", "c": null, "s": 128.244, "e": 128.343 },
+        { "w": "asked", "c": null, "s": 128.42, "e": 128.77 },
+        { "w": "started", "c": null, "s": 128.847, "e": 129.164 },
+        { "w": "hearing", "c": null, "s": 129.219, "e": 129.471 },
+        { "w": "it", "c": null, "s": 129.526, "e": 129.592 },
+        { "w": "too.", "c": null, "s": 129.625, "e": 130.501 }
+      ]
+    },
+    {
+      "i": 56,
+      "kind": "line",
+      "text": "Just take the receiver out of her hand.",
+      "start": 130.614,
+      "end": 132.629,
+      "words": [
+        { "w": "Just", "c": null, "s": 130.614, "e": 130.844 },
+        { "w": "take", "c": null, "s": 130.877, "e": 131.052 },
+        { "w": "the", "c": null, "s": 131.085, "e": 131.151 },
+        { "w": "receiver", "c": null, "s": 131.217, "e": 131.6 },
+        { "w": "out", "c": null, "s": 131.655, "e": 131.764 },
+        { "w": "of", "c": null, "s": 131.797, "e": 131.841 },
+        { "w": "her", "c": null, "s": 131.895, "e": 131.973 },
+        { "w": "hand.", "c": null, "s": 132.027, "e": 132.629 }
+      ]
+    },
+    {
+      "i": 57,
+      "kind": "line",
+      "text": "Put it back on the hook.",
+      "start": 132.742,
+      "end": 134.057,
+      "words": [
+        { "w": "Put", "c": null, "s": 132.742, "e": 132.94 },
+        { "w": "it", "c": null, "s": 132.973, "e": 133.016 },
+        { "w": "back", "c": null, "s": 133.049, "e": 133.213 },
+        { "w": "on", "c": null, "s": 133.268, "e": 133.334 },
+        { "w": "the", "c": null, "s": 133.367, "e": 133.432 },
+        { "w": "hook.", "c": null, "s": 133.465, "e": 134.057 }
+      ]
+    },
+    {
+      "i": 58,
+      "kind": "line",
+      "text": "And unplug the cable from the wall.",
+      "start": 134.17,
+      "end": 136.317,
+      "words": [
+        { "w": "And", "c": null, "s": 134.17, "e": 134.324 },
+        { "w": "unplug", "c": null, "s": 134.378, "e": 134.707 },
+        { "w": "the", "c": null, "s": 134.75, "e": 134.816 },
+        { "w": "cable", "c": null, "s": 134.849, "e": 135.111 },
+        { "w": "from", "c": null, "s": 135.144, "e": 135.276 },
+        { "w": "the", "c": null, "s": 135.32, "e": 135.386 },
+        { "w": "wall.", "c": null, "s": 135.419, "e": 136.317 }
+      ]
+    },
+    {
+      "i": 60,
+      "kind": "line",
+      "text": "Rule three.",
+      "start": 137.213,
+      "end": 138.44,
+      "words": [
+        { "w": "Rule", "c": null, "s": 137.213, "e": 137.531 },
+        { "w": "three.", "c": null, "s": 137.586, "e": 138.44 }
+      ]
+    },
+    {
+      "i": 61,
+      "kind": "line",
+      "text": "Before the sun comes up, agree on a family code word.",
+      "start": 138.572,
+      "end": 141.77,
+      "words": [
+        { "w": "Before", "c": null, "s": 138.572, "e": 138.933 },
+        { "w": "the", "c": null, "s": 138.966, "e": 139.032 },
+        { "w": "sun", "c": null, "s": 139.064, "e": 139.218 },
+        { "w": "comes", "c": null, "s": 139.284, "e": 139.503 },
+        { "w": "up,", "c": null, "s": 139.558, "e": 139.798 },
+        { "w": "agree", "c": null, "s": 140.028, "e": 140.335 },
+        { "w": "on", "c": null, "s": 140.368, "e": 140.434 },
+        { "w": "a", "c": null, "s": 140.477, "e": 140.499 },
+        { "w": "family", "c": null, "s": 140.554, "e": 140.839 },
+        { "w": "code", "c": "g", "s": 140.893, "e": 141.124 },
+        { "w": "word.", "c": null, "s": 141.157, "e": 141.77 }
+      ]
+    },
+    {
+      "i": 62,
+      "kind": "line",
+      "text": "In person.",
+      "start": 141.883,
+      "end": 143.023,
+      "words": [
+        { "w": "In", "c": null, "s": 141.883, "e": 142.058 },
+        { "w": "person.", "c": null, "s": 142.135, "e": 143.022 }
+      ]
+    },
+    {
+      "i": 63,
+      "kind": "line",
+      "text": "Out loud.",
+      "start": 143.249,
+      "end": 144.212,
+      "words": [
+        { "w": "Out", "c": null, "s": 143.249, "e": 143.468 },
+        { "w": "loud.", "c": null, "s": 143.512, "e": 144.213 }
+      ]
+    },
+    {
+      "i": 64,
+      "kind": "line",
+      "text": "Never over the phone, never in a text, never in a chat.",
+      "start": 144.439,
+      "end": 148.294,
+      "words": [
+        { "w": "Never", "c": null, "s": 144.439, "e": 144.757 },
+        { "w": "over", "c": null, "s": 144.811, "e": 144.964 },
+        { "w": "the", "c": null, "s": 145.019, "e": 145.085 },
+        { "w": "phone,", "c": null, "s": 145.118, "e": 145.512 },
+        { "w": "never", "c": null, "s": 145.819, "e": 146.049 },
+        { "w": "in", "c": null, "s": 146.104, "e": 146.158 },
+        { "w": "a", "c": null, "s": 146.202, "e": 146.224 },
+        { "w": "text,", "c": null, "s": 146.278, "e": 146.76 },
+        { "w": "never", "c": null, "s": 147.024, "e": 147.254 },
+        { "w": "in", "c": null, "s": 147.297, "e": 147.352 },
+        { "w": "a", "c": null, "s": 147.385, "e": 147.418 },
+        { "w": "chat.", "c": null, "s": 147.473, "e": 148.294 }
+      ]
+    },
+    {
+      "i": 65,
+      "kind": "line",
+      "text": "Pick something nobody could guess from your life online.",
+      "start": 148.408,
+      "end": 151.124,
+      "words": [
+        { "w": "Pick", "c": null, "s": 148.408, "e": 148.583 },
+        { "w": "something", "c": null, "s": 148.626, "e": 148.878 },
+        { "w": "nobody", "c": null, "s": 148.933, "e": 149.208 },
+        { "w": "could", "c": null, "s": 149.251, "e": 149.382 },
+        { "w": "guess", "c": null, "s": 149.415, "e": 149.624 },
+        { "w": "from", "c": null, "s": 149.657, "e": 149.766 },
+        { "w": "your", "c": null, "s": 149.809, "e": 149.908 },
+        { "w": "life", "c": null, "s": 149.963, "e": 150.149 },
+        { "w": "online.", "c": null, "s": 150.192, "e": 151.124 }
+      ]
+    },
+    {
+      "i": 66,
+      "kind": "line",
+      "text": "Not a pet.",
+      "start": 151.237,
+      "end": 152.025,
+      "words": [
+        { "w": "Not", "c": null, "s": 151.237, "e": 151.423 },
+        { "w": "a", "c": null, "s": 151.467, "e": 151.489 },
+        { "w": "pet.", "c": null, "s": 151.532, "e": 152.025 }
+      ]
+    },
+    {
+      "i": 67,
+      "kind": "line",
+      "text": "Not a street.",
+      "start": 152.252,
+      "end": 153.392,
+      "words": [
+        { "w": "Not", "c": null, "s": 152.252, "e": 152.492 },
+        { "w": "a", "c": null, "s": 152.537, "e": 152.558 },
+        { "w": "street.", "c": null, "s": 152.603, "e": 153.391 }
+      ]
+    },
+    {
+      "i": 68,
+      "kind": "line",
+      "text": "Not a birthday.",
+      "start": 153.618,
+      "end": 155.02,
+      "words": [
+        { "w": "Not", "c": null, "s": 153.618, "e": 153.858 },
+        { "w": "a", "c": null, "s": 153.903, "e": 153.925 },
+        { "w": "birthday.", "c": null, "s": 153.969, "e": 155.02 }
+      ]
+    },
+    {
+      "i": 69,
+      "kind": "line",
+      "text": "You and Leo pick a word at the kitchen table, whispering, like it's a game.",
+      "start": 155.246,
+      "end": 159.495,
+      "words": [
+        { "w": "You", "c": null, "s": 155.246, "e": 155.41 },
+        { "w": "and", "c": null, "s": 155.465, "e": 155.531 },
+        { "w": "Leo", "c": null, "s": 155.575, "e": 155.793 },
+        { "w": "pick", "c": null, "s": 155.859, "e": 156.013 },
+        { "w": "a", "c": null, "s": 156.068, "e": 156.09 },
+        { "w": "word", "c": null, "s": 156.156, "e": 156.473 },
+        { "w": "at", "c": null, "s": 156.517, "e": 156.593 },
+        { "w": "the", "c": null, "s": 156.637, "e": 156.703 },
+        { "w": "kitchen", "c": null, "s": 156.736, "e": 156.988 },
+        { "w": "table,", "c": null, "s": 157.021, "e": 157.349 },
+        { "w": "whispering,", "c": null, "s": 157.371, "e": 157.897 },
+        { "w": "like", "c": null, "s": 158.204, "e": 158.39 },
+        { "w": "it's", "c": null, "s": 158.423, "e": 158.543 },
+        { "w": "a", "c": null, "s": 158.575, "e": 158.598 },
+        { "w": "game.", "c": null, "s": 158.653, "e": 159.496 }
+      ]
+    },
+    {
+      "i": 70,
+      "kind": "line",
+      "text": "It isn't a game.",
+      "start": 159.608,
+      "end": 160.924,
+      "words": [
+        { "w": "It", "c": null, "s": 159.608, "e": 159.762 },
+        { "w": "isn't", "c": null, "s": 159.817, "e": 160.025 },
+        { "w": "a", "c": null, "s": 160.069, "e": 160.091 },
+        { "w": "game.", "c": null, "s": 160.145, "e": 160.923 }
+      ]
+    },
+    {
+      "i": 71,
+      "kind": "line",
+      "text": "By the end of this week, it will be the only thing that tells you who is real.",
+      "start": 161.037,
+      "end": 165.286,
+      "words": [
+        { "w": "By", "c": null, "s": 161.037, "e": 161.201 },
+        { "w": "the", "c": null, "s": 161.245, "e": 161.31 },
+        { "w": "end", "c": null, "s": 161.355, "e": 161.431 },
+        { "w": "of", "c": null, "s": 161.475, "e": 161.519 },
+        { "w": "this", "c": null, "s": 161.552, "e": 161.672 },
+        { "w": "week,", "c": null, "s": 161.738, "e": 162.099 },
+        { "w": "it", "c": null, "s": 162.263, "e": 162.362 },
+        { "w": "will", "c": null, "s": 162.395, "e": 162.515 },
+        { "w": "be", "c": null, "s": 162.559, "e": 162.625 },
+        { "w": "the", "c": null, "s": 162.658, "e": 162.735 },
+        { "w": "only", "c": null, "s": 162.8, "e": 163.008 },
+        { "w": "thing", "c": null, "s": 163.063, "e": 163.282 },
+        { "w": "that", "c": null, "s": 163.358, "e": 163.491 },
+        { "w": "tells", "c": null, "s": 163.523, "e": 163.753 },
+        { "w": "you", "c": null, "s": 163.797, "e": 163.885 },
+        { "w": "who", "c": null, "s": 163.95, "e": 164.071 },
+        { "w": "is", "c": null, "s": 164.147, "e": 164.225 },
+        { "w": "real.", "c": null, "s": 164.301, "e": 165.287 }
+      ]
+    },
+    {
+      "i": 72,
+      "kind": "chapter",
+      "text": "Day two. The ones who answered.",
+      "start": 165.399,
+      "end": 167.853,
+      "words": [
+        { "w": "Day", "c": null, "s": 165.399, "e": 165.662 },
+        { "w": "two.", "c": null, "s": 165.717, "e": 166.221 },
+        { "w": "The", "c": null, "s": 166.385, "e": 166.506 },
+        { "w": "ones", "c": null, "s": 166.582, "e": 166.758 },
+        { "w": "who", "c": null, "s": 166.79, "e": 166.889 },
+        { "w": "answered.", "c": null, "s": 166.965, "e": 167.853 }
+      ]
+    },
+    {
+      "i": 73,
+      "kind": "line",
+      "text": "In the morning the news says it was a solar storm.",
+      "start": 168.372,
+      "end": 171.263,
+      "words": [
+        { "w": "In", "c": null, "s": 168.372, "e": 168.536 },
+        { "w": "the", "c": null, "s": 168.569, "e": 168.635 },
+        { "w": "morning", "c": null, "s": 168.678, "e": 168.919 },
+        { "w": "the", "c": null, "s": 168.975, "e": 169.04 },
+        { "w": "news", "c": null, "s": 169.094, "e": 169.281 },
+        { "w": "says", "c": null, "s": 169.303, "e": 169.621 },
+        { "w": "it", "c": null, "s": 169.73, "e": 169.84 },
+        { "w": "was", "c": null, "s": 169.873, "e": 169.992 },
+        { "w": "a", "c": null, "s": 170.047, "e": 170.07 },
+        { "w": "solar", "c": null, "s": 170.113, "e": 170.387 },
+        { "w": "storm.", "c": null, "s": 170.442, "e": 171.263 }
+      ]
+    },
+    {
+      "i": 74,
+      "kind": "line",
+      "text": "Then a software update.",
+      "start": 171.376,
+      "end": 172.954,
+      "words": [
+        { "w": "Then", "c": null, "s": 171.376, "e": 171.585 },
+        { "w": "a", "c": null, "s": 171.628, "e": 171.65 },
+        { "w": "software", "c": null, "s": 171.705, "e": 172.066 },
+        { "w": "update.", "c": null, "s": 172.099, "e": 172.954 }
+      ]
+    },
+    {
+      "i": 75,
+      "kind": "line",
+      "text": "Then a hoax.",
+      "start": 173.067,
+      "end": 174.162,
+      "words": [
+        { "w": "Then", "c": null, "s": 173.067, "e": 173.275 },
+        { "w": "a", "c": null, "s": 173.319, "e": 173.352 },
+        { "w": "hoax.", "c": null, "s": 173.407, "e": 174.162 }
+      ]
+    },
+    {
+      "i": 76,
+      "kind": "line",
+      "text": "By noon, nobody says anything, because the people on the news start repeating themselves.",
+      "start": 174.389,
+      "end": 178.944,
+      "words": [
+        { "w": "By", "c": null, "s": 174.389, "e": 174.553 },
+        { "w": "noon,", "c": null, "s": 174.629, "e": 174.958 },
+        { "w": "nobody", "c": null, "s": 175.024, "e": 175.342 },
+        { "w": "says", "c": null, "s": 175.386, "e": 175.582 },
+        { "w": "anything,", "c": null, "s": 175.626, "e": 176.119 },
+        { "w": "because", "c": null, "s": 176.24, "e": 176.513 },
+        { "w": "the", "c": null, "s": 176.536, "e": 176.601 },
+        { "w": "people", "c": null, "s": 176.623, "e": 176.853 },
+        { "w": "on", "c": null, "s": 176.886, "e": 176.952 },
+        { "w": "the", "c": null, "s": 176.985, "e": 177.05 },
+        { "w": "news", "c": null, "s": 177.094, "e": 177.28 },
+        { "w": "start", "c": null, "s": 177.313, "e": 177.521 },
+        { "w": "repeating", "c": "r", "s": 177.565, "e": 177.915 },
+        { "w": "themselves.", "c": null, "s": 177.948, "e": 178.945 }
+      ]
+    },
+    {
+      "i": 77,
+      "kind": "line",
+      "text": "Same sentence.",
+      "start": 179.058,
+      "end": 180.109,
+      "words": [
+        { "w": "Same", "c": null, "s": 179.058, "e": 179.353 },
+        { "w": "sentence.", "c": null, "s": 179.386, "e": 180.109 }
+      ]
+    },
+    {
+      "i": 78,
+      "kind": "line",
+      "text": "Same smile.",
+      "start": 180.336,
+      "end": 181.694,
+      "words": [
+        { "w": "Same", "c": null, "s": 180.336, "e": 180.687 },
+        { "w": "smile.", "c": null, "s": 180.719, "e": 181.694 }
+      ]
+    },
+    {
+      "i": 79,
+      "kind": "line",
+      "text": "Every thirteen minutes.",
+      "start": 181.921,
+      "end": 183.717,
+      "words": [
+        { "w": "Every", "c": null, "s": 181.921, "e": 182.216 },
+        { "w": "thirteen", "c": "y", "s": 182.272, "e": 182.688 },
+        { "w": "minutes.", "c": null, "s": 182.753, "e": 183.717 }
+      ]
+    },
+    {
+      "i": 80,
+      "kind": "line",
+      "text": "At school, half of Leo's class is missing.",
+      "start": 183.943,
+      "end": 186.747,
+      "words": [
+        { "w": "At", "c": null, "s": 183.943, "e": 184.108 },
+        { "w": "school,", "c": null, "s": 184.152, "e": 184.71 },
+        { "w": "half", "c": null, "s": 184.82, "e": 185.027 },
+        { "w": "of", "c": null, "s": 185.082, "e": 185.126 },
+        { "w": "Leo's", "c": null, "s": 185.192, "e": 185.455 },
+        { "w": "class", "c": null, "s": 185.488, "e": 185.751 },
+        { "w": "is", "c": null, "s": 185.794, "e": 185.871 },
+        { "w": "missing.", "c": null, "s": 185.925, "e": 186.747 }
+      ]
+    },
+    {
+      "i": 81,
+      "kind": "line",
+      "text": "At work, your boss sends a voice note asking everyone to come in early tomorrow.",
+      "start": 186.86,
+      "end": 191.197,
+      "words": [
+        { "w": "At", "c": null, "s": 186.86, "e": 187.058 },
+        { "w": "work,", "c": null, "s": 187.112, "e": 187.507 },
+        { "w": "your", "c": null, "s": 187.671, "e": 187.802 },
+        { "w": "boss", "c": null, "s": 187.846, "e": 188.065 },
+        { "w": "sends", "c": null, "s": 188.098, "e": 188.295 },
+        { "w": "a", "c": null, "s": 188.328, "e": 188.35 },
+        { "w": "voice", "c": null, "s": 188.405, "e": 188.645 },
+        { "w": "note", "c": null, "s": 188.69, "e": 188.875 },
+        { "w": "asking", "c": null, "s": 188.92, "e": 189.226 },
+        { "w": "everyone", "c": null, "s": 189.281, "e": 189.588 },
+        { "w": "to", "c": null, "s": 189.609, "e": 189.664 },
+        { "w": "come", "c": null, "s": 189.708, "e": 189.861 },
+        { "w": "in", "c": null, "s": 189.894, "e": 189.96 },
+        { "w": "early", "c": null, "s": 190.025, "e": 190.244 },
+        { "w": "tomorrow.", "c": null, "s": 190.31, "e": 191.198 }
+      ]
+    },
+    {
+      "i": 82,
+      "kind": "line",
+      "text": "At 3:00 AM.",
+      "start": 191.31,
+      "end": 192.187,
+      "words": [
+        { "w": "At", "c": null, "s": 191.31, "e": 191.475 },
+        { "w": "3:00", "c": "y", "s": 191.529, "e": 191.858 },
+        { "w": "AM.", "c": null, "s": 191.913, "e": 192.187 }
+      ]
+    },
+    {
+      "i": 84,
+      "kind": "line",
+      "text": "Rule four.",
+      "start": 193.083,
+      "end": 194.223,
+      "words": [
+        { "w": "Rule", "c": null, "s": 193.083, "e": 193.39 },
+        { "w": "four.", "c": null, "s": 193.456, "e": 194.222 }
+      ]
+    },
+    {
+      "i": 85,
+      "kind": "line",
+      "text": "Never say the word yes on the phone.",
+      "start": 194.355,
+      "end": 196.413,
+      "words": [
+        { "w": "Never", "c": null, "s": 194.355, "e": 194.618 },
+        { "w": "say", "c": null, "s": 194.673, "e": 194.804 },
+        { "w": "the", "c": null, "s": 194.837, "e": 194.902 },
+        { "w": "word", "c": null, "s": 194.935, "e": 195.089 },
+        { "w": "yes", "c": "r", "s": 195.132, "e": 195.352 },
+        { "w": "on", "c": null, "s": 195.407, "e": 195.493 },
+        { "w": "the", "c": null, "s": 195.526, "e": 195.592 },
+        { "w": "phone.", "c": null, "s": 195.625, "e": 196.414 }
+      ]
+    },
+    {
+      "i": 86,
+      "kind": "line",
+      "text": "Not to a friend.",
+      "start": 196.526,
+      "end": 197.622,
+      "words": [
+        { "w": "Not", "c": null, "s": 196.526, "e": 196.735 },
+        { "w": "to", "c": null, "s": 196.757, "e": 196.822 },
+        { "w": "a", "c": null, "s": 196.899, "e": 196.921 },
+        { "w": "friend.", "c": null, "s": 196.987, "e": 197.622 }
+      ]
+    },
+    {
+      "i": 87,
+      "kind": "line",
+      "text": "Not to your mom.",
+      "start": 197.735,
+      "end": 199.093,
+      "words": [
+        { "w": "Not", "c": null, "s": 197.735, "e": 197.987 },
+        { "w": "to", "c": null, "s": 198.02, "e": 198.075 },
+        { "w": "your", "c": null, "s": 198.129, "e": 198.25 },
+        { "w": "mom.", "c": null, "s": 198.305, "e": 199.093 }
+      ]
+    },
+    {
+      "i": 88,
+      "kind": "line",
+      "text": "Not to a robot asking if you can hear it.",
+      "start": 199.207,
+      "end": 202.055,
+      "words": [
+        { "w": "Not", "c": null, "s": 199.207, "e": 199.492 },
+        { "w": "to", "c": null, "s": 199.525, "e": 199.59 },
+        { "w": "a", "c": null, "s": 199.699, "e": 199.732 },
+        { "w": "robot", "c": null, "s": 199.809, "e": 200.214 },
+        { "w": "asking", "c": null, "s": 200.28, "e": 200.63 },
+        { "w": "if", "c": null, "s": 200.685, "e": 200.751 },
+        { "w": "you", "c": null, "s": 200.794, "e": 200.86 },
+        { "w": "can", "c": null, "s": 200.905, "e": 201.014 },
+        { "w": "hear", "c": null, "s": 201.079, "e": 201.255 },
+        { "w": "it.", "c": null, "s": 201.321, "e": 202.055 }
+      ]
+    },
+    {
+      "i": 89,
+      "kind": "line",
+      "text": "Scammers used this trick for years.",
+      "start": 202.168,
+      "end": 204.008,
+      "words": [
+        { "w": "Scammers", "c": null, "s": 202.168, "e": 202.562 },
+        { "w": "used", "c": null, "s": 202.617, "e": 202.771 },
+        { "w": "this", "c": null, "s": 202.792, "e": 202.912 },
+        { "w": "trick", "c": null, "s": 202.945, "e": 203.142 },
+        { "w": "for", "c": null, "s": 203.187, "e": 203.296 },
+        { "w": "years.", "c": null, "s": 203.351, "e": 204.008 }
+      ]
+    },
+    {
+      "i": 90,
+      "kind": "line",
+      "text": "They'd record your yes and use it to sign you up for things you never agreed to.",
+      "start": 204.121,
+      "end": 208.151,
+      "words": [
+        { "w": "They'd", "c": null, "s": 204.121, "e": 204.373 },
+        { "w": "record", "c": null, "s": 204.416, "e": 204.712 },
+        { "w": "your", "c": null, "s": 204.756, "e": 204.855 },
+        { "w": "yes", "c": null, "s": 204.909, "e": 205.183 },
+        { "w": "and", "c": null, "s": 205.227, "e": 205.304 },
+        { "w": "use", "c": null, "s": 205.37, "e": 205.501 },
+        { "w": "it", "c": null, "s": 205.534, "e": 205.599 },
+        { "w": "to", "c": null, "s": 205.622, "e": 205.676 },
+        { "w": "sign", "c": null, "s": 205.72, "e": 205.917 },
+        { "w": "you", "c": null, "s": 205.95, "e": 206.026 },
+        { "w": "up", "c": null, "s": 206.092, "e": 206.18 },
+        { "w": "for", "c": null, "s": 206.224, "e": 206.311 },
+        { "w": "things", "c": null, "s": 206.366, "e": 206.575 },
+        { "w": "you", "c": null, "s": 206.618, "e": 206.694 },
+        { "w": "never", "c": null, "s": 206.76, "e": 206.969 },
+        { "w": "agreed", "c": null, "s": 207.024, "e": 207.319 },
+        { "w": "to.", "c": null, "s": 207.352, "e": 208.151 }
+      ]
+    },
+    {
+      "i": 91,
+      "kind": "line",
+      "text": "The thing on the line does the same.",
+      "start": 208.264,
+      "end": 210.148,
+      "words": [
+        { "w": "The", "c": null, "s": 208.264, "e": 208.395 },
+        { "w": "thing", "c": null, "s": 208.44, "e": 208.582 },
+        { "w": "on", "c": null, "s": 208.625, "e": 208.692 },
+        { "w": "the", "c": null, "s": 208.735, "e": 208.801 },
+        { "w": "line", "c": null, "s": 208.844, "e": 209.096 },
+        { "w": "does", "c": null, "s": 209.129, "e": 209.305 },
+        { "w": "the", "c": null, "s": 209.359, "e": 209.436 },
+        { "w": "same.", "c": null, "s": 209.48, "e": 210.148 }
+      ]
+    },
+    {
+      "i": 92,
+      "kind": "line",
+      "text": "Only it isn't signing you up for a subscription.",
+      "start": 210.261,
+      "end": 212.978,
+      "words": [
+        { "w": "Only", "c": null, "s": 210.261, "e": 210.535 },
+        { "w": "it", "c": null, "s": 210.579, "e": 210.634 },
+        { "w": "isn't", "c": null, "s": 210.677, "e": 210.875 },
+        { "w": "signing", "c": null, "s": 210.919, "e": 211.225 },
+        { "w": "you", "c": null, "s": 211.269, "e": 211.345 },
+        { "w": "up", "c": null, "s": 211.455, "e": 211.565 },
+        { "w": "for", "c": null, "s": 211.642, "e": 211.751 },
+        { "w": "a", "c": null, "s": 211.784, "e": 211.817 },
+        { "w": "subscription.", "c": null, "s": 211.849, "e": 212.977 }
+      ]
+    },
+    {
+      "i": 93,
+      "kind": "line",
+      "text": "If you have to answer a question, say correct.",
+      "start": 213.092,
+      "end": 215.851,
+      "words": [
+        { "w": "If", "c": null, "s": 213.092, "e": 213.245 },
+        { "w": "you", "c": null, "s": 213.289, "e": 213.365 },
+        { "w": "have", "c": null, "s": 213.442, "e": 213.574 },
+        { "w": "to", "c": null, "s": 213.607, "e": 213.65 },
+        { "w": "answer", "c": null, "s": 213.716, "e": 213.946 },
+        { "w": "a", "c": null, "s": 214.001, "e": 214.023 },
+        { "w": "question,", "c": null, "s": 214.066, "e": 214.625 },
+        { "w": "say", "c": null, "s": 214.79, "e": 214.964 },
+        { "w": "correct.", "c": "g", "s": 215.03, "e": 215.852 }
+      ]
+    },
+    {
+      "i": 94,
+      "kind": "line",
+      "text": "Or say nothing at all.",
+      "start": 215.964,
+      "end": 217.586,
+      "words": [
+        { "w": "Or", "c": null, "s": 215.964, "e": 216.14 },
+        { "w": "say", "c": null, "s": 216.194, "e": 216.347 },
+        { "w": "nothing", "c": null, "s": 216.413, "e": 216.72 },
+        { "w": "at", "c": null, "s": 216.764, "e": 216.841 },
+        { "w": "all.", "c": null, "s": 216.884, "e": 217.585 }
+      ]
+    },
+    {
+      "i": 96,
+      "kind": "line",
+      "text": "Rule five.",
+      "start": 218.482,
+      "end": 219.533,
+      "words": [
+        { "w": "Rule", "c": null, "s": 218.482, "e": 218.767 },
+        { "w": "five.", "c": null, "s": 218.81, "e": 219.534 }
+      ]
+    },
+    {
+      "i": 97,
+      "kind": "line",
+      "text": "Turn off your voicemail.",
+      "start": 219.665,
+      "end": 221.067,
+      "words": [
+        { "w": "Turn", "c": null, "s": 219.665, "e": 219.939 },
+        { "w": "off", "c": null, "s": 219.983, "e": 220.092 },
+        { "w": "your", "c": null, "s": 220.125, "e": 220.224 },
+        { "w": "voicemail.", "c": "r", "s": 220.278, "e": 221.067 }
+      ]
+    },
+    {
+      "i": 98,
+      "kind": "line",
+      "text": "All of it.",
+      "start": 221.18,
+      "end": 222.057,
+      "words": [
+        { "w": "All", "c": null, "s": 221.18, "e": 221.432 },
+        { "w": "of", "c": null, "s": 221.498, "e": 221.553 },
+        { "w": "it.", "c": null, "s": 221.608, "e": 222.057 }
+      ]
+    },
+    {
+      "i": 99,
+      "kind": "line",
+      "text": "Phone, landline, the old answering machine in the garage.",
+      "start": 222.283,
+      "end": 225.613,
+      "words": [
+        { "w": "Phone,", "c": null, "s": 222.283, "e": 222.754 },
+        { "w": "landline,", "c": null, "s": 222.842, "e": 223.422 },
+        { "w": "the", "c": null, "s": 223.444, "e": 223.509 },
+        { "w": "old", "c": null, "s": 223.564, "e": 223.696 },
+        { "w": "answering", "c": null, "s": 223.751, "e": 224.068 },
+        { "w": "machine", "c": null, "s": 224.101, "e": 224.419 },
+        { "w": "in", "c": null, "s": 224.452, "e": 224.517 },
+        { "w": "the", "c": null, "s": 224.55, "e": 224.616 },
+        { "w": "garage.", "c": null, "s": 224.649, "e": 225.612 }
+      ]
+    },
+    {
+      "i": 100,
+      "kind": "line",
+      "text": "On Tuesday night, it calls.",
+      "start": 225.726,
+      "end": 227.391,
+      "words": [
+        { "w": "On", "c": null, "s": 225.726, "e": 225.869 },
+        { "w": "Tuesday", "c": null, "s": 225.902, "e": 226.208 },
+        { "w": "night,", "c": null, "s": 226.263, "e": 226.46 },
+        { "w": "it", "c": null, "s": 226.482, "e": 226.537 },
+        { "w": "calls.", "c": null, "s": 226.581, "e": 227.392 }
+      ]
+    },
+    {
+      "i": 101,
+      "kind": "line",
+      "text": "On Wednesday morning, there's a new message.",
+      "start": 227.504,
+      "end": 230.176,
+      "words": [
+        { "w": "On", "c": null, "s": 227.504, "e": 227.679 },
+        { "w": "Wednesday", "c": null, "s": 227.734, "e": 228.074 },
+        { "w": "morning,", "c": null, "s": 228.128, "e": 228.544 },
+        { "w": "there's", "c": null, "s": 228.742, "e": 228.982 },
+        { "w": "a", "c": null, "s": 229.005, "e": 229.026 },
+        { "w": "new", "c": null, "s": 229.081, "e": 229.191 },
+        { "w": "message.", "c": null, "s": 229.245, "e": 230.176 }
+      ]
+    },
+    {
+      "i": 102,
+      "kind": "line",
+      "text": "It's your voice.",
+      "start": 230.29,
+      "end": 231.473,
+      "words": [
+        { "w": "It's", "c": null, "s": 230.29, "e": 230.475 },
+        { "w": "your", "c": "r", "s": 230.508, "e": 230.641 },
+        { "w": "voice.", "c": null, "s": 230.706, "e": 231.473 }
+      ]
+    },
+    {
+      "i": 103,
+      "kind": "line",
+      "text": "Your exact voice.",
+      "start": 231.699,
+      "end": 233.144,
+      "words": [
+        { "w": "Your", "c": null, "s": 231.699, "e": 231.896 },
+        { "w": "exact", "c": null, "s": 231.94, "e": 232.279 },
+        { "w": "voice.", "c": null, "s": 232.334, "e": 233.145 }
+      ]
+    },
+    {
+      "i": 104,
+      "kind": "line",
+      "text": "Telling your own mom that you're fine, that you're coming over, and that she should leave the door unlocked.",
+      "start": 233.371,
+      "end": 240.206,
+      "words": [
+        { "w": "Telling", "c": null, "s": 233.371, "e": 233.754 },
+        { "w": "your", "c": null, "s": 233.808, "e": 233.929 },
+        { "w": "own", "c": null, "s": 233.984, "e": 234.126 },
+        { "w": "mom", "c": null, "s": 234.181, "e": 234.444 },
+        { "w": "that", "c": null, "s": 234.499, "e": 234.597 },
+        { "w": "you're", "c": null, "s": 234.62, "e": 234.794 },
+        { "w": "fine,", "c": null, "s": 234.827, "e": 235.266 },
+        { "w": "that", "c": null, "s": 235.495, "e": 235.638 },
+        { "w": "you're", "c": null, "s": 235.671, "e": 235.825 },
+        { "w": "coming", "c": null, "s": 235.846, "e": 236.065 },
+        { "w": "over,", "c": null, "s": 236.12, "e": 236.536 },
+        { "w": "and", "c": null, "s": 236.952, "e": 237.094 },
+        { "w": "that", "c": null, "s": 237.139, "e": 237.259 },
+        { "w": "she", "c": null, "s": 237.303, "e": 237.412 },
+        { "w": "should", "c": null, "s": 237.457, "e": 237.631 },
+        { "w": "leave", "c": null, "s": 237.686, "e": 237.938 },
+        { "w": "the", "c": null, "s": 237.982, "e": 238.047 },
+        { "w": "door", "c": null, "s": 238.092, "e": 238.376 },
+        { "w": "unlocked.", "c": null, "s": 238.683, "e": 240.206 }
+      ]
+    },
+    {
+      "i": 105,
+      "kind": "chapter",
+      "text": "Night three. The voices.",
+      "start": 240.319,
+      "end": 242.904,
+      "words": [
+        { "w": "Night", "c": null, "s": 240.319, "e": 240.582 },
+        { "w": "three.", "c": null, "s": 240.637, "e": 241.119 },
+        { "w": "The", "c": null, "s": 241.535, "e": 241.655 },
+        { "w": "voices.", "c": null, "s": 241.721, "e": 242.904 }
+      ]
+    },
+    {
+      "i": 106,
+      "kind": "line",
+      "text": "On the third night, it stops using your number.",
+      "start": 243.423,
+      "end": 246.533,
+      "words": [
+        { "w": "On", "c": null, "s": 243.423, "e": 243.62 },
+        { "w": "the", "c": null, "s": 243.663, "e": 243.729 },
+        { "w": "third", "c": null, "s": 243.784, "e": 244.025 },
+        { "w": "night,", "c": null, "s": 244.091, "e": 244.442 },
+        { "w": "it", "c": null, "s": 244.639, "e": 244.77 },
+        { "w": "stops", "c": null, "s": 244.813, "e": 245.131 },
+        { "w": "using", "c": null, "s": 245.186, "e": 245.416 },
+        { "w": "your", "c": null, "s": 245.482, "e": 245.635 },
+        { "w": "number.", "c": null, "s": 245.701, "e": 246.533 }
+      ]
+    },
+    {
+      "i": 107,
+      "kind": "line",
+      "text": "It starts using theirs.",
+      "start": 246.646,
+      "end": 248.224,
+      "words": [
+        { "w": "It", "c": null, "s": 246.646, "e": 246.777 },
+        { "w": "starts", "c": null, "s": 246.822, "e": 247.074 },
+        { "w": "using", "c": null, "s": 247.139, "e": 247.38 },
+        { "w": "theirs.", "c": null, "s": 247.424, "e": 248.224 }
+      ]
+    },
+    {
+      "i": 109,
+      "kind": "line",
+      "text": "Rule six.",
+      "start": 249.12,
+      "end": 250.084,
+      "words": [
+        { "w": "Rule", "c": null, "s": 249.12, "e": 249.393 },
+        { "w": "six.", "c": null, "s": 249.438, "e": 250.084 }
+      ]
+    },
+    {
+      "i": 110,
+      "kind": "line",
+      "text": "If you get a text from someone in the same room, look at them, not at your screen.",
+      "start": 250.216,
+      "end": 254.859,
+      "words": [
+        { "w": "If", "c": null, "s": 250.216, "e": 250.337 },
+        { "w": "you", "c": null, "s": 250.38, "e": 250.446 },
+        { "w": "get", "c": null, "s": 250.523, "e": 250.622 },
+        { "w": "a", "c": null, "s": 250.654, "e": 250.687 },
+        { "w": "text", "c": null, "s": 250.731, "e": 250.972 },
+        { "w": "from", "c": null, "s": 251.005, "e": 251.136 },
+        { "w": "someone", "c": null, "s": 251.191, "e": 251.465 },
+        { "w": "in", "c": null, "s": 251.497, "e": 251.552 },
+        { "w": "the", "c": null, "s": 251.585, "e": 251.651 },
+        { "w": "same", "c": null, "s": 251.684, "e": 251.892 },
+        { "w": "room,", "c": null, "s": 251.936, "e": 252.286 },
+        { "w": "look", "c": null, "s": 252.549, "e": 252.725 },
+        { "w": "at", "c": null, "s": 252.758, "e": 252.812 },
+        { "w": "them,", "c": "g", "s": 252.844, "e": 253.174 },
+        { "w": "not", "c": null, "s": 253.48, "e": 253.666 },
+        { "w": "at", "c": null, "s": 253.699, "e": 253.754 },
+        { "w": "your", "c": null, "s": 253.797, "e": 253.896 },
+        { "w": "screen.", "c": null, "s": 253.929, "e": 254.86 }
+      ]
+    },
+    {
+      "i": 111,
+      "kind": "line",
+      "text": "It's 2:40 AM.",
+      "start": 254.973,
+      "end": 256.638,
+      "words": [
+        { "w": "It's", "c": null, "s": 254.973, "e": 255.213 },
+        { "w": "2:40", "c": "y", "s": 255.268, "e": 255.849 },
+        { "w": "AM.", "c": null, "s": 255.937, "e": 256.638 }
+      ]
+    },
+    {
+      "i": 112,
+      "kind": "line",
+      "text": "You and Leo are on the couch with the lights off.",
+      "start": 256.864,
+      "end": 259.318,
+      "words": [
+        { "w": "You", "c": null, "s": 256.864, "e": 257.018 },
+        { "w": "and", "c": null, "s": 257.083, "e": 257.159 },
+        { "w": "Leo", "c": null, "s": 257.204, "e": 257.423 },
+        { "w": "are", "c": null, "s": 257.467, "e": 257.576 },
+        { "w": "on", "c": null, "s": 257.608, "e": 257.664 },
+        { "w": "the", "c": null, "s": 257.708, "e": 257.774 },
+        { "w": "couch", "c": null, "s": 257.806, "e": 258.08 },
+        { "w": "with", "c": null, "s": 258.124, "e": 258.255 },
+        { "w": "the", "c": null, "s": 258.288, "e": 258.354 },
+        { "w": "lights", "c": null, "s": 258.397, "e": 258.606 },
+        { "w": "off.", "c": null, "s": 258.66, "e": 259.318 }
+      ]
+    },
+    {
+      "i": 113,
+      "kind": "line",
+      "text": "Your phone buzzes.",
+      "start": 259.431,
+      "end": 260.833,
+      "words": [
+        { "w": "Your", "c": null, "s": 259.431, "e": 259.617 },
+        { "w": "phone", "c": null, "s": 259.65, "e": 259.88 },
+        { "w": "buzzes.", "c": null, "s": 259.924, "e": 260.833 }
+      ]
+    },
+    {
+      "i": 114,
+      "kind": "line",
+      "text": "It's from Leo.",
+      "start": 261.059,
+      "end": 261.979,
+      "words": [
+        { "w": "It's", "c": null, "s": 261.059, "e": 261.257 },
+        { "w": "from", "c": null, "s": 261.278, "e": 261.421 },
+        { "w": "Leo.", "c": null, "s": 261.475, "e": 261.979 }
+      ]
+    },
+    {
+      "i": 115,
+      "kind": "line",
+      "text": "It says, don't look at me.",
+      "start": 262.206,
+      "end": 264.353,
+      "words": [
+        { "w": "It", "c": null, "s": 262.206, "e": 262.381 },
+        { "w": "says,", "c": null, "s": 262.436, "e": 262.907 },
+        { "w": "don't", "c": null, "s": 263.268, "e": 263.455 },
+        { "w": "look", "c": null, "s": 263.487, "e": 263.629 },
+        { "w": "at", "c": null, "s": 263.684, "e": 263.739 },
+        { "w": "me.", "c": null, "s": 263.783, "e": 264.353 }
+      ]
+    },
+    {
+      "i": 116,
+      "kind": "line",
+      "text": "You look up.",
+      "start": 264.466,
+      "end": 265.517,
+      "words": [
+        { "w": "You", "c": null, "s": 264.466, "e": 264.642 },
+        { "w": "look", "c": null, "s": 264.707, "e": 264.893 },
+        { "w": "up.", "c": null, "s": 264.958, "e": 265.518 }
+      ]
+    },
+    {
+      "i": 117,
+      "kind": "line",
+      "text": "Leo is staring at you.",
+      "start": 265.743,
+      "end": 267.452,
+      "words": [
+        { "w": "Leo", "c": null, "s": 265.743, "e": 266.05 },
+        { "w": "is", "c": null, "s": 266.094, "e": 266.159 },
+        { "w": "staring", "c": null, "s": 266.204, "e": 266.565 },
+        { "w": "at", "c": null, "s": 266.62, "e": 266.696 },
+        { "w": "you.", "c": null, "s": 266.751, "e": 267.452 }
+      ]
+    },
+    {
+      "i": 118,
+      "kind": "line",
+      "text": "His phone is on the table.",
+      "start": 267.565,
+      "end": 269.099,
+      "words": [
+        { "w": "His", "c": null, "s": 267.565, "e": 267.762 },
+        { "w": "phone", "c": null, "s": 267.806, "e": 268.058 },
+        { "w": "is", "c": null, "s": 268.091, "e": 268.168 },
+        { "w": "on", "c": null, "s": 268.233, "e": 268.299 },
+        { "w": "the", "c": null, "s": 268.342, "e": 268.408 },
+        { "w": "table.", "c": null, "s": 268.442, "e": 269.098 }
+      ]
+    },
+    {
+      "i": 119,
+      "kind": "line",
+      "text": "Screen off.",
+      "start": 269.212,
+      "end": 269.913,
+      "words": [
+        { "w": "Screen", "c": null, "s": 269.212, "e": 269.574 },
+        { "w": "off.", "c": "r", "s": 269.64, "e": 269.913 }
+      ]
+    },
+    {
+      "i": 120,
+      "kind": "line",
+      "text": "He didn't send it.",
+      "start": 270.338,
+      "end": 271.695,
+      "words": [
+        { "w": "He", "c": null, "s": 270.338, "e": 270.458 },
+        { "w": "didn't", "c": null, "s": 270.502, "e": 270.71 },
+        { "w": "send", "c": null, "s": 270.743, "e": 270.929 },
+        { "w": "it.", "c": null, "s": 270.984, "e": 271.696 }
+      ]
+    },
+    {
+      "i": 122,
+      "kind": "line",
+      "text": "Rule seven.",
+      "start": 272.592,
+      "end": 273.687,
+      "words": [
+        { "w": "Rule", "c": null, "s": 272.592, "e": 272.832 },
+        { "w": "seven.", "c": null, "s": 272.876, "e": 273.687 }
+      ]
+    },
+    {
+      "i": 123,
+      "kind": "line",
+      "text": "At night, phones sleep in the microwave.",
+      "start": 273.819,
+      "end": 276.185,
+      "words": [
+        { "w": "At", "c": null, "s": 273.819, "e": 274.016 },
+        { "w": "night,", "c": null, "s": 274.082, "e": 274.377 },
+        { "w": "phones", "c": null, "s": 274.465, "e": 274.826 },
+        { "w": "sleep", "c": null, "s": 274.871, "e": 275.09 },
+        { "w": "in", "c": null, "s": 275.123, "e": 275.166 },
+        { "w": "the", "c": null, "s": 275.199, "e": 275.265 },
+        { "w": "microwave.", "c": "b", "s": 275.287, "e": 276.185 }
+      ]
+    },
+    {
+      "i": 124,
+      "kind": "line",
+      "text": "Switched off.",
+      "start": 276.298,
+      "end": 277.35,
+      "words": [
+        { "w": "Switched", "c": null, "s": 276.298, "e": 276.681 },
+        { "w": "off.", "c": null, "s": 276.736, "e": 277.35 }
+      ]
+    },
+    {
+      "i": 125,
+      "kind": "line",
+      "text": "Door closed.",
+      "start": 277.576,
+      "end": 278.584,
+      "words": [
+        { "w": "Door", "c": null, "s": 277.576, "e": 277.828 },
+        { "w": "closed.", "c": null, "s": 277.894, "e": 278.584 }
+      ]
+    },
+    {
+      "i": 126,
+      "kind": "line",
+      "text": "Unplugged from the wall.",
+      "start": 278.81,
+      "end": 280.475,
+      "words": [
+        { "w": "Unplugged", "c": null, "s": 278.81, "e": 279.347 },
+        { "w": "from", "c": null, "s": 279.38, "e": 279.511 },
+        { "w": "the", "c": null, "s": 279.555, "e": 279.621 },
+        { "w": "wall.", "c": null, "s": 279.665, "e": 280.475 }
+      ]
+    },
+    {
+      "i": 127,
+      "kind": "line",
+      "text": "A microwave is basically a metal box, and a metal box is one of the few things that can block a signal.",
+      "start": 280.589,
+      "end": 286.459,
+      "words": [
+        { "w": "A", "c": null, "s": 280.589, "e": 280.687 },
+        { "w": "microwave", "c": null, "s": 280.764, "e": 281.333 },
+        { "w": "is", "c": null, "s": 281.377, "e": 281.475 },
+        { "w": "basically", "c": null, "s": 281.553, "e": 281.991 },
+        { "w": "a", "c": null, "s": 282.045, "e": 282.067 },
+        { "w": "metal", "c": null, "s": 282.122, "e": 282.342 },
+        { "w": "box,", "c": null, "s": 282.396, "e": 282.91 },
+        { "w": "and", "c": null, "s": 283.075, "e": 283.207 },
+        { "w": "a", "c": null, "s": 283.25, "e": 283.272 },
+        { "w": "metal", "c": null, "s": 283.326, "e": 283.535 },
+        { "w": "box", "c": null, "s": 283.59, "e": 283.886 },
+        { "w": "is", "c": null, "s": 283.951, "e": 284.039 },
+        { "w": "one", "c": null, "s": 284.105, "e": 284.214 },
+        { "w": "of", "c": null, "s": 284.247, "e": 284.291 },
+        { "w": "the", "c": null, "s": 284.312, "e": 284.378 },
+        { "w": "few", "c": null, "s": 284.422, "e": 284.575 },
+        { "w": "things", "c": null, "s": 284.642, "e": 284.882 },
+        { "w": "that", "c": null, "s": 284.915, "e": 285.013 },
+        { "w": "can", "c": null, "s": 285.046, "e": 285.145 },
+        { "w": "block", "c": null, "s": 285.189, "e": 285.441 },
+        { "w": "a", "c": null, "s": 285.495, "e": 285.517 },
+        { "w": "signal.", "c": null, "s": 285.561, "e": 286.459 }
+      ]
+    },
+    {
+      "i": 128,
+      "kind": "line",
+      "text": "It's not perfect.",
+      "start": 286.573,
+      "end": 287.668,
+      "words": [
+        { "w": "It's", "c": null, "s": 286.573, "e": 286.77 },
+        { "w": "not", "c": null, "s": 286.813, "e": 286.956 },
+        { "w": "perfect.", "c": null, "s": 287.01, "e": 287.668 }
+      ]
+    },
+    {
+      "i": 129,
+      "kind": "line",
+      "text": "But on the third night, the phone inside starts ringing anyway.",
+      "start": 287.894,
+      "end": 291.487,
+      "words": [
+        { "w": "But", "c": null, "s": 287.894, "e": 288.092 },
+        { "w": "on", "c": null, "s": 288.125, "e": 288.201 },
+        { "w": "the", "c": null, "s": 288.234, "e": 288.3 },
+        { "w": "third", "c": null, "s": 288.343, "e": 288.552 },
+        { "w": "night,", "c": null, "s": 288.607, "e": 288.924 },
+        { "w": "the", "c": null, "s": 289.187, "e": 289.285 },
+        { "w": "phone", "c": null, "s": 289.318, "e": 289.537 },
+        { "w": "inside", "c": null, "s": 289.57, "e": 289.876 },
+        { "w": "starts", "c": null, "s": 289.909, "e": 290.161 },
+        { "w": "ringing", "c": null, "s": 290.216, "e": 290.491 },
+        { "w": "anyway.", "c": null, "s": 290.556, "e": 291.487 }
+      ]
+    },
+    {
+      "i": 130,
+      "kind": "line",
+      "text": "Muffled.",
+      "start": 291.6,
+      "end": 292.475,
+      "words": [{ "w": "Muffled.", "c": null, "s": 291.6, "e": 292.476 }]
+    },
+    {
+      "i": 131,
+      "kind": "line",
+      "text": "Thirteen times.",
+      "start": 292.702,
+      "end": 294.236,
+      "words": [
+        { "w": "Thirteen", "c": null, "s": 292.702, "e": 293.249 },
+        { "w": "times.", "c": null, "s": 293.326, "e": 294.235 }
+      ]
+    },
+    {
+      "i": 132,
+      "kind": "line",
+      "text": "And then it stops, and it doesn't ring again.",
+      "start": 294.462,
+      "end": 297.266,
+      "words": [
+        { "w": "And", "c": null, "s": 294.462, "e": 294.616 },
+        { "w": "then", "c": null, "s": 294.659, "e": 294.769 },
+        { "w": "it", "c": null, "s": 294.802, "e": 294.868 },
+        { "w": "stops,", "c": null, "s": 294.911, "e": 295.47 },
+        { "w": "and", "c": null, "s": 295.667, "e": 295.809 },
+        { "w": "it", "c": null, "s": 295.853, "e": 295.908 },
+        { "w": "doesn't", "c": null, "s": 295.941, "e": 296.192 },
+        { "w": "ring", "c": null, "s": 296.237, "e": 296.444 },
+        { "w": "again.", "c": null, "s": 296.51, "e": 297.266 }
+      ]
+    },
+    {
+      "i": 133,
+      "kind": "line",
+      "text": "That's the first night you sleep.",
+      "start": 297.379,
+      "end": 299.439,
+      "words": [
+        { "w": "That's", "c": null, "s": 297.379, "e": 297.686 },
+        { "w": "the", "c": null, "s": 297.73, "e": 297.795 },
+        { "w": "first", "c": null, "s": 297.85, "e": 298.08 },
+        { "w": "night", "c": null, "s": 298.146, "e": 298.332 },
+        { "w": "you", "c": null, "s": 298.376, "e": 298.453 },
+        { "w": "sleep.", "c": null, "s": 298.518, "e": 299.439 }
+      ]
+    },
+    {
+      "i": 135,
+      "kind": "line",
+      "text": "Rule eight.",
+      "start": 300.335,
+      "end": 301.43,
+      "words": [
+        { "w": "Rule", "c": null, "s": 300.335, "e": 300.62 },
+        { "w": "eight.", "c": null, "s": 300.663, "e": 301.43 }
+      ]
+    },
+    {
+      "i": 136,
+      "kind": "line",
+      "text": "When someone you love calls you crying, ask for the code word.",
+      "start": 301.562,
+      "end": 305.155,
+      "words": [
+        { "w": "When", "c": null, "s": 301.562, "e": 301.738 },
+        { "w": "someone", "c": null, "s": 301.781, "e": 302.033 },
+        { "w": "you", "c": null, "s": 302.055, "e": 302.121 },
+        { "w": "love", "c": null, "s": 302.197, "e": 302.406 },
+        { "w": "calls", "c": null, "s": 302.449, "e": 302.658 },
+        { "w": "you", "c": null, "s": 302.701, "e": 302.767 },
+        { "w": "crying,", "c": null, "s": 302.822, "e": 303.292 },
+        { "w": "ask", "c": null, "s": 303.556, "e": 303.808 },
+        { "w": "for", "c": null, "s": 303.862, "e": 303.961 },
+        { "w": "the", "c": null, "s": 304.005, "e": 304.071 },
+        { "w": "code", "c": "g", "s": 304.104, "e": 304.333 },
+        { "w": "word.", "c": null, "s": 304.366, "e": 305.155 }
+      ]
+    },
+    {
+      "i": 137,
+      "kind": "line",
+      "text": "Every time.",
+      "start": 305.268,
+      "end": 306.143,
+      "words": [
+        { "w": "Every", "c": null, "s": 305.268, "e": 305.542 },
+        { "w": "time.", "c": null, "s": 305.596, "e": 306.144 }
+      ]
+    },
+    {
+      "i": 138,
+      "kind": "line",
+      "text": "Even if it's your mom.",
+      "start": 306.37,
+      "end": 307.728,
+      "words": [
+        { "w": "Even", "c": null, "s": 306.37, "e": 306.643 },
+        { "w": "if", "c": null, "s": 306.676, "e": 306.742 },
+        { "w": "it's", "c": null, "s": 306.786, "e": 306.895 },
+        { "w": "your", "c": null, "s": 306.928, "e": 307.038 },
+        { "w": "mom.", "c": null, "s": 307.082, "e": 307.728 }
+      ]
+    },
+    {
+      "i": 139,
+      "kind": "line",
+      "text": "Even if she sounds hurt.",
+      "start": 307.842,
+      "end": 309.507,
+      "words": [
+        { "w": "Even", "c": null, "s": 307.842, "e": 308.105 },
+        { "w": "if", "c": null, "s": 308.137, "e": 308.192 },
+        { "w": "she", "c": null, "s": 308.236, "e": 308.334 },
+        { "w": "sounds", "c": null, "s": 308.4, "e": 308.685 },
+        { "w": "hurt.", "c": null, "s": 308.728, "e": 309.507 }
+      ]
+    },
+    {
+      "i": 140,
+      "kind": "line",
+      "text": "Especially if she sounds hurt.",
+      "start": 309.62,
+      "end": 311.504,
+      "words": [
+        { "w": "Especially", "c": null, "s": 309.62, "e": 310.233 },
+        { "w": "if", "c": null, "s": 310.277, "e": 310.332 },
+        { "w": "she", "c": null, "s": 310.364, "e": 310.452 },
+        { "w": "sounds", "c": null, "s": 310.507, "e": 310.803 },
+        { "w": "hurt.", "c": null, "s": 310.836, "e": 311.504 }
+      ]
+    },
+    {
+      "i": 141,
+      "kind": "line",
+      "text": "At 4:10 AM, the landline rings.",
+      "start": 311.617,
+      "end": 314.07,
+      "words": [
+        { "w": "At", "c": null, "s": 311.617, "e": 311.814 },
+        { "w": "4:10", "c": "y", "s": 311.858, "e": 312.34 },
+        { "w": "AM,", "c": null, "s": 312.417, "e": 312.724 },
+        { "w": "the", "c": null, "s": 312.745, "e": 312.81 },
+        { "w": "landline", "c": null, "s": 312.866, "e": 313.271 },
+        { "w": "rings.", "c": null, "s": 313.325, "e": 314.071 }
+      ]
+    },
+    {
+      "i": 142,
+      "kind": "line",
+      "text": "You plugged it back in to call the hospital, and you forgot.",
+      "start": 314.183,
+      "end": 317.644,
+      "words": [
+        { "w": "You", "c": null, "s": 314.183, "e": 314.347 },
+        { "w": "plugged", "c": null, "s": 314.402, "e": 314.621 },
+        { "w": "it", "c": null, "s": 314.654, "e": 314.708 },
+        { "w": "back", "c": null, "s": 314.753, "e": 314.95 },
+        { "w": "in", "c": null, "s": 315.026, "e": 315.103 },
+        { "w": "to", "c": null, "s": 315.158, "e": 315.212 },
+        { "w": "call", "c": null, "s": 315.267, "e": 315.432 },
+        { "w": "the", "c": null, "s": 315.487, "e": 315.552 },
+        { "w": "hospital,", "c": null, "s": 315.596, "e": 316.11 },
+        { "w": "and", "c": null, "s": 316.308, "e": 316.461 },
+        { "w": "you", "c": null, "s": 316.516, "e": 316.604 },
+        { "w": "forgot.", "c": null, "s": 316.68, "e": 317.644 }
+      ]
+    },
+    {
+      "i": 143,
+      "kind": "line",
+      "text": "It's Leo's voice.",
+      "start": 317.758,
+      "end": 318.941,
+      "words": [
+        { "w": "It's", "c": null, "s": 317.758, "e": 317.988 },
+        { "w": "Leo's", "c": null, "s": 318.042, "e": 318.36 },
+        { "w": "voice.", "c": null, "s": 318.404, "e": 318.941 }
+      ]
+    },
+    {
+      "i": 144,
+      "kind": "line",
+      "text": "He's crying.",
+      "start": 319.167,
+      "end": 320.262,
+      "words": [
+        { "w": "He's", "c": null, "s": 319.167, "e": 319.364 },
+        { "w": "crying.", "c": null, "s": 319.408, "e": 320.262 }
+      ]
+    },
+    {
+      "i": 145,
+      "kind": "line",
+      "text": "He says he's locked outside and it's cold.",
+      "start": 320.489,
+      "end": 322.81,
+      "words": [
+        { "w": "He", "c": null, "s": 320.489, "e": 320.598 },
+        { "w": "says", "c": null, "s": 320.642, "e": 320.817 },
+        { "w": "he's", "c": null, "s": 320.861, "e": 320.971 },
+        { "w": "locked", "c": null, "s": 321.036, "e": 321.289 },
+        { "w": "outside", "c": null, "s": 321.321, "e": 321.77 },
+        { "w": "and", "c": null, "s": 321.814, "e": 321.879 },
+        { "w": "it's", "c": null, "s": 321.924, "e": 322.033 },
+        { "w": "cold.", "c": null, "s": 322.088, "e": 322.81 }
+      ]
+    },
+    {
+      "i": 146,
+      "kind": "line",
+      "text": "You turn around.",
+      "start": 322.924,
+      "end": 324.151,
+      "words": [
+        { "w": "You", "c": null, "s": 322.924, "e": 323.066 },
+        { "w": "turn", "c": null, "s": 323.121, "e": 323.296 },
+        { "w": "around.", "c": null, "s": 323.329, "e": 324.15 }
+      ]
+    },
+    {
+      "i": 147,
+      "kind": "line",
+      "text": "Leo is asleep on the couch.",
+      "start": 324.377,
+      "end": 326.086,
+      "words": [
+        { "w": "Leo", "c": null, "s": 324.377, "e": 324.641 },
+        { "w": "is", "c": null, "s": 324.684, "e": 324.75 },
+        { "w": "asleep", "c": null, "s": 324.793, "e": 325.057 },
+        { "w": "on", "c": null, "s": 325.111, "e": 325.166 },
+        { "w": "the", "c": null, "s": 325.199, "e": 325.264 },
+        { "w": "couch.", "c": null, "s": 325.297, "e": 326.086 }
+      ]
+    },
+    {
+      "i": 148,
+      "kind": "line",
+      "text": "You pick up the receiver anyway, and you ask for the word.",
+      "start": 326.199,
+      "end": 329.573,
+      "words": [
+        { "w": "You", "c": null, "s": 326.199, "e": 326.33 },
+        { "w": "pick", "c": null, "s": 326.385, "e": 326.506 },
+        { "w": "up", "c": null, "s": 326.55, "e": 326.605 },
+        { "w": "the", "c": null, "s": 326.637, "e": 326.703 },
+        { "w": "receiver", "c": null, "s": 326.746, "e": 327.108 },
+        { "w": "anyway,", "c": null, "s": 327.185, "e": 327.71 },
+        { "w": "and", "c": null, "s": 327.974, "e": 328.116 },
+        { "w": "you", "c": null, "s": 328.159, "e": 328.236 },
+        { "w": "ask", "c": null, "s": 328.346, "e": 328.543 },
+        { "w": "for", "c": null, "s": 328.587, "e": 328.675 },
+        { "w": "the", "c": null, "s": 328.708, "e": 328.773 },
+        { "w": "word.", "c": null, "s": 328.806, "e": 329.573 }
+      ]
+    },
+    {
+      "i": 149,
+      "kind": "line",
+      "text": "The crying stops.",
+      "start": 329.686,
+      "end": 331.175,
+      "words": [
+        { "w": "The", "c": null, "s": 329.686, "e": 329.807 },
+        { "w": "crying", "c": null, "s": 329.85, "e": 330.135 },
+        { "w": "stops.", "c": null, "s": 330.19, "e": 331.175 }
+      ]
+    },
+    {
+      "i": 150,
+      "kind": "line",
+      "text": "And on the other end, very quietly, something starts to laugh.",
+      "start": 331.402,
+      "end": 335.563,
+      "words": [
+        { "w": "And", "c": null, "s": 331.402, "e": 331.577 },
+        { "w": "on", "c": null, "s": 331.642, "e": 331.708 },
+        { "w": "the", "c": null, "s": 331.742, "e": 331.808 },
+        { "w": "other", "c": null, "s": 331.862, "e": 332.026 },
+        { "w": "end,", "c": null, "s": 332.092, "e": 332.409 },
+        { "w": "very", "c": null, "s": 332.673, "e": 332.946 },
+        { "w": "quietly,", "c": null, "s": 333.012, "e": 333.658 },
+        { "w": "something", "c": null, "s": 333.856, "e": 334.184 },
+        { "w": "starts", "c": null, "s": 334.227, "e": 334.491 },
+        { "w": "to", "c": null, "s": 334.534, "e": 334.6 },
+        { "w": "laugh.", "c": "r", "s": 334.676, "e": 335.564 }
+      ]
+    },
+    {
+      "i": 151,
+      "kind": "line",
+      "text": "Hang up.",
+      "start": 335.676,
+      "end": 336.509,
+      "words": [
+        { "w": "Hang", "c": null, "s": 335.676, "e": 335.907 },
+        { "w": "up.", "c": null, "s": 335.972, "e": 336.508 }
+      ]
+    },
+    {
+      "i": 152,
+      "kind": "chapter",
+      "text": "Night five. It learns.",
+      "start": 337.358,
+      "end": 339.68,
+      "words": [
+        { "w": "Night", "c": null, "s": 337.358, "e": 337.61 },
+        { "w": "five.", "c": null, "s": 337.665, "e": 338.125 },
+        { "w": "It", "c": null, "s": 338.432, "e": 338.575 },
+        { "w": "learns.", "c": null, "s": 338.64, "e": 339.68 }
+      ]
+    },
+    {
+      "i": 153,
+      "kind": "line",
+      "text": "By the fifth night, it doesn't need to call.",
+      "start": 340.199,
+      "end": 342.741,
+      "words": [
+        { "w": "By", "c": null, "s": 340.199, "e": 340.353 },
+        { "w": "the", "c": null, "s": 340.408, "e": 340.473 },
+        { "w": "fifth", "c": null, "s": 340.517, "e": 340.736 },
+        { "w": "night,", "c": null, "s": 340.791, "e": 341.13 },
+        { "w": "it", "c": null, "s": 341.196, "e": 341.316 },
+        { "w": "doesn't", "c": null, "s": 341.36, "e": 341.612 },
+        { "w": "need", "c": null, "s": 341.645, "e": 341.798 },
+        { "w": "to", "c": null, "s": 341.831, "e": 341.886 },
+        { "w": "call.", "c": null, "s": 341.941, "e": 342.741 }
+      ]
+    },
+    {
+      "i": 154,
+      "kind": "line",
+      "text": "It needs recordings.",
+      "start": 342.854,
+      "end": 344.256,
+      "words": [
+        { "w": "It", "c": null, "s": 342.854, "e": 343.018 },
+        { "w": "needs", "c": null, "s": 343.062, "e": 343.237 },
+        { "w": "recordings.", "c": "r", "s": 343.281, "e": 344.256 }
+      ]
+    },
+    {
+      "i": 156,
+      "kind": "line",
+      "text": "Rule nine.",
+      "start": 345.152,
+      "end": 346.159,
+      "words": [
+        { "w": "Rule", "c": null, "s": 345.152, "e": 345.392 },
+        { "w": "nine.", "c": null, "s": 345.437, "e": 346.159 }
+      ]
+    },
+    {
+      "i": 157,
+      "kind": "line",
+      "text": "Stop recording your voice.",
+      "start": 346.292,
+      "end": 347.781,
+      "words": [
+        { "w": "Stop", "c": null, "s": 346.292, "e": 346.543 },
+        { "w": "recording", "c": null, "s": 346.609, "e": 346.938 },
+        { "w": "your", "c": null, "s": 346.971, "e": 347.08 },
+        { "w": "voice.", "c": null, "s": 347.135, "e": 347.781 }
+      ]
+    },
+    {
+      "i": 158,
+      "kind": "line",
+      "text": "No voice notes.",
+      "start": 347.894,
+      "end": 349.033,
+      "words": [
+        { "w": "No", "c": null, "s": 347.894, "e": 348.058 },
+        { "w": "voice", "c": null, "s": 348.146, "e": 348.387 },
+        { "w": "notes.", "c": null, "s": 348.442, "e": 349.033 }
+      ]
+    },
+    {
+      "i": 159,
+      "kind": "line",
+      "text": "No videos.",
+      "start": 349.259,
+      "end": 350.048,
+      "words": [
+        { "w": "No", "c": null, "s": 349.259, "e": 349.413 },
+        { "w": "videos.", "c": null, "s": 349.49, "e": 350.048 }
+      ]
+    },
+    {
+      "i": 160,
+      "kind": "line",
+      "text": "No smart speaker in the kitchen listening for its name.",
+      "start": 350.275,
+      "end": 353.166,
+      "words": [
+        { "w": "No", "c": null, "s": 350.275, "e": 350.428 },
+        { "w": "smart", "c": null, "s": 350.493, "e": 350.757 },
+        { "w": "speaker", "c": null, "s": 350.8, "e": 351.118 },
+        { "w": "in", "c": null, "s": 351.161, "e": 351.216 },
+        { "w": "the", "c": null, "s": 351.249, "e": 351.315 },
+        { "w": "kitchen", "c": null, "s": 351.348, "e": 351.622 },
+        { "w": "listening", "c": null, "s": 351.688, "e": 352.027 },
+        { "w": "for", "c": null, "s": 352.092, "e": 352.192 },
+        { "w": "its", "c": null, "s": 352.235, "e": 352.344 },
+        { "w": "name.", "c": null, "s": 352.399, "e": 353.166 }
+      ]
+    },
+    {
+      "i": 161,
+      "kind": "line",
+      "text": "Every word you upload is another word it can say in your voice.",
+      "start": 353.279,
+      "end": 356.696,
+      "words": [
+        { "w": "Every", "c": null, "s": 353.279, "e": 353.542 },
+        { "w": "word", "c": null, "s": 353.597, "e": 353.805 },
+        { "w": "you", "c": null, "s": 353.859, "e": 353.947 },
+        { "w": "upload", "c": null, "s": 354.057, "e": 354.418 },
+        { "w": "is", "c": null, "s": 354.473, "e": 354.539 },
+        { "w": "another", "c": null, "s": 354.583, "e": 354.824 },
+        { "w": "word", "c": null, "s": 354.878, "e": 355.108 },
+        { "w": "it", "c": null, "s": 355.152, "e": 355.207 },
+        { "w": "can", "c": null, "s": 355.24, "e": 355.349 },
+        { "w": "say", "c": null, "s": 355.404, "e": 355.558 },
+        { "w": "in", "c": null, "s": 355.601, "e": 355.656 },
+        { "w": "your", "c": null, "s": 355.7, "e": 355.809 },
+        { "w": "voice.", "c": null, "s": 355.853, "e": 356.696 }
+      ]
+    },
+    {
+      "i": 162,
+      "kind": "line",
+      "text": "Three seconds of audio used to be enough for a scammer to clone someone.",
+      "start": 356.809,
+      "end": 360.577,
+      "words": [
+        { "w": "Three", "c": null, "s": 356.809, "e": 357.073 },
+        { "w": "seconds", "c": null, "s": 357.127, "e": 357.456 },
+        { "w": "of", "c": null, "s": 357.489, "e": 357.554 },
+        { "w": "audio", "c": null, "s": 357.631, "e": 358.025 },
+        { "w": "used", "c": null, "s": 358.135, "e": 358.332 },
+        { "w": "to", "c": null, "s": 358.354, "e": 358.397 },
+        { "w": "be", "c": null, "s": 358.452, "e": 358.529 },
+        { "w": "enough", "c": null, "s": 358.562, "e": 358.814 },
+        { "w": "for", "c": null, "s": 358.858, "e": 358.978 },
+        { "w": "a", "c": null, "s": 359.0, "e": 359.022 },
+        { "w": "scammer", "c": null, "s": 359.043, "e": 359.361 },
+        { "w": "to", "c": null, "s": 359.406, "e": 359.449 },
+        { "w": "clone", "c": null, "s": 359.492, "e": 359.744 },
+        { "w": "someone.", "c": null, "s": 359.777, "e": 360.577 }
+      ]
+    },
+    {
+      "i": 163,
+      "kind": "line",
+      "text": "It needs less.",
+      "start": 360.691,
+      "end": 361.918,
+      "words": [
+        { "w": "It", "c": null, "s": 360.691, "e": 360.833 },
+        { "w": "needs", "c": null, "s": 360.888, "e": 361.118 },
+        { "w": "less.", "c": null, "s": 361.173, "e": 361.917 }
+      ]
+    },
+    {
+      "i": 164,
+      "kind": "line",
+      "text": "You go through your phone that night and delete eight years of videos.",
+      "start": 362.39,
+      "end": 365.588,
+      "words": [
+        { "w": "You", "c": null, "s": 362.39, "e": 362.554 },
+        { "w": "go", "c": null, "s": 362.62, "e": 362.696 },
+        { "w": "through", "c": null, "s": 362.729, "e": 362.905 },
+        { "w": "your", "c": null, "s": 362.926, "e": 363.025 },
+        { "w": "phone", "c": null, "s": 363.058, "e": 363.321 },
+        { "w": "that", "c": null, "s": 363.354, "e": 363.485 },
+        { "w": "night", "c": null, "s": 363.54, "e": 363.725 },
+        { "w": "and", "c": null, "s": 363.78, "e": 363.912 },
+        { "w": "delete", "c": null, "s": 363.956, "e": 364.219 },
+        { "w": "eight", "c": null, "s": 364.262, "e": 364.438 },
+        { "w": "years", "c": null, "s": 364.471, "e": 364.69 },
+        { "w": "of", "c": null, "s": 364.723, "e": 364.777 },
+        { "w": "videos.", "c": null, "s": 364.832, "e": 365.588 }
+      ]
+    },
+    {
+      "i": 165,
+      "kind": "line",
+      "text": "Birthday parties.",
+      "start": 365.701,
+      "end": 366.576,
+      "words": [
+        { "w": "Birthday", "c": null, "s": 365.701, "e": 366.107 },
+        { "w": "parties.", "c": null, "s": 366.161, "e": 366.577 }
+      ]
+    },
+    {
+      "i": 166,
+      "kind": "line",
+      "text": "Concerts.",
+      "start": 366.803,
+      "end": 367.855,
+      "words": [{ "w": "Concerts.", "c": null, "s": 366.803, "e": 367.855 }]
+    },
+    {
+      "i": 167,
+      "kind": "line",
+      "text": "Grandpa's last Christmas.",
+      "start": 368.081,
+      "end": 369.834,
+      "words": [
+        { "w": "Grandpa's", "c": null, "s": 368.081, "e": 368.607 },
+        { "w": "last", "c": null, "s": 368.651, "e": 368.848 },
+        { "w": "Christmas.", "c": null, "s": 368.892, "e": 369.834 }
+      ]
+    },
+    {
+      "i": 168,
+      "kind": "line",
+      "text": "It hurts more than you expected.",
+      "start": 370.06,
+      "end": 371.988,
+      "words": [
+        { "w": "It", "c": null, "s": 370.06, "e": 370.236 },
+        { "w": "hurts", "c": null, "s": 370.269, "e": 370.476 },
+        { "w": "more", "c": null, "s": 370.531, "e": 370.718 },
+        { "w": "than", "c": null, "s": 370.75, "e": 370.86 },
+        { "w": "you", "c": null, "s": 370.904, "e": 370.992 },
+        { "w": "expected.", "c": null, "s": 371.058, "e": 371.988 }
+      ]
+    },
+    {
+      "i": 170,
+      "kind": "line",
+      "text": "Rule ten.",
+      "start": 372.884,
+      "end": 374.11,
+      "words": [
+        { "w": "Rule", "c": null, "s": 372.884, "e": 373.158 },
+        { "w": "ten.", "c": null, "s": 373.202, "e": 374.11 }
+      ]
+    },
+    {
+      "i": 171,
+      "kind": "line",
+      "text": "If a phone rings while it's switched off, leave the room.",
+      "start": 374.242,
+      "end": 377.573,
+      "words": [
+        { "w": "If", "c": null, "s": 374.242, "e": 374.374 },
+        { "w": "a", "c": null, "s": 374.44, "e": 374.461 },
+        { "w": "phone", "c": null, "s": 374.506, "e": 374.768 },
+        { "w": "rings", "c": null, "s": 374.812, "e": 375.042 },
+        { "w": "while", "c": null, "s": 375.075, "e": 375.228 },
+        { "w": "it's", "c": null, "s": 375.261, "e": 375.349 },
+        { "w": "switched", "c": null, "s": 375.371, "e": 375.644 },
+        { "w": "off,", "c": "r", "s": 375.699, "e": 376.027 },
+        { "w": "leave", "c": null, "s": 376.335, "e": 376.587 },
+        { "w": "the", "c": null, "s": 376.63, "e": 376.696 },
+        { "w": "room.", "c": null, "s": 376.761, "e": 377.572 }
+      ]
+    },
+    {
+      "i": 172,
+      "kind": "line",
+      "text": "Don't check it.",
+      "start": 377.686,
+      "end": 378.649,
+      "words": [
+        { "w": "Don't", "c": null, "s": 377.686, "e": 377.949 },
+        { "w": "check", "c": null, "s": 377.981, "e": 378.201 },
+        { "w": "it.", "c": null, "s": 378.256, "e": 378.65 }
+      ]
+    },
+    {
+      "i": 173,
+      "kind": "line",
+      "text": "Don't pull the battery.",
+      "start": 378.875,
+      "end": 380.365,
+      "words": [
+        { "w": "Don't", "c": null, "s": 378.875, "e": 379.139 },
+        { "w": "pull", "c": null, "s": 379.171, "e": 379.325 },
+        { "w": "the", "c": null, "s": 379.379, "e": 379.445 },
+        { "w": "battery.", "c": null, "s": 379.478, "e": 380.365 }
+      ]
+    },
+    {
+      "i": 174,
+      "kind": "line",
+      "text": "Just leave and close the door behind you.",
+      "start": 380.478,
+      "end": 383.02,
+      "words": [
+        { "w": "Just", "c": null, "s": 380.478, "e": 380.708 },
+        { "w": "leave", "c": null, "s": 380.774, "e": 381.158 },
+        { "w": "and", "c": null, "s": 381.267, "e": 381.442 },
+        { "w": "close", "c": null, "s": 381.486, "e": 381.727 },
+        { "w": "the", "c": null, "s": 381.759, "e": 381.825 },
+        { "w": "door", "c": null, "s": 381.858, "e": 382.011 },
+        { "w": "behind", "c": null, "s": 382.066, "e": 382.374 },
+        { "w": "you.", "c": null, "s": 382.428, "e": 383.02 }
+      ]
+    },
+    {
+      "i": 175,
+      "kind": "line",
+      "text": "It's not the phone that's ringing.",
+      "start": 383.133,
+      "end": 384.754,
+      "words": [
+        { "w": "It's", "c": null, "s": 383.133, "e": 383.363 },
+        { "w": "not", "c": null, "s": 383.418, "e": 383.637 },
+        { "w": "the", "c": null, "s": 383.68, "e": 383.746 },
+        { "w": "phone", "c": null, "s": 383.791, "e": 384.042 },
+        { "w": "that's", "c": null, "s": 384.064, "e": 384.25 },
+        { "w": "ringing.", "c": null, "s": 384.294, "e": 384.754 }
+      ]
+    },
+    {
+      "i": 176,
+      "kind": "line",
+      "text": "It's whatever is standing where the phone is.",
+      "start": 384.867,
+      "end": 387.058,
+      "words": [
+        { "w": "It's", "c": null, "s": 384.867, "e": 385.053 },
+        { "w": "whatever", "c": null, "s": 385.086, "e": 385.404 },
+        { "w": "is", "c": null, "s": 385.458, "e": 385.525 },
+        { "w": "standing", "c": "r", "s": 385.557, "e": 385.896 },
+        { "w": "where", "c": null, "s": 385.929, "e": 386.05 },
+        { "w": "the", "c": null, "s": 386.083, "e": 386.148 },
+        { "w": "phone", "c": null, "s": 386.171, "e": 386.411 },
+        { "w": "is.", "c": null, "s": 386.444, "e": 387.058 }
+      ]
+    },
+    {
+      "i": 178,
+      "kind": "line",
+      "text": "Rule eleven.",
+      "start": 387.954,
+      "end": 389.049,
+      "words": [
+        { "w": "Rule", "c": null, "s": 387.954, "e": 388.217 },
+        { "w": "eleven.", "c": null, "s": 388.249, "e": 389.049 }
+      ]
+    },
+    {
+      "i": 179,
+      "kind": "line",
+      "text": "Between three and four AM, do not call emergency services.",
+      "start": 389.181,
+      "end": 393.256,
+      "words": [
+        { "w": "Between", "c": null, "s": 389.181, "e": 389.554 },
+        { "w": "three", "c": null, "s": 389.608, "e": 389.904 },
+        { "w": "and", "c": null, "s": 389.937, "e": 390.025 },
+        { "w": "four", "c": null, "s": 390.101, "e": 390.353 },
+        { "w": "AM,", "c": null, "s": 390.441, "e": 390.934 },
+        { "w": "do", "c": null, "s": 391.131, "e": 391.241 },
+        { "w": "not", "c": null, "s": 391.306, "e": 391.426 },
+        { "w": "call", "c": null, "s": 391.47, "e": 391.678 },
+        { "w": "emergency", "c": null, "s": 391.733, "e": 392.193 },
+        { "w": "services.", "c": null, "s": 392.248, "e": 393.256 }
+      ]
+    },
+    {
+      "i": 180,
+      "kind": "line",
+      "text": "On Thursday, your neighbor Mr. Alvarez does.",
+      "start": 393.369,
+      "end": 396.392,
+      "words": [
+        { "w": "On", "c": null, "s": 393.369, "e": 393.544 },
+        { "w": "Thursday,", "c": null, "s": 393.599, "e": 394.146 },
+        { "w": "your", "c": null, "s": 394.31, "e": 394.442 },
+        { "w": "neighbor", "c": null, "s": 394.475, "e": 394.683 },
+        { "w": "Mr.", "c": "y", "s": 394.738, "e": 394.979 },
+        { "w": "Alvarez", "c": "y", "s": 395.011, "e": 395.395 },
+        { "w": "does.", "c": null, "s": 395.472, "e": 396.392 }
+      ]
+    },
+    {
+      "i": 181,
+      "kind": "line",
+      "text": "His wife fell on the stairs.",
+      "start": 396.505,
+      "end": 398.039,
+      "words": [
+        { "w": "His", "c": null, "s": 396.505, "e": 396.658 },
+        { "w": "wife", "c": null, "s": 396.724, "e": 396.942 },
+        { "w": "fell", "c": null, "s": 396.975, "e": 397.14 },
+        { "w": "on", "c": null, "s": 397.194, "e": 397.26 },
+        { "w": "the", "c": null, "s": 397.305, "e": 397.37 },
+        { "w": "stairs.", "c": null, "s": 397.403, "e": 398.038 }
+      ]
+    },
+    {
+      "i": 182,
+      "kind": "line",
+      "text": "The dispatcher answers on the first ring.",
+      "start": 398.152,
+      "end": 400.255,
+      "words": [
+        { "w": "The", "c": null, "s": 398.152, "e": 398.306 },
+        { "w": "dispatcher", "c": null, "s": 398.349, "e": 398.787 },
+        { "w": "answers", "c": null, "s": 398.842, "e": 399.138 },
+        { "w": "on", "c": null, "s": 399.171, "e": 399.236 },
+        { "w": "the", "c": null, "s": 399.269, "e": 399.335 },
+        { "w": "first", "c": null, "s": 399.368, "e": 399.587 },
+        { "w": "ring.", "c": null, "s": 399.653, "e": 400.255 }
+      ]
+    },
+    {
+      "i": 183,
+      "kind": "line",
+      "text": "She asks for the address.",
+      "start": 400.368,
+      "end": 402.033,
+      "words": [
+        { "w": "She", "c": null, "s": 400.368, "e": 400.51 },
+        { "w": "asks", "c": null, "s": 400.565, "e": 400.817 },
+        { "w": "for", "c": null, "s": 400.86, "e": 400.948 },
+        { "w": "the", "c": null, "s": 400.981, "e": 401.047 },
+        { "w": "address.", "c": null, "s": 401.091, "e": 402.033 }
+      ]
+    },
+    {
+      "i": 184,
+      "kind": "line",
+      "text": "She asks if the front door is unlocked.",
+      "start": 402.146,
+      "end": 404.337,
+      "words": [
+        { "w": "She", "c": null, "s": 402.146, "e": 402.277 },
+        { "w": "asks", "c": null, "s": 402.343, "e": 402.639 },
+        { "w": "if", "c": null, "s": 402.683, "e": 402.759 },
+        { "w": "the", "c": null, "s": 402.804, "e": 402.869 },
+        { "w": "front", "c": null, "s": 402.902, "e": 403.099 },
+        { "w": "door", "c": null, "s": 403.132, "e": 403.308 },
+        { "w": "is", "c": null, "s": 403.362, "e": 403.427 },
+        { "w": "unlocked.", "c": null, "s": 403.482, "e": 404.337 }
+      ]
+    },
+    {
+      "i": 185,
+      "kind": "line",
+      "text": "She asks him to stay on the line and say yes if he understands.",
+      "start": 404.45,
+      "end": 408.437,
+      "words": [
+        { "w": "She", "c": null, "s": 404.45, "e": 404.592 },
+        { "w": "asks", "c": null, "s": 404.658, "e": 404.921 },
+        { "w": "him", "c": null, "s": 404.965, "e": 405.053 },
+        { "w": "to", "c": null, "s": 405.096, "e": 405.151 },
+        { "w": "stay", "c": null, "s": 405.194, "e": 405.381 },
+        { "w": "on", "c": null, "s": 405.425, "e": 405.491 },
+        { "w": "the", "c": null, "s": 405.524, "e": 405.589 },
+        { "w": "line", "c": null, "s": 405.643, "e": 406.006 },
+        { "w": "and", "c": null, "s": 406.115, "e": 406.301 },
+        { "w": "say", "c": null, "s": 406.356, "e": 406.509 },
+        { "w": "yes", "c": "r", "s": 406.575, "e": 406.838 },
+        { "w": "if", "c": null, "s": 406.904, "e": 406.98 },
+        { "w": "he", "c": null, "s": 407.035, "e": 407.101 },
+        { "w": "understands.", "c": null, "s": 407.166, "e": 408.437 }
+      ]
+    },
+    {
+      "i": 186,
+      "kind": "line",
+      "text": "He says yes.",
+      "start": 408.55,
+      "end": 409.645,
+      "words": [
+        { "w": "He", "c": null, "s": 408.55, "e": 408.671 },
+        { "w": "says", "c": null, "s": 408.714, "e": 408.901 },
+        { "w": "yes.", "c": null, "s": 408.956, "e": 409.645 }
+      ]
+    },
+    {
+      "i": 187,
+      "kind": "line",
+      "text": "In the morning, the ambulance is still parked outside his house.",
+      "start": 409.872,
+      "end": 413.07,
+      "words": [
+        { "w": "In", "c": null, "s": 409.872, "e": 410.036 },
+        { "w": "the", "c": null, "s": 410.069, "e": 410.135 },
+        { "w": "morning,", "c": null, "s": 410.178, "e": 410.639 },
+        { "w": "the", "c": null, "s": 410.803, "e": 410.912 },
+        { "w": "ambulance", "c": null, "s": 410.956, "e": 411.373 },
+        { "w": "is", "c": null, "s": 411.405, "e": 411.459 },
+        { "w": "still", "c": null, "s": 411.492, "e": 411.668 },
+        { "w": "parked", "c": null, "s": 411.734, "e": 411.986 },
+        { "w": "outside", "c": null, "s": 412.019, "e": 412.358 },
+        { "w": "his", "c": null, "s": 412.391, "e": 412.478 },
+        { "w": "house.", "c": null, "s": 412.523, "e": 413.07 }
+      ]
+    },
+    {
+      "i": 188,
+      "kind": "line",
+      "text": "Engine running.",
+      "start": 413.183,
+      "end": 414.146,
+      "words": [
+        { "w": "Engine", "c": null, "s": 413.183, "e": 413.523 },
+        { "w": "running.", "c": null, "s": 413.544, "e": 414.147 }
+      ]
+    },
+    {
+      "i": 189,
+      "kind": "line",
+      "text": "Nobody inside.",
+      "start": 414.373,
+      "end": 415.6,
+      "words": [
+        { "w": "Nobody", "c": null, "s": 414.373, "e": 414.734 },
+        { "w": "inside.", "c": null, "s": 414.778, "e": 415.599 }
+      ]
+    },
+    {
+      "i": 190,
+      "kind": "chapter",
+      "text": "Night seven. The last call.",
+      "start": 416.449,
+      "end": 418.902,
+      "words": [
+        { "w": "Night", "c": null, "s": 416.449, "e": 416.69 },
+        { "w": "seven.", "c": null, "s": 416.744, "e": 417.205 },
+        { "w": "The", "c": null, "s": 417.621, "e": 417.742 },
+        { "w": "last", "c": null, "s": 417.796, "e": 418.07 },
+        { "w": "call.", "c": null, "s": 418.136, "e": 418.903 }
+      ]
+    },
+    {
+      "i": 191,
+      "kind": "line",
+      "text": "On the seventh night, every phone on Earth goes silent.",
+      "start": 419.421,
+      "end": 423.013,
+      "words": [
+        { "w": "On", "c": null, "s": 419.421, "e": 419.575 },
+        { "w": "the", "c": null, "s": 419.607, "e": 419.673 },
+        { "w": "seventh", "c": null, "s": 419.716, "e": 420.001 },
+        { "w": "night,", "c": null, "s": 420.067, "e": 420.428 },
+        { "w": "every", "c": null, "s": 420.658, "e": 420.998 },
+        { "w": "phone", "c": null, "s": 421.063, "e": 421.392 },
+        { "w": "on", "c": null, "s": 421.436, "e": 421.535 },
+        { "w": "Earth", "c": null, "s": 421.59, "e": 421.765 },
+        { "w": "goes", "c": null, "s": 421.83, "e": 422.027 },
+        { "w": "silent.", "c": "r", "s": 422.072, "e": 423.013 }
+      ]
+    },
+    {
+      "i": 192,
+      "kind": "line",
+      "text": "No signal.",
+      "start": 423.126,
+      "end": 424.091,
+      "words": [
+        { "w": "No", "c": null, "s": 423.126, "e": 423.302 },
+        { "w": "signal.", "c": null, "s": 423.378, "e": 424.091 }
+      ]
+    },
+    {
+      "i": 193,
+      "kind": "line",
+      "text": "No internet.",
+      "start": 424.317,
+      "end": 425.457,
+      "words": [
+        { "w": "No", "c": null, "s": 424.317, "e": 424.459 },
+        { "w": "internet.", "c": null, "s": 424.525, "e": 425.456 }
+      ]
+    },
+    {
+      "i": 194,
+      "kind": "line",
+      "text": "No dial tone.",
+      "start": 425.683,
+      "end": 426.865,
+      "words": [
+        { "w": "No", "c": null, "s": 425.683, "e": 425.825 },
+        { "w": "dial", "c": null, "s": 425.902, "e": 426.143 },
+        { "w": "tone.", "c": null, "s": 426.187, "e": 426.866 }
+      ]
+    },
+    {
+      "i": 195,
+      "kind": "line",
+      "text": "And somehow, that's worse.",
+      "start": 427.092,
+      "end": 429.458,
+      "words": [
+        { "w": "And", "c": null, "s": 427.092, "e": 427.256 },
+        { "w": "somehow,", "c": null, "s": 427.332, "e": 428.001 },
+        { "w": "that's", "c": null, "s": 428.308, "e": 428.548 },
+        { "w": "worse.", "c": null, "s": 428.592, "e": 429.458 }
+      ]
+    },
+    {
+      "i": 197,
+      "kind": "line",
+      "text": "Rule twelve.",
+      "start": 430.354,
+      "end": 431.361,
+      "words": [
+        { "w": "Rule", "c": null, "s": 430.354, "e": 430.606 },
+        { "w": "twelve.", "c": null, "s": 430.627, "e": 431.361 }
+      ]
+    },
+    {
+      "i": 198,
+      "kind": "line",
+      "text": "Write down every number you need on paper.",
+      "start": 431.493,
+      "end": 434.21,
+      "words": [
+        { "w": "Write", "c": null, "s": 431.493, "e": 431.778 },
+        { "w": "down", "c": null, "s": 431.811, "e": 431.997 },
+        { "w": "every", "c": null, "s": 432.107, "e": 432.403 },
+        { "w": "number", "c": null, "s": 432.468, "e": 432.687 },
+        { "w": "you", "c": null, "s": 432.742, "e": 432.808 },
+        { "w": "need", "c": null, "s": 432.874, "e": 433.026 },
+        { "w": "on", "c": null, "s": 433.071, "e": 433.136 },
+        { "w": "paper.", "c": "g", "s": 433.202, "e": 434.209 }
+      ]
+    },
+    {
+      "i": 199,
+      "kind": "line",
+      "text": "Mom.",
+      "start": 434.324,
+      "end": 434.98,
+      "words": [{ "w": "Mom.", "c": null, "s": 434.324, "e": 434.981 }]
+    },
+    {
+      "i": 200,
+      "kind": "line",
+      "text": "The doctor.",
+      "start": 435.207,
+      "end": 436.258,
+      "words": [
+        { "w": "The", "c": null, "s": 435.207, "e": 435.36 },
+        { "w": "doctor.", "c": null, "s": 435.415, "e": 436.258 }
+      ]
+    },
+    {
+      "i": 201,
+      "kind": "line",
+      "text": "The neighbors.",
+      "start": 436.485,
+      "end": 437.58,
+      "words": [
+        { "w": "The", "c": null, "s": 436.485, "e": 436.649 },
+        { "w": "neighbors.", "c": null, "s": 436.704, "e": 437.58 }
+      ]
+    },
+    {
+      "i": 202,
+      "kind": "line",
+      "text": "And write the rules down too.",
+      "start": 437.807,
+      "end": 439.515,
+      "words": [
+        { "w": "And", "c": null, "s": 437.807, "e": 437.96 },
+        { "w": "write", "c": null, "s": 437.992, "e": 438.19 },
+        { "w": "the", "c": null, "s": 438.212, "e": 438.277 },
+        { "w": "rules", "c": null, "s": 438.31, "e": 438.529 },
+        { "w": "down", "c": null, "s": 438.562, "e": 438.748 },
+        { "w": "too.", "c": null, "s": 438.792, "e": 439.515 }
+      ]
+    },
+    {
+      "i": 203,
+      "kind": "line",
+      "text": "In pen.",
+      "start": 439.628,
+      "end": 440.592,
+      "words": [
+        { "w": "In", "c": null, "s": 439.628, "e": 439.825 },
+        { "w": "pen.", "c": null, "s": 439.902, "e": 440.592 }
+      ]
+    },
+    {
+      "i": 204,
+      "kind": "line",
+      "text": "In your own handwriting.",
+      "start": 440.819,
+      "end": 442.483,
+      "words": [
+        { "w": "In", "c": null, "s": 440.819, "e": 441.038 },
+        { "w": "your", "c": null, "s": 441.104, "e": 441.246 },
+        { "w": "own", "c": null, "s": 441.301, "e": 441.422 },
+        { "w": "handwriting.", "c": null, "s": 441.465, "e": 442.484 }
+      ]
+    },
+    {
+      "i": 205,
+      "kind": "line",
+      "text": "Because on the seventh night, your phone turns on by itself.",
+      "start": 442.596,
+      "end": 446.058,
+      "words": [
+        { "w": "Because", "c": null, "s": 442.596, "e": 442.925 },
+        { "w": "on", "c": null, "s": 442.958, "e": 443.034 },
+        { "w": "the", "c": null, "s": 443.067, "e": 443.143 },
+        { "w": "seventh", "c": null, "s": 443.199, "e": 443.549 },
+        { "w": "night,", "c": null, "s": 443.615, "e": 443.932 },
+        { "w": "your", "c": null, "s": 444.042, "e": 444.195 },
+        { "w": "phone", "c": null, "s": 444.239, "e": 444.535 },
+        { "w": "turns", "c": null, "s": 444.568, "e": 444.82 },
+        { "w": "on", "c": null, "s": 444.875, "e": 444.973 },
+        { "w": "by", "c": null, "s": 445.017, "e": 445.126 },
+        { "w": "itself.", "c": null, "s": 445.181, "e": 446.058 }
+      ]
+    },
+    {
+      "i": 206,
+      "kind": "line",
+      "text": "The Notes app is open.",
+      "start": 446.171,
+      "end": 447.573,
+      "words": [
+        { "w": "The", "c": null, "s": 446.171, "e": 446.325 },
+        { "w": "Notes", "c": null, "s": 446.379, "e": 446.576 },
+        { "w": "app", "c": null, "s": 446.608, "e": 446.762 },
+        { "w": "is", "c": null, "s": 446.817, "e": 446.893 },
+        { "w": "open.", "c": null, "s": 446.959, "e": 447.573 }
+      ]
+    },
+    {
+      "i": 207,
+      "kind": "line",
+      "text": "And the rules are there.",
+      "start": 447.686,
+      "end": 448.957,
+      "words": [
+        { "w": "And", "c": null, "s": 447.686, "e": 447.84 },
+        { "w": "the", "c": null, "s": 447.872, "e": 447.938 },
+        { "w": "rules", "c": null, "s": 447.971, "e": 448.19 },
+        { "w": "are", "c": null, "s": 448.211, "e": 448.299 },
+        { "w": "there.", "c": null, "s": 448.332, "e": 448.957 }
+      ]
+    },
+    {
+      "i": 208,
+      "kind": "line",
+      "text": "All of them.",
+      "start": 449.07,
+      "end": 450.034,
+      "words": [
+        { "w": "All", "c": null, "s": 449.07, "e": 449.289 },
+        { "w": "of", "c": null, "s": 449.355, "e": 449.409 },
+        { "w": "them.", "c": null, "s": 449.453, "e": 450.034 }
+      ]
+    },
+    {
+      "i": 209,
+      "kind": "line",
+      "text": "Only a few words are different.",
+      "start": 450.26,
+      "end": 452.012,
+      "words": [
+        { "w": "Only", "c": null, "s": 450.26, "e": 450.524 },
+        { "w": "a", "c": null, "s": 450.578, "e": 450.6 },
+        { "w": "few", "c": null, "s": 450.666, "e": 450.83 },
+        { "w": "words", "c": null, "s": 450.874, "e": 451.147 },
+        { "w": "are", "c": null, "s": 451.18, "e": 451.279 },
+        { "w": "different.", "c": null, "s": 451.312, "e": 452.013 }
+      ]
+    },
+    {
+      "i": 211,
+      "kind": "line",
+      "text": "At 2:59 AM, you find something in Grandma's nightstand.",
+      "start": 452.767,
+      "end": 456.623,
+      "words": [
+        { "w": "At", "c": null, "s": 452.767, "e": 452.931 },
+        { "w": "2:59", "c": "y", "s": 452.975, "e": 453.708 },
+        { "w": "AM,", "c": null, "s": 453.819, "e": 454.333 },
+        { "w": "you", "c": null, "s": 454.497, "e": 454.596 },
+        { "w": "find", "c": null, "s": 454.662, "e": 454.848 },
+        { "w": "something", "c": null, "s": 454.892, "e": 455.155 },
+        { "w": "in", "c": null, "s": 455.198, "e": 455.242 },
+        { "w": "Grandma's", "c": null, "s": 455.286, "e": 455.658 },
+        { "w": "nightstand.", "c": null, "s": 455.702, "e": 456.623 }
+      ]
+    },
+    {
+      "i": 212,
+      "kind": "line",
+      "text": "A notebook.",
+      "start": 456.736,
+      "end": 457.875,
+      "words": [
+        { "w": "A", "c": null, "s": 456.736, "e": 456.845 },
+        { "w": "notebook.", "c": null, "s": 456.933, "e": 457.875 }
+      ]
+    },
+    {
+      "i": 213,
+      "kind": "line",
+      "text": "The paper is yellow.",
+      "start": 458.101,
+      "end": 459.503,
+      "words": [
+        { "w": "The", "c": null, "s": 458.101, "e": 458.232 },
+        { "w": "paper", "c": null, "s": 458.276, "e": 458.572 },
+        { "w": "is", "c": null, "s": 458.626, "e": 458.692 },
+        { "w": "yellow.", "c": null, "s": 458.747, "e": 459.503 }
+      ]
+    },
+    {
+      "i": 214,
+      "kind": "line",
+      "text": "The date on the first page is 1987.",
+      "start": 459.616,
+      "end": 462.026,
+      "words": [
+        { "w": "The", "c": null, "s": 459.616, "e": 459.737 },
+        { "w": "date", "c": null, "s": 459.78, "e": 459.977 },
+        { "w": "on", "c": null, "s": 459.999, "e": 460.065 },
+        { "w": "the", "c": null, "s": 460.098, "e": 460.163 },
+        { "w": "first", "c": null, "s": 460.196, "e": 460.426 },
+        { "w": "page", "c": null, "s": 460.481, "e": 460.788 },
+        { "w": "is", "c": null, "s": 460.832, "e": 460.92 },
+        { "w": "1987.", "c": "y", "s": 460.985, "e": 462.025 }
+      ]
+    },
+    {
+      "i": 215,
+      "kind": "line",
+      "text": "It's the same rules.",
+      "start": 462.14,
+      "end": 463.542,
+      "words": [
+        { "w": "It's", "c": null, "s": 462.14, "e": 462.337 },
+        { "w": "the", "c": null, "s": 462.358, "e": 462.425 },
+        { "w": "same", "c": null, "s": 462.458, "e": 462.665 },
+        { "w": "rules.", "c": null, "s": 462.698, "e": 463.542 }
+      ]
+    },
+    {
+      "i": 216,
+      "kind": "line",
+      "text": "In her handwriting.",
+      "start": 463.655,
+      "end": 464.793,
+      "words": [
+        { "w": "In", "c": null, "s": 463.655, "e": 463.808 },
+        { "w": "her", "c": null, "s": 463.863, "e": 463.961 },
+        { "w": "handwriting.", "c": null, "s": 464.016, "e": 464.793 }
+      ]
+    },
+    {
+      "i": 217,
+      "kind": "line",
+      "text": "It happened before.",
+      "start": 465.02,
+      "end": 466.334,
+      "words": [
+        { "w": "It", "c": null, "s": 465.02, "e": 465.184 },
+        { "w": "happened", "c": null, "s": 465.239, "e": 465.502 },
+        { "w": "before.", "c": null, "s": 465.524, "e": 466.334 }
+      ]
+    },
+    {
+      "i": 218,
+      "kind": "line",
+      "text": "Only once.",
+      "start": 466.56,
+      "end": 467.568,
+      "words": [
+        { "w": "Only", "c": null, "s": 466.56, "e": 466.845 },
+        { "w": "once.", "c": null, "s": 466.922, "e": 467.568 }
+      ]
+    },
+    {
+      "i": 219,
+      "kind": "line",
+      "text": "Only on landlines.",
+      "start": 467.794,
+      "end": 469.328,
+      "words": [
+        { "w": "Only", "c": null, "s": 467.794, "e": 468.046 },
+        { "w": "on", "c": null, "s": 468.101, "e": 468.177 },
+        { "w": "landlines.", "c": null, "s": 468.232, "e": 469.327 }
+      ]
+    },
+    {
+      "i": 220,
+      "kind": "line",
+      "text": "And she survived it.",
+      "start": 469.555,
+      "end": 471.0,
+      "words": [
+        { "w": "And", "c": null, "s": 469.555, "e": 469.73 },
+        { "w": "she", "c": null, "s": 469.795, "e": 469.916 },
+        { "w": "survived", "c": null, "s": 469.982, "e": 470.453 },
+        { "w": "it.", "c": null, "s": 470.496, "e": 471.001 }
+      ]
+    },
+    {
+      "i": 221,
+      "kind": "line",
+      "text": "On the last page, she wrote one more rule, underlined three times.",
+      "start": 471.113,
+      "end": 475.539,
+      "words": [
+        { "w": "On", "c": null, "s": 471.113, "e": 471.299 },
+        { "w": "the", "c": null, "s": 471.332, "e": 471.398 },
+        { "w": "last", "c": null, "s": 471.442, "e": 471.672 },
+        { "w": "page,", "c": null, "s": 471.726, "e": 472.121 },
+        { "w": "she", "c": null, "s": 472.285, "e": 472.417 },
+        { "w": "wrote", "c": null, "s": 472.46, "e": 472.669 },
+        { "w": "one", "c": null, "s": 472.734, "e": 472.942 },
+        { "w": "more", "c": null, "s": 472.975, "e": 473.161 },
+        { "w": "rule,", "c": null, "s": 473.216, "e": 473.622 },
+        { "w": "underlined", "c": null, "s": 473.928, "e": 474.388 },
+        { "w": "three", "c": null, "s": 474.421, "e": 474.618 },
+        { "w": "times.", "c": null, "s": 474.662, "e": 475.538 }
+      ]
+    },
+    {
+      "i": 222,
+      "kind": "line",
+      "text": "The last rule.",
+      "start": 476.435,
+      "end": 477.661,
+      "words": [
+        { "w": "The", "c": null, "s": 476.435, "e": 476.566 },
+        { "w": "last", "c": null, "s": 476.621, "e": 476.884 },
+        { "w": "rule.", "c": null, "s": 476.939, "e": 477.661 }
+      ]
+    },
+    {
+      "i": 223,
+      "kind": "line",
+      "text": "Nothing real will ever ask you to keep listening.",
+      "start": 477.793,
+      "end": 480.948,
+      "words": [
+        { "w": "Nothing", "c": null, "s": 477.793, "e": 478.133 },
+        { "w": "real", "c": null, "s": 478.199, "e": 478.451 },
+        { "w": "will", "c": null, "s": 478.867, "e": 479.064 },
+        { "w": "ever", "c": null, "s": 479.108, "e": 479.261 },
+        { "w": "ask", "c": null, "s": 479.338, "e": 479.601 },
+        { "w": "you", "c": null, "s": 479.656, "e": 479.732 },
+        { "w": "to", "c": null, "s": 479.787, "e": 479.83 },
+        { "w": "keep", "c": "r", "s": 479.875, "e": 480.039 },
+        { "w": "listening.", "c": null, "s": 480.093, "e": 480.948 }
+      ]
+    },
+    {
+      "i": 224,
+      "kind": "line",
+      "text": "You read it twice.",
+      "start": 481.061,
+      "end": 482.331,
+      "words": [
+        { "w": "You", "c": null, "s": 481.061, "e": 481.204 },
+        { "w": "read", "c": null, "s": 481.27, "e": 481.401 },
+        { "w": "it", "c": null, "s": 481.444, "e": 481.499 },
+        { "w": "twice.", "c": null, "s": 481.522, "e": 482.332 }
+      ]
+    },
+    {
+      "i": 225,
+      "kind": "line",
+      "text": "Then you realize what time it is.",
+      "start": 482.444,
+      "end": 484.109,
+      "words": [
+        { "w": "Then", "c": null, "s": 482.444, "e": 482.62 },
+        { "w": "you", "c": null, "s": 482.663, "e": 482.729 },
+        { "w": "realize", "c": null, "s": 482.817, "e": 483.145 },
+        { "w": "what", "c": null, "s": 483.167, "e": 483.288 },
+        { "w": "time", "c": null, "s": 483.321, "e": 483.54 },
+        { "w": "it", "c": null, "s": 483.573, "e": 483.627 },
+        { "w": "is.", "c": null, "s": 483.671, "e": 484.109 }
+      ]
+    },
+    {
+      "i": 226,
+      "kind": "line",
+      "text": "3:00 AM.",
+      "start": 484.223,
+      "end": 485.537,
+      "words": [
+        { "w": "3:00", "c": "y", "s": 484.223, "e": 484.541 },
+        { "w": "AM.", "c": null, "s": 484.584, "e": 485.537 }
+      ]
+    },
+    {
+      "i": 228,
+      "kind": "line",
+      "text": "So, let's be honest with each other.",
+      "start": 486.763,
+      "end": 488.604,
+      "words": [
+        { "w": "So,", "c": null, "s": 486.763, "e": 486.939 },
+        { "w": "let's", "c": null, "s": 486.96, "e": 487.125 },
+        { "w": "be", "c": null, "s": 487.179, "e": 487.256 },
+        { "w": "honest", "c": null, "s": 487.289, "e": 487.541 },
+        { "w": "with", "c": null, "s": 487.574, "e": 487.694 },
+        { "w": "each", "c": null, "s": 487.727, "e": 487.847 },
+        { "w": "other.", "c": null, "s": 487.892, "e": 488.603 }
+      ]
+    },
+    {
+      "i": 229,
+      "kind": "line",
+      "text": "You've been listening to a voice reading you rules for almost ten minutes.",
+      "start": 488.717,
+      "end": 492.178,
+      "words": [
+        { "w": "You've", "c": null, "s": 488.717, "e": 488.925 },
+        { "w": "been", "c": null, "s": 488.947, "e": 489.045 },
+        { "w": "listening", "c": null, "s": 489.078, "e": 489.342 },
+        { "w": "to", "c": null, "s": 489.385, "e": 489.44 },
+        { "w": "a", "c": null, "s": 489.517, "e": 489.539 },
+        { "w": "voice", "c": null, "s": 489.593, "e": 489.834 },
+        { "w": "reading", "c": null, "s": 489.867, "e": 490.075 },
+        { "w": "you", "c": null, "s": 490.108, "e": 490.174 },
+        { "w": "rules", "c": null, "s": 490.25, "e": 490.502 },
+        { "w": "for", "c": null, "s": 490.557, "e": 490.656 },
+        { "w": "almost", "c": null, "s": 490.71, "e": 490.974 },
+        { "w": "ten", "c": null, "s": 491.006, "e": 491.171 },
+        { "w": "minutes.", "c": null, "s": 491.225, "e": 492.178 }
+      ]
+    },
+    {
+      "i": 230,
+      "kind": "line",
+      "text": "A calm voice.",
+      "start": 492.292,
+      "end": 493.737,
+      "words": [
+        { "w": "A", "c": null, "s": 492.292, "e": 492.39 },
+        { "w": "calm", "c": null, "s": 492.477, "e": 492.784 },
+        { "w": "voice.", "c": null, "s": 492.861, "e": 493.738 }
+      ]
+    },
+    {
+      "i": 231,
+      "kind": "line",
+      "text": "A voice that sounds like it knows what it's doing.",
+      "start": 493.963,
+      "end": 496.592,
+      "words": [
+        { "w": "A", "c": null, "s": 493.963, "e": 494.051 },
+        { "w": "voice", "c": null, "s": 494.139, "e": 494.401 },
+        { "w": "that", "c": null, "s": 494.434, "e": 494.543 },
+        { "w": "sounds", "c": null, "s": 494.588, "e": 494.894 },
+        { "w": "like", "c": null, "s": 494.927, "e": 495.07 },
+        { "w": "it", "c": null, "s": 495.102, "e": 495.168 },
+        { "w": "knows", "c": null, "s": 495.223, "e": 495.453 },
+        { "w": "what", "c": null, "s": 495.486, "e": 495.606 },
+        { "w": "it's", "c": null, "s": 495.639, "e": 495.738 },
+        { "w": "doing.", "c": null, "s": 495.781, "e": 496.592 }
+      ]
+    },
+    {
+      "i": 232,
+      "kind": "line",
+      "text": "You never once asked it for the code word.",
+      "start": 496.705,
+      "end": 498.808,
+      "words": [
+        { "w": "You", "c": null, "s": 496.705, "e": 496.836 },
+        { "w": "never", "c": null, "s": 496.891, "e": 497.077 },
+        { "w": "once", "c": null, "s": 497.154, "e": 497.351 },
+        { "w": "asked", "c": null, "s": 497.384, "e": 497.614 },
+        { "w": "it", "c": null, "s": 497.646, "e": 497.702 },
+        { "w": "for", "c": null, "s": 497.745, "e": 497.833 },
+        { "w": "the", "c": null, "s": 497.866, "e": 497.931 },
+        { "w": "code", "c": "g", "s": 497.964, "e": 498.183 },
+        { "w": "word.", "c": null, "s": 498.206, "e": 498.808 }
+      ]
+    },
+    {
+      "i": 233,
+      "kind": "line",
+      "text": "It's 3:00 AM somewhere right now.",
+      "start": 498.922,
+      "end": 501.025,
+      "words": [
+        { "w": "It's", "c": null, "s": 498.922, "e": 499.119 },
+        { "w": "3:00", "c": "y", "s": 499.195, "e": 499.425 },
+        { "w": "AM", "c": null, "s": 499.513, "e": 499.765 },
+        { "w": "somewhere", "c": null, "s": 499.831, "e": 500.126 },
+        { "w": "right", "c": null, "s": 500.159, "e": 500.312 },
+        { "w": "now.", "c": null, "s": 500.345, "e": 501.025 }
+      ]
+    },
+    {
+      "i": 234,
+      "kind": "line",
+      "text": "Check your phone.",
+      "start": 501.138,
+      "end": 502.189,
+      "words": [
+        { "w": "Check", "c": null, "s": 501.138, "e": 501.357 },
+        { "w": "your", "c": null, "s": 501.401, "e": 501.499 },
+        { "w": "phone.", "c": null, "s": 501.521, "e": 502.19 }
+      ]
+    },
+    {
+      "i": 235,
+      "kind": "line",
+      "text": "If the caller ID shows your own number, you already know what to do.",
+      "start": 502.415,
+      "end": 506.008,
+      "words": [
+        { "w": "If", "c": null, "s": 502.415, "e": 502.579 },
+        { "w": "the", "c": null, "s": 502.612, "e": 502.678 },
+        { "w": "caller", "c": null, "s": 502.71, "e": 502.985 },
+        { "w": "ID", "c": null, "s": 503.05, "e": 503.215 },
+        { "w": "shows", "c": null, "s": 503.335, "e": 503.543 },
+        { "w": "your", "c": null, "s": 503.576, "e": 503.686 },
+        { "w": "own", "c": null, "s": 503.729, "e": 503.828 },
+        { "w": "number,", "c": null, "s": 503.872, "e": 504.255 },
+        { "w": "you", "c": null, "s": 504.42, "e": 504.54 },
+        { "w": "already", "c": null, "s": 504.617, "e": 504.879 },
+        { "w": "know", "c": null, "s": 504.912, "e": 505.033 },
+        { "w": "what", "c": null, "s": 505.076, "e": 505.197 },
+        { "w": "to", "c": null, "s": 505.241, "e": 505.295 },
+        { "w": "do.", "c": null, "s": 505.361, "e": 506.008 }
+      ]
+    },
+    {
+      "i": 236,
+      "kind": "line",
+      "text": "And if you've figured out rule fourteen, write it in the comments.",
+      "start": 506.121,
+      "end": 509.363,
+      "words": [
+        { "w": "And", "c": null, "s": 506.121, "e": 506.275 },
+        { "w": "if", "c": null, "s": 506.318, "e": 506.384 },
+        { "w": "you've", "c": null, "s": 506.416, "e": 506.558 },
+        { "w": "figured", "c": null, "s": 506.581, "e": 506.843 },
+        { "w": "out", "c": null, "s": 506.876, "e": 506.986 },
+        { "w": "rule", "c": null, "s": 507.03, "e": 507.238 },
+        { "w": "fourteen,", "c": null, "s": 507.271, "e": 507.884 },
+        { "w": "write", "c": null, "s": 508.048, "e": 508.278 },
+        { "w": "it", "c": null, "s": 508.3, "e": 508.355 },
+        { "w": "in", "c": null, "s": 508.399, "e": 508.454 },
+        { "w": "the", "c": null, "s": 508.487, "e": 508.552 },
+        { "w": "comments.", "c": null, "s": 508.596, "e": 509.363 }
+      ]
+    },
+    {
+      "i": 237,
+      "kind": "line",
+      "text": "Just don't write your code word.",
+      "start": 509.476,
+      "end": 511.185,
+      "words": [
+        { "w": "Just", "c": null, "s": 509.476, "e": 509.74 },
+        { "w": "don't", "c": null, "s": 509.772, "e": 509.969 },
+        { "w": "write", "c": null, "s": 509.992, "e": 510.199 },
+        { "w": "your", "c": null, "s": 510.232, "e": 510.331 },
+        { "w": "code", "c": null, "s": 510.386, "e": 510.605 },
+        { "w": "word.", "c": null, "s": 510.626, "e": 511.185 }
+      ]
+    }
+  ]
+}
