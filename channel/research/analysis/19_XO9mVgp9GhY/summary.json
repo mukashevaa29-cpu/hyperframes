@@ -1,0 +1,70 @@
+{
+  "video": "19_XO9mVgp9GhY",
+  "minutes": 13.93,
+  "shots": 65,
+  "shot_len_s": {
+    "mean": 12.85,
+    "p10_p25_p50_p75_p90": [3.8, 8.1, 13.2, 17.4, 20.8]
+  },
+  "cuts_per_min": 4.67,
+  "popins_per_min": 16.9,
+  "caption_changes_per_min": 41.4,
+  "camera_moves_by_shot": {
+    "static": 28,
+    "push-in": 22,
+    "shake": 24,
+    "pull-out": 6,
+    "tilt-up": 3
+  },
+  "transitions": {
+    "cut": 62,
+    "white-flash": 2
+  },
+  "frames_with_camera_motion_pct": 13.3,
+  "luma_p5_p50_p95": [13.7, 38.1, 106.1],
+  "contrast_median": 43.2,
+  "sat_median": 103.3,
+  "vignette_median": 39.3,
+  "dark_frames_pct(luma<40)": 52.4,
+  "light_events": 4,
+  "loudness": {
+    "momentary_LUFS_median": -22.8,
+    "p10": -35.5,
+    "p90": -15.7,
+    "integrated_LUFS": -18.595
+  },
+  "palette": [
+    {
+      "hex": "#2a2a30",
+      "share": 0.293
+    },
+    {
+      "hex": "#1f1e22",
+      "share": 0.223
+    },
+    {
+      "hex": "#100c10",
+      "share": 0.15
+    },
+    {
+      "hex": "#424041",
+      "share": 0.133
+    },
+    {
+      "hex": "#6b615f",
+      "share": 0.07
+    },
+    {
+      "hex": "#dfd8d0",
+      "share": 0.054
+    },
+    {
+      "hex": "#9c928f",
+      "share": 0.044
+    },
+    {
+      "hex": "#530f0e",
+      "share": 0.034
+    }
+  ]
+}
