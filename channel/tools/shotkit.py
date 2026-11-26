@@ -2,10 +2,11 @@
 import sys
 
 sys.path.insert(0, "/home/user/hyperframes/channel/tools")
-from art import character  # noqa: E402
+from art2 import character  # noqa: E402  (v2 rig: reference-level detail)
+CHAR_SCALE = 1.12
 
 def ch(cid, who, x, y=860, s=1.45, **kw):
-    return character(cid, who, x, y, s, **kw)
+    return character(cid, who, x, y, s * CHAR_SCALE, **kw)
 
 
 def X(x, y, s=1.0):

@@ -14,13 +14,14 @@ CHAPTER_PILLS = ["INTRO", "DAY 1 · THE CARDS", "DAY 3 · THE COLD", "DAY 7 · T
 AUDIO = []
 END_AT = None
 
+art.CAST["you"] = dict(art.CAST["you"], outfit="hoodie")
 art.CAST.update({
-    "maya": dict(coat="#d9433b", coat_d="#b8352e", legs="#2b3650", hair="#6b3b2a", skin=art.P["skin"], hair_style="long", extra=""),
-    "dad": dict(coat="#e8ecf2", coat_d="#c9d0db", legs="#2a3346", hair="#3a2a20", skin=art.P["skin"], hair_style="short", extra="glasses"),
-    "kowalski": dict(coat="#4f8a6a", coat_d="#3f7457", legs="#3a3346", hair="#e6e6ea", skin=art.P["skin"], hair_style="bun", extra="glasses"),
-    "pratt": dict(coat="#8a5a3a", coat_d="#6e472d", legs="#2a2a33", hair="#2a2422", skin=art.P["skin2"], hair_style="bald", extra="moustache"),
-    "walker": dict(coat="#cfd5de", coat_d="#b4bcc8", legs="#9aa3b2", hair="#8a8f9c", skin="#e9e2da", hair_style="short", extra=""),
-    "walker2": dict(coat="#d8d0c8", coat_d="#bfb6ad", legs="#a3a0ad", hair="#9a8f86", skin="#ece4dc", hair_style="long", extra=""),
+    "maya": dict(coat="#d9433b", coat_d="#b8352e", legs="#2b3650", hair="#7a4028", skin=art.P["skin"], hair_style="long", extra="", outfit="puffer", freckles=True),
+    "dad": dict(coat="#eef1f5", coat_d="#cdd4de", legs="#2a3346", hair="#3a2a20", skin=art.P["skin"], hair_style="short", extra="glasses", outfit="scrubs"),
+    "kowalski": dict(coat="#4f8a6a", coat_d="#3f7457", legs="#3a3346", hair="#e6e6ea", skin=art.P["skin"], hair_style="bun", extra="glasses", outfit="coat", scarf="#c9364a"),
+    "pratt": dict(coat="#8a5a3a", coat_d="#6e472d", legs="#2a2a33", hair="#2a2422", skin=art.P["skin2"], hair_style="bald", extra="moustache", outfit="sweater"),
+    "walker": dict(coat="#cfd5de", coat_d="#b4bcc8", legs="#9aa3b2", hair="#8a8f9c", skin="#e9e2da", hair_style="short", extra="", outfit="zip", blush=False),
+    "walker2": dict(coat="#d8d0c8", coat_d="#bfb6ad", legs="#a3a0ad", hair="#9a8f86", skin="#ece4dc", hair_style="long", extra="", outfit="coat", blush=False),
 })
 
 
