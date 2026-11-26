@@ -59,15 +59,20 @@ ep.cue("sub.wav", 0, 0.9)
 
 # ---------------------------------------------------------------- S02 the city, the bomb falls, detonation
 s, e = cut(4), cut(15)
-bomb = ('<g id="s02-bomb"><g transform="translate(560,300)">'
+bomb = ('<g id="s02-bomb"><g transform="translate(560,300) scale(1.7)">'
         + glow(N("M -26 0 Q -26 -60 0 -70 Q 26 -60 26 0 L 26 60 Q 26 90 0 96 Q -26 90 -26 60 Z", fill="#141016", sw=8, cw=3)
                + '<path d="M -26 -40 L -48 -80 L 48 -80 L 26 -40" fill="#141016" stroke="#F2EEEA" stroke-width="4"/>') + '</g></g>')
 svg = (f'<g id="s02-fb" opacity="0"><circle cx="560" cy="760" r="240" fill="url(#sunGrad)" filter="url(#glowO)"/></g>'
        + f'<g id="s02-mW" opacity="0">{mushroom("s02-m", cx=560, top=430)}</g>'
        + bomb + city_hiro(1420, gid="s02-city") + hline(1420))
-ep.scene("s02", s, e, svg, origin="50% 55%", drift=0.012, fx=[(W(13) + 0.1, e, "embers", dict(n=50, x0=0, x1=1080, y0=500, y1=1500, sp=260, wind=200))])
+html2 = '<div class="lbl" id="s02-date" style="top:640px;font-size:40px;color:#F5F5F5;">AUGUST 6, 1945 · 8:15 AM</div>'
+ep.scene("s02", s, e, svg, html2, origin="50% 70%", custom_cam=True, fx=[(W(13) + 0.1, e, "embers", dict(n=50, x0=0, x1=1080, y0=500, y1=1500, sp=260, wind=200))])
 td = W(13)
-ep.js(f'tl.fromTo("#s02-bomb",{{y:-200,rotation:0}},{{y:420,rotation:8,svgOrigin:"560 300",duration:{td - s:.3f},ease:"power1.in",immediateRender:false}},{s:.3f});')
+ep.js(f'tl.fromTo("#s02-cam",{{scale:1.35}},{{scale:1.15,duration:{td - s:.3f},ease:"power1.inOut",immediateRender:false}},{s:.3f});')
+ep.js(f'tl.to("#s02-cam",{{scale:1.0,duration:{e - td:.3f},ease:"power2.out"}},{td:.3f});')
+ep.pop("#s02-date", s + 0.1, 0.2, 0.6)
+ep.js(f'tl.to("#s02-date",{{opacity:0,duration:0.1}},{td:.3f});')
+ep.js(f'tl.fromTo("#s02-bomb",{{y:480,rotation:0}},{{y:860,rotation:8,svgOrigin:"560 300",duration:{td - s:.3f},ease:"power1.in",immediateRender:false}},{s:.3f});')
 ep.js(f'tl.set("#s02-bomb",{{opacity:0}},{td:.3f});')
 ep.js(f'tl.fromTo("#s02-fb",{{opacity:1,scale:0.05,svgOrigin:"560 760"}},{{scale:1.4,duration:0.5,ease:"expo.out",immediateRender:false}},{td:.3f});')
 ep.js(f'tl.to("#s02-fb",{{opacity:0,duration:0.6}},{td + 0.5:.3f});')
