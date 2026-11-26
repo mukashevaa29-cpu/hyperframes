@@ -73,7 +73,7 @@ def character(cid, who, x, y, scale=1.0, mood="neutral", arms=(8, -8), flip=Fals
     positive swings outward-left. `held` = prop markup placed in the right hand.
     `dim` 0..1 darkens the whole figure (night)."""
     c = CAST[who]
-    kid = who in ("leo", "kid", "kid2")
+    kid = who in ("leo", "kid", "kid2", "maya")
     head_w = 100 if kid else 92
     hy = -262
     sx = -scale if flip else scale

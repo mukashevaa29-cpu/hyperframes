@@ -23,6 +23,10 @@ HOLD_AFTER = {"Don't.": 0.55, "Hang up.": 0.9, "3:00 AM.": 1.3, "Nobody inside."
               "Toward your house.": 1.0, "You never find out whose.": 0.8, "And the line goes dead.": 0.8,
               "The kind payphones used to take.": 0.7, "Still warm.": 0.9, "You don't ask what she means.": 0.6,
               "And the whole time, something was listening along with you.": 1.0}
+import os as _os
+_hp = _os.path.join(_os.path.dirname(sys.argv[3]), "holds.json")
+if _os.path.exists(_hp):
+    HOLD_AFTER.update(json.load(open(_hp)))
 RULE_LINE = re.compile(r"^(Rule \w+\.|The last rule\.)$")
 
 

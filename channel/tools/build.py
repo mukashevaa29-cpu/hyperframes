@@ -183,6 +183,40 @@ def shake_js(sel, t, amp=10, n=6):
     return "".join(out)
 
 
+def _flake_tile(n, rmin, rmax, seed, op):
+    import random as _r
+    import urllib.parse as _u
+    rnd = _r.Random(seed)
+    c = "".join(f"<circle cx='{rnd.uniform(0,600):.0f}' cy='{rnd.uniform(0,600):.0f}' r='{rnd.uniform(rmin,rmax):.1f}' "
+                f"fill='white' opacity='{rnd.uniform(op*0.6,op):.2f}'/>" for _ in range(n))
+    return "url('data:image/svg+xml;utf8," + _u.quote(f"<svg xmlns='http://www.w3.org/2000/svg' width='600' height='600'>{c}</svg>") + "')"
+
+
+SNOW_PRESETS = {  # layers: (flakes per tile, rmin, rmax, opacity, speed px/s, drift px/s)
+    "light": [(40, 1.2, 2.4, 0.7, 60, 12), (12, 2.5, 4.5, 0.9, 120, 25)],
+    "heavy": [(90, 1.2, 2.6, 0.8, 110, 30), (30, 3, 6, 0.95, 230, 60)],
+    "whiteout": [(140, 1.5, 3, 0.85, 160, 70), (50, 4, 8, 0.95, 320, 140)],
+}
+
+
+def snow_layers(sid, kind, dur, js):
+    out = []
+    for k, (n, r0, r1, op, sp, dr) in enumerate(SNOW_PRESETS[kind]):
+        lid = f"{sid}-sn{k}"
+        out.append(f'<div id="{lid}" style="position:absolute;left:-600px;top:-600px;width:{1920+1200}px;height:{1080+1200}px;'
+                   f'background-image:{_flake_tile(n, r0, r1, hash((sid, k)) % 1000, op)};background-size:600px 600px" data-layout-ignore></div>')
+        period = 600 / sp
+        reps = max(1, int(dur / period) + 1)
+        js.append(f'tl.fromTo("#{lid}",{{y:0,x:0}},{{y:600,x:{600 * dr / sp:.1f},duration:{period:.3f},ease:"none",repeat:{reps}}},0);')
+    if kind == "whiteout":
+        out.append('<div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(255,255,255,.15),rgba(235,241,248,.55))" data-layout-ignore></div>')
+    return "".join(out)
+
+
+FROST = ('<div style="position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 80% 75% at 50% 50%,'
+         'rgba(220,235,255,0) 60%,rgba(220,235,255,.22) 85%,rgba(235,245,255,.45) 100%)" data-layout-ignore></div>')
+
+
 def build_scene_shot(sh, chars_in_shot):
     d = sh.d
     sid = sh.id
@@ -195,6 +229,8 @@ def build_scene_shot(sh, chars_in_shot):
     dur = sh.end - sh.start
     _ids = [i[0] for i in d.get("svg", [])] + [i[0] for i in d.get("html", [])]
     assert len(_ids) == len(set(_ids)), f"duplicate item ids in shot at={d.get('at')}: {_ids}"
+    _reserved = {"cam", "settle", "dark", "flash", "sn0", "sn1"}
+    assert not (_reserved & set(_ids)), f"reserved item id in shot at={d.get('at')}: {_reserved & set(_ids)}"
     svg_items = []
     pending = []  # [t, selector, kind, rot, is_svg]
     static_items = 0
@@ -328,9 +364,11 @@ def build_scene_shot(sh, chars_in_shot):
             sh.js.append(f'tl.to("#{sid}-cam {sel}",{{attr:{{fill:"#0d1428"}},opacity:1,duration:0.08,stagger:{stag}}},{sh.t(ref):.3f});')
         elif k == "js":
             sh.js.append(a[1].replace("$", f"#{sid}-").replace("%T%", f"{sh.t(a[2]):.3f}"))
-    svg = f'<svg viewBox="0 0 1920 1080"><defs>{svg_filters()}</defs>{bgsvg}</svg>' + "".join(svg_items)
-    sh.js.append(f'tl.fromTo("#{sid}-st",{{scale:1.058}},{{scale:1,duration:0.3,ease:"power2.out",transformOrigin:"50% 55%"}},0.1);')
-    body = (f'<div class="cam" id="{sid}-st"><div class="cam" id="{sid}-cam">{svg}{"".join(sh.html)}</div></div>'
+    weather = snow_layers(sid, d["snow"], dur, sh.js) if d.get("snow") else ""
+    svg = (f'<svg viewBox="0 0 1920 1080"><defs>{svg_filters()}</defs>{bgsvg}</svg>' + "".join(svg_items) + weather
+           + (FROST if d.get("frost") else ""))
+    sh.js.append(f'tl.fromTo("#{sid}-settle",{{scale:1.058}},{{scale:1,duration:0.3,ease:"power2.out",transformOrigin:"50% 55%"}},0.1);')
+    body = (f'<div class="cam" id="{sid}-settle"><div class="cam" id="{sid}-cam">{svg}{"".join(sh.html)}</div></div>'
             f'<div class="dark" id="{sid}-dark" data-layout-ignore></div><div class="flash" id="{sid}-flash" data-layout-ignore></div>')
     return body
 
@@ -575,9 +613,10 @@ fx_html = f"""<template>
 #grain{{position:absolute;left:-200px;top:-200px;width:2320px;height:1480px;opacity:.09;mix-blend-mode:overlay;
   background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' seed='4'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>")}}
 .dust{{position:absolute;border-radius:50%;background:#fff}}
+#capscrim{{position:absolute;left:0;right:0;top:820px;height:260px;background:linear-gradient(to bottom,rgba(6,8,14,0),rgba(6,8,14,.62) 55%,rgba(6,8,14,.7))}}
 </style>
 <div id="root" data-composition-id="fx" data-width="1920" data-height="1080" data-layout-ignore>
-<div id="vig"></div><div id="grain"></div>
+<div id="vig"></div><div id="grain"></div>{'<div id="capscrim"></div>' if getattr(S, "CAPTION_SCRIM", False) else ""}
 {"".join(f'<div id="d{k}" class="dust" style="left:{x:.0f}px;top:{y:.0f}px;width:{r*2}px;height:{r*2}px;opacity:{0.08 + r/30:.2f}"></div>' for k, x, y, r, _, _ in dust)}
 </div>
 <script>
@@ -638,5 +677,6 @@ for u, w, g, du in getattr(S, "MUSIC_DIPS", []):
     t = word_t((u, w), 0, None)
     dips.append([t - 0.6, g, du])
 json.dump({"duration": TOTAL, "events": sorted(SFX_EVENTS), "dips": dips, "chapters": [h[1] for h in hosts],
+           "music_order": getattr(S, "MUSIC_ORDER", ["music_a", "music_b", "music_c", "music_a"]),
            "music_switch": cut_time(getattr(S, "MUSIC_SWITCH_AT", 105))}, open(f"{EP}/build/sfx_events.json", "w"))
 print("total", f"{TOTAL:.1f}s", len(shots), "shots,", len(cg), "caption groups,", len(merged), "hud spans")

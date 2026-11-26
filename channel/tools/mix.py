@@ -45,7 +45,7 @@ for i in range(0, len(active), step):  # coarse follower, then interpolate
 env = np.pad(env, (0, max(0, N - len(env))))[:N]
 
 # ---- music: tracks in order, each switching (4 s crossfade) at the last chapter start it can reach
-order = ["music_a", "music_b", "music_c", "music_a"]
+order = ev.get("music_order", ["music_a", "music_b", "music_c", "music_a"])
 tracks = [load(f"{EP}/build/{n}.mp3") for n in order]
 xf = int(4 * SR)
 mus = np.zeros((N, 2), np.float32)
