@@ -1,6 +1,6 @@
 # The Rule Stories — EP02 upload sheet (20 rules)
 
-**File:** `video/renders/whiteout_v1_share.mp4` (1920×1080, 30 fps, 14:20, −14 LUFS)
+**File:** `video/renders/whiteout_v1_share.mp4` (1920×1080, 30 fps, 14:20, −14.8 LUFS, −1.7 dBTP)
 **Thumbnail:** `thumbnail/thumbnail.png` (1280×720)
 **Captions:** `captions.srt` (English, timed from the voiceover)
 
