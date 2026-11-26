@@ -1,0 +1,8 @@
+{
+  "text": "Concerts.",
+  "alignment": {
+    "characters": ["C", "o", "n", "c", "e", "r", "t", "s", "."],
+    "character_start_times_seconds": [0.0, 0.093, 0.209, 0.29, 0.36, 0.43, 0.488, 0.557, 0.65],
+    "character_end_times_seconds": [0.093, 0.209, 0.29, 0.36, 0.43, 0.488, 0.557, 0.65, 1.115]
+  }
+}

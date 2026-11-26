@@ -1,0 +1,8 @@
+{
+  "text": "Mom.",
+  "alignment": {
+    "characters": ["M", "o", "m", "."],
+    "character_start_times_seconds": [0.0, 0.139, 0.313, 0.43],
+    "character_end_times_seconds": [0.139, 0.313, 0.43, 0.697]
+  }
+}

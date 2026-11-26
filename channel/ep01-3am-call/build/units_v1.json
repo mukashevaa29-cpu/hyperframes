@@ -1,0 +1,6858 @@
+[
+  {
+    "kind": "chapter",
+    "title": "INTRO",
+    "spoken": ""
+  },
+  {
+    "kind": "line",
+    "text": "Tuesday. 2:59 AM.",
+    "words": [
+      {
+        "w": "Tuesday.",
+        "c": null
+      },
+      {
+        "w": "2:59",
+        "c": "y"
+      },
+      {
+        "w": "AM.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You're asleep.",
+    "words": [
+      {
+        "w": "You're",
+        "c": null
+      },
+      {
+        "w": "asleep.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your phone is face down on the nightstand. 41 percent.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "face",
+        "c": null
+      },
+      {
+        "w": "down",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "nightstand.",
+        "c": null
+      },
+      {
+        "w": "41",
+        "c": "y"
+      },
+      {
+        "w": "percent.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Across the hall, your little brother Leo fell asleep with his tablet on his chest.",
+    "words": [
+      {
+        "w": "Across",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "hall,",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "little",
+        "c": null
+      },
+      {
+        "w": "brother",
+        "c": null
+      },
+      {
+        "w": "Leo",
+        "c": "y"
+      },
+      {
+        "w": "fell",
+        "c": null
+      },
+      {
+        "w": "asleep",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "his",
+        "c": null
+      },
+      {
+        "w": "tablet",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "his",
+        "c": null
+      },
+      {
+        "w": "chest.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Downstairs, there's the old landline your grandma refuses to cancel.",
+    "words": [
+      {
+        "w": "Downstairs,",
+        "c": null
+      },
+      {
+        "w": "there's",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "old",
+        "c": null
+      },
+      {
+        "w": "landline",
+        "c": "b"
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "grandma",
+        "c": null
+      },
+      {
+        "w": "refuses",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "cancel.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And at 3:00 AM exactly, all three of them ring.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "3:00",
+        "c": "y"
+      },
+      {
+        "w": "AM",
+        "c": null
+      },
+      {
+        "w": "exactly,",
+        "c": null
+      },
+      {
+        "w": "all",
+        "c": null
+      },
+      {
+        "w": "three",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": null
+      },
+      {
+        "w": "ring",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "At the same time.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "same",
+        "c": null
+      },
+      {
+        "w": "time.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not just in your house.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "just",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "house.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In every house on your street.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "every",
+        "c": null
+      },
+      {
+        "w": "house",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "street.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In every city.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "every",
+        "c": null
+      },
+      {
+        "w": "city.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On every continent.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "every",
+        "c": null
+      },
+      {
+        "w": "continent.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Eight billion phones.",
+    "words": [
+      {
+        "w": "Eight",
+        "c": "y"
+      },
+      {
+        "w": "billion",
+        "c": null
+      },
+      {
+        "w": "phones.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "One ring.",
+    "words": [
+      {
+        "w": "One",
+        "c": "r"
+      },
+      {
+        "w": "ring.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You turn yours over.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "turn",
+        "c": null
+      },
+      {
+        "w": "yours",
+        "c": null
+      },
+      {
+        "w": "over.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The caller ID doesn't say Unknown.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "caller",
+        "c": null
+      },
+      {
+        "w": "ID",
+        "c": null
+      },
+      {
+        "w": "doesn't",
+        "c": null
+      },
+      {
+        "w": "say",
+        "c": null
+      },
+      {
+        "w": "Unknown",
+        "c": "b"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It shows a number you know by heart.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "shows",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "number",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "know",
+        "c": null
+      },
+      {
+        "w": "by",
+        "c": null
+      },
+      {
+        "w": "heart.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your own.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "own",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your thumb is already over the green button.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "thumb",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "already",
+        "c": null
+      },
+      {
+        "w": "over",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "green",
+        "c": null
+      },
+      {
+        "w": "button.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And then, downstairs, the landline stops ringing.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "then,",
+        "c": null
+      },
+      {
+        "w": "downstairs,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "landline",
+        "c": null
+      },
+      {
+        "w": "stops",
+        "c": "r"
+      },
+      {
+        "w": "ringing.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Because somebody just answered it.",
+    "words": [
+      {
+        "w": "Because",
+        "c": null
+      },
+      {
+        "w": "somebody",
+        "c": null
+      },
+      {
+        "w": "just",
+        "c": null
+      },
+      {
+        "w": "answered",
+        "c": "r"
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Nobody will ever fully explain what happened that week.",
+    "words": [
+      {
+        "w": "Nobody",
+        "c": null
+      },
+      {
+        "w": "will",
+        "c": null
+      },
+      {
+        "w": "ever",
+        "c": null
+      },
+      {
+        "w": "fully",
+        "c": null
+      },
+      {
+        "w": "explain",
+        "c": null
+      },
+      {
+        "w": "what",
+        "c": null
+      },
+      {
+        "w": "happened",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "week.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "But the people who made it to Monday all followed the same rules.",
+    "words": [
+      {
+        "w": "But",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "people",
+        "c": null
+      },
+      {
+        "w": "who",
+        "c": null
+      },
+      {
+        "w": "made",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "Monday",
+        "c": null
+      },
+      {
+        "w": "all",
+        "c": null
+      },
+      {
+        "w": "followed",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "same",
+        "c": null
+      },
+      {
+        "w": "rules.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Thirteen of them.",
+    "words": [
+      {
+        "w": "Thirteen",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "them.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Night by night.",
+    "words": [
+      {
+        "w": "Night",
+        "c": null
+      },
+      {
+        "w": "by",
+        "c": null
+      },
+      {
+        "w": "night.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "From the first ring, to the moment you realize who has been reading these rules to you.",
+    "words": [
+      {
+        "w": "From",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "ring,",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "moment",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "realize",
+        "c": null
+      },
+      {
+        "w": "who",
+        "c": null
+      },
+      {
+        "w": "has",
+        "c": null
+      },
+      {
+        "w": "been",
+        "c": null
+      },
+      {
+        "w": "reading",
+        "c": "r"
+      },
+      {
+        "w": "these",
+        "c": null
+      },
+      {
+        "w": "rules",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "you.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "NIGHT 1 · THE FIRST RING",
+    "spoken": "Night one. The first ring."
+  },
+  {
+    "kind": "line",
+    "text": "At 3:00 AM, the first thing everyone does is the same.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "3:00",
+        "c": "y"
+      },
+      {
+        "w": "AM,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "thing",
+        "c": null
+      },
+      {
+        "w": "everyone",
+        "c": null
+      },
+      {
+        "w": "does",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "same.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "They answer.",
+    "words": [
+      {
+        "w": "They",
+        "c": null
+      },
+      {
+        "w": "answer.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not because they're brave.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "because",
+        "c": null
+      },
+      {
+        "w": "they're",
+        "c": null
+      },
+      {
+        "w": "brave.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Because a ringing phone is the oldest command we have.",
+    "words": [
+      {
+        "w": "Because",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "ringing",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "oldest",
+        "c": null
+      },
+      {
+        "w": "command",
+        "c": null
+      },
+      {
+        "w": "we",
+        "c": null
+      },
+      {
+        "w": "have.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 1",
+    "imperative": "DON'T ANSWER YOUR OWN NUMBER"
+  },
+  {
+    "kind": "line",
+    "text": "Rule one.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "one.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never answer a call from your own number.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "answer",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "call",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "own",
+        "c": "r"
+      },
+      {
+        "w": "number.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It isn't a glitch.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "isn't",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "glitch.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your carrier didn't get hacked.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "carrier",
+        "c": null
+      },
+      {
+        "w": "didn't",
+        "c": null
+      },
+      {
+        "w": "get",
+        "c": null
+      },
+      {
+        "w": "hacked.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Something is calling from the inside of the network, and it borrowed the one number it knew you would never block.",
+    "words": [
+      {
+        "w": "Something",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "calling",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "inside",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "network,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "borrowed",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "number",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "knew",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "would",
+        "c": null
+      },
+      {
+        "w": "never",
+        "c": null
+      },
+      {
+        "w": "block.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Let it ring.",
+    "words": [
+      {
+        "w": "Let",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "ring.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It rings exactly thirteen times.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "rings",
+        "c": null
+      },
+      {
+        "w": "exactly",
+        "c": null
+      },
+      {
+        "w": "thirteen",
+        "c": "y"
+      },
+      {
+        "w": "times.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then the screen goes black, and the phone shows 41 percent again, as if nothing happened.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "screen",
+        "c": null
+      },
+      {
+        "w": "goes",
+        "c": null
+      },
+      {
+        "w": "black,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "shows",
+        "c": null
+      },
+      {
+        "w": "41",
+        "c": "y"
+      },
+      {
+        "w": "percent",
+        "c": null
+      },
+      {
+        "w": "again,",
+        "c": null
+      },
+      {
+        "w": "as",
+        "c": null
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "nothing",
+        "c": null
+      },
+      {
+        "w": "happened.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "But down the street, a dog starts barking.",
+    "words": [
+      {
+        "w": "But",
+        "c": null
+      },
+      {
+        "w": "down",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "street,",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "dog",
+        "c": null
+      },
+      {
+        "w": "starts",
+        "c": null
+      },
+      {
+        "w": "barking.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then another.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "another.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then every dog in the neighborhood.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "every",
+        "c": null
+      },
+      {
+        "w": "dog",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "neighborhood.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And you hear your grandma's slippers on the stairs.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "hear",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "grandma's",
+        "c": null
+      },
+      {
+        "w": "slippers",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "stairs.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 2",
+    "imperative": "DON'T ASK WHAT THEY HEARD"
+  },
+  {
+    "kind": "line",
+    "text": "Rule two.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "two.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If someone in your house answered, do not ask them what they heard.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "someone",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "house",
+        "c": null
+      },
+      {
+        "w": "answered,",
+        "c": null
+      },
+      {
+        "w": "do",
+        "c": null
+      },
+      {
+        "w": "not",
+        "c": "r"
+      },
+      {
+        "w": "ask",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": null
+      },
+      {
+        "w": "what",
+        "c": null
+      },
+      {
+        "w": "they",
+        "c": null
+      },
+      {
+        "w": "heard.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Grandma is standing in the kitchen doorway, still holding the receiver.",
+    "words": [
+      {
+        "w": "Grandma",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "standing",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "kitchen",
+        "c": null
+      },
+      {
+        "w": "doorway,",
+        "c": null
+      },
+      {
+        "w": "still",
+        "c": null
+      },
+      {
+        "w": "holding",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "receiver.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The cord is swinging.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "cord",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "swinging.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "She's smiling.",
+    "words": [
+      {
+        "w": "She's",
+        "c": null
+      },
+      {
+        "w": "smiling.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "She says it was Grandpa.",
+    "words": [
+      {
+        "w": "She",
+        "c": null
+      },
+      {
+        "w": "says",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "was",
+        "c": null
+      },
+      {
+        "w": "Grandpa",
+        "c": "y"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He called to say he's coming home.",
+    "words": [
+      {
+        "w": "He",
+        "c": null
+      },
+      {
+        "w": "called",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "say",
+        "c": null
+      },
+      {
+        "w": "he's",
+        "c": null
+      },
+      {
+        "w": "coming",
+        "c": null
+      },
+      {
+        "w": "home.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Grandpa died in 2009.",
+    "words": [
+      {
+        "w": "Grandpa",
+        "c": null
+      },
+      {
+        "w": "died",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "2009",
+        "c": "y"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You want to ask what his voice sounded like.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "want",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "ask",
+        "c": null
+      },
+      {
+        "w": "what",
+        "c": null
+      },
+      {
+        "w": "his",
+        "c": null
+      },
+      {
+        "w": "voice",
+        "c": null
+      },
+      {
+        "w": "sounded",
+        "c": null
+      },
+      {
+        "w": "like.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Don't.",
+    "words": [
+      {
+        "w": "Don't.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The people who asked started hearing it too.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "people",
+        "c": null
+      },
+      {
+        "w": "who",
+        "c": null
+      },
+      {
+        "w": "asked",
+        "c": null
+      },
+      {
+        "w": "started",
+        "c": null
+      },
+      {
+        "w": "hearing",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "too.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Just take the receiver out of her hand.",
+    "words": [
+      {
+        "w": "Just",
+        "c": null
+      },
+      {
+        "w": "take",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "receiver",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "her",
+        "c": null
+      },
+      {
+        "w": "hand.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Put it back on the hook.",
+    "words": [
+      {
+        "w": "Put",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "back",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "hook.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And unplug the cable from the wall.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "unplug",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "cable",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "wall.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 3",
+    "imperative": "PICK A CODE WORD. TONIGHT."
+  },
+  {
+    "kind": "line",
+    "text": "Rule three.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "three.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Before the sun comes up, agree on a family code word.",
+    "words": [
+      {
+        "w": "Before",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "sun",
+        "c": null
+      },
+      {
+        "w": "comes",
+        "c": null
+      },
+      {
+        "w": "up,",
+        "c": null
+      },
+      {
+        "w": "agree",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "family",
+        "c": null
+      },
+      {
+        "w": "code",
+        "c": "g"
+      },
+      {
+        "w": "word.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In person.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "person.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Out loud.",
+    "words": [
+      {
+        "w": "Out",
+        "c": null
+      },
+      {
+        "w": "loud.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never over the phone, never in a text, never in a chat.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "over",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "phone,",
+        "c": null
+      },
+      {
+        "w": "never",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "text,",
+        "c": null
+      },
+      {
+        "w": "never",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "chat.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Pick something nobody could guess from your life online.",
+    "words": [
+      {
+        "w": "Pick",
+        "c": null
+      },
+      {
+        "w": "something",
+        "c": null
+      },
+      {
+        "w": "nobody",
+        "c": null
+      },
+      {
+        "w": "could",
+        "c": null
+      },
+      {
+        "w": "guess",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "life",
+        "c": null
+      },
+      {
+        "w": "online.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not a pet.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "pet.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not a street.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "street.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not a birthday.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "birthday.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You and Leo pick a word at the kitchen table, whispering, like it's a game.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "Leo",
+        "c": null
+      },
+      {
+        "w": "pick",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "word",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "kitchen",
+        "c": null
+      },
+      {
+        "w": "table,",
+        "c": null
+      },
+      {
+        "w": "whispering,",
+        "c": null
+      },
+      {
+        "w": "like",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "game.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It isn't a game.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "isn't",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "game.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "By the end of this week, it will be the only thing that tells you who is real.",
+    "words": [
+      {
+        "w": "By",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "end",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "this",
+        "c": null
+      },
+      {
+        "w": "week,",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "will",
+        "c": null
+      },
+      {
+        "w": "be",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "only",
+        "c": null
+      },
+      {
+        "w": "thing",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "tells",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "who",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "real.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "DAY 2 · THE ONES WHO ANSWERED",
+    "spoken": "Day two. The ones who answered."
+  },
+  {
+    "kind": "line",
+    "text": "In the morning the news says it was a solar storm.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "morning",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "news",
+        "c": null
+      },
+      {
+        "w": "says",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "was",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "solar",
+        "c": null
+      },
+      {
+        "w": "storm.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then a software update.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "software",
+        "c": null
+      },
+      {
+        "w": "update.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then a hoax.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "hoax.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "By noon, nobody says anything, because the people on the news start repeating themselves.",
+    "words": [
+      {
+        "w": "By",
+        "c": null
+      },
+      {
+        "w": "noon,",
+        "c": null
+      },
+      {
+        "w": "nobody",
+        "c": null
+      },
+      {
+        "w": "says",
+        "c": null
+      },
+      {
+        "w": "anything,",
+        "c": null
+      },
+      {
+        "w": "because",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "people",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "news",
+        "c": null
+      },
+      {
+        "w": "start",
+        "c": null
+      },
+      {
+        "w": "repeating",
+        "c": "r"
+      },
+      {
+        "w": "themselves.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Same sentence.",
+    "words": [
+      {
+        "w": "Same",
+        "c": null
+      },
+      {
+        "w": "sentence.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Same smile.",
+    "words": [
+      {
+        "w": "Same",
+        "c": null
+      },
+      {
+        "w": "smile.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Every thirteen minutes.",
+    "words": [
+      {
+        "w": "Every",
+        "c": null
+      },
+      {
+        "w": "thirteen",
+        "c": "y"
+      },
+      {
+        "w": "minutes.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "At school, half of Leo's class is missing.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "school,",
+        "c": null
+      },
+      {
+        "w": "half",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "Leo's",
+        "c": null
+      },
+      {
+        "w": "class",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "missing.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "At work, your boss sends a voice note asking everyone to come in early tomorrow.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "work,",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "boss",
+        "c": null
+      },
+      {
+        "w": "sends",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "voice",
+        "c": null
+      },
+      {
+        "w": "note",
+        "c": null
+      },
+      {
+        "w": "asking",
+        "c": null
+      },
+      {
+        "w": "everyone",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "come",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "early",
+        "c": null
+      },
+      {
+        "w": "tomorrow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "At 3:00 AM.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "3:00",
+        "c": "y"
+      },
+      {
+        "w": "AM.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 4",
+    "imperative": "NEVER SAY \"YES\" ON THE PHONE"
+  },
+  {
+    "kind": "line",
+    "text": "Rule four.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "four.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never say the word yes on the phone.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "say",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "word",
+        "c": null
+      },
+      {
+        "w": "yes",
+        "c": "r"
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "phone.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not to a friend.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "friend.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not to your mom.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "mom.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not to a robot asking if you can hear it.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "robot",
+        "c": null
+      },
+      {
+        "w": "asking",
+        "c": null
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "can",
+        "c": null
+      },
+      {
+        "w": "hear",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Scammers used this trick for years.",
+    "words": [
+      {
+        "w": "Scammers",
+        "c": null
+      },
+      {
+        "w": "used",
+        "c": null
+      },
+      {
+        "w": "this",
+        "c": null
+      },
+      {
+        "w": "trick",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "years.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "They'd record your yes and use it to sign you up for things you never agreed to.",
+    "words": [
+      {
+        "w": "They'd",
+        "c": null
+      },
+      {
+        "w": "record",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "yes",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "use",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "sign",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "things",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "never",
+        "c": null
+      },
+      {
+        "w": "agreed",
+        "c": null
+      },
+      {
+        "w": "to.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The thing on the line does the same.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "thing",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "line",
+        "c": null
+      },
+      {
+        "w": "does",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "same.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Only it isn't signing you up for a subscription.",
+    "words": [
+      {
+        "w": "Only",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "isn't",
+        "c": null
+      },
+      {
+        "w": "signing",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "subscription.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If you have to answer a question, say correct.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "have",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "answer",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "question,",
+        "c": null
+      },
+      {
+        "w": "say",
+        "c": null
+      },
+      {
+        "w": "correct",
+        "c": "g"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Or say nothing at all.",
+    "words": [
+      {
+        "w": "Or",
+        "c": null
+      },
+      {
+        "w": "say",
+        "c": null
+      },
+      {
+        "w": "nothing",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "all.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 5",
+    "imperative": "TURN OFF VOICEMAIL"
+  },
+  {
+    "kind": "line",
+    "text": "Rule five.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "five.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Turn off your voicemail.",
+    "words": [
+      {
+        "w": "Turn",
+        "c": null
+      },
+      {
+        "w": "off",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "voicemail",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "All of it.",
+    "words": [
+      {
+        "w": "All",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Phone, landline, the old answering machine in the garage.",
+    "words": [
+      {
+        "w": "Phone,",
+        "c": null
+      },
+      {
+        "w": "landline,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "old",
+        "c": null
+      },
+      {
+        "w": "answering",
+        "c": null
+      },
+      {
+        "w": "machine",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "garage.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On Tuesday night, it calls.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "Tuesday",
+        "c": null
+      },
+      {
+        "w": "night,",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "calls.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On Wednesday morning, there's a new message.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "Wednesday",
+        "c": null
+      },
+      {
+        "w": "morning,",
+        "c": null
+      },
+      {
+        "w": "there's",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "new",
+        "c": null
+      },
+      {
+        "w": "message.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's your voice.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": "r"
+      },
+      {
+        "w": "voice.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your exact voice.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "exact",
+        "c": null
+      },
+      {
+        "w": "voice.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Telling your own mom that you're fine, that you're coming over, and that she should leave the door unlocked.",
+    "words": [
+      {
+        "w": "Telling",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "own",
+        "c": null
+      },
+      {
+        "w": "mom",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "you're",
+        "c": null
+      },
+      {
+        "w": "fine,",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "you're",
+        "c": null
+      },
+      {
+        "w": "coming",
+        "c": null
+      },
+      {
+        "w": "over,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "she",
+        "c": null
+      },
+      {
+        "w": "should",
+        "c": null
+      },
+      {
+        "w": "leave",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "unlocked.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "NIGHT 3 · THE VOICES",
+    "spoken": "Night three. The voices."
+  },
+  {
+    "kind": "line",
+    "text": "On the third night, it stops using your number.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "third",
+        "c": null
+      },
+      {
+        "w": "night,",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "stops",
+        "c": null
+      },
+      {
+        "w": "using",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "number.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It starts using theirs.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "starts",
+        "c": null
+      },
+      {
+        "w": "using",
+        "c": null
+      },
+      {
+        "w": "theirs.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 6",
+    "imperative": "LOOK UP, NOT DOWN"
+  },
+  {
+    "kind": "line",
+    "text": "Rule six.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "six.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If you get a text from someone in the same room, look at them, not at your screen.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "get",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "text",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "someone",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "same",
+        "c": null
+      },
+      {
+        "w": "room,",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": "g"
+      },
+      {
+        "w": ",",
+        "c": null
+      },
+      {
+        "w": "not",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "screen.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's 2:40 AM.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "2:40",
+        "c": "y"
+      },
+      {
+        "w": "AM.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You and Leo are on the couch with the lights off.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "Leo",
+        "c": null
+      },
+      {
+        "w": "are",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "couch",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "lights",
+        "c": null
+      },
+      {
+        "w": "off.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your phone buzzes.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "buzzes.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's from Leo.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "Leo.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It says, don't look at me.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "says,",
+        "c": null
+      },
+      {
+        "w": "don't",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "me.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You look up.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "up.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Leo is staring at you.",
+    "words": [
+      {
+        "w": "Leo",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "staring",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "you.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "His phone is on the table.",
+    "words": [
+      {
+        "w": "His",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "table.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Screen off.",
+    "words": [
+      {
+        "w": "Screen",
+        "c": null
+      },
+      {
+        "w": "off",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He didn't send it.",
+    "words": [
+      {
+        "w": "He",
+        "c": null
+      },
+      {
+        "w": "didn't",
+        "c": null
+      },
+      {
+        "w": "send",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 7",
+    "imperative": "PHONES SLEEP IN THE MICROWAVE"
+  },
+  {
+    "kind": "line",
+    "text": "Rule seven.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "seven.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "At night, phones sleep in the microwave.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "night,",
+        "c": null
+      },
+      {
+        "w": "phones",
+        "c": null
+      },
+      {
+        "w": "sleep",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "microwave",
+        "c": "b"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Switched off.",
+    "words": [
+      {
+        "w": "Switched",
+        "c": null
+      },
+      {
+        "w": "off.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Door closed.",
+    "words": [
+      {
+        "w": "Door",
+        "c": null
+      },
+      {
+        "w": "closed.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Unplugged from the wall.",
+    "words": [
+      {
+        "w": "Unplugged",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "wall.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "A microwave is basically a metal box, and a metal box is one of the few things that can block a signal.",
+    "words": [
+      {
+        "w": "A",
+        "c": null
+      },
+      {
+        "w": "microwave",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "basically",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "metal",
+        "c": null
+      },
+      {
+        "w": "box,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "metal",
+        "c": null
+      },
+      {
+        "w": "box",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "few",
+        "c": null
+      },
+      {
+        "w": "things",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "can",
+        "c": null
+      },
+      {
+        "w": "block",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "signal.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's not perfect.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "not",
+        "c": null
+      },
+      {
+        "w": "perfect.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "But on the third night, the phone inside starts ringing anyway.",
+    "words": [
+      {
+        "w": "But",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "third",
+        "c": null
+      },
+      {
+        "w": "night,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "inside",
+        "c": null
+      },
+      {
+        "w": "starts",
+        "c": null
+      },
+      {
+        "w": "ringing",
+        "c": null
+      },
+      {
+        "w": "anyway.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Muffled.",
+    "words": [
+      {
+        "w": "Muffled.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Thirteen times.",
+    "words": [
+      {
+        "w": "Thirteen",
+        "c": null
+      },
+      {
+        "w": "times.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And then it stops, and it doesn't ring again.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "then",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "stops,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "doesn't",
+        "c": null
+      },
+      {
+        "w": "ring",
+        "c": null
+      },
+      {
+        "w": "again.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "That's the first night you sleep.",
+    "words": [
+      {
+        "w": "That's",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "night",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "sleep.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 8",
+    "imperative": "ASK FOR THE CODE WORD. ALWAYS."
+  },
+  {
+    "kind": "line",
+    "text": "Rule eight.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "eight.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "When someone you love calls you crying, ask for the code word.",
+    "words": [
+      {
+        "w": "When",
+        "c": null
+      },
+      {
+        "w": "someone",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "love",
+        "c": null
+      },
+      {
+        "w": "calls",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "crying,",
+        "c": null
+      },
+      {
+        "w": "ask",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "code",
+        "c": "g"
+      },
+      {
+        "w": "word.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Every time.",
+    "words": [
+      {
+        "w": "Every",
+        "c": null
+      },
+      {
+        "w": "time.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Even if it's your mom.",
+    "words": [
+      {
+        "w": "Even",
+        "c": null
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "mom.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Even if she sounds hurt.",
+    "words": [
+      {
+        "w": "Even",
+        "c": null
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "she",
+        "c": null
+      },
+      {
+        "w": "sounds",
+        "c": null
+      },
+      {
+        "w": "hurt.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Especially if she sounds hurt.",
+    "words": [
+      {
+        "w": "Especially",
+        "c": null
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "she",
+        "c": null
+      },
+      {
+        "w": "sounds",
+        "c": null
+      },
+      {
+        "w": "hurt.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "At 4:10 AM, the landline rings.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "4:10",
+        "c": "y"
+      },
+      {
+        "w": "AM,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "landline",
+        "c": null
+      },
+      {
+        "w": "rings.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You plugged it back in to call the hospital, and you forgot.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "plugged",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "back",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "call",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "hospital,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "forgot.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's Leo's voice.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "Leo's",
+        "c": null
+      },
+      {
+        "w": "voice.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He's crying.",
+    "words": [
+      {
+        "w": "He's",
+        "c": null
+      },
+      {
+        "w": "crying.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He says he's locked outside and it's cold.",
+    "words": [
+      {
+        "w": "He",
+        "c": null
+      },
+      {
+        "w": "says",
+        "c": null
+      },
+      {
+        "w": "he's",
+        "c": null
+      },
+      {
+        "w": "locked",
+        "c": null
+      },
+      {
+        "w": "outside",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "cold.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You turn around.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "turn",
+        "c": null
+      },
+      {
+        "w": "around.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Leo is asleep on the couch.",
+    "words": [
+      {
+        "w": "Leo",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "asleep",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "couch.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You pick up the receiver anyway, and you ask for the word.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "pick",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "receiver",
+        "c": null
+      },
+      {
+        "w": "anyway,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "ask",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "word.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The crying stops.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "crying",
+        "c": null
+      },
+      {
+        "w": "stops.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And on the other end, very quietly, something starts to laugh.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "other",
+        "c": null
+      },
+      {
+        "w": "end,",
+        "c": null
+      },
+      {
+        "w": "very",
+        "c": null
+      },
+      {
+        "w": "quietly,",
+        "c": null
+      },
+      {
+        "w": "something",
+        "c": null
+      },
+      {
+        "w": "starts",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "laugh",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Hang up.",
+    "words": [
+      {
+        "w": "Hang",
+        "c": null
+      },
+      {
+        "w": "up.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "NIGHT 5 · IT LEARNS",
+    "spoken": "Night five. It learns."
+  },
+  {
+    "kind": "line",
+    "text": "By the fifth night, it doesn't need to call.",
+    "words": [
+      {
+        "w": "By",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "fifth",
+        "c": null
+      },
+      {
+        "w": "night,",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "doesn't",
+        "c": null
+      },
+      {
+        "w": "need",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "call.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It needs recordings.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "needs",
+        "c": null
+      },
+      {
+        "w": "recordings",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 9",
+    "imperative": "STOP RECORDING YOUR VOICE"
+  },
+  {
+    "kind": "line",
+    "text": "Rule nine.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "nine.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Stop recording your voice.",
+    "words": [
+      {
+        "w": "Stop",
+        "c": null
+      },
+      {
+        "w": "recording",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "voice.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No voice notes.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "voice",
+        "c": null
+      },
+      {
+        "w": "notes.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No videos.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "videos.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No smart speaker in the kitchen listening for its name.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "smart",
+        "c": null
+      },
+      {
+        "w": "speaker",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "kitchen",
+        "c": null
+      },
+      {
+        "w": "listening",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "its",
+        "c": null
+      },
+      {
+        "w": "name.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Every word you upload is another word it can say in your voice.",
+    "words": [
+      {
+        "w": "Every",
+        "c": null
+      },
+      {
+        "w": "word",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "upload",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "another",
+        "c": null
+      },
+      {
+        "w": "word",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "can",
+        "c": null
+      },
+      {
+        "w": "say",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "voice.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Three seconds of audio used to be enough for a scammer to clone someone.",
+    "words": [
+      {
+        "w": "Three",
+        "c": null
+      },
+      {
+        "w": "seconds",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "audio",
+        "c": null
+      },
+      {
+        "w": "used",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "be",
+        "c": null
+      },
+      {
+        "w": "enough",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "scammer",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "clone",
+        "c": null
+      },
+      {
+        "w": "someone.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It needs less.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "needs",
+        "c": null
+      },
+      {
+        "w": "less.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You go through your phone that night and delete eight years of videos.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "go",
+        "c": null
+      },
+      {
+        "w": "through",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "night",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "delete",
+        "c": null
+      },
+      {
+        "w": "eight",
+        "c": null
+      },
+      {
+        "w": "years",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "videos.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Birthday parties.",
+    "words": [
+      {
+        "w": "Birthday",
+        "c": null
+      },
+      {
+        "w": "parties.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Concerts.",
+    "words": [
+      {
+        "w": "Concerts.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Grandpa's last Christmas.",
+    "words": [
+      {
+        "w": "Grandpa's",
+        "c": null
+      },
+      {
+        "w": "last",
+        "c": null
+      },
+      {
+        "w": "Christmas.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It hurts more than you expected.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "hurts",
+        "c": null
+      },
+      {
+        "w": "more",
+        "c": null
+      },
+      {
+        "w": "than",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "expected.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 10",
+    "imperative": "IF IT RINGS WHILE OFF, LEAVE THE ROOM"
+  },
+  {
+    "kind": "line",
+    "text": "Rule ten.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "ten.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If a phone rings while it's switched off, leave the room.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "rings",
+        "c": null
+      },
+      {
+        "w": "while",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "switched",
+        "c": null
+      },
+      {
+        "w": "off",
+        "c": "r"
+      },
+      {
+        "w": ",",
+        "c": null
+      },
+      {
+        "w": "leave",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "room.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Don't check it.",
+    "words": [
+      {
+        "w": "Don't",
+        "c": null
+      },
+      {
+        "w": "check",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Don't pull the battery.",
+    "words": [
+      {
+        "w": "Don't",
+        "c": null
+      },
+      {
+        "w": "pull",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "battery.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Just leave and close the door behind you.",
+    "words": [
+      {
+        "w": "Just",
+        "c": null
+      },
+      {
+        "w": "leave",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "close",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "behind",
+        "c": null
+      },
+      {
+        "w": "you.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's not the phone that's ringing.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "not",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "that's",
+        "c": null
+      },
+      {
+        "w": "ringing.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's whatever is standing where the phone is.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "whatever",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "standing",
+        "c": "r"
+      },
+      {
+        "w": "where",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "is.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 11",
+    "imperative": "NEVER CALL 911 AT 3:00 AM"
+  },
+  {
+    "kind": "line",
+    "text": "Rule eleven.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "eleven.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Between three and four AM, do not call emergency services.",
+    "words": [
+      {
+        "w": "Between",
+        "c": null
+      },
+      {
+        "w": "three",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "four",
+        "c": null
+      },
+      {
+        "w": "AM,",
+        "c": null
+      },
+      {
+        "w": "do",
+        "c": null
+      },
+      {
+        "w": "not",
+        "c": null
+      },
+      {
+        "w": "call",
+        "c": null
+      },
+      {
+        "w": "emergency",
+        "c": null
+      },
+      {
+        "w": "services.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On Thursday, your neighbor Mr. Alvarez does.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "Thursday,",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "neighbor",
+        "c": null
+      },
+      {
+        "w": "Mr.",
+        "c": "y"
+      },
+      {
+        "w": "Alvarez",
+        "c": "y"
+      },
+      {
+        "w": "does.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "His wife fell on the stairs.",
+    "words": [
+      {
+        "w": "His",
+        "c": null
+      },
+      {
+        "w": "wife",
+        "c": null
+      },
+      {
+        "w": "fell",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "stairs.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The dispatcher answers on the first ring.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "dispatcher",
+        "c": null
+      },
+      {
+        "w": "answers",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "ring.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "She asks for the address.",
+    "words": [
+      {
+        "w": "She",
+        "c": null
+      },
+      {
+        "w": "asks",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "address.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "She asks if the front door is unlocked.",
+    "words": [
+      {
+        "w": "She",
+        "c": null
+      },
+      {
+        "w": "asks",
+        "c": null
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "front",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "unlocked.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "She asks him to stay on the line and say yes if he understands.",
+    "words": [
+      {
+        "w": "She",
+        "c": null
+      },
+      {
+        "w": "asks",
+        "c": null
+      },
+      {
+        "w": "him",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "stay",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "line",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "say",
+        "c": null
+      },
+      {
+        "w": "yes",
+        "c": "r"
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "he",
+        "c": null
+      },
+      {
+        "w": "understands.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He says yes.",
+    "words": [
+      {
+        "w": "He",
+        "c": null
+      },
+      {
+        "w": "says",
+        "c": null
+      },
+      {
+        "w": "yes.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In the morning, the ambulance is still parked outside his house.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "morning,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "ambulance",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "still",
+        "c": null
+      },
+      {
+        "w": "parked",
+        "c": null
+      },
+      {
+        "w": "outside",
+        "c": null
+      },
+      {
+        "w": "his",
+        "c": null
+      },
+      {
+        "w": "house.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Engine running.",
+    "words": [
+      {
+        "w": "Engine",
+        "c": null
+      },
+      {
+        "w": "running.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Nobody inside.",
+    "words": [
+      {
+        "w": "Nobody",
+        "c": null
+      },
+      {
+        "w": "inside.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "NIGHT 7 · THE LAST CALL",
+    "spoken": "Night seven. The last call."
+  },
+  {
+    "kind": "line",
+    "text": "On the seventh night, every phone on Earth goes silent.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "seventh",
+        "c": null
+      },
+      {
+        "w": "night,",
+        "c": null
+      },
+      {
+        "w": "every",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "Earth",
+        "c": null
+      },
+      {
+        "w": "goes",
+        "c": null
+      },
+      {
+        "w": "silent",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No signal.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "signal.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No internet.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "internet.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No dial tone.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "dial",
+        "c": null
+      },
+      {
+        "w": "tone.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And somehow, that's worse.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "somehow,",
+        "c": null
+      },
+      {
+        "w": "that's",
+        "c": null
+      },
+      {
+        "w": "worse.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 12",
+    "imperative": "WRITE IT DOWN ON PAPER"
+  },
+  {
+    "kind": "line",
+    "text": "Rule twelve.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "twelve.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Write down every number you need on paper.",
+    "words": [
+      {
+        "w": "Write",
+        "c": null
+      },
+      {
+        "w": "down",
+        "c": null
+      },
+      {
+        "w": "every",
+        "c": null
+      },
+      {
+        "w": "number",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "need",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "paper",
+        "c": "g"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Mom.",
+    "words": [
+      {
+        "w": "Mom.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The doctor.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "doctor.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The neighbors.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "neighbors.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And write the rules down too.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "write",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "rules",
+        "c": null
+      },
+      {
+        "w": "down",
+        "c": null
+      },
+      {
+        "w": "too.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In pen.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "pen.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In your own handwriting.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "own",
+        "c": null
+      },
+      {
+        "w": "handwriting.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Because on the seventh night, your phone turns on by itself.",
+    "words": [
+      {
+        "w": "Because",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "seventh",
+        "c": null
+      },
+      {
+        "w": "night,",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "phone",
+        "c": null
+      },
+      {
+        "w": "turns",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "by",
+        "c": null
+      },
+      {
+        "w": "itself.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The Notes app is open.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "Notes",
+        "c": null
+      },
+      {
+        "w": "app",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "open.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And the rules are there.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "rules",
+        "c": null
+      },
+      {
+        "w": "are",
+        "c": null
+      },
+      {
+        "w": "there.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "All of them.",
+    "words": [
+      {
+        "w": "All",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "them.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Only a few words are different.",
+    "words": [
+      {
+        "w": "Only",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "few",
+        "c": null
+      },
+      {
+        "w": "words",
+        "c": null
+      },
+      {
+        "w": "are",
+        "c": null
+      },
+      {
+        "w": "different.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "LAST RULE",
+    "imperative": "NOTHING REAL ASKS YOU TO KEEP LISTENING"
+  },
+  {
+    "kind": "line",
+    "text": "At 2:59 AM, you find something in Grandma's nightstand.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "2:59",
+        "c": "y"
+      },
+      {
+        "w": "AM,",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "find",
+        "c": null
+      },
+      {
+        "w": "something",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "Grandma's",
+        "c": null
+      },
+      {
+        "w": "nightstand.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "A notebook.",
+    "words": [
+      {
+        "w": "A",
+        "c": null
+      },
+      {
+        "w": "notebook.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The paper is yellow.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "paper",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "yellow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The date on the first page is 1987.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "date",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "page",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "1987",
+        "c": "y"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's the same rules.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "same",
+        "c": null
+      },
+      {
+        "w": "rules.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In her handwriting.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "her",
+        "c": null
+      },
+      {
+        "w": "handwriting.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It happened before.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "happened",
+        "c": null
+      },
+      {
+        "w": "before.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Only once.",
+    "words": [
+      {
+        "w": "Only",
+        "c": null
+      },
+      {
+        "w": "once.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Only on landlines.",
+    "words": [
+      {
+        "w": "Only",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "landlines.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And she survived it.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "she",
+        "c": null
+      },
+      {
+        "w": "survived",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On the last page, she wrote one more rule, underlined three times.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "last",
+        "c": null
+      },
+      {
+        "w": "page,",
+        "c": null
+      },
+      {
+        "w": "she",
+        "c": null
+      },
+      {
+        "w": "wrote",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "more",
+        "c": null
+      },
+      {
+        "w": "rule,",
+        "c": null
+      },
+      {
+        "w": "underlined",
+        "c": null
+      },
+      {
+        "w": "three",
+        "c": null
+      },
+      {
+        "w": "times.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The last rule.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "last",
+        "c": null
+      },
+      {
+        "w": "rule.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Nothing real will ever ask you to keep listening.",
+    "words": [
+      {
+        "w": "Nothing",
+        "c": null
+      },
+      {
+        "w": "real",
+        "c": null
+      },
+      {
+        "w": "will",
+        "c": null
+      },
+      {
+        "w": "ever",
+        "c": null
+      },
+      {
+        "w": "ask",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "keep",
+        "c": "r"
+      },
+      {
+        "w": "listening.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You read it twice.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "read",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "twice.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then you realize what time it is.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "realize",
+        "c": null
+      },
+      {
+        "w": "what",
+        "c": null
+      },
+      {
+        "w": "time",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "is.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "3:00 AM.",
+    "words": [
+      {
+        "w": "3:00",
+        "c": "y"
+      },
+      {
+        "w": "AM.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "FINALE",
+    "spoken": ""
+  },
+  {
+    "kind": "line",
+    "text": "So, let's be honest with each other.",
+    "words": [
+      {
+        "w": "So,",
+        "c": null
+      },
+      {
+        "w": "let's",
+        "c": null
+      },
+      {
+        "w": "be",
+        "c": null
+      },
+      {
+        "w": "honest",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "each",
+        "c": null
+      },
+      {
+        "w": "other.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You've been listening to a voice reading you rules for almost ten minutes.",
+    "words": [
+      {
+        "w": "You've",
+        "c": null
+      },
+      {
+        "w": "been",
+        "c": null
+      },
+      {
+        "w": "listening",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "voice",
+        "c": null
+      },
+      {
+        "w": "reading",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "rules",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "almost",
+        "c": null
+      },
+      {
+        "w": "ten",
+        "c": null
+      },
+      {
+        "w": "minutes.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "A calm voice.",
+    "words": [
+      {
+        "w": "A",
+        "c": null
+      },
+      {
+        "w": "calm",
+        "c": null
+      },
+      {
+        "w": "voice.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "A voice that sounds like it knows what it's doing.",
+    "words": [
+      {
+        "w": "A",
+        "c": null
+      },
+      {
+        "w": "voice",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "sounds",
+        "c": null
+      },
+      {
+        "w": "like",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "knows",
+        "c": null
+      },
+      {
+        "w": "what",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "doing.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You never once asked it for the code word.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "never",
+        "c": null
+      },
+      {
+        "w": "once",
+        "c": null
+      },
+      {
+        "w": "asked",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "code",
+        "c": "g"
+      },
+      {
+        "w": "word.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's 3:00 AM somewhere right now.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "3:00",
+        "c": "y"
+      },
+      {
+        "w": "AM",
+        "c": null
+      },
+      {
+        "w": "somewhere",
+        "c": null
+      },
+      {
+        "w": "right",
+        "c": null
+      },
+      {
+        "w": "now.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Check your phone.",
+    "words": [
+      {
+        "w": "Check",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "phone.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If the caller ID shows your own number, you already know what to do.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "caller",
+        "c": null
+      },
+      {
+        "w": "ID",
+        "c": null
+      },
+      {
+        "w": "shows",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "own",
+        "c": null
+      },
+      {
+        "w": "number,",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "already",
+        "c": null
+      },
+      {
+        "w": "know",
+        "c": null
+      },
+      {
+        "w": "what",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "do.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And if you've figured out rule fourteen, write it in the comments.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "you've",
+        "c": null
+      },
+      {
+        "w": "figured",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "rule",
+        "c": null
+      },
+      {
+        "w": "fourteen,",
+        "c": null
+      },
+      {
+        "w": "write",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "comments.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Just don't write your code word.",
+    "words": [
+      {
+        "w": "Just",
+        "c": null
+      },
+      {
+        "w": "don't",
+        "c": null
+      },
+      {
+        "w": "write",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "code",
+        "c": null
+      },
+      {
+        "w": "word.",
+        "c": null
+      }
+    ]
+  }
+]

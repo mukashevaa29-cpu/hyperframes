@@ -1,0 +1,8 @@
+{
+  "text": "Closer.",
+  "alignment": {
+    "characters": ["C", "l", "o", "s", "e", "r", "."],
+    "character_start_times_seconds": [0.0, 0.128, 0.209, 0.302, 0.383, 0.464, 0.546],
+    "character_end_times_seconds": [0.128, 0.209, 0.302, 0.383, 0.464, 0.546, 1.022]
+  }
+}

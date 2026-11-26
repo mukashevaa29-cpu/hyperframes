@@ -4,6 +4,7 @@ timing.json: {"duration", "units": [{i, kind, start, end, words:[{w,c,s,e}]}]}
 Gap rules follow the style bible: near-continuous delivery (0.12 s), longer air before
 rule / chapter cards so the card can build, and a few dramatic holds.
 """
+import hashlib
 import json
 import re
 import subprocess
@@ -17,12 +18,20 @@ vo_dir, out_wav, out_json = sys.argv[2], sys.argv[3], sys.argv[4]
 HOLD_AFTER = {"Don't.": 0.55, "Hang up.": 0.9, "3:00 AM.": 1.3, "Nobody inside.": 0.9, "He didn't send it.": 0.8,
               "Your own.": 0.45, "Screen off.": 0.45, "It needs less.": 0.5, "It hurts more than you expected.": 0.8,
               "That's the first night you sleep.": 0.7, "Only a few words are different.": 0.8,
-              "Because somebody just answered it.": 0.7, "Just don't write your code word.": 1.5}
+              "Because somebody just answered it.": 0.7, "Just don't write your code word.": 1.5,
+              "And keep listening.": 1.0, "And he smiles.": 0.7, "And for a long time, you can hear it breathing.": 1.0,
+              "Toward your house.": 1.0, "You never find out whose.": 0.8, "And the line goes dead.": 0.8,
+              "The kind payphones used to take.": 0.7, "Still warm.": 0.9, "You don't ask what she means.": 0.6,
+              "And the whole time, something was listening along with you.": 1.0}
 RULE_LINE = re.compile(r"^(Rule \w+\.|The last rule\.)$")
 
 
-def load(i):
-    pcm = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", f"{vo_dir}/{i:03d}.mp3", "-ac", "1", "-ar", str(SR),
+def key(text):
+    return hashlib.sha1(text.encode()).hexdigest()[:16]
+
+
+def load(text):
+    pcm = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", f"{vo_dir}/{key(text)}.mp3", "-ac", "1", "-ar", str(SR),
                           "-f", "f32le", "-"], capture_output=True, check=True).stdout
     return np.frombuffer(pcm, np.float32)
 
@@ -50,8 +59,9 @@ pieces, timing = [], []
 t = 0.4
 pieces.append(np.zeros(int(t * SR), np.float32))
 for k, (i, u) in enumerate(spoken):
-    meta = json.load(open(f"{vo_dir}/{i:03d}.json"))
-    a = load(i)
+    txt = u.get("text") if u["kind"] == "line" else u.get("spoken")
+    meta = json.load(open(f"{vo_dir}/{key(txt)}.json"))
+    a = load(txt)
     ws = words_from_alignment(meta["alignment"], meta["text"])
     s0 = max(0.0, ws[0][1] - 0.04)
     s1 = min(len(a) / SR, ws[-1][2] + 0.07)

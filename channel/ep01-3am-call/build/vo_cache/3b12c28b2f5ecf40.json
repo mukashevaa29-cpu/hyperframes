@@ -1,0 +1,12 @@
+{
+  "text": "Rule four.",
+  "alignment": {
+    "characters": ["R", "u", "l", "e", " ", "f", "o", "u", "r", "."],
+    "character_start_times_seconds": [
+      0.0, 0.104, 0.221, 0.279, 0.325, 0.395, 0.453, 0.534, 0.58, 0.708
+    ],
+    "character_end_times_seconds": [
+      0.104, 0.221, 0.279, 0.325, 0.395, 0.453, 0.534, 0.58, 0.708, 1.207
+    ]
+  }
+}

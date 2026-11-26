@@ -44,22 +44,35 @@ for i in range(0, len(active), step):  # coarse follower, then interpolate
     env[i:i + step] = v
 env = np.pad(env, (0, max(0, N - len(env))))[:N]
 
-# ---- music: A until the switch, crossfade 4 s into B
-ma, mb = load(f"{EP}/build/music_a.mp3"), load(f"{EP}/build/music_b.mp3")
-sw = int(ev["music_switch"] * SR)
+# ---- music: tracks in order, each switching (4 s crossfade) at the last chapter start it can reach
+order = ["music_a", "music_b", "music_c", "music_a"]
+tracks = [load(f"{EP}/build/{n}.mp3") for n in order]
 xf = int(4 * SR)
 mus = np.zeros((N, 2), np.float32)
-la = min(len(ma), sw + xf, N)
-mus[:la] += ma[:la]
-fade = np.linspace(1, 0, xf)[:, None]
-s0 = max(0, sw)
-seg = min(xf, la - s0)
-if seg > 0:
-    mus[s0:s0 + seg] *= fade[:seg]
-lb = min(len(mb), N - s0)
-bpart = mb[:lb].copy()
-bpart[:xf] *= (1 - fade[:min(xf, lb)])
-mus[s0:s0 + lb] += bpart
+bounds = sorted(c for c in ev.get("chapters", []) if c > 20)
+start, k = 0.0, 0
+plan = []
+while start < ev["duration"] and k < len(tracks):
+    L = len(tracks[k]) / SR
+    if start + L >= ev["duration"] + 2 or k == len(tracks) - 1:
+        plan.append((k, start, ev["duration"] + 2))
+        break
+    cand = [b for b in bounds if start + 30 < b < start + L - 6]
+    sw = cand[-1] if cand else start + L - 6
+    plan.append((k, start, sw))
+    start, k = sw, k + 1
+for n, (k, a, b) in enumerate(plan):
+    tr = tracks[k]
+    s0, s1 = int(a * SR), min(N, int(b * SR) + (xf if n + 1 < len(plan) else 0))
+    seg = tr[:s1 - s0].copy()
+    if n > 0:
+        f = min(xf, len(seg))
+        seg[:f] *= np.linspace(0, 1, f)[:, None]
+    if n + 1 < len(plan):
+        f = min(xf, len(seg))
+        seg[-f:] *= np.linspace(1, 0, f)[:, None]
+    mus[s0:s0 + len(seg)] += seg
+print("music plan:", [(order[k], round(a, 1), round(b, 1)) for k, a, b in plan])
 # fade the bed in at the start and out at the end
 fi = int(1.5 * SR)
 mus[:fi] *= np.linspace(0, 1, fi)[:, None]

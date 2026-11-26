@@ -1,0 +1,8 @@
+{
+  "text": "Rule two.",
+  "alignment": {
+    "characters": ["R", "u", "l", "e", " ", "t", "w", "o", "."],
+    "character_start_times_seconds": [0.0, 0.104, 0.197, 0.255, 0.302, 0.348, 0.395, 0.464, 0.615],
+    "character_end_times_seconds": [0.104, 0.197, 0.255, 0.302, 0.348, 0.395, 0.464, 0.615, 1.254]
+  }
+}

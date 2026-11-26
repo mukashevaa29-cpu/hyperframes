@@ -1,0 +1,8 @@
+{
+  "text": "Don't.",
+  "alignment": {
+    "characters": ["D", "o", "n", "'", "t", "."],
+    "character_start_times_seconds": [0.0, 0.104, 0.163, 0.209, 0.244, 0.36],
+    "character_end_times_seconds": [0.104, 0.163, 0.209, 0.244, 0.36, 1.115]
+  }
+}

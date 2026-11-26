@@ -1,0 +1,8 @@
+{
+  "text": "Your own.",
+  "alignment": {
+    "characters": ["Y", "o", "u", "r", " ", "o", "w", "n", "."],
+    "character_start_times_seconds": [0.0, 0.081, 0.128, 0.174, 0.221, 0.279, 0.325, 0.36, 0.476],
+    "character_end_times_seconds": [0.081, 0.128, 0.174, 0.221, 0.279, 0.325, 0.36, 0.476, 0.975]
+  }
+}

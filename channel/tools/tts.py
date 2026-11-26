@@ -5,6 +5,7 @@ The proxy injects the API key; the header value here is a placeholder.
 """
 import base64
 import concurrent.futures as cf
+import hashlib
 import json
 import os
 import sys
@@ -27,7 +28,7 @@ for i, u in enumerate(units):
 
 def job(k):
     i, text = spoken[k]
-    mp3 = os.path.join(out, f"{i:03d}.mp3")
+    mp3 = os.path.join(out, hashlib.sha1(text.encode()).hexdigest()[:16] + ".mp3")
     if os.path.exists(mp3):
         return i, "skip"
     body = {

@@ -386,3 +386,89 @@ def bedroom_grandma():
 
 BG.update({"living_room": living_room, "tv_news": tv_news, "classroom": classroom, "microwave": microwave,
            "ambulance": ambulance_street, "notebook": notebook, "bedroom_grandma": bedroom_grandma})
+
+
+def gas_station():
+    out = [f'<rect width="{W}" height="{H}" fill="#e4e9ef"/>',
+           '<rect x="0" y="0" width="1920" height="70" fill="#c9d2dc"/>',
+           "".join(f'<rect x="{x}" y="20" width="160" height="24" rx="6" fill="#fff8de"/>' for x in range(120, 1900, 320)),
+           _floor("#b9bfc8"),
+           # shelves
+           "".join(f'<g transform="translate({x} 380)"><rect width="300" height="480" fill="#9aa4b2"/>'
+                   + "".join(f'<rect x="10" y="{20+r*118}" width="280" height="10" fill="#7d8796"/>'
+                             + "".join(f'<rect x="{16+c*46}" y="{-30+r*118+20}" width="38" height="48" rx="4" fill="{col}"/>'
+                                       for c, col in enumerate(["#ef3b4f", "#ffd43b", "#3a6fd8", "#3fbf7f", "#f4f1ea", "#d9573b"]))
+                             for r in range(4)) + '</g>' for x in (120, 470)),
+           # counter + register
+           '<rect x="1060" y="600" width="780" height="260" fill="#6b7686"/>',
+           '<rect x="1040" y="580" width="820" height="30" rx="6" fill="#8a95a5"/>',
+           '<rect x="1560" y="500" width="160" height="90" rx="10" fill="#2f3542"/><rect x="1580" y="515" width="120" height="40" rx="4" fill="#7fe3a0"/>',
+           # door with chime
+           '<rect x="860" y="300" width="160" height="560" fill="#bfe0f5" opacity="0.7"/><rect x="852" y="292" width="176" height="12" fill="#7d8796"/>',
+           ]
+    return "".join(out)
+
+
+def payphone(x, y, s=1.0, cid=""):
+    ident = f' id="{cid}"' if cid else ""
+    return (f'<g{ident} transform="translate({x} {y}) scale({s})">'
+            '<rect x="-12" y="-300" width="24" height="300" fill="#5a6070"/>'
+            '<rect x="-70" y="-470" width="140" height="190" rx="10" fill="#3a6fd8"/>'
+            '<rect x="-56" y="-455" width="112" height="40" rx="4" fill="#cfe0ff"/>'
+            '<text x="0" y="-428" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="20" fill="#16233f">PHONE</text>'
+            '<rect x="-50" y="-400" width="60" height="100" rx="6" fill="#2a2f3a"/>'
+            '<g fill="#c9cad1">' + "".join(f'<rect x="{18+(k%3)*12}" y="{-396+(k//3)*14}" width="9" height="10" rx="2"/>' for k in range(12)) + '</g>'
+            '<rect x="-64" y="-405" width="16" height="70" rx="8" fill="#1d1f26"/></g>')
+
+
+def street_day(n_phones=3):
+    out = [f'<rect width="{W}" height="{H}" fill="#b8d4ea"/>',
+           '<circle cx="1760" cy="120" r="70" fill="#fff4cf"/><circle cx="1760" cy="120" r="140" fill="#fff4cf" opacity="0.25"/>',
+           house(40, FLOOR, 420, 300, "#d9c4a8", "#8a5a4a", [False, False, False], seed=1),
+           house(560, FLOOR, 360, 260, "#c9d2c0", "#6a7a5a", [False, False], seed=2),
+           house(1020, FLOOR, 420, 320, "#e0cdb8", "#7a4a3a", [False, False, False], seed=3),
+           house(1540, FLOOR, 340, 280, "#cbbfd8", "#5a4a6e", [False, False], seed=4),
+           _floor("#8a8f9a"),
+           '<rect x="0" y="880" width="1920" height="8" fill="#e8e8ee" opacity="0.5"/>']
+    return "".join(out)
+
+
+def porch_door(open_=True):
+    """Front door seen from inside the hall: open door, dusk porch light outside."""
+    out = [f'<rect width="{W}" height="{H}" fill="#2a2f45"/>',
+           '<rect x="660" y="180" width="560" height="680" fill="#c97a4a"/>',
+           '<rect x="660" y="180" width="560" height="680" fill="#2a1e3a" opacity="0.55"/>',
+           '<circle cx="940" cy="250" r="90" fill="#ffd98a" opacity="0.25"/>',
+           '<rect x="640" y="160" width="600" height="24" fill="#3a3f55"/>',
+           '<rect x="640" y="160" width="24" height="700" fill="#3a3f55"/><rect x="1216" y="160" width="24" height="700" fill="#3a3f55"/>',
+           ('<path d="M1220,184 L1400,150 L1400,900 L1220,860 Z" fill="#5a3b2a"/><circle cx="1380" cy="540" r="9" fill="#c9b27a"/>' if open_
+            else '<rect x="664" y="184" width="552" height="676" fill="#5a3b2a"/><circle cx="1180" cy="540" r="9" fill="#c9b27a"/><circle cx="940" cy="440" r="10" fill="#111"/>'),
+           _floor("#1b1e2c"),
+           '<path d="M664,860 L1216,860 L1400,1000 L520,1000 Z" fill="#ffb84d" opacity="0.06"/>']
+    return "".join(out)
+
+
+def radio_kitchen():
+    out = [kitchen(night=True, doorway=False),
+           '<rect x="1180" y="470" width="300" height="110" rx="16" fill="#7a5a3a"/>',
+           '<rect x="1200" y="488" width="150" height="74" rx="8" fill="#d8c9a6"/>',
+           '<g stroke="#5a4a3a" stroke-width="3">' + "".join(f'<line x1="{1212+k*14}" y1="496" x2="{1212+k*14}" y2="554"/>' for k in range(10)) + '</g>',
+           '<circle cx="1400" cy="510" r="18" fill="#3a2a1a"/><circle cx="1445" cy="510" r="18" fill="#3a2a1a"/>',
+           '<rect x="1300" y="410" width="6" height="64" fill="#9a9384" transform="rotate(-20 1303 470)"/>',
+           '<path d="M1480,560 Q1560,600 1540,700 Q1520,780 1600,800" stroke="#1d1f26" stroke-width="8" fill="none"/>']
+    return "".join(out)
+
+
+def closet():
+    out = [f'<rect width="{W}" height="{H}" fill="#2b2a3c"/>', _floor("#1c1b28"),
+           '<rect x="560" y="120" width="800" height="740" fill="#4a3b2e"/>',
+           '<rect x="590" y="150" width="740" height="690" fill="#1c1712"/>',
+           '<rect x="590" y="360" width="740" height="16" fill="#4a3b2e"/>',
+           '<g fill="#3a4266">' + "".join(f'<rect x="{620+k*90}" y="180" width="70" height="170" rx="8"/>' for k in range(7)) + '</g>',
+           '<rect x="760" y="560" width="400" height="240" rx="6" fill="#c9b08a"/><rect x="760" y="560" width="400" height="40" fill="#b39a74"/>',
+           '<text x="960" y="700" text-anchor="middle" font-family="Caveat" font-size="46" fill="#5a3b2a">DON\'T OPEN</text>']
+    return "".join(out)
+
+
+BG.update({"gas_station": gas_station, "street_day": street_day, "porch": porch_door, "radio_kitchen": radio_kitchen,
+           "closet": closet})

@@ -1,0 +1,8 @@
+{
+  "text": "In pen.",
+  "alignment": {
+    "characters": ["I", "n", " ", "p", "e", "n", "."],
+    "character_start_times_seconds": [0.0, 0.139, 0.209, 0.29, 0.348, 0.499, 0.627],
+    "character_end_times_seconds": [0.139, 0.209, 0.29, 0.348, 0.499, 0.627, 1.022]
+  }
+}

@@ -193,12 +193,15 @@ def build_scene_shot(sh, chars_in_shot):
     else:
         bgsvg = BG[bg]()
     dur = sh.end - sh.start
+    _ids = [i[0] for i in d.get("svg", [])] + [i[0] for i in d.get("html", [])]
+    assert len(_ids) == len(set(_ids)), f"duplicate item ids in shot at={d.get('at')}: {_ids}"
     svg_items = []
     pending = []  # [t, selector, kind, rot, is_svg]
     static_items = 0
     pre = f"{sid}-"
+    cpre = f"{sid}-k"  # characters get their own namespace so they never share an id with their layer
     for item in d.get("svg", []):
-        iid, markup, show = item[0], item[1].replace("@", pre), item[2] if len(item) > 2 else None
+        iid, markup, show = item[0], item[1].replace("@", cpre), item[2] if len(item) > 2 else None
         flt = f"<defs>{svg_filters()}</defs>" if "url(#" in markup else ""
         svg_items.append(f'<div class="lay" id="{sid}-{iid}"><div class="lay" id="{sid}-{iid}-r">'
                          f'<svg viewBox="0 0 1920 1080">{flt}<g id="{sid}-{iid}-g">{markup}</g></svg></div></div>')
@@ -248,13 +251,15 @@ def build_scene_shot(sh, chars_in_shot):
     cam = d.get("cam", ("in", 1.05, "50% 50%"))
     mode, amt, origin = (cam + (1.05, "50% 50%"))[:3] if isinstance(cam, tuple) else (cam, 1.05, "50% 50%")
     if mode == "in":
-        sh.js.insert(0, f'tl.fromTo("#{sid}-cam",{{scale:1}},{{scale:{amt},duration:{dur:.3f},ease:"sine.inOut",transformOrigin:"{origin}"}},0);')
+        # the newer reference edit: hold while the tags land, then push (10 % done at half time, 90 % at 80 %)
+        t0 = 0.35 * dur if dur > 2.5 else 0.0
+        sh.js.insert(0, f'tl.fromTo("#{sid}-cam",{{scale:1}},{{scale:{amt},duration:{dur - t0:.3f},ease:"power2.inOut",transformOrigin:"{origin}",immediateRender:true}},{t0:.3f});')
     elif mode == "out":
         sh.js.insert(0, f'tl.fromTo("#{sid}-cam",{{scale:{amt}}},{{scale:1,duration:{dur:.3f},ease:"sine.out",transformOrigin:"{origin}"}},0);')
     # blinks for every character in the shot (deterministic schedule)
     import re as _re
     chars_in_shot = [(c, -262) for c in _re.findall(r'id="([^"]+)" class="char"', "".join(svg_items))]
-    closed = {a[1].replace("@", pre) for a in d.get("acts", []) if a[0] == "eyes" and a[2]}
+    closed = {a[1].replace("@", cpre) for a in d.get("acts", []) if (a[0] == "eyes" and a[2]) or a[0] == "noblink"}
     for cid, hy in chars_in_shot:
         if cid in closed:
             continue
@@ -265,8 +270,10 @@ def build_scene_shot(sh, chars_in_shot):
             tb += 3.1 + (hash(cid + str(int(tb))) % 9) * 0.21
     # actions
     for a in d.get("acts", []):
-        a = tuple(x.replace("@", pre) if isinstance(x, str) else x for x in a)
+        a = tuple(x.replace("@", cpre) if isinstance(x, str) else x for x in a)
         k = a[0]
+        if k == "noblink":
+            continue
         if k == "eyes":
             _, cid, closed_, ref = a
             sc = 0.12 if closed_ else 1
@@ -322,7 +329,8 @@ def build_scene_shot(sh, chars_in_shot):
         elif k == "js":
             sh.js.append(a[1].replace("$", f"#{sid}-").replace("%T%", f"{sh.t(a[2]):.3f}"))
     svg = f'<svg viewBox="0 0 1920 1080"><defs>{svg_filters()}</defs>{bgsvg}</svg>' + "".join(svg_items)
-    body = (f'<div class="cam" id="{sid}-cam">{svg}{"".join(sh.html)}</div>'
+    sh.js.append(f'tl.fromTo("#{sid}-st",{{scale:1.058}},{{scale:1,duration:0.3,ease:"power2.out",transformOrigin:"50% 55%"}},0.1);')
+    body = (f'<div class="cam" id="{sid}-st"><div class="cam" id="{sid}-cam">{svg}{"".join(sh.html)}</div></div>'
             f'<div class="dark" id="{sid}-dark" data-layout-ignore></div><div class="flash" id="{sid}-flash" data-layout-ignore></div>')
     return body
 
@@ -629,6 +637,6 @@ dips = []
 for u, w, g, du in getattr(S, "MUSIC_DIPS", []):
     t = word_t((u, w), 0, None)
     dips.append([t - 0.6, g, du])
-json.dump({"duration": TOTAL, "events": sorted(SFX_EVENTS), "dips": dips,
+json.dump({"duration": TOTAL, "events": sorted(SFX_EVENTS), "dips": dips, "chapters": [h[1] for h in hosts],
            "music_switch": cut_time(getattr(S, "MUSIC_SWITCH_AT", 105))}, open(f"{EP}/build/sfx_events.json", "w"))
 print("total", f"{TOTAL:.1f}s", len(shots), "shots,", len(cg), "caption groups,", len(merged), "hud spans")

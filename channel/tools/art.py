@@ -314,3 +314,28 @@ def lying(markup, x, y, rot=-90):
 
 def glow(x, y, r, color="#7fd0ff", op=0.18):
     return f'<circle cx="{x}" cy="{y}" r="{r}" fill="{color}" opacity="{op}" filter="url(#blur30)"/>'
+
+
+def flipphone(x, y, s=1.0, wrapped=True, lit=False):
+    return (f'<g transform="translate({x} {y}) scale({s})">'
+            '<rect x="-34" y="-90" width="68" height="90" rx="12" fill="#3a3f4f"/>'
+            f'<rect x="-26" y="-82" width="52" height="54" rx="4" fill="{"#bfe9ff" if lit else "#1a1d26"}"/>'
+            '<rect x="-34" y="0" width="68" height="96" rx="12" fill="#2f3442"/>'
+            '<g fill="#8a8f9c">' + "".join(f'<rect x="{-24+(k%3)*18}" y="{14+(k//3)*18}" width="12" height="10" rx="2"/>' for k in range(12)) + '</g>'
+            + ('<rect x="-48" y="-104" width="96" height="214" rx="16" fill="#dfefff" opacity="0.35"/>' if wrapped else "") + '</g>')
+
+
+def coin(x, y, s=1.0):
+    return (f'<g transform="translate({x} {y}) scale({s})"><ellipse cx="0" cy="0" rx="30" ry="12" fill="#a8a9b0"/>'
+            '<ellipse cx="0" cy="-4" rx="30" ry="12" fill="#d6d7dd"/><ellipse cx="0" cy="-4" rx="20" ry="7" fill="none" stroke="#a8a9b0" stroke-width="3"/></g>')
+
+
+def bike(x, y, s=1.0, color="#d9573b"):
+    return (f'<g transform="translate({x} {y}) scale({s})" fill="none" stroke-width="8">'
+            '<circle cx="-70" cy="-40" r="40" stroke="#1d1f26"/><circle cx="70" cy="-40" r="40" stroke="#1d1f26"/>'
+            f'<path d="M-70,-40 L-20,-110 L50,-110 L70,-40 M-20,-110 L0,-40 L50,-110 M-30,-126 L-6,-126 M50,-110 L46,-136 L70,-140" stroke="{color}" stroke-linejoin="round"/></g>')
+
+
+def mattress(x, y, w=420, color="#c9d2ee"):
+    return (f'<g transform="translate({x} {y})"><rect x="{-w/2}" y="-50" width="{w}" height="50" rx="16" fill="{color}"/>'
+            f'<rect x="{-w/2}" y="-50" width="{w}" height="14" rx="7" fill="#fff" opacity="0.35"/></g>')

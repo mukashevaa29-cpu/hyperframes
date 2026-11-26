@@ -1,0 +1,8 @@
+{
+  "text": "One ring.",
+  "alignment": {
+    "characters": ["O", "n", "e", " ", "r", "i", "n", "g", "."],
+    "character_start_times_seconds": [0.0, 0.116, 0.186, 0.232, 0.29, 0.348, 0.43, 0.464, 0.534],
+    "character_end_times_seconds": [0.116, 0.186, 0.232, 0.29, 0.348, 0.43, 0.464, 0.534, 1.115]
+  }
+}
