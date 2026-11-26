@@ -110,7 +110,7 @@ SHOTS = [
               ("ac", RING(1052, 760, 72, "#3fbf7f"), (18, "green")),
               ("xu", X(1340, 250, 0.5), (15, "Unknown"))],
          html=[("unk", "tag w", "UNKNOWN", 1260, 222, (15, "caller")),
-               ("own", "stamp", "YOUR OWN NUMBER", 1110, 420, (17, "own")),
+               ("own", "stamp", "YOUR OWN NUMBER", 640, 560, (17, "own")),
                ("th", "tag g", "THUMB ON ANSWER", 1200, 640, (18, "thumb"))]),
     dict(at=19, bg=("kitchen", {"night": True}), cam=("in", 1.35, "32% 40%"),
          svg=[("cd", cord(600, 470, 640, 600)), ("rc", receiver(620, 360, 0.9, 90)),
