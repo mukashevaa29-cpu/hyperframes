@@ -29,8 +29,14 @@ def WAVES(x, y, color="#ffd43b", s=1.0):
             '<path d="M-50,-30 Q-66,0 -50,30"/><path d="M-72,-46 Q-96,0 -72,46"/><path d="M50,-30 Q66,0 50,30"/><path d="M72,-46 Q96,0 72,46"/></g>')
 
 
-def panel(x, y, w, h, inner, fill="#1d1e29"):
-    return f'<g transform="translate({x} {y})"><rect x="{-w/2}" y="{-h/2}" width="{w}" height="{h}" rx="26" fill="{fill}"/>{inner}</g>'
+def panel(x, y, w, h, inner, fill="#1d1e29", k=1.2):
+    """Card for an icon on the infographic stage: bigger, with a soft shadow and a lighter top band."""
+    w, h = w * k, h * k
+    return (f'<g transform="translate({x} {y})"><rect x="{-w/2+10}" y="{-h/2+14}" width="{w}" height="{h}" rx="26" fill="#000" opacity="0.35"/>'
+            f'<rect x="{-w/2}" y="{-h/2}" width="{w}" height="{h}" rx="26" fill="{fill}"/>'
+            f'<rect x="{-w/2}" y="{-h/2}" width="{w}" height="{h*0.18}" rx="26" fill="#ffffff" opacity="0.05"/>'
+            f'<rect x="{-w/2+3}" y="{-h/2+3}" width="{w-6}" height="{h-6}" rx="23" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="3"/>'
+            f'<g transform="scale({k})">{inner}</g></g>')
 
 
 def SIL(x, y, s=1.0, color="#06070c"):

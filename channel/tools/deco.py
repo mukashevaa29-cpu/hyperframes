@@ -12,10 +12,11 @@ def wall(color, y0=0, y1=860, split=560, lower=None, seed=1, stains=True):
     """Two-tone painted wall with a dado rail, soft stains and a baseboard."""
     lower = lower or _sh(color, 0.8)
     rnd = random.Random(seed)
-    out = [f'<rect x="0" y="{y0}" width="1920" height="{y1-y0}" fill="{color}"/>',
-           f'<rect x="0" y="{split}" width="1920" height="{y1-split}" fill="{lower}"/>',
-           f'<rect x="0" y="{split-8}" width="1920" height="12" fill="{_sh(color, 0.7)}"/>',
-           f'<rect x="0" y="{y1-26}" width="1920" height="26" fill="{_sh(lower, 0.7)}"/>']
+    out = [f'<rect x="0" y="{y0}" width="1920" height="{y1-y0}" fill="{color}"/>']
+    if split < y1:  # split at/below the wall bottom means a plain wall with no dado
+        out += [f'<rect x="0" y="{split}" width="1920" height="{y1-split}" fill="{lower}"/>',
+                f'<rect x="0" y="{split-8}" width="1920" height="12" fill="{_sh(color, 0.7)}"/>']
+    out.append(f'<rect x="0" y="{y1-26}" width="1920" height="26" fill="{_sh(lower, 0.7)}"/>')
     if stains:
         for _ in range(9):
             x, y, r = rnd.uniform(0, 1920), rnd.uniform(y0 + 40, split - 40), rnd.uniform(60, 180)

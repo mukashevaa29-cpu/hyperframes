@@ -336,7 +336,28 @@ def radio_kitchen_winter():
     return "".join(out)
 
 
-BG.update({"town_snow": town_snow, "whiteout": whiteout, "living_winter": living_winter, "kitchen_winter": kitchen_winter,
+def stage_winter(tint="#141420", rays=True, seed=3):
+    """Infographic stage for EP02: cold slate with a spotlight pool, a floor line and faint snowflakes."""
+    rnd = random.Random(seed)
+    out = [f'<defs><radialGradient id="sw{seed}" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#2c3346"/>'
+           f'<stop offset="1" stop-color="#10131c"/></radialGradient></defs>',
+           f'<rect width="{W}" height="{H}" fill="url(#sw{seed})"/>']
+    if rays:
+        for x, w, o in [(380, 140, 0.05), (820, 220, 0.04), (1300, 160, 0.05), (1640, 90, 0.035)]:
+            out.append(f'<path d="M{x},-40 L{x+w},-40 L{x+w-520},{H+40} L{x-520},{H+40} Z" fill="#cfe0ff" opacity="{o}"/>')
+    for _ in range(26):
+        x, y, r = rnd.uniform(0, W), rnd.uniform(0, 820), rnd.uniform(10, 26)
+        a = rnd.uniform(0, 60)
+        out.append(f'<g transform="translate({x:.0f} {y:.0f}) rotate({a:.0f})" stroke="#cfe0ff" stroke-opacity="0.07" stroke-width="3" stroke-linecap="round">'
+                   f'<path d="M{-r},0 L{r},0 M0,{-r} L0,{r} M{-r*0.7:.0f},{-r*0.7:.0f} L{r*0.7:.0f},{r*0.7:.0f} M{-r*0.7:.0f},{r*0.7:.0f} L{r*0.7:.0f},{-r*0.7:.0f}"/></g>')
+    out.append('<ellipse cx="960" cy="840" rx="760" ry="70" fill="#cfe0ff" opacity="0.05"/>'
+               '<rect x="0" y="860" width="1920" height="220" fill="#0b0d14" opacity="0.55"/>'
+               '<rect x="0" y="858" width="1920" height="3" fill="#cfe0ff" opacity="0.08"/>')
+    out.append(stars(40, 0, 0, W, H, seed=seed, op=0.15))
+    return "".join(out)
+
+
+BG.update({"stage": stage_winter, "town_snow": town_snow, "whiteout": whiteout, "living_winter": living_winter, "kitchen_winter": kitchen_winter,
            "bathroom": bathroom, "house_side": house_side, "garage_grill": garage_grill, "upstairs_window": upstairs_window,
            "ceiling": ceiling_cracks, "car_buried": car_buried, "shed": shed, "spring": spring_morning,
            "porch": porch_winter, "radio_kitchen": radio_kitchen_winter})

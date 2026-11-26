@@ -365,6 +365,10 @@ def build_scene_shot(sh, chars_in_shot):
         elif k == "js":
             sh.js.append(a[1].replace("$", f"#{sid}-").replace("%T%", f"{sh.t(a[2]):.3f}"))
     weather = snow_layers(sid, d["snow"], dur, sh.js) if d.get("snow") else ""
+    if weather and d.get("snow_clip"):  # e.g. only inside an open doorway: "x y w h"
+        x_, y_, w_, h_ = d["snow_clip"]
+        weather = (f'<div style="position:absolute;inset:0;clip-path:inset({y_}px {1920 - x_ - w_}px {1080 - y_ - h_}px {x_}px)" '
+                   f'data-layout-ignore>{weather}</div>')
     svg = (f'<svg viewBox="0 0 1920 1080"><defs>{svg_filters()}</defs>{bgsvg}</svg>' + "".join(svg_items) + weather
            + (FROST if d.get("frost") else ""))
     sh.js.append(f'tl.fromTo("#{sid}-settle",{{scale:1.058}},{{scale:1,duration:0.3,ease:"power2.out",transformOrigin:"50% 55%"}},0.1);')
