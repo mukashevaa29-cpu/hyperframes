@@ -4,4 +4,6 @@ episodes/*/timing.json
 episodes/*/audio/drone.wav
 __pycache__/
 *.mp4
+episodes/*/audio/vo_raw.mp3
 episodes/*/audio/vo.mp3
+episodes/*/audio/music.mp3

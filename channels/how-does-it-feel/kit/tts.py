@@ -12,7 +12,7 @@ voice_name = sys.argv[3] if len(sys.argv) > 3 else "Brian"
 text = " ".join(l.strip() for l in open(f"{ep}/script.txt") if l.strip())
 os.makedirs(f"{ep}/audio", exist_ok=True)
 body = dict(text=text, model_id="eleven_multilingual_v2",
-            voice_settings=dict(stability=0.5, similarity_boost=0.8, style=0.3, use_speaker_boost=True, speed=0.95))
+            voice_settings=dict(stability=0.5, similarity_boost=0.8, style=0.3, use_speaker_boost=True, speed=float(os.environ.get("HDIF_SPEED", "1.05"))))
 req = urllib.request.Request(
     f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}/with-timestamps?output_format=mp3_44100_128",
     data=json.dumps(body).encode(), headers={"Content-Type": "application/json", "xi-api-key": "proxy-injected"})
@@ -36,5 +36,5 @@ json.dump(words, open(f"{ep}/audio/words.json", "w"), indent=0)
 json.dump(dict(voice_id=voice_id, name=voice_name, model="eleven_multilingual_v2"), open(f"{ep}/audio/voice.json", "w"))
 print(f"{ep}: {len(words)} words, {words[-1]['e']:.1f}s, voice {voice_name}")
 for i, w in enumerate(words):
-    print(f"{i}:{w['w']}@{w['s']}", end="  ")
+    pass
 print()

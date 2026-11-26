@@ -1,0 +1,63 @@
+{
+  "global": [
+    "dark cinematic medieval horror score",
+    "instrumental",
+    "dread and intrigue until the very end",
+    "deep sub bass",
+    "crackling fire textures"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Cold open",
+      "until_word": 12,
+      "styles": ["roaring fire hit", "massive low impact", "frantic dissonant strings"]
+    },
+    {
+      "name": "The stake",
+      "until_word": 41,
+      "styles": ["somber medieval drone", "slow war drum", "uneasy calm", "low cello", "suspense"]
+    },
+    {
+      "name": "The fire takes hold",
+      "until_word": 80,
+      "styles": [
+        "rising tension",
+        "accelerating heartbeat percussion",
+        "string ostinato",
+        "intense and building"
+      ]
+    },
+    {
+      "name": "Something strange",
+      "until_word": 104,
+      "styles": [
+        "eerie suspended strangeness",
+        "high glassy tones",
+        "hollow numb atmosphere",
+        "mystery"
+      ]
+    },
+    {
+      "name": "Suffocation",
+      "until_word": 157,
+      "styles": [
+        "crushing climax",
+        "pounding drums",
+        "racing heartbeat",
+        "dissonant brass and strings",
+        "relentless"
+      ]
+    },
+    {
+      "name": "Fading",
+      "until_word": 172,
+      "styles": ["muffled underwater feel", "slowing heartbeat", "low drone", "fading"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["single low drone fading", "near silence", "ends in total silence"]
+    }
+  ]
+}

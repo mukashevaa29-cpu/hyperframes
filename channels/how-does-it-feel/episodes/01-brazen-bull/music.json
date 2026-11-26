@@ -1,0 +1,76 @@
+{
+  "global": [
+    "dark cinematic horror documentary score",
+    "instrumental",
+    "tense and intriguing from first to last second",
+    "deep sub bass",
+    "evolving, never repetitive"
+  ],
+  "negative": ["vocals", "choir lyrics", "happy", "upbeat pop", "EDM drop", "major key"],
+  "sections": [
+    {
+      "name": "Cold open",
+      "until_word": 12,
+      "styles": [
+        "huge low brass blast on the first beat",
+        "distorted animal roar texture",
+        "immediate dread",
+        "metallic resonance"
+      ]
+    },
+    {
+      "name": "Ancient Sicily",
+      "until_word": 50,
+      "styles": [
+        "eerie ancient Mediterranean atmosphere",
+        "low drone",
+        "slow frame drum pulse",
+        "sparse dissonant plucked strings",
+        "creeping suspense",
+        "metal scraping textures"
+      ]
+    },
+    {
+      "name": "The fire",
+      "until_word": 102,
+      "styles": [
+        "steadily rising tension",
+        "heartbeat percussion speeding up",
+        "string ostinato building",
+        "ticking clock",
+        "crackling heat textures"
+      ]
+    },
+    {
+      "name": "The scream",
+      "until_word": 147,
+      "styles": [
+        "full intensity horror climax",
+        "pounding taiko drums",
+        "dissonant brass stabs",
+        "screeching high strings",
+        "relentless"
+      ]
+    },
+    {
+      "name": "The tyrant's music",
+      "until_word": 165,
+      "styles": [
+        "sinister detuned music-box waltz",
+        "decaying",
+        "cruel and eerie",
+        "low drone underneath"
+      ]
+    },
+    {
+      "name": "Silence",
+      "until": "end",
+      "styles": [
+        "everything collapses into one low sustained drone",
+        "slow fading heartbeat",
+        "near silence",
+        "ends in total silence"
+      ]
+    }
+  ]
+}

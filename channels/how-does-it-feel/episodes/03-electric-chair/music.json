@@ -1,0 +1,72 @@
+{
+  "global": [
+    "dark cinematic true crime score",
+    "instrumental",
+    "tense and intriguing from start to finish",
+    "deep sub bass",
+    "electric hum textures"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Cold open",
+      "until_word": 12,
+      "styles": ["violent electrical crackle hits", "massive low impact", "buzzing tension"]
+    },
+    {
+      "name": "Auburn Prison 1890",
+      "until_word": 33,
+      "styles": [
+        "somber 19th century prison atmosphere",
+        "slow pulsing low strings",
+        "ticking pocket watch",
+        "mystery"
+      ]
+    },
+    {
+      "name": "Strapped in",
+      "until_word": 68,
+      "styles": [
+        "methodical building tension",
+        "leather creaks and metal clicks feel",
+        "rising string ostinato",
+        "heartbeat percussion"
+      ]
+    },
+    {
+      "name": "First shock",
+      "until_word": 107,
+      "styles": [
+        "explosive electric climax",
+        "distorted bass stabs",
+        "screeching dissonant strings",
+        "pounding drums"
+      ]
+    },
+    {
+      "name": "Still breathing",
+      "until_word": 145,
+      "styles": [
+        "eerie suspended silence",
+        "high sustained string",
+        "slow generator hum rising",
+        "unbearable waiting"
+      ]
+    },
+    {
+      "name": "Second shock",
+      "until_word": 173,
+      "styles": [
+        "even bigger brutal climax",
+        "relentless pounding drums",
+        "dissonant brass",
+        "electric distortion"
+      ]
+    },
+    {
+      "name": "Flatline",
+      "until": "end",
+      "styles": ["sudden collapse to a single low drone", "near silence", "ends in total silence"]
+    }
+  ]
+}

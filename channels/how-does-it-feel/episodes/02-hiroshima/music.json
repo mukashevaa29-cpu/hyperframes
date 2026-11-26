@@ -1,0 +1,63 @@
+{
+  "global": [
+    "dark cinematic documentary score",
+    "instrumental",
+    "dread and intrigue until the very end",
+    "deep sub bass",
+    "Japanese textures"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Cold open",
+      "until_word": 4,
+      "styles": ["massive low boom", "distorted rumble", "ringing tinnitus tone"]
+    },
+    {
+      "name": "Morning calm",
+      "until_word": 13,
+      "styles": [
+        "fragile quiet koto notes",
+        "uneasy calm",
+        "a falling whistle",
+        "building suspense"
+      ]
+    },
+    {
+      "name": "Detonation",
+      "until_word": 39,
+      "styles": [
+        "enormous impact",
+        "white noise blast",
+        "high tinnitus ringing",
+        "shimmering dissonant strings",
+        "stunned aftermath"
+      ]
+    },
+    {
+      "name": "The heat",
+      "until_word": 59,
+      "styles": ["searing rising drones", "pulsing low percussion", "tension building"]
+    },
+    {
+      "name": "Shock wave",
+      "until_word": 77,
+      "styles": [
+        "violent percussive hits",
+        "dissonant brass",
+        "chaotic intensity",
+        "shattering textures"
+      ]
+    },
+    {
+      "name": "The shadow",
+      "until_word": 97,
+      "styles": ["haunting sparse piano", "ticking clock", "grief and dread", "low drone"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["fading single low drone", "near silence", "ends in total silence"]
+    }
+  ]
+}
