@@ -14,6 +14,8 @@ One line = one sentence = one timing unit.
 
 ## INTRO
 
+If someone knocks on your door during the storm... look at their shoulders.
+If there's no snow on them... [r:don't] [r:open] the door.
 Friday. [y:4:15] PM.
 School lets out early because of the snow.
 Nobody minds.

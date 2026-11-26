@@ -1,0 +1,51 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,92,&H00FFFFFF&,&H00FFFFFF&,&H00000000&,&H96000000&,0,0,0,0,100,100,0,0,1,7,4,5,70,70,0,1
+Style: End,Montserrat Black,64,&H003BD4FF&,&H003BD4FF&,&H00000000&,&H96000000&,0,0,0,0,100,100,0,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:01.63,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}RULE ELEVEN.
+Dialogue: 0,0:00:01.63,0:00:02.42,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}NEVER PICK UP
+Dialogue: 0,0:00:02.42,0:00:03.17,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}A {\c&H004F3BEF&}PAYPHONE{\c&H00FFFFFF&} THAT'S
+Dialogue: 0,0:00:03.17,0:00:04.16,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}RINGING.
+Dialogue: 0,0:00:04.16,0:00:04.94,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THERE'S ONE OUTSIDE
+Dialogue: 0,0:00:04.94,0:00:06.19,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE GAS STATION.
+Dialogue: 0,0:00:06.19,0:00:06.89,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}NOBODY HAS USED
+Dialogue: 0,0:00:06.89,0:00:07.42,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT IN TWENTY
+Dialogue: 0,0:00:07.42,0:00:08.31,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}YEARS.
+Dialogue: 0,0:00:08.31,0:00:08.96,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AS YOU RIDE
+Dialogue: 0,0:00:08.96,0:00:09.66,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}PAST,
+Dialogue: 0,0:00:09.66,0:00:10.93,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT RINGS.
+Dialogue: 0,0:00:10.93,0:00:11.54,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THEN THE ONE
+Dialogue: 0,0:00:11.54,0:00:11.97,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AT THE BUS
+Dialogue: 0,0:00:11.97,0:00:13.19,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}STOP RINGS.
+Dialogue: 0,0:00:13.19,0:00:13.72,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THEN THE ONE
+Dialogue: 0,0:00:13.72,0:00:15.08,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}BY THE LAUNDROMAT.
+Dialogue: 0,0:00:15.08,0:00:16.21,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ONE AFTER ANOTHER,
+Dialogue: 0,0:00:16.21,0:00:16.64,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ALL THE WAY
+Dialogue: 0,0:00:16.64,0:00:17.38,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}DOWN THE STREET,
+Dialogue: 0,0:00:17.38,0:00:18.14,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ALWAYS ONE AHEAD
+Dialogue: 0,0:00:18.14,0:00:18.93,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}OF YOU.
+Dialogue: 0,0:00:18.93,0:00:19.33,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AS IF
+Dialogue: 0,0:00:19.33,0:00:19.85,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT KNOWS WHERE
+Dialogue: 0,0:00:19.85,0:00:20.92,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}YOU'RE GOING.
+Dialogue: 0,0:00:20.92,0:00:21.88,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}DON'T STOP.
+Dialogue: 0,0:00:21.88,0:00:22.33,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}DON'T LOOK
+Dialogue: 0,0:00:22.33,0:00:23.18,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AT THEM.
+Dialogue: 0,0:00:23.18,0:00:23.65,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}RIDE HOME
+Dialogue: 0,0:00:23.65,0:00:24.71,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE LONG WAY.
+Dialogue: 0,0:00:24.71,0:00:25.22,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}WHEN YOU GET
+Dialogue: 0,0:00:25.22,0:00:25.77,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}BACK,
+Dialogue: 0,0:00:25.77,0:00:26.39,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THERE'S A COIN
+Dialogue: 0,0:00:26.39,0:00:27.61,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ON YOUR DOORMAT.
+Dialogue: 0,0:00:27.61,0:00:29.25,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}A SINGLE QUARTER.
+Dialogue: 0,0:00:29.25,0:00:30.25,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE KIND PAYPHONES
+Dialogue: 0,0:00:30.25,0:00:31.46,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}USED TO TAKE.
+Dialogue: 0,0:00:31.46,0:00:32.66,End,,0,0,0,,{\pos(540,1420)\fad(150,0)}FULL STORY ON THE CHANNEL

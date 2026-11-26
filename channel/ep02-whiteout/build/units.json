@@ -6,6 +6,110 @@
   },
   {
     "kind": "line",
+    "text": "If someone knocks on your door during the storm... look at their shoulders.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "someone",
+        "c": null
+      },
+      {
+        "w": "knocks",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "during",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "storm...",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "their",
+        "c": null
+      },
+      {
+        "w": "shoulders.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If there's no snow on them... don't open the door.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "there's",
+        "c": null
+      },
+      {
+        "w": "no",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "them...",
+        "c": null
+      },
+      {
+        "w": "don't",
+        "c": "r"
+      },
+      {
+        "w": "open",
+        "c": "r"
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
     "text": "Friday. 4:15 PM.",
     "words": [
       {

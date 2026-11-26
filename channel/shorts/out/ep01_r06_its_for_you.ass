@@ -1,0 +1,53 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,92,&H00FFFFFF&,&H00FFFFFF&,&H00000000&,&H96000000&,0,0,0,0,100,100,0,0,1,7,4,5,70,70,0,1
+Style: End,Montserrat Black,64,&H003BD4FF&,&H003BD4FF&,&H00000000&,&H96000000&,0,0,0,0,100,100,0,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:01.49,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}RULE SIX.
+Dialogue: 0,0:00:01.49,0:00:02.32,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IF SOMEONE HOLDS
+Dialogue: 0,0:00:02.32,0:00:03.08,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}OUT A PHONE
+Dialogue: 0,0:00:03.08,0:00:03.60,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND SAYS IT'S
+Dialogue: 0,0:00:03.60,0:00:04.49,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}FOR YOU,
+Dialogue: 0,0:00:04.49,0:00:05.18,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}DO {\c&H004F3BEF&}NOT{\c&H00FFFFFF&} TAKE
+Dialogue: 0,0:00:05.18,0:00:06.16,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT.
+Dialogue: 0,0:00:06.16,0:00:07.30,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}WEDNESDAY EVENING,
+Dialogue: 0,0:00:07.30,0:00:07.90,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THERE'S A KNOCK
+Dialogue: 0,0:00:07.90,0:00:08.96,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AT THE DOOR.
+Dialogue: 0,0:00:08.96,0:00:09.52,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT'S {\c&H003BD4FF&}MRS.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:09.52,0:00:10.52,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H003BD4FF&}HALE.{\c&H00FFFFFF&}
+Dialogue: 0,0:00:10.52,0:00:11.30,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SHE'S SMILING
+Dialogue: 0,0:00:11.30,0:00:12.07,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE SAME SMILE
+Dialogue: 0,0:00:12.07,0:00:12.60,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AS THE PEOPLE
+Dialogue: 0,0:00:12.60,0:00:13.64,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ON THE NEWS.
+Dialogue: 0,0:00:13.64,0:00:14.18,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SHE'S HOLDING
+Dialogue: 0,0:00:14.18,0:00:14.72,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HER PHONE OUT
+Dialogue: 0,0:00:14.72,0:00:15.55,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}TOWARD YOU,
+Dialogue: 0,0:00:15.55,0:00:17.13,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SCREEN FIRST.
+Dialogue: 0,0:00:17.13,0:00:18.14,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT'S FOR YOU,
+Dialogue: 0,0:00:18.14,0:00:19.25,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SHE SAYS.
+Dialogue: 0,0:00:19.25,0:00:19.99,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE CALL TIMER
+Dialogue: 0,0:00:19.99,0:00:20.60,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ON HER SCREEN
+Dialogue: 0,0:00:20.60,0:00:22.19,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SAYS {\c&H003BD4FF&}FIFTY-ONE{\c&H00FFFFFF&} HOURS.
+Dialogue: 0,0:00:22.19,0:00:23.56,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}CLOSE THE DOOR.
+Dialogue: 0,0:00:23.56,0:00:24.66,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}LOCK IT.
+Dialogue: 0,0:00:24.66,0:00:25.27,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND DON'T LOOK
+Dialogue: 0,0:00:25.27,0:00:26.02,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THROUGH THE PEEPHOLE
+Dialogue: 0,0:00:26.02,0:00:27.74,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}UNTIL SHE'S GONE.
+Dialogue: 0,0:00:27.74,0:00:29.01,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ACROSS THE STREET,
+Dialogue: 0,0:00:29.01,0:00:29.33,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}MR.
+Dialogue: 0,0:00:29.33,0:00:30.50,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ALVAREZ'S SON OPENS
+Dialogue: 0,0:00:30.50,0:00:30.86,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HIS DOOR
+Dialogue: 0,0:00:30.86,0:00:31.82,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}TO HER.
+Dialogue: 0,0:00:31.82,0:00:32.27,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HE TAKES
+Dialogue: 0,0:00:32.27,0:00:33.21,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE PHONE.
+Dialogue: 0,0:00:33.21,0:00:34.49,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HE LISTENS.
+Dialogue: 0,0:00:34.49,0:00:36.11,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND HE SMILES.
+Dialogue: 0,0:00:36.11,0:00:37.31,End,,0,0,0,,{\pos(540,1420)\fad(150,0)}FULL STORY ON THE CHANNEL

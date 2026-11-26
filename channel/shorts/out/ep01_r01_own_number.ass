@@ -1,0 +1,59 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,92,&H00FFFFFF&,&H00FFFFFF&,&H00000000&,&H96000000&,0,0,0,0,100,100,0,0,1,7,4,5,70,70,0,1
+Style: End,Montserrat Black,64,&H003BD4FF&,&H003BD4FF&,&H00000000&,&H96000000&,0,0,0,0,100,100,0,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:01.53,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}RULE ONE.
+Dialogue: 0,0:00:01.53,0:00:02.27,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}NEVER ANSWER
+Dialogue: 0,0:00:02.27,0:00:02.69,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}A CALL
+Dialogue: 0,0:00:02.69,0:00:03.22,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}FROM YOUR {\c&H004F3BEF&}OWN{\c&H00FFFFFF&}
+Dialogue: 0,0:00:03.22,0:00:04.25,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}NUMBER.
+Dialogue: 0,0:00:04.25,0:00:04.75,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT ISN'T
+Dialogue: 0,0:00:04.75,0:00:05.82,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}A GLITCH.
+Dialogue: 0,0:00:05.82,0:00:06.68,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}YOUR CARRIER DIDN'T
+Dialogue: 0,0:00:06.68,0:00:07.62,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}GET HACKED.
+Dialogue: 0,0:00:07.62,0:00:08.52,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SOMETHING IS CALLING
+Dialogue: 0,0:00:08.52,0:00:09.18,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}FROM THE INSIDE
+Dialogue: 0,0:00:09.18,0:00:10.07,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}OF THE NETWORK,
+Dialogue: 0,0:00:10.07,0:00:10.79,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND IT BORROWED
+Dialogue: 0,0:00:10.79,0:00:11.52,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE ONE NUMBER
+Dialogue: 0,0:00:11.52,0:00:11.94,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT KNEW YOU
+Dialogue: 0,0:00:11.94,0:00:13.43,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}WOULD NEVER BLOCK.
+Dialogue: 0,0:00:13.43,0:00:14.67,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}LET IT RING.
+Dialogue: 0,0:00:14.67,0:00:15.74,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT RINGS EXACTLY
+Dialogue: 0,0:00:15.74,0:00:17.20,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H003BD4FF&}THIRTEEN{\c&H00FFFFFF&} TIMES.
+Dialogue: 0,0:00:17.20,0:00:17.79,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE PEOPLE WHO
+Dialogue: 0,0:00:17.79,0:00:19.28,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ANSWERED DIDN'T SCREAM.
+Dialogue: 0,0:00:19.28,0:00:20.88,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THEY JUST LISTENED.
+Dialogue: 0,0:00:20.88,0:00:22.80,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}FOR {\c&H003BD4FF&}THIRTEEN{\c&H00FFFFFF&} MINUTES.
+Dialogue: 0,0:00:22.80,0:00:23.46,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THEN THEY HUNG
+Dialogue: 0,0:00:23.46,0:00:23.68,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}UP,
+Dialogue: 0,0:00:23.68,0:00:24.44,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SMILED,
+Dialogue: 0,0:00:24.44,0:00:25.07,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND WENT BACK
+Dialogue: 0,0:00:25.07,0:00:26.33,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}TO BED.
+Dialogue: 0,0:00:26.33,0:00:27.01,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THEN THE SCREEN
+Dialogue: 0,0:00:27.01,0:00:27.82,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}GOES BLACK,
+Dialogue: 0,0:00:27.82,0:00:28.49,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND THE PHONE
+Dialogue: 0,0:00:28.49,0:00:29.64,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SHOWS {\c&H003BD4FF&}41{\c&H00FFFFFF&} PERCENT
+Dialogue: 0,0:00:29.64,0:00:30.37,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AGAIN,
+Dialogue: 0,0:00:30.37,0:00:31.06,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AS IF NOTHING
+Dialogue: 0,0:00:31.06,0:00:32.14,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HAPPENED.
+Dialogue: 0,0:00:32.14,0:00:32.62,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}BUT DOWN
+Dialogue: 0,0:00:32.62,0:00:33.20,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE STREET,
+Dialogue: 0,0:00:33.20,0:00:33.95,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}A DOG STARTS
+Dialogue: 0,0:00:33.95,0:00:34.94,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}BARKING.
+Dialogue: 0,0:00:34.94,0:00:36.22,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THEN ANOTHER.
+Dialogue: 0,0:00:36.22,0:00:37.07,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THEN EVERY DOG
+Dialogue: 0,0:00:37.07,0:00:38.21,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IN THE NEIGHBORHOOD.
+Dialogue: 0,0:00:38.21,0:00:38.73,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND YOU HEAR
+Dialogue: 0,0:00:38.73,0:00:39.72,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}YOUR GRANDMA'S SLIPPERS
+Dialogue: 0,0:00:39.72,0:00:40.87,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ON THE STAIRS.
+Dialogue: 0,0:00:40.87,0:00:42.07,End,,0,0,0,,{\pos(540,1420)\fad(150,0)}FULL STORY ON THE CHANNEL
