@@ -30,4 +30,5 @@ owner buys an ElevenLabs plan and picks a voice — then re-run `kit/tts.py` + b
 
 ## Status
 
-- [ ] 01 brazen bull - [ ] 02 hiroshima - [ ] 03 electric chair - [ ] 04 stake
+- Built and checked: 01 brazen bull, 02 hiroshima, 03 electric chair, 04 stake (placeholder voice: Brian).
+- Next: the owner picks the channel voice, then re-voice, rebuild, remix and re-render all four.
