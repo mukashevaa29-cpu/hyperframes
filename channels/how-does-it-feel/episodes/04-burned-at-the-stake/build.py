@@ -28,7 +28,7 @@ def stake(mid, chained=True, logs=True, screaming=False, pose=None, chains_id=No
 
 
 def fire(h=420, w=640, amp=1.0, grow=0.0, base=1600):
-    return dict(cx=540, base=base, w=w, h=h, n=12, grow=grow, amp=amp, sp=7)
+    return dict(cx=540, base=base, w=w, h=h, n=12, grow=grow, amp=amp, sp=7, nofade=True)
 
 
 def thrash(mid, t0, t1, seed=1, step=0.1):
@@ -86,6 +86,7 @@ torch = ('<g id="s04-torch"><g transform="translate(860,1300) rotate(-35)">' + g
 svg = stake("m4", pose=dict(head=16)) + torch
 ti = W(26)
 ep.scene("s04", s, e, svg, origin="50% 70%", drift=0.02, fx=[(ti, e + 0.1, "fire", fire(h=260, w=520, grow=0.8))])
+ep.js('gsap.set("#s04-torch",{x:500,y:300});')
 ep.js(f'tl.fromTo("#s04-torch",{{x:500,y:300}},{{x:0,y:0,duration:0.5,ease:"power2.out",immediateRender:false}},{W(24) - 0.1:.3f});')
 ep.js(f'tl.to("#s04-torch",{{x:-120,y:120,duration:0.3,ease:"power2.in"}},{ti - 0.25:.3f});')
 ep.cue("whoosh-cinematic.mp3", W(24) - 0.1, 0.35)
@@ -145,8 +146,8 @@ ep.scene("s10", s, e, svg, origin="50% 52%", drift=0.025, fx=fxs)
 for k in range(6):
     ep.js(f'tl.fromTo("#s10-b{k}",{{opacity:1,scale:0,svgOrigin:"{280 + k * 120} 962"}},{{scale:1,duration:0.16,ease:"back.out(2)",immediateRender:false}},{W(53) - 0.05 + k * 0.07:.3f});')
     ep.js(f'tl.set("#s10-b{k}",{{opacity:0}},0);tl.set("#s10-b{k}",{{opacity:0}},{W(54) - 0.02:.3f});')
-ep.show("#s10-char", W(56) - 0.05, 0.4)
-ep.js(f'tl.to("#s10-skin path",{{fill:"#060404",duration:0.5}},{W(56) - 0.05:.3f});')
+ep.js(f'tl.to("#s10-skin path",{{fill:"#060404",duration:{W(56) - W(54) + 0.2:.3f},ease:"power1.in"}},{W(54) + 0.1:.3f});')
+ep.show("#s10-char", W(56) - 0.05, 0.3)
 ep.cue("impact-bass-1.mp3", W(54), 0.5)
 ep.cue("sizzle.wav", W(55), 0.5)
 ep.floor(s, 0.4, 0.7)
@@ -206,19 +207,21 @@ ep.floor(s, 0.45, 0.3)
 # ---------------------------------------------------------------- S15 after a minute, something strange
 s, e = cut(80), cut(86)
 ep.timer("s15", s, e, s + 0.1, WE(82), 55, 60, "ms", "MINUTE", 1.0)
-ep.flash(W(84), 0.25, 0.4)
+ep.shake("#s15-shake", W(84), 0.35, 12)
+ep.js(f'tl.to("#s15-ring",{{attr:{{stroke:"#8a837e"}},duration:0.4}},{W(84):.3f});')
+ep.js(f'tl.to("#s15-num",{{color:"#BDB5B5",textShadow:"0 0 0 rgba(0,0,0,0)",duration:0.4}},{W(84):.3f});')
 ep.cue("impact-bass-1.mp3", W(84), 0.5)
 ep.floor(s, 0.5, 0.3)
 
 # ---------------------------------------------------------------- S16 the fire burns through the nerve endings
 s, e = cut(86), cut(93)
-trunk = '<path d="M 540 560 L 540 1100" stroke="#FF3B36" stroke-width="12" filter="url(#glow)"/>'
+trunk = '<path d="M 540 700 L 540 1100" stroke="#FF3B36" stroke-width="12" filter="url(#glow)"/>'
 ends = ""
 for k in range(6):
     x = 240 + k * 120
     ends += (f'<g id="s16-n{k}"><path d="M 540 1100 Q {(540 + x) / 2:.0f} 1180 {x} 1300" fill="none" stroke="#FF3B36" stroke-width="7" filter="url(#glow)"/>'
              f'<circle cx="{x}" cy="1300" r="18" fill="#FF3B36" filter="url(#glow)"/></g>')
-svg = trunk + ends + label(560, 640, "TO THE BRAIN", 30, GREY, "start") + label(300, 1180, "NERVE ENDINGS", 30, GREY)
+svg = trunk + ends + label(565, 720, "TO THE BRAIN", 30, GREY, "start") + label(260, 1060, "NERVE ENDINGS", 30, GREY)
 ep.scene("s16", s, e, svg, origin="50% 55%", drift=0.02, fx=[(s, e, "fire", dict(cx=540, base=1620, w=860, h=170, n=12, amp=0.9, sp=7))])
 for k in range(6):
     t = W(88) + k * (W(92) - W(88)) / 6
@@ -336,9 +339,9 @@ ep.floor(s, 0.45, 0.2)
 # ---------------------------------------------------------------- S25 heart beats faster, trying to save your brain
 s, e = cut(146), cut(157)
 HEART = "M 540 1020 C 400 920 330 840 360 750 C 390 660 500 660 540 750 C 580 660 690 660 720 750 C 750 840 680 920 540 1020 Z"
-svg = glow(N(HEART, fill="#2a0a0c"), gid="s25-heart")
+svg = f'<g transform="translate(0,-60)">' + glow(N(HEART, fill="#2a0a0c"), gid="s25-heart") + '</g>'
 html = '<div class="num" id="s25-bpm" style="top:1010px;font-size:140px;">90</div><div class="lbl" style="top:1160px;">BEATS PER MINUTE</div>'
-ep.scene("s25", s, e, svg, html, origin="50% 50%", fx=[(s, e, "ecg", dict(x0=60, x1=1020, y=1300, amp=150))])
+ep.scene("s25", s, e, svg, html, origin="50% 50%", fx=[(s, e, "ecg", dict(x0=60, x1=1020, y=1450, amp=140, period=420, period1=190, dur=e - s, speed=380))])
 ep.counter("#s25-bpm", s + 0.1, e - s - 0.3, 90, 190, "n", "power1.in")
 t, gap = s, 0.66
 while t < e - 0.1:

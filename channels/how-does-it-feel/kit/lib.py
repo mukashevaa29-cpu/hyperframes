@@ -36,6 +36,7 @@ def line(x1, y1, x2, y2, c=CORE, w=4, extra=""):
 
 
 def label(x, y, t, size=30, c=GREY, anchor="middle", extra=""):
+    size = round(size * 1.25)  # phone-readable floor (QC: labels at 28-30 px were too small)
     return (f'<text x="{x}" y="{y}" fill="{c}" font-family="Roboto Condensed" font-weight="700" font-size="{size}" '
             f'letter-spacing="3" text-anchor="{anchor}" {extra}>{t}</text>')
 
@@ -216,7 +217,7 @@ class Episode:
     # ------------------------------------------------------------ reusable beats
     def ending(self, start, i_dark, sid="end"):
         """Eye → closes on 'darkness' → red flatline → fade. Returns film end time."""
-        T_END = self.WE(i_dark) + 2.4
+        T_END = self.WE(i_dark) + 1.9
         EYE = "M 160 1000 Q 540 690 920 1000 Q 540 1310 160 1000 Z"
         ir = "".join(line(540 + 70 * math.cos(a), 1000 + 70 * math.sin(a), 540 + 145 * math.cos(a), 1000 + 145 * math.sin(a), "#8a0f12", 4) for a in [i * math.pi / 12 for i in range(24)])
         lashes = ""

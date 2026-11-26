@@ -55,7 +55,7 @@ def arcs_pulse(gid, t0, t1, period=0.18):
         ep.js(f'tl.set(".{gid}-arc",{{opacity:{0.45 if k % 2 else 1}}},{t0 + k * period:.3f});')
 
 
-FIRE = lambda grow=0.0, amp=1.0, cx=540, base=1262, w=380, h=190: dict(cx=cx, base=base, w=w, h=h, n=10, grow=grow, amp=amp, sp=6)
+FIRE = lambda grow=0.0, amp=1.0, cx=540, base=1262, w=380, h=190: dict(cx=cx, base=base, w=w, h=h, n=10, grow=grow, amp=amp, sp=6, nofade=True)
 
 # ---------------------------------------------------------------- S01 cold open: screaming bull → reveal
 s, e = 0.0, cut(12)
@@ -79,7 +79,7 @@ s, e = cut(12), cut(17)
 SIC = "M 230 960 L 300 905 L 420 900 L 540 885 L 660 872 L 780 848 L 870 828 L 850 880 L 806 960 L 784 1040 L 796 1110 L 770 1176 L 700 1150 L 616 1110 L 516 1082 L 416 1042 L 316 1004 Z"
 svg = (glow(N(SIC, fill="#0e0909"), gid="s02-isle")
        + f'<g id="s02-dot"><circle cx="470" cy="1040" r="16" fill="#FF3B36" filter="url(#glow)"/><circle id="s02-ring" cx="470" cy="1040" r="16" fill="none" stroke="#FF3B36" stroke-width="5"/></g>'
-       + label(470, 1100, "AKRAGAS", 30, GREY, extra='id="s02-akr"'))
+       + label(470, 990, "AKRAGAS", 30, GREY, extra='id="s02-akr"'))
 html = ('<div class="num" id="s02-t1" style="top:560px;font-size:170px;">SICILY</div>'
         '<div class="lbl" id="s02-t2" style="top:1250px;font-size:44px;color:#F5F5F5;letter-spacing:8px;">6TH CENTURY BC</div>')
 ep.scene("s02", s, e, svg, html, origin="50% 55%")
@@ -113,15 +113,15 @@ ep.floor(s, 0.8, 0.0)
 
 # ---------------------------------------------------------------- S04 door opens, shoved inside (punch on the flank)
 s, e = cut(29), cut(40)
-svg = bull("b4", heat_fill="#2a1608") + plinth() + mascot("m4", -150, 1310, 0.42, pose=dict(uarmL=-30, uarmR=30, head=6))
+svg = bull("b4", heat_fill="#2a1608") + plinth() + mascot("m4", 250, 1310, 0.42, pose=dict(uarmL=-30, uarmR=30, head=6))
 ep.scene("s04", s, e, svg, origin="45% 47%", custom_cam=True)
 ep.js(f'tl.fromTo("#s04-cam",{{scale:1.45}},{{scale:1.6,duration:{e - s:.3f},ease:"none",immediateRender:false}},{s:.3f});')
 td = W(34) - 0.05
-ep.js(f'tl.to("#b4-door",{{scaleX:0.12,svgOrigin:"0 0",duration:0.35,ease:"power2.out"}},{td:.3f});')
+ep.js(f'tl.to("#b4-door",{{attr:{{transform:"scale(0.12,1)"}},duration:0.35,ease:"power2.out"}},{td:.3f});')
 ep.show("#b4-hole", td, 0.2)
 ep.cue("sfx_collapse.mp3", td, 0.25)
 ts = W(37) - 0.1
-ep.js(f'tl.fromTo("#m4",{{x:0,y:0,scale:1}},{{x:520,y:-250,scale:0.6,duration:0.45,ease:"power3.in",immediateRender:false}},{ts:.3f});')
+ep.js(f'tl.fromTo("#m4",{{x:0,y:0,scale:1}},{{x:230,y:-300,duration:0.45,ease:"power3.in",immediateRender:false}},{ts:.3f});')
 ep.js(f'tl.to("#m4",{{opacity:0,duration:0.12}},{ts + 0.38:.3f});')
 ep.cue("whoosh-cinematic.mp3", ts, 0.4)
 ep.floor(s, 0.75, 0.0)
@@ -131,10 +131,10 @@ s, e = cut(40), cut(44)
 svg = bull("b5", heat_fill="#2a1608") + plinth()
 ep.scene("s05", s, e, svg, origin="45% 47%", custom_cam=True)
 ep.js(f'tl.fromTo("#s05-cam",{{scale:1.9}},{{scale:2.0,duration:{e - s:.3f},ease:"none",immediateRender:false}},{s:.3f});')
-ep.js(f'gsap.set("#b5-door",{{scaleX:0.12,svgOrigin:"0 0"}});')
+ep.js(f'gsap.set("#b5-door",{{attr:{{transform:"scale(0.12,1)"}}}});')
 ep.show("#b5-hole", s)
 tsl = W(42) - 0.04
-ep.js(f'tl.to("#b5-door",{{scaleX:1,svgOrigin:"0 0",duration:0.12,ease:"power3.in"}},{tsl:.3f});')
+ep.js(f'tl.to("#b5-door",{{attr:{{transform:"scale(1,1)"}},duration:0.12,ease:"power3.in"}},{tsl:.3f});')
 ep.js(f'tl.set("#b5-hole",{{opacity:0}},{tsl + 0.1:.3f});')
 ep.flash(tsl + 0.12, 0.35, 0.3)
 ep.shake("#s05-shake", tsl + 0.12, 0.4, 16)
@@ -213,7 +213,6 @@ tt = W(82)
 ep.rot("#m12-uarmR", s + 0.1, tt - s - 0.1, -112, "power1.inOut")
 ep.rot("#m12-uarmR", tt + 0.08, 0.16, -10, "power3.out")
 ep.rot("#m12-farmR", tt + 0.08, 0.16, -120, "power3.out")
-ep.flash(tt + 0.05, 0.3, 0.25)
 ep.shake("#s12-shake", tt + 0.05, 0.25, 8)
 ep.cue("sizzle.wav", tt, 0.6)
 ep.cue("impact-bass-1.mp3", tt + 0.05, 0.5)
@@ -221,10 +220,10 @@ ep.floor(s, 0.3, 1.0)
 
 # ---------------------------------------------------------------- S13 nowhere left to stand
 s, e = cut(84), cut(90)
-svg = interior("s13", fill="#871712", rim="#FF6A5A") + mascot("m13", 540, 1360, 0.6, pose=dict(uarmL=20, uarmR=-20))
+svg = interior("s13", fill="#871712", rim="#FF6A5A") + mascot("m13", 700, 1270, 0.5, pose=dict(uarmL=20, uarmR=-20))
 ep.scene("s13", s, e, svg, origin="50% 60%", fx=[(s, e, "embers", dict(n=25, x0=150, x1=930, y0=850, y1=1370, sp=110))])
 tfall = W(86) - 0.1
-ep.js(f'tl.to("#m13",{{rotation:-84,svgOrigin:"540 1360",y:-10,duration:0.4,ease:"power2.in"}},{tfall:.3f});')
+ep.js(f'tl.to("#m13",{{rotation:-84,svgOrigin:"700 1270",duration:0.4,ease:"power2.in"}},{tfall:.3f});')
 ep.cue("impact-bass-2.mp3", tfall + 0.4, 0.5)
 r13 = random.Random(13)
 for k in range(int((e - tfall - 0.5) / 0.14)):
@@ -256,12 +255,11 @@ ep.floor(s, 0.4, 0.6)
 
 # ---------------------------------------------------------------- S16 the pipe into the head
 s, e = cut(102), cut(118)
-inside = mascot("m16", 360, 270, 0.28, style="xray", pose=dict(uarmL=-90, farmL=-10, uarmR=-80, farmR=-10), mouth_open=True)
+inside = '<g transform="rotate(-80 360 270)">' + mascot("m16", 360, 270, 0.28, style="xray", pose=dict(uarmL=-90, farmL=-10, uarmR=-80, farmR=-10), mouth_open=True) + '</g>'
 svg = bull("b16", cutaway=True, mascot_inside=inside, pipe=True, heat_fill="#871712") + plinth()
 ep.scene("s16", s, e, svg, origin="80% 47%", custom_cam=True, fx=[(s, e + 0.1, "fire", FIRE(amp=1.3)), (s, e, "embers", dict(n=40, x0=250, x1=850, y0=600, y1=1270, sp=180))])
 ep.js(f'tl.fromTo("#s16-cam",{{scale:0.9}},{{scale:1,duration:{5 * F:.3f},ease:"power2.out",immediateRender:false}},{s:.3f});')
 ep.js(f'tl.to("#s16-cam",{{scale:1.04,duration:{W(112) - s:.3f},ease:"none"}},{s + 5 * F:.3f});')
-ep.js(f'gsap.set("#m16",{{rotation:-80,svgOrigin:"460 1030"}});')
 tp = W(112) - 0.1
 ep.js(f'tl.to("#b16-pipe",{{strokeDashoffset:0,duration:0.6,ease:"power2.inOut"}},{tp:.3f});')
 ep.js(f'tl.to("#m16",{{x:120,y:-30,duration:{e - W(113):.3f},ease:"power1.inOut"}},{W(113):.3f});')
@@ -376,4 +374,4 @@ ep.floor(W(167), 0.25, 0.0, 1.0)
 
 # ---------------------------------------------------------------- ending
 ep.ending(cut(169), 172)
-ep.write(red=["bronze", "bull", "hollow", "fire", "scream", "music", "pipe", "tyrant", "lungs"])
+ep.write(red=["bronze", "bull", "hollow", "fire", "scream", "music", "pipe", "tyrant", "lungs"], hard_breaks={19, 21})

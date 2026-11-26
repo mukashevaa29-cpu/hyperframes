@@ -63,7 +63,7 @@ bomb = ('<g id="s02-bomb"><g transform="translate(560,300) scale(1.7)">'
         + glow(N("M -26 0 Q -26 -60 0 -70 Q 26 -60 26 0 L 26 60 Q 26 90 0 96 Q -26 90 -26 60 Z", fill="#141016", sw=8, cw=3)
                + '<path d="M -26 -40 L -48 -80 L 48 -80 L 26 -40" fill="#141016" stroke="#F2EEEA" stroke-width="4"/>') + '</g></g>')
 svg = (f'<g id="s02-fb" opacity="0"><circle cx="560" cy="760" r="240" fill="url(#sunGrad)" filter="url(#glowO)"/></g>'
-       + f'<g id="s02-mW" opacity="0">{mushroom("s02-m", cx=560, top=430)}</g>'
+       + f'<g id="s02-mW" opacity="0">{mushroom("s02-m", cx=560, top=620)}</g>'
        + bomb + city_hiro(1420, gid="s02-city") + hline(1420))
 html2 = '<div class="lbl" id="s02-date" style="top:640px;font-size:40px;color:#F5F5F5;">AUGUST 6, 1945 · 8:15 AM</div>'
 ep.scene("s02", s, e, svg, html2, origin="50% 70%", custom_cam=True, fx=[(W(13) + 0.1, e, "embers", dict(n=50, x0=0, x1=1080, y0=500, y1=1500, sp=260, wind=200))])
@@ -72,7 +72,7 @@ ep.js(f'tl.fromTo("#s02-cam",{{scale:1.35}},{{scale:1.15,duration:{td - s:.3f},e
 ep.js(f'tl.to("#s02-cam",{{scale:1.0,duration:{e - td:.3f},ease:"power2.out"}},{td:.3f});')
 ep.pop("#s02-date", s + 0.1, 0.2, 0.6)
 ep.js(f'tl.to("#s02-date",{{opacity:0,duration:0.1}},{td:.3f});')
-ep.js(f'tl.fromTo("#s02-bomb",{{y:480,rotation:0}},{{y:860,rotation:8,svgOrigin:"560 300",duration:{td - s:.3f},ease:"power1.in",immediateRender:false}},{s:.3f});')
+ep.js(f'tl.fromTo("#s02-bomb",{{y:600,rotation:0}},{{y:860,rotation:8,svgOrigin:"560 300",duration:{td - s:.3f},ease:"power1.in",immediateRender:false}},{s:.3f});')
 ep.js(f'tl.set("#s02-bomb",{{opacity:0}},{td:.3f});')
 ep.js(f'tl.fromTo("#s02-fb",{{opacity:1,scale:0.05,svgOrigin:"560 760"}},{{scale:1.4,duration:0.5,ease:"expo.out",immediateRender:false}},{td:.3f});')
 ep.js(f'tl.to("#s02-fb",{{opacity:0,duration:0.6}},{td + 0.5:.3f});')
@@ -172,14 +172,20 @@ flowers = ""
 for k, (fx, fy) in enumerate([(450, 880), (620, 940), (480, 1110), (640, 1200), (520, 1300)]):
     flowers += f'<g class="s08-fl">' + "".join(f'<circle cx="{fx + 26 * math.cos(a):.0f}" cy="{fy + 26 * math.sin(a):.0f}" r="16" fill="#F2EEEA"/>' for a in [i * 2 * math.pi / 5 for i in range(5)]) + f'<circle cx="{fx}" cy="{fy}" r="10" fill="#C2181E"/></g>'
 stripes = "".join(f'<line x1="{340 + k * 60}" y1="740" x2="{240 + k * 60}" y2="1400" stroke="#F2EEEA" stroke-width="3" opacity="0.35"/>' for k in range(10))
+body_marks = "".join('<g>' + "".join(f'<circle cx="{fx + 26 * math.cos(a):.0f}" cy="{fy + 26 * math.sin(a):.0f}" r="16" fill="#2a0806"/>' for a in [i * 2 * math.pi / 5 for i in range(5)]) + '</g>' for fx, fy in [(450, 880), (620, 940), (480, 1110), (640, 1200), (520, 1300)])
+skin_ribs = "".join(f'<path d="M 420 {900 + k * 70} Q 540 {930 + k * 70} 660 {900 + k * 70}" fill="none" stroke="#F2EEEA" stroke-width="5" opacity="0.5"/>' for k in range(5))
 svg = (f'<defs><clipPath id="s08-c"><path d="{TOR}"/></clipPath></defs>' + glow(N(TOR, fill="#44140E"))
+       + f'<g id="s08-body" opacity="0" clip-path="url(#s08-c)"><rect x="300" y="700" width="500" height="760" fill="#7a2a20"/>{skin_ribs}<g id="s08-marks" opacity="0">{body_marks}</g></g>'
        + f'<g clip-path="url(#s08-c)">{stripes}{flowers}<rect id="s08-heat" x="300" y="700" width="500" height="760" fill="#FF6A2A" opacity="0" filter="url(#soft2)"/></g>'
-       + label(540, 680, "KIMONO PATTERN", 28, GREY))
+       + label(540, 680, "KIMONO PATTERN", 28, GREY, extra='id="s08-lab"'))
 ep.scene("s08", s, e, svg, origin="50% 55%", drift=0.02)
 tb8 = W(54) - 0.05
 ep.js(f'tl.to("#s08-heat",{{opacity:0.35,duration:0.25}},{tb8:.3f});')
 ep.js(f'tl.to(".s08-fl circle",{{fill:"#3a0d08",duration:0.6,stagger:0.03}},{tb8 + 0.1:.3f});')
 ep.js(f'tl.to("#s08-heat",{{opacity:0.15,duration:1.0}},{tb8 + 0.5:.3f});')
+ep.show("#s08-body", tb8 + 0.5, 0.5)
+ep.show("#s08-marks", tb8 + 0.8, 0.4)
+ep.js(f'tl.to("#s08-lab",{{opacity:0,duration:0.2}},{tb8 + 0.5:.3f});')
 ep.cue("sizzle.wav", tb8, 0.5)
 ep.floor(s, 0.5, 0.5)
 
@@ -192,12 +198,12 @@ ep.floor(s, 0.5, 0.0)
 s, e = cut(62), cut(65)
 wave = ('<g id="s10-wave"><g filter="url(#glow)"><path d="M -60 500 Q 120 1000 -60 1500" fill="none" stroke="#FB2945" stroke-width="18"/>'
         '<path d="M -120 520 Q 40 1000 -120 1480" fill="none" stroke="#F2EEEA" stroke-width="6" opacity="0.7"/></g></g>')
-svg = city_hiro(1420, gid="s10-city", seed=9) + hline(1420) + mascot("m10", 760, 1420, 0.7, pose=dict(uarmL=-30, uarmR=30)) + wave
+svg = city_hiro(1420, gid="s10-city", seed=9) + hline(1420) + mascot("m10", 520, 1420, 0.7, pose=dict(uarmL=-30, uarmR=30)) + wave
 ep.scene("s10", s, e, svg, origin="50% 60%", fx=[(W(63), e, "ash", dict(n=120, sp=0, x0=0, x1=1080, y0=500, y1=1500, color="#E8706A"))])
 tw = W(63) - 0.05
 ep.js(f'tl.fromTo("#s10-wave",{{x:0}},{{x:1400,duration:0.55,ease:"power2.out",immediateRender:false}},{tw:.3f});')
 ep.js(f'tl.to("#s10-city",{{skewX:22,transformOrigin:"50% 100%",duration:0.35,ease:"power2.out"}},{tw + 0.15:.3f});')
-ep.js(f'tl.to("#m10",{{rotation:70,svgOrigin:"760 1420",x:160,duration:0.4,ease:"power2.out"}},{tw + 0.3:.3f});')
+ep.js(f'tl.to("#m10",{{rotation:70,svgOrigin:"520 1420",x:40,duration:0.4,ease:"power2.out"}},{tw + 0.3:.3f});')
 ep.shake("#s10-shake", tw + 0.15, 0.7, 20)
 ep.cue("sfx_open_roar.mp3", tw, 0.9)
 ep.cue("impact-bass-2.mp3", tw + 0.15, 1.0)
@@ -216,6 +222,7 @@ svg = ear + f'<g id="s11-arcs">{arcs}</g>'
 ep.scene("s11", s, e, svg, origin="60% 52%", fx=[(W(67), e, "sparks", dict(cx=820, cy=980, n=24, r=120, dur=0.6, color="#FF3B36", g=200))])
 ep.js(f'tl.fromTo("#s11-arcs",{{x:-100}},{{x:320,duration:{W(67) - s:.3f},ease:"power1.in",immediateRender:false}},{s:.3f});')
 ep.js(f'tl.to("#s11-drum",{{scaleY:0.2,svgOrigin:"820 980",duration:0.08}},{W(67) - 0.02:.3f});')
+ep.js(f'tl.to("#s11-arcs",{{opacity:0,duration:0.15}},{W(67):.3f});')
 ep.flash(W(67), 0.3, 0.3)
 ep.cue("impact-bass-1.mp3", W(67), 0.8)
 ep.cue("beep.wav", W(67) + 0.1, 0.05)
@@ -239,9 +246,11 @@ ep.js(f'tl.to("#s12-crack",{{strokeDashoffset:0,duration:0.25,ease:"power2.out"}
 tsh = W(69) + 0.05
 ep.js(f'tl.set("#s12-pane, #s12-crack",{{opacity:0}},{tsh:.3f});')
 for k in range(18):
-    ep.js(f'tl.fromTo("#s12-sh{k}",{{opacity:1,x:0,y:0,rotation:0}},{{x:{sr.uniform(380, 560):.0f},y:{sr.uniform(-40, 260):.0f},rotation:{sr.uniform(-300, 300):.0f},svgOrigin:"330 950",duration:{sr.uniform(0.35, 0.6):.2f},ease:"power2.out",immediateRender:false}},{tsh + k * 0.012:.3f});')
+    ep.js(f'tl.fromTo("#s12-sh{k}",{{opacity:1,x:0,y:0,rotation:0}},{{x:{sr.uniform(430, 540):.0f},y:{sr.uniform(150, 420):.0f},rotation:{sr.uniform(-300, 300):.0f},svgOrigin:"330 950",duration:{sr.uniform(0.3, 0.45):.2f},ease:"power2.in",immediateRender:false}},{tsh + k * 0.012:.3f});')
     ep.js(f'tl.set("#s12-sh{k}",{{opacity:0}},0);')
-ep.js(f'tl.to(".s12-bl",{{opacity:0.9,duration:0.2,stagger:0.12}},{W(74):.3f});')
+    ep.js(f'tl.to("#s12-sh{k}",{{opacity:0,duration:0.15}},{tsh + 0.5 + k * 0.012:.3f});')
+ep.js(f'tl.to(".s12-bl",{{opacity:0.9,duration:0.12,stagger:0.06}},{tsh + 0.45:.3f});')
+ep.flash(W(76), 0.2, 0.25)
 ep.flash(tsh, 0.45, 0.3)
 ep.cue("sfx_collapse.mp3", tsh, 0.7)
 ep.cue("impact-bass-1.mp3", tsh, 0.6)

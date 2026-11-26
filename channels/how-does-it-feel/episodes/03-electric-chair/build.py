@@ -8,7 +8,7 @@ ep = Episode(__file__)
 W, WE, cut = ep.W, ep.WE, ep.cut
 WOOD, SLAT = "#46302c", "#a3938e"
 SEAT = dict(thighL="rotate(14) scale(1,0.32)", shinL="scale(1,3.125) rotate(-10)", thighR="rotate(-14) scale(1,0.32)", shinR="scale(1,3.125) rotate(10)",
-            uarmL=34, farmL=-58, uarmR=-34, farmR=58)
+            uarmL=44, farmL=58, uarmR=-44, farmR=-58)
 
 
 def stage():
@@ -84,9 +84,9 @@ ep.cue("sub.wav", 0, 0.8)
 # ---------------------------------------------------------------- S02 New York. 1890.
 s, e = cut(12), cut(15)
 svg = "".join(line(80 + i * 46, 560, 80 + i * 46, 1500, "#FB2945", 2, f'opacity="{0.15 + 0.25 * (i % 3) / 2:.2f}"') for i in range(21)) + line(60, 1180, 1020, 1180, "#FB2945", 3, 'opacity="0.4"')
-html = ('<div class="big" id="s02-t1" style="top:760px;font-size:120px;">NEW YORK</div>'
+html = ('<div class="big" id="s02-t1" style="top:760px;font-size:96px;">AUBURN PRISON</div>'
         '<div class="num" id="s02-t2" style="top:900px;font-size:240px;">1890</div>'
-        '<div class="lbl" id="s02-t3" style="top:1160px;">AUBURN PRISON</div>')
+        '<div class="lbl" id="s02-t3" style="top:1160px;">AUGUST 6 · NEW YORK STATE</div>')
 ep.scene("s02", s, e, svg, html, origin="50% 50%")
 ep.pop("#s02-t1", s, 0.16, 0.85)
 ep.pop("#s02-t2", W(14) - 0.05, 0.16, 0.6)
@@ -109,9 +109,9 @@ ep.floor(s, 0.6, 0.0)
 # ---------------------------------------------------------------- S04 the first person executed with electricity
 s, e = cut(20), cut(33)
 bolt_icon = glow(N("M 600 640 L 470 900 L 560 900 L 500 1120 L 680 830 L 580 830 L 650 640 Z", fill="#0b1430", red="#5A78FF", core="#FFFFFF"), f="glowB", gid="s04-bolt")
-html = ('<div class="num" id="s04-no" style="top:1000px;font-size:220px;">No.1</div>'
-        '<div class="lbl" id="s04-sub" style="top:1235px;font-size:38px;color:#9FC8FF;">FIRST ELECTRIC EXECUTION</div>')
-ep.scene("s04", s, e, bolt_icon, html, origin="50% 55%", drift=0.018, fx=[(W(30) - 0.1, e, "lightning", dict(bolts=[[200, 1250, 420, 1240], [880, 1250, 660, 1240]], plasma=[[540, 880, 90]], amp=0.4, flick=0.4))])
+html = ('<div class="num" id="s04-no" style="top:1130px;font-size:200px;">No.1</div>'
+        '<div class="lbl" id="s04-sub" style="top:1345px;font-size:38px;color:#9FC8FF;">FIRST ELECTRIC EXECUTION</div>')
+ep.scene("s04", s, e, bolt_icon, html, origin="50% 55%", drift=0.018, fx=[(W(30) - 0.1, e, "lightning", dict(bolts=[[120, 1240, 330, 1230], [960, 1240, 750, 1230]], plasma=[[540, 880, 90]], amp=0.4, flick=0.4))])
 ep.pop("#s04-bolt", s, 0.2, 0.2)
 ep.pop("#s04-no", W(26) - 0.05, 0.18, 0.3)
 ep.pop("#s04-sub", W(30) - 0.05, 0.2, 0.5)
@@ -141,7 +141,7 @@ for sel, wi, sc, org in [("#s06-sa", 45, 1.35, "50% 60%"), ("#s06-sl", 47, 1.45,
     t = W(wi) - 0.08
     ep.js(f'tl.set("#s06-cam",{{transformOrigin:"{org}"}},{t:.3f});')
     ep.js(f'tl.fromTo("#s06-cam",{{scale:{sc - 0.12:.2f}}},{{scale:{sc:.2f},duration:{5 * F:.3f},ease:"power2.out",immediateRender:false}},{t:.3f});')
-    ep.pop(sel, t + 0.05, 0.14, 1.4, "power3.out")
+    ep.show(sel, t + 0.05, 0.08)
     ep.cue("impact-bass-2.mp3", t + 0.08, 0.45)
 ep.floor(s, 0.75, 0.0)
 
@@ -151,7 +151,9 @@ svg = stage() + chair("c7") + seated("m7") + strap_svg("c7", "arms") + strap_svg
 html = '<div class="lbl" id="s07-lab" style="top:1030px;left:620px;width:400px;text-align:left;color:#E8C060;">WET SPONGE</div>'
 ep.scene("s07", s, e, svg, html, origin="50% 50%", custom_cam=True, fx=[(W(60), e, "ash", dict(n=14, sp=260, x0=480, x1=600, y0=1010, y1=1250, color="#7AA0FF"))])
 ep.js(f'tl.fromTo("#s07-cam",{{scale:1.25}},{{scale:1.6,duration:{e - s:.3f},ease:"sine.inOut",immediateRender:false}},{s:.3f});')
-ep.js(f'tl.fromTo("#h7",{{y:-700}},{{y:0,duration:0.75,ease:"power2.out",immediateRender:false}},{W(51) - 0.1:.3f});')
+ep.js('gsap.set("#h7",{y:-330,opacity:0});')
+ep.js(f'tl.set("#h7",{{opacity:1}},{W(51) - 0.1:.3f});')
+ep.js(f'tl.fromTo("#h7",{{y:-330}},{{y:0,duration:0.75,ease:"power2.out",immediateRender:false}},{W(51) - 0.1:.3f});')
 ep.pop("#s07-lab", W(60) - 0.05, 0.2, 0.5)
 ep.cue("whoosh-cinematic.mp3", W(51) - 0.1, 0.3)
 ep.cue("impact-bass-1.mp3", W(51) + 0.6, 0.5)
@@ -213,6 +215,8 @@ def voltmeter(sid, start, end, tn, val, pegged=False):
     html = (f'<div class="num" id="{sid}-num" style="top:930px;font-size:170px;">0 V</div><div class="lbl" style="top:1110px;">VOLTS</div>')
     ep.scene(sid, start, end, svg, html, origin="50% 55%")
     ang = -90 + val / 2000 * 180
+    if tn - start > 0.6:
+        ep.js(f'tl.to("#{sid}-needle",{{attr:{{transform:"rotate(-72)"}},duration:{tn - start - 0.1:.3f},ease:"sine.in"}},{start + 0.05:.3f});')
     ep.js(f'tl.to("#{sid}-needle",{{attr:{{transform:"rotate({ang + (8 if pegged else 6):.1f})"}},duration:0.14,ease:"power3.out"}},{tn:.3f});')
     ep.js(f'tl.to("#{sid}-needle",{{attr:{{transform:"rotate({ang:.1f})"}},duration:0.12,ease:"power2.out"}},{tn + 0.14:.3f});')
     ep.counter(f"#{sid}-num", tn, 0.26, 0, val, "v", "power3.out")
@@ -272,13 +276,13 @@ ep.floor(s, 0.5, 0.0)
 
 # ---------------------------------------------------------------- S15 power off, doctor, declares you dead
 s, e = cut(107), cut(119)
-doc = mascot("doc", 1320, 1560, 0.82, hat=True, pose=dict(uarmL=-15, uarmR=15))
+doc = mascot("doc", 1300, 1540, 0.82, hat=True, pose=dict(uarmL=-15, uarmR=15))
 svg = stage() + chair("c15") + seated("m15", pose_extra=dict(head=26, uarmL=20, farmL=-20, uarmR=-20, farmR=20)) + strap_svg("c15", "arms") + strap_svg("c15", "legs") + strap_svg("c15", "chest") + helmet_svg("h15") + doc
-html = '<div class="num" id="s15-dead" style="top:700px;font-size:220px;transform:rotate(-12deg);">DEAD</div>'
+html = '<div class="num" id="s15-dead" style="top:560px;font-size:200px;transform:rotate(-12deg);">DEAD</div>'
 ep.scene("s15", s, e, svg, html, origin="50% 55%", drift=0.012, fx=[(s, e, "smoke", dict(n=8, cx=540, base=900, w=60, h=500, r0=20, r1=90, life=3, alpha=0.3))])
 ep.cue("sizzle.wav", s - 0.05, 0.3)
 tw = W(112) - 0.1
-ep.js(f'tl.fromTo("#doc",{{x:0}},{{x:-440,duration:{W(115) - tw:.3f},ease:"power1.out",immediateRender:false}},{tw:.3f});')
+ep.js(f'tl.fromTo("#doc",{{x:0}},{{x:-520,duration:{W(115) - tw:.3f},ease:"power1.out",immediateRender:false}},{tw:.3f});')
 n = int((W(115) - tw) / 0.2)
 for k in range(n):
     a = 22 if k % 2 == 0 else -22
@@ -352,7 +356,7 @@ ep.floor(W(148), 0.4, 0.9, 0.1)
 s, e = cut(150), cut(155)
 svg = stage() + chair("c21") + seated("m21", pose_extra=dict(head=-20, uarmL=50, farmL=-100, uarmR=-50, farmR=100)) + strap_svg("c21", "arms", True) + strap_svg("c21", "chest", True) + helmet_svg("h21")
 ep.scene("s21", s, e, svg, origin="50% 50%", custom_cam=True, fx=[(s, e, "lightning", dict(bolts_at(), amp=0.45, branch=0.45)),
-                                                                 (W(150), e, "smoke", dict(n=14, cx=540, base=880, w=90, h=700, r0=30, r1=160, life=2.5, alpha=0.45))])
+                                                                 (s, e, "smoke", dict(n=16, cx=540, base=880, w=90, h=700, r0=30, r1=170, life=2.2, alpha=0.6, rgb="185,175,170"))])
 ep.js(f'tl.fromTo("#s21-cam",{{scale:1.5}},{{scale:1.7,duration:{e - s:.3f},ease:"none",immediateRender:false}},{s:.3f});')
 convulse("m21", s, e, 14, 21)
 ep.cue("sizzle.wav", s, 1.0)
@@ -363,8 +367,8 @@ ep.floor(s, 0.9, 0.9, 0.05)
 # ---------------------------------------------------------------- S22 the room fills with the smell (extreme wide)
 s, e = cut(155), cut(164)
 room = (stage() + f'<g transform="translate(540,1300) scale(0.55) translate(-540,-1300)">{chair("c22")}{seated("m22", pose_extra=dict(head=-20))}{helmet_svg("h22")}</g>'
-        + "".join(mascot(f"x{k}", x, 1700, 0.45, pose=dict(uarmL=-150 if k == 1 else 10, farmL=-30)) for k, x in enumerate([120, 260, 820, 960])))
-ep.scene("s22", s, e, room, origin="50% 55%", drift=0.015, fx=[(s, e, "smoke", dict(n=22, cx=540, base=1150, w=300, h=900, r0=60, r1=320, life=4, alpha=0.4, drift=0)),
+        + "".join(mascot(f"x{k}", x, 1540, 0.45, pose=dict(uarmL=-150 if k == 1 else 10, farmL=-30)) for k, x in enumerate([150, 290, 790, 930])))
+ep.scene("s22", s, e, room, origin="50% 55%", drift=0.015, fx=[(s, e, "smoke", dict(n=22, cx=540, base=1150, w=300, h=900, r0=60, r1=320, life=4, alpha=0.5, drift=0, rgb="170,160,155")),
                                                                 (s, e, "lightning", dict(bolts=[[540, 1110, 560, 600]], plasma=[[540, 1110, 70]], amp=0.35, flick=0.3))])
 ep.floor(s, 0.6, 0.3)
 
