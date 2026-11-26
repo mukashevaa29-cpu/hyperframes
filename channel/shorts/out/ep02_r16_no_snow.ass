@@ -1,0 +1,65 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,92,&H00FFFFFF&,&H00FFFFFF&,&H00000000&,&H96000000&,0,0,0,0,100,100,0,0,1,7,4,5,70,70,0,1
+Style: End,Montserrat Black,64,&H003BD4FF&,&H003BD4FF&,&H00000000&,&H96000000&,0,0,0,0,100,100,0,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:01.61,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}RULE SIXTEEN.
+Dialogue: 0,0:00:01.61,0:00:02.55,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IF SOMEONE KNOCKS
+Dialogue: 0,0:00:02.55,0:00:03.09,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND THERE'S NO
+Dialogue: 0,0:00:03.09,0:00:03.45,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H004F3BEF&}SNOW{\c&H00FFFFFF&} ON
+Dialogue: 0,0:00:03.45,0:00:04.32,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THEIR SHOULDERS,
+Dialogue: 0,0:00:04.32,0:00:04.83,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}DON'T OPEN
+Dialogue: 0,0:00:04.83,0:00:05.91,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE DOOR.
+Dialogue: 0,0:00:05.91,0:00:06.53,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}YOU LOOK THROUGH
+Dialogue: 0,0:00:06.53,0:00:06.93,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE GAP
+Dialogue: 0,0:00:06.93,0:00:07.98,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IN THE CURTAIN.
+Dialogue: 0,0:00:07.98,0:00:09.33,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT'S DAD.
+Dialogue: 0,0:00:09.33,0:00:10.92,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HIS HOSPITAL COAT.
+Dialogue: 0,0:00:10.92,0:00:12.41,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HIS GLASSES.
+Dialogue: 0,0:00:12.41,0:00:13.90,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HE'S SMILING.
+Dialogue: 0,0:00:13.90,0:00:14.86,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HE'S BEEN WALKING
+Dialogue: 0,0:00:14.86,0:00:15.63,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THROUGH A BLIZZARD
+Dialogue: 0,0:00:15.63,0:00:17.37,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}FOR FORTY MILES.
+Dialogue: 0,0:00:17.37,0:00:17.69,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND THERE
+Dialogue: 0,0:00:17.69,0:00:18.01,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IS NOT
+Dialogue: 0,0:00:18.01,0:00:18.76,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}A SINGLE FLAKE
+Dialogue: 0,0:00:18.76,0:00:19.17,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}OF SNOW
+Dialogue: 0,0:00:19.17,0:00:21.16,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ON HIM.
+Dialogue: 0,0:00:21.16,0:00:22.79,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HE KNOCKS AGAIN.
+Dialogue: 0,0:00:22.79,0:00:23.96,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THEN HE SAYS,
+Dialogue: 0,0:00:23.96,0:00:24.43,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}OPEN UP,
+Dialogue: 0,0:00:24.43,0:00:24.76,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}KIDDO,
+Dialogue: 0,0:00:24.76,0:00:25.40,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IT'S COLD OUT
+Dialogue: 0,0:00:25.40,0:00:26.31,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HERE.
+Dialogue: 0,0:00:26.31,0:00:28.12,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HE'S NOT SHIVERING.
+Dialogue: 0,0:00:28.12,0:00:29.01,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HIS BREATH DOESN'T
+Dialogue: 0,0:00:29.01,0:00:30.79,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}STEAM.
+Dialogue: 0,0:00:30.79,0:00:32.51,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}CLOSE THE CURTAIN.
+Dialogue: 0,0:00:32.51,0:00:32.97,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SIT WITH
+Dialogue: 0,0:00:32.97,0:00:33.85,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}YOUR BACK AGAINST
+Dialogue: 0,0:00:33.85,0:00:34.96,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE DOOR.
+Dialogue: 0,0:00:34.96,0:00:35.41,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND WAIT
+Dialogue: 0,0:00:35.41,0:00:36.00,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}FOR THE KNOCKING
+Dialogue: 0,0:00:36.00,0:00:37.31,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}TO STOP.
+Dialogue: 0,0:00:37.31,0:00:38.14,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}MAYA WAKES UP
+Dialogue: 0,0:00:38.14,0:00:38.92,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND STARTS WALKING
+Dialogue: 0,0:00:38.92,0:00:40.06,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}TOWARD THE DOOR,
+Dialogue: 0,0:00:40.06,0:00:41.65,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}BECAUSE IT'S DAD.
+Dialogue: 0,0:00:41.65,0:00:42.19,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}YOU HOLD
+Dialogue: 0,0:00:42.19,0:00:42.88,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}HER SO TIGHT
+Dialogue: 0,0:00:42.88,0:00:44.33,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THAT SHE CRIES.
+Dialogue: 0,0:00:44.33,0:00:45.17,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IN THE MORNING,
+Dialogue: 0,0:00:45.17,0:00:45.92,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THERE ARE FOOTPRINTS
+Dialogue: 0,0:00:45.92,0:00:47.09,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ON THE PORCH.
+Dialogue: 0,0:00:47.09,0:00:48.59,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}LEADING AWAY.
+Dialogue: 0,0:00:48.59,0:00:49.23,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}FOR THE FIRST
+Dialogue: 0,0:00:49.23,0:00:50.05,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}TIME.
+Dialogue: 0,0:00:50.05,0:00:51.25,End,,0,0,0,,{\pos(540,1420)\fad(150,0)}FULL STORY ON THE CHANNEL

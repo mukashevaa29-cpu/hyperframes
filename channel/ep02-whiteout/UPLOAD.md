@@ -1,6 +1,6 @@
 # The Rule Stories — EP02 upload sheet (20 rules)
 
-**File:** `video/renders/whiteout_v1_share.mp4` (1920×1080, 30 fps, 14:20, −14.8 LUFS, −1.7 dBTP)
+**File:** `video/renders/whiteout_v2_share.mp4` (1920×1080, 30 fps, 14:29, −14.8 LUFS, −5.0 dBTP)
 **Thumbnail:** `thumbnail/thumbnail.png` (1280×720)
 **Captions:** `captions.srt` (English, timed from the voiceover)
 
@@ -23,14 +23,14 @@ Some of these rules are real winter advice. Fill containers with water before a 
 What would rule 21 be? Write it in the comments.
 
 00:00 Intro
-01:04 Day 1: The Cards
-02:59 Day 3: The Cold
-04:47 Day 7: The Walkers
-06:37 Day 12: The Roof
-08:33 Day 20: The Lights
-10:10 Day 30: The Knock
-12:07 Day 40: The Last Snow
-13:42 Finale
+01:13 Day 1: The Cards
+03:08 Day 3: The Cold
+04:56 Day 7: The Walkers
+06:46 Day 12: The Roof
+08:42 Day 20: The Lights
+10:19 Day 30: The Knock
+12:16 Day 40: The Last Snow
+13:51 Finale
 
 #rules #horrorstories #animation
 
@@ -49,5 +49,5 @@ Rule 21 goes on the next card. Best answer gets written into a future episode. �
 - Category: Film & Animation · Made for kids: **No** (horror themes)
 - Altered or synthetic content: **Yes**. The narration voice is AI-generated (ElevenLabs).
 - Video language: English. Upload `captions.srt` as English subtitles.
-- End screen: last 15 s (from 14:05), subscribe + EP01, over the empty lower half of the end card.
-- Mid-roll ads (if monetised): place them on the chapter cards (02:59, 06:37, 10:10, 12:07).
+- End screen: last 15 s (from 14:14), subscribe + EP01, over the empty lower half of the end card.
+- Mid-roll ads (if monetised): place them on the chapter cards (03:08, 06:46, 10:19, 12:16).

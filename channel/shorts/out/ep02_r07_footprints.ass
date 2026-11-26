@@ -1,0 +1,46 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,92,&H00FFFFFF&,&H00FFFFFF&,&H00000000&,&H96000000&,0,0,0,0,100,100,0,0,1,7,4,5,70,70,0,1
+Style: End,Montserrat Black,64,&H003BD4FF&,&H003BD4FF&,&H00000000&,&H96000000&,0,0,0,0,100,100,0,0,1,6,3,5,70,70,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:01.70,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}RULE SEVEN.
+Dialogue: 0,0:00:01.70,0:00:02.69,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IF FOOTPRINTS LEAD
+Dialogue: 0,0:00:02.69,0:00:03.37,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H004F3BEF&}TO{\c&H00FFFFFF&} YOUR DOOR
+Dialogue: 0,0:00:03.37,0:00:04.09,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}BUT NOT AWAY
+Dialogue: 0,0:00:04.09,0:00:04.72,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}FROM IT,
+Dialogue: 0,0:00:04.72,0:00:05.29,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}DON'T OPEN
+Dialogue: 0,0:00:05.29,0:00:06.37,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE DOOR.
+Dialogue: 0,0:00:06.37,0:00:07.00,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ON THE MORNING
+Dialogue: 0,0:00:07.00,0:00:07.69,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}OF DAY SEVEN,
+Dialogue: 0,0:00:07.69,0:00:08.34,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THERE'S A LINE
+Dialogue: 0,0:00:08.34,0:00:08.90,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}OF FOOTPRINTS
+Dialogue: 0,0:00:08.90,0:00:09.36,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IN THE FRESH
+Dialogue: 0,0:00:09.36,0:00:10.39,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SNOW.
+Dialogue: 0,0:00:10.39,0:00:10.76,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THEY COME
+Dialogue: 0,0:00:10.76,0:00:11.26,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}FROM THE MIDDLE
+Dialogue: 0,0:00:11.26,0:00:12.37,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}OF THE STREET.
+Dialogue: 0,0:00:12.37,0:00:12.84,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}STRAIGHT TO
+Dialogue: 0,0:00:12.84,0:00:14.16,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}YOUR FRONT DOOR.
+Dialogue: 0,0:00:14.16,0:00:15.61,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND THEY STOP.
+Dialogue: 0,0:00:15.61,0:00:16.41,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THERE'S NOBODY
+Dialogue: 0,0:00:16.41,0:00:17.68,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}ON THE PORCH.
+Dialogue: 0,0:00:17.68,0:00:18.18,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THERE ARE NO
+Dialogue: 0,0:00:18.18,0:00:18.98,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}FOOTPRINTS GOING
+Dialogue: 0,0:00:18.98,0:00:19.93,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}BACK.
+Dialogue: 0,0:00:19.93,0:00:20.99,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}WHATEVER MADE THEM
+Dialogue: 0,0:00:20.99,0:00:21.99,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}IS STILL SOMEWHERE
+Dialogue: 0,0:00:21.99,0:00:22.79,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}BETWEEN THE ROAD
+Dialogue: 0,0:00:22.79,0:00:24.05,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}AND YOUR DOOR.
+Dialogue: 0,0:00:24.05,0:00:24.69,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}KEEP THE DOOR
+Dialogue: 0,0:00:24.69,0:00:25.48,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SHUT UNTIL NEW
+Dialogue: 0,0:00:25.48,0:00:26.16,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}SNOW COVERS
+Dialogue: 0,0:00:26.16,0:00:27.46,Cap,,0,0,0,,{\pos(540,1420)\fscx82\fscy82\t(0,90,\fscx100\fscy100)}THE TRACKS.
+Dialogue: 0,0:00:27.46,0:00:28.66,End,,0,0,0,,{\pos(540,1420)\fad(150,0)}FULL STORY ON THE CHANNEL

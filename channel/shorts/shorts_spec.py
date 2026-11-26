@@ -13,6 +13,6 @@ SHORTS = [
          kicker="RULE 16 · 40 DAYS OF SNOW", title="NO SNOW ON <y>HIS SHOULDERS</y>? <r>DON'T OPEN</r>"),
     dict(id="ep02_r07_footprints", ep="ep02-whiteout", video=EP2, u0=124, u1=133,
          kicker="RULE 7 · 40 DAYS OF SNOW", title="FOOTPRINTS LEAD <y>TO YOUR DOOR</y>. <r>NONE LEAD AWAY</r>."),
-    dict(id="ep02_r19_birds", ep="ep02-whiteout", video=EP2, u0=293, u1=311,
+    dict(id="ep02_r19_birds", ep="ep02-whiteout", video=EP2, u0=293, u1=311, crop_w=1640,
          kicker="RULE 19 · 40 DAYS OF SNOW", title="WHEN THE SNOW STOPS, <y>WAIT FOR THE BIRDS</y>"),
 ]
