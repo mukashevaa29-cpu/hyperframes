@@ -1,0 +1,10931 @@
+[
+  {
+    "kind": "chapter",
+    "title": "INTRO",
+    "spoken": ""
+  },
+  {
+    "kind": "line",
+    "text": "Friday. 4:15 PM.",
+    "words": [
+      {
+        "w": "Friday.",
+        "c": null
+      },
+      {
+        "w": "4:15",
+        "c": "y"
+      },
+      {
+        "w": "PM.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "School lets out early because of the snow.",
+    "words": [
+      {
+        "w": "School",
+        "c": null
+      },
+      {
+        "w": "lets",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "early",
+        "c": null
+      },
+      {
+        "w": "because",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Nobody minds.",
+    "words": [
+      {
+        "w": "Nobody",
+        "c": null
+      },
+      {
+        "w": "minds.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's the first real snow of the year, and it's beautiful.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "real",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "year,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "beautiful.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Big, slow flakes, the kind that stick to your eyelashes.",
+    "words": [
+      {
+        "w": "Big,",
+        "c": null
+      },
+      {
+        "w": "slow",
+        "c": null
+      },
+      {
+        "w": "flakes,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "kind",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "stick",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "eyelashes.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "By dinner, the car is a white hill in the driveway.",
+    "words": [
+      {
+        "w": "By",
+        "c": null
+      },
+      {
+        "w": "dinner,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "car",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "white",
+        "c": null
+      },
+      {
+        "w": "hill",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "driveway.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "By midnight, you can't see the house across the street.",
+    "words": [
+      {
+        "w": "By",
+        "c": null
+      },
+      {
+        "w": "midnight,",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "can't",
+        "c": null
+      },
+      {
+        "w": "see",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "house",
+        "c": null
+      },
+      {
+        "w": "across",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "street.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "By morning, the snow is up to the windows.",
+    "words": [
+      {
+        "w": "By",
+        "c": null
+      },
+      {
+        "w": "morning,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "windows.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And it's still falling.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "still",
+        "c": null
+      },
+      {
+        "w": "falling.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The radio says it will stop tomorrow.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "radio",
+        "c": null
+      },
+      {
+        "w": "says",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "will",
+        "c": null
+      },
+      {
+        "w": "stop",
+        "c": null
+      },
+      {
+        "w": "tomorrow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It doesn't stop tomorrow.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "doesn't",
+        "c": null
+      },
+      {
+        "w": "stop",
+        "c": null
+      },
+      {
+        "w": "tomorrow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It doesn't stop that week.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "doesn't",
+        "c": null
+      },
+      {
+        "w": "stop",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "week.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It snows for forty days.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "snows",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "forty",
+        "c": "y"
+      },
+      {
+        "w": "days.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not just in your town.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "just",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "town.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Across the whole country.",
+    "words": [
+      {
+        "w": "Across",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "whole",
+        "c": null
+      },
+      {
+        "w": "country.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No plows.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "plows.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No deliveries.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "deliveries.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No way out.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "way",
+        "c": null
+      },
+      {
+        "w": "out.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On the first morning, there's a card taped to every front door in town.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "morning,",
+        "c": null
+      },
+      {
+        "w": "there's",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "card",
+        "c": null
+      },
+      {
+        "w": "taped",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "every",
+        "c": null
+      },
+      {
+        "w": "front",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "town.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "White plastic.",
+    "words": [
+      {
+        "w": "White",
+        "c": null
+      },
+      {
+        "w": "plastic.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Twenty rules, printed in small black letters.",
+    "words": [
+      {
+        "w": "Twenty",
+        "c": null
+      },
+      {
+        "w": "rules,",
+        "c": null
+      },
+      {
+        "w": "printed",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "small",
+        "c": null
+      },
+      {
+        "w": "black",
+        "c": null
+      },
+      {
+        "w": "letters.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Nobody knows who put them there.",
+    "words": [
+      {
+        "w": "Nobody",
+        "c": null
+      },
+      {
+        "w": "knows",
+        "c": null
+      },
+      {
+        "w": "who",
+        "c": null
+      },
+      {
+        "w": "put",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": null
+      },
+      {
+        "w": "there.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The people who followed them saw the spring.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "people",
+        "c": null
+      },
+      {
+        "w": "who",
+        "c": null
+      },
+      {
+        "w": "followed",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": null
+      },
+      {
+        "w": "saw",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "spring.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And you're going to learn them the same way you did.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "you're",
+        "c": null
+      },
+      {
+        "w": "going",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "learn",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "same",
+        "c": null
+      },
+      {
+        "w": "way",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "did.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "One day at a time.",
+    "words": [
+      {
+        "w": "One",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "time.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Listen to the end, because rule twenty is the one that matters.",
+    "words": [
+      {
+        "w": "Listen",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "end,",
+        "c": null
+      },
+      {
+        "w": "because",
+        "c": null
+      },
+      {
+        "w": "rule",
+        "c": null
+      },
+      {
+        "w": "twenty",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "matters.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "DAY 1 · THE CARDS",
+    "spoken": "Day one. The cards."
+  },
+  {
+    "kind": "line",
+    "text": "On the first day, nobody takes the card seriously.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "day,",
+        "c": null
+      },
+      {
+        "w": "nobody",
+        "c": null
+      },
+      {
+        "w": "takes",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "card",
+        "c": null
+      },
+      {
+        "w": "seriously.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your dad laughs and pins it to the fridge with a magnet.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "dad",
+        "c": null
+      },
+      {
+        "w": "laughs",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "pins",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "fridge",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "magnet.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then he drives to the hospital for his night shift.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "he",
+        "c": null
+      },
+      {
+        "w": "drives",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "hospital",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "his",
+        "c": null
+      },
+      {
+        "w": "night",
+        "c": null
+      },
+      {
+        "w": "shift.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's the last time you see him for forty days.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "last",
+        "c": null
+      },
+      {
+        "w": "time",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "see",
+        "c": null
+      },
+      {
+        "w": "him",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "forty",
+        "c": null
+      },
+      {
+        "w": "days.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "That night, it's just you, your little sister Maya, and the snow.",
+    "words": [
+      {
+        "w": "That",
+        "c": null
+      },
+      {
+        "w": "night,",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "just",
+        "c": null
+      },
+      {
+        "w": "you,",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "little",
+        "c": null
+      },
+      {
+        "w": "sister",
+        "c": null
+      },
+      {
+        "w": "Maya",
+        "c": "y"
+      },
+      {
+        "w": ",",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The power is still on.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "power",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "still",
+        "c": null
+      },
+      {
+        "w": "on.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The TV says it's just a storm system, nothing unusual.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "TV",
+        "c": null
+      },
+      {
+        "w": "says",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "just",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "storm",
+        "c": null
+      },
+      {
+        "w": "system,",
+        "c": null
+      },
+      {
+        "w": "nothing",
+        "c": null
+      },
+      {
+        "w": "unusual.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 1",
+    "imperative": "FILL EVERYTHING WITH WATER"
+  },
+  {
+    "kind": "line",
+    "text": "Rule one.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "one.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On the first day, fill everything you have with water.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "day,",
+        "c": null
+      },
+      {
+        "w": "fill",
+        "c": null
+      },
+      {
+        "w": "everything",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "have",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "water",
+        "c": "b"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The bathtub.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "bathtub.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Every pot.",
+    "words": [
+      {
+        "w": "Every",
+        "c": null
+      },
+      {
+        "w": "pot.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Every bottle.",
+    "words": [
+      {
+        "w": "Every",
+        "c": null
+      },
+      {
+        "w": "bottle.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "When it gets cold enough, the pipes freeze, and the tap just stops.",
+    "words": [
+      {
+        "w": "When",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "gets",
+        "c": null
+      },
+      {
+        "w": "cold",
+        "c": null
+      },
+      {
+        "w": "enough,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "pipes",
+        "c": null
+      },
+      {
+        "w": "freeze,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "tap",
+        "c": null
+      },
+      {
+        "w": "just",
+        "c": null
+      },
+      {
+        "w": "stops.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Open the cabinet doors under the sinks, and let the taps drip a little at night.",
+    "words": [
+      {
+        "w": "Open",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "cabinet",
+        "c": null
+      },
+      {
+        "w": "doors",
+        "c": null
+      },
+      {
+        "w": "under",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "sinks,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "let",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "taps",
+        "c": null
+      },
+      {
+        "w": "drip",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "little",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "night.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Moving water freezes slower than still water.",
+    "words": [
+      {
+        "w": "Moving",
+        "c": null
+      },
+      {
+        "w": "water",
+        "c": null
+      },
+      {
+        "w": "freezes",
+        "c": null
+      },
+      {
+        "w": "slower",
+        "c": null
+      },
+      {
+        "w": "than",
+        "c": null
+      },
+      {
+        "w": "still",
+        "c": null
+      },
+      {
+        "w": "water.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Maya thinks it's a game.",
+    "words": [
+      {
+        "w": "Maya",
+        "c": null
+      },
+      {
+        "w": "thinks",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "game.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "She fills her rain boots.",
+    "words": [
+      {
+        "w": "She",
+        "c": null
+      },
+      {
+        "w": "fills",
+        "c": null
+      },
+      {
+        "w": "her",
+        "c": null
+      },
+      {
+        "w": "rain",
+        "c": null
+      },
+      {
+        "w": "boots.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 2",
+    "imperative": "LIVE IN ONE ROOM"
+  },
+  {
+    "kind": "line",
+    "text": "Rule two.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "two.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Pick one room, and live in it.",
+    "words": [
+      {
+        "w": "Pick",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": "g"
+      },
+      {
+        "w": "room,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "live",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You can't heat a whole house.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "can't",
+        "c": null
+      },
+      {
+        "w": "heat",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "whole",
+        "c": null
+      },
+      {
+        "w": "house.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "So you pick the living room, because it has the fireplace.",
+    "words": [
+      {
+        "w": "So",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "pick",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "living",
+        "c": null
+      },
+      {
+        "w": "room,",
+        "c": null
+      },
+      {
+        "w": "because",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "has",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "fireplace.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Towels under the doors.",
+    "words": [
+      {
+        "w": "Towels",
+        "c": null
+      },
+      {
+        "w": "under",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "doors.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Blankets over the windows.",
+    "words": [
+      {
+        "w": "Blankets",
+        "c": null
+      },
+      {
+        "w": "over",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "windows.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Mattresses on the floor.",
+    "words": [
+      {
+        "w": "Mattresses",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "floor.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Every other room in the house becomes a place you visit quickly, wearing a coat.",
+    "words": [
+      {
+        "w": "Every",
+        "c": null
+      },
+      {
+        "w": "other",
+        "c": null
+      },
+      {
+        "w": "room",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "house",
+        "c": null
+      },
+      {
+        "w": "becomes",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "place",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "visit",
+        "c": null
+      },
+      {
+        "w": "quickly,",
+        "c": null
+      },
+      {
+        "w": "wearing",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "coat.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "A closed door keeps the heat where you are.",
+    "words": [
+      {
+        "w": "A",
+        "c": null
+      },
+      {
+        "w": "closed",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "keeps",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "heat",
+        "c": null
+      },
+      {
+        "w": "where",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "are.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 3",
+    "imperative": "NEVER LET SNOW BURY THE VENTS"
+  },
+  {
+    "kind": "line",
+    "text": "Rule three.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "three.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never let the snow bury the vents.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "let",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "bury",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "vents",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The furnace, the dryer, the water heater.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "furnace,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "dryer,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "water",
+        "c": null
+      },
+      {
+        "w": "heater.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "They all breathe through pipes in the outside wall.",
+    "words": [
+      {
+        "w": "They",
+        "c": null
+      },
+      {
+        "w": "all",
+        "c": null
+      },
+      {
+        "w": "breathe",
+        "c": null
+      },
+      {
+        "w": "through",
+        "c": null
+      },
+      {
+        "w": "pipes",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "outside",
+        "c": null
+      },
+      {
+        "w": "wall.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "When the snow covers them, the fumes come back inside.",
+    "words": [
+      {
+        "w": "When",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "covers",
+        "c": null
+      },
+      {
+        "w": "them,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "fumes",
+        "c": null
+      },
+      {
+        "w": "come",
+        "c": null
+      },
+      {
+        "w": "back",
+        "c": null
+      },
+      {
+        "w": "inside.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You can't see it.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "can't",
+        "c": null
+      },
+      {
+        "w": "see",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You can't smell it.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "can't",
+        "c": null
+      },
+      {
+        "w": "smell",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You just get very tired.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "just",
+        "c": null
+      },
+      {
+        "w": "get",
+        "c": null
+      },
+      {
+        "w": "very",
+        "c": null
+      },
+      {
+        "w": "tired.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If anyone gets a headache, feels dizzy, or sick to their stomach all at the same time, get fresh air immediately.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "anyone",
+        "c": null
+      },
+      {
+        "w": "gets",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "headache,",
+        "c": null
+      },
+      {
+        "w": "feels",
+        "c": null
+      },
+      {
+        "w": "dizzy,",
+        "c": null
+      },
+      {
+        "w": "or",
+        "c": null
+      },
+      {
+        "w": "sick",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "their",
+        "c": null
+      },
+      {
+        "w": "stomach",
+        "c": null
+      },
+      {
+        "w": "all",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "same",
+        "c": null
+      },
+      {
+        "w": "time,",
+        "c": null
+      },
+      {
+        "w": "get",
+        "c": null
+      },
+      {
+        "w": "fresh",
+        "c": null
+      },
+      {
+        "w": "air",
+        "c": null
+      },
+      {
+        "w": "immediately.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Twice a day, you dig out the vent on the side of the house with a kitchen pot.",
+    "words": [
+      {
+        "w": "Twice",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "day,",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "dig",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "vent",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "side",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "house",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "kitchen",
+        "c": null
+      },
+      {
+        "w": "pot.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And there's something else on the card, under rule three, in smaller letters.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "there's",
+        "c": null
+      },
+      {
+        "w": "something",
+        "c": null
+      },
+      {
+        "w": "else",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "card,",
+        "c": null
+      },
+      {
+        "w": "under",
+        "c": null
+      },
+      {
+        "w": "rule",
+        "c": null
+      },
+      {
+        "w": "three,",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "smaller",
+        "c": null
+      },
+      {
+        "w": "letters.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It says, the snow is not the only thing that's cold.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "says,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "not",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "only",
+        "c": null
+      },
+      {
+        "w": "thing",
+        "c": null
+      },
+      {
+        "w": "that's",
+        "c": null
+      },
+      {
+        "w": "cold.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "DAY 3 · THE COLD",
+    "spoken": "Day three. The cold."
+  },
+  {
+    "kind": "line",
+    "text": "On the third day, the power goes out.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "third",
+        "c": null
+      },
+      {
+        "w": "day,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "power",
+        "c": null
+      },
+      {
+        "w": "goes",
+        "c": null
+      },
+      {
+        "w": "out.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The furnace stops.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "furnace",
+        "c": null
+      },
+      {
+        "w": "stops.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The silence is so complete that you can hear the snow landing on the roof.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "silence",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "so",
+        "c": null
+      },
+      {
+        "w": "complete",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "can",
+        "c": null
+      },
+      {
+        "w": "hear",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "landing",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "roof.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Across the street, Mr. Pratt drags his gas grill into his garage.",
+    "words": [
+      {
+        "w": "Across",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "street,",
+        "c": null
+      },
+      {
+        "w": "Mr.",
+        "c": null
+      },
+      {
+        "w": "Pratt",
+        "c": null
+      },
+      {
+        "w": "drags",
+        "c": null
+      },
+      {
+        "w": "his",
+        "c": null
+      },
+      {
+        "w": "gas",
+        "c": null
+      },
+      {
+        "w": "grill",
+        "c": null
+      },
+      {
+        "w": "into",
+        "c": null
+      },
+      {
+        "w": "his",
+        "c": null
+      },
+      {
+        "w": "garage.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 4",
+    "imperative": "NEVER BURN FUEL INDOORS"
+  },
+  {
+    "kind": "line",
+    "text": "Rule four.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "four.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never use a grill, a generator, or a camping stove inside.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "use",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "grill,",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "generator,",
+        "c": null
+      },
+      {
+        "w": "or",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "camping",
+        "c": null
+      },
+      {
+        "w": "stove",
+        "c": null
+      },
+      {
+        "w": "inside",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not in the house.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "house.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not in the garage.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "garage.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not even with the door open.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "even",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "open.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "They make carbon monoxide, and in a closed space, it builds up faster than you'd ever believe.",
+    "words": [
+      {
+        "w": "They",
+        "c": null
+      },
+      {
+        "w": "make",
+        "c": null
+      },
+      {
+        "w": "carbon",
+        "c": null
+      },
+      {
+        "w": "monoxide,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "closed",
+        "c": null
+      },
+      {
+        "w": "space,",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "builds",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "faster",
+        "c": null
+      },
+      {
+        "w": "than",
+        "c": null
+      },
+      {
+        "w": "you'd",
+        "c": null
+      },
+      {
+        "w": "ever",
+        "c": null
+      },
+      {
+        "w": "believe.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Mr. Pratt's garage light stays on all night.",
+    "words": [
+      {
+        "w": "Mr.",
+        "c": null
+      },
+      {
+        "w": "Pratt's",
+        "c": null
+      },
+      {
+        "w": "garage",
+        "c": null
+      },
+      {
+        "w": "light",
+        "c": null
+      },
+      {
+        "w": "stays",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "all",
+        "c": null
+      },
+      {
+        "w": "night.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In the morning, his dog is scratching at the side door, and nobody comes to let it in.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "morning,",
+        "c": null
+      },
+      {
+        "w": "his",
+        "c": null
+      },
+      {
+        "w": "dog",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "scratching",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "side",
+        "c": null
+      },
+      {
+        "w": "door,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "nobody",
+        "c": null
+      },
+      {
+        "w": "comes",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "let",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "in.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You and Mrs. Kowalski from next door break the side window and drag him out into the snow.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "Mrs.",
+        "c": null
+      },
+      {
+        "w": "Kowalski",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "next",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "break",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "side",
+        "c": null
+      },
+      {
+        "w": "window",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "drag",
+        "c": null
+      },
+      {
+        "w": "him",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "into",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Mr. Pratt makes it.",
+    "words": [
+      {
+        "w": "Mr.",
+        "c": null
+      },
+      {
+        "w": "Pratt",
+        "c": null
+      },
+      {
+        "w": "makes",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He doesn't remember the night.",
+    "words": [
+      {
+        "w": "He",
+        "c": null
+      },
+      {
+        "w": "doesn't",
+        "c": null
+      },
+      {
+        "w": "remember",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "night.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He just keeps asking who was standing in the garage with him.",
+    "words": [
+      {
+        "w": "He",
+        "c": null
+      },
+      {
+        "w": "just",
+        "c": null
+      },
+      {
+        "w": "keeps",
+        "c": null
+      },
+      {
+        "w": "asking",
+        "c": null
+      },
+      {
+        "w": "who",
+        "c": null
+      },
+      {
+        "w": "was",
+        "c": null
+      },
+      {
+        "w": "standing",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "garage",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "him.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 5",
+    "imperative": "STAY DRY"
+  },
+  {
+    "kind": "line",
+    "text": "Rule five.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "five.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Stay dry.",
+    "words": [
+      {
+        "w": "Stay",
+        "c": null
+      },
+      {
+        "w": "dry",
+        "c": "g"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Cold doesn't kill you nearly as fast as wet.",
+    "words": [
+      {
+        "w": "Cold",
+        "c": null
+      },
+      {
+        "w": "doesn't",
+        "c": null
+      },
+      {
+        "w": "kill",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "nearly",
+        "c": null
+      },
+      {
+        "w": "as",
+        "c": null
+      },
+      {
+        "w": "fast",
+        "c": null
+      },
+      {
+        "w": "as",
+        "c": null
+      },
+      {
+        "w": "wet.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Wet socks.",
+    "words": [
+      {
+        "w": "Wet",
+        "c": null
+      },
+      {
+        "w": "socks.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Wet gloves.",
+    "words": [
+      {
+        "w": "Wet",
+        "c": null
+      },
+      {
+        "w": "gloves.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "A shirt you sweated through while shoveling.",
+    "words": [
+      {
+        "w": "A",
+        "c": null
+      },
+      {
+        "w": "shirt",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "sweated",
+        "c": null
+      },
+      {
+        "w": "through",
+        "c": null
+      },
+      {
+        "w": "while",
+        "c": null
+      },
+      {
+        "w": "shoveling.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Wear layers, take one off before you start sweating, and change anything damp right away.",
+    "words": [
+      {
+        "w": "Wear",
+        "c": null
+      },
+      {
+        "w": "layers,",
+        "c": null
+      },
+      {
+        "w": "take",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "off",
+        "c": null
+      },
+      {
+        "w": "before",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "start",
+        "c": null
+      },
+      {
+        "w": "sweating,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "change",
+        "c": null
+      },
+      {
+        "w": "anything",
+        "c": null
+      },
+      {
+        "w": "damp",
+        "c": null
+      },
+      {
+        "w": "right",
+        "c": null
+      },
+      {
+        "w": "away.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Cover your head, your hands and your feet first.",
+    "words": [
+      {
+        "w": "Cover",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "head,",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "hands",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "feet",
+        "c": null
+      },
+      {
+        "w": "first.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Cotton is the worst.",
+    "words": [
+      {
+        "w": "Cotton",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "worst.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Wool is the best.",
+    "words": [
+      {
+        "w": "Wool",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "best.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your mom's old ski socks become the most valuable thing in the house.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "mom's",
+        "c": null
+      },
+      {
+        "w": "old",
+        "c": null
+      },
+      {
+        "w": "ski",
+        "c": null
+      },
+      {
+        "w": "socks",
+        "c": null
+      },
+      {
+        "w": "become",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "most",
+        "c": null
+      },
+      {
+        "w": "valuable",
+        "c": null
+      },
+      {
+        "w": "thing",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "house.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 6",
+    "imperative": "DON'T EAT THE SNOW"
+  },
+  {
+    "kind": "line",
+    "text": "Rule six.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "six.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Don't eat the snow.",
+    "words": [
+      {
+        "w": "Don't",
+        "c": null
+      },
+      {
+        "w": "eat",
+        "c": "r"
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It feels like the obvious thing to do when the taps stop.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "feels",
+        "c": null
+      },
+      {
+        "w": "like",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "obvious",
+        "c": null
+      },
+      {
+        "w": "thing",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "do",
+        "c": null
+      },
+      {
+        "w": "when",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "taps",
+        "c": null
+      },
+      {
+        "w": "stop.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "But eating snow pulls heat out of your body, and you need every bit of it.",
+    "words": [
+      {
+        "w": "But",
+        "c": null
+      },
+      {
+        "w": "eating",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "pulls",
+        "c": null
+      },
+      {
+        "w": "heat",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "body,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "need",
+        "c": null
+      },
+      {
+        "w": "every",
+        "c": null
+      },
+      {
+        "w": "bit",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Melt it first.",
+    "words": [
+      {
+        "w": "Melt",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "first.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Ten cups of snow make barely one cup of water, so melting it takes a lot of fuel.",
+    "words": [
+      {
+        "w": "Ten",
+        "c": null
+      },
+      {
+        "w": "cups",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "make",
+        "c": null
+      },
+      {
+        "w": "barely",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "cup",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "water,",
+        "c": null
+      },
+      {
+        "w": "so",
+        "c": null
+      },
+      {
+        "w": "melting",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "takes",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "lot",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "fuel.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then boil it.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "boil",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And there's another reason the card gives, in those same small letters.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "there's",
+        "c": null
+      },
+      {
+        "w": "another",
+        "c": null
+      },
+      {
+        "w": "reason",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "card",
+        "c": null
+      },
+      {
+        "w": "gives,",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "those",
+        "c": null
+      },
+      {
+        "w": "same",
+        "c": null
+      },
+      {
+        "w": "small",
+        "c": null
+      },
+      {
+        "w": "letters.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Some of the snow isn't snow.",
+    "words": [
+      {
+        "w": "Some",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "isn't",
+        "c": null
+      },
+      {
+        "w": "snow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "DAY 7 · THE WALKERS",
+    "spoken": "Day seven. The walkers."
+  },
+  {
+    "kind": "line",
+    "text": "On the seventh day, the snow is above the windows.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "seventh",
+        "c": null
+      },
+      {
+        "w": "day,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "above",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "windows.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The only way out is through the upstairs window onto the drift.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "only",
+        "c": null
+      },
+      {
+        "w": "way",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "through",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "upstairs",
+        "c": null
+      },
+      {
+        "w": "window",
+        "c": null
+      },
+      {
+        "w": "onto",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "drift.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "That's how you first see them.",
+    "words": [
+      {
+        "w": "That's",
+        "c": null
+      },
+      {
+        "w": "how",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "see",
+        "c": null
+      },
+      {
+        "w": "them.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Out in the whiteout, between the buried houses.",
+    "words": [
+      {
+        "w": "Out",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "whiteout,",
+        "c": null
+      },
+      {
+        "w": "between",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "buried",
+        "c": null
+      },
+      {
+        "w": "houses.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "People.",
+    "words": [
+      {
+        "w": "People.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Walking slowly.",
+    "words": [
+      {
+        "w": "Walking",
+        "c": null
+      },
+      {
+        "w": "slowly.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not wearing coats.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "wearing",
+        "c": null
+      },
+      {
+        "w": "coats.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Their clothes are clean.",
+    "words": [
+      {
+        "w": "Their",
+        "c": null
+      },
+      {
+        "w": "clothes",
+        "c": null
+      },
+      {
+        "w": "are",
+        "c": null
+      },
+      {
+        "w": "clean.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Their hair is dry.",
+    "words": [
+      {
+        "w": "Their",
+        "c": null
+      },
+      {
+        "w": "hair",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "dry.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "They never leave the paths between the houses, and they never look up at the windows.",
+    "words": [
+      {
+        "w": "They",
+        "c": null
+      },
+      {
+        "w": "never",
+        "c": null
+      },
+      {
+        "w": "leave",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "paths",
+        "c": null
+      },
+      {
+        "w": "between",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "houses,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "they",
+        "c": null
+      },
+      {
+        "w": "never",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "windows.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not yet.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "yet.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 7",
+    "imperative": "FOOTPRINTS THAT ONLY COME IN"
+  },
+  {
+    "kind": "line",
+    "text": "Rule seven.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "seven.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If footprints lead to your door but not away from it, don't open the door.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "footprints",
+        "c": null
+      },
+      {
+        "w": "lead",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": "r"
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "but",
+        "c": null
+      },
+      {
+        "w": "not",
+        "c": null
+      },
+      {
+        "w": "away",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "it,",
+        "c": null
+      },
+      {
+        "w": "don't",
+        "c": null
+      },
+      {
+        "w": "open",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On the morning of day seven, there's a line of footprints in the fresh snow.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "morning",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "seven,",
+        "c": null
+      },
+      {
+        "w": "there's",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "line",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "footprints",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "fresh",
+        "c": null
+      },
+      {
+        "w": "snow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "They come from the middle of the street.",
+    "words": [
+      {
+        "w": "They",
+        "c": null
+      },
+      {
+        "w": "come",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "middle",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "street.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Straight to your front door.",
+    "words": [
+      {
+        "w": "Straight",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "front",
+        "c": null
+      },
+      {
+        "w": "door.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And they stop.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "they",
+        "c": null
+      },
+      {
+        "w": "stop.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "There's nobody on the porch.",
+    "words": [
+      {
+        "w": "There's",
+        "c": null
+      },
+      {
+        "w": "nobody",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "porch.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "There are no footprints going back.",
+    "words": [
+      {
+        "w": "There",
+        "c": null
+      },
+      {
+        "w": "are",
+        "c": null
+      },
+      {
+        "w": "no",
+        "c": null
+      },
+      {
+        "w": "footprints",
+        "c": null
+      },
+      {
+        "w": "going",
+        "c": null
+      },
+      {
+        "w": "back.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Whatever made them is still somewhere between the road and your door.",
+    "words": [
+      {
+        "w": "Whatever",
+        "c": null
+      },
+      {
+        "w": "made",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "still",
+        "c": null
+      },
+      {
+        "w": "somewhere",
+        "c": null
+      },
+      {
+        "w": "between",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "road",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "door.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Keep the door shut until new snow covers the tracks.",
+    "words": [
+      {
+        "w": "Keep",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "shut",
+        "c": null
+      },
+      {
+        "w": "until",
+        "c": null
+      },
+      {
+        "w": "new",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "covers",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "tracks.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 8",
+    "imperative": "CURTAINS CLOSED AFTER DARK"
+  },
+  {
+    "kind": "line",
+    "text": "Rule eight.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "eight.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "After dark, keep every curtain closed.",
+    "words": [
+      {
+        "w": "After",
+        "c": null
+      },
+      {
+        "w": "dark,",
+        "c": null
+      },
+      {
+        "w": "keep",
+        "c": null
+      },
+      {
+        "w": "every",
+        "c": null
+      },
+      {
+        "w": "curtain",
+        "c": null
+      },
+      {
+        "w": "closed",
+        "c": "g"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Not because of the cold.",
+    "words": [
+      {
+        "w": "Not",
+        "c": null
+      },
+      {
+        "w": "because",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "cold.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Because a lit window is the only thing you can see in a whiteout.",
+    "words": [
+      {
+        "w": "Because",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "lit",
+        "c": null
+      },
+      {
+        "w": "window",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "only",
+        "c": null
+      },
+      {
+        "w": "thing",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "can",
+        "c": null
+      },
+      {
+        "w": "see",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "whiteout.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And you're not the only one looking.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "you're",
+        "c": null
+      },
+      {
+        "w": "not",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "only",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "looking.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Maya asks why the people outside don't get cold.",
+    "words": [
+      {
+        "w": "Maya",
+        "c": null
+      },
+      {
+        "w": "asks",
+        "c": null
+      },
+      {
+        "w": "why",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "people",
+        "c": null
+      },
+      {
+        "w": "outside",
+        "c": null
+      },
+      {
+        "w": "don't",
+        "c": null
+      },
+      {
+        "w": "get",
+        "c": null
+      },
+      {
+        "w": "cold.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You don't have an answer.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "don't",
+        "c": null
+      },
+      {
+        "w": "have",
+        "c": null
+      },
+      {
+        "w": "an",
+        "c": null
+      },
+      {
+        "w": "answer.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On day eight, Maya peeks through the curtain.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "eight,",
+        "c": null
+      },
+      {
+        "w": "Maya",
+        "c": null
+      },
+      {
+        "w": "peeks",
+        "c": null
+      },
+      {
+        "w": "through",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "curtain.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Just for a second.",
+    "words": [
+      {
+        "w": "Just",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "second.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In the morning, every walker in the street is standing still, facing your house.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "morning,",
+        "c": null
+      },
+      {
+        "w": "every",
+        "c": null
+      },
+      {
+        "w": "walker",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "street",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "standing",
+        "c": null
+      },
+      {
+        "w": "still,",
+        "c": null
+      },
+      {
+        "w": "facing",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "house.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 9",
+    "imperative": "COUNT EVERYONE EVERY HOUR"
+  },
+  {
+    "kind": "line",
+    "text": "Rule nine.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "nine.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Every hour, count everyone in the room out loud.",
+    "words": [
+      {
+        "w": "Every",
+        "c": null
+      },
+      {
+        "w": "hour,",
+        "c": null
+      },
+      {
+        "w": "count",
+        "c": null
+      },
+      {
+        "w": "everyone",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "room",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": "y"
+      },
+      {
+        "w": "loud",
+        "c": "y"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "One.",
+    "words": [
+      {
+        "w": "One.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Two.",
+    "words": [
+      {
+        "w": "Two.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "That's how it's supposed to go.",
+    "words": [
+      {
+        "w": "That's",
+        "c": null
+      },
+      {
+        "w": "how",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "supposed",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "go.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On the ninth night, you count, and Maya counts, and you both say two.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "ninth",
+        "c": null
+      },
+      {
+        "w": "night,",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "count,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "Maya",
+        "c": null
+      },
+      {
+        "w": "counts,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "both",
+        "c": null
+      },
+      {
+        "w": "say",
+        "c": null
+      },
+      {
+        "w": "two.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And then a third voice, from the dark corner by the stairs, says three.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "then",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "third",
+        "c": null
+      },
+      {
+        "w": "voice,",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "dark",
+        "c": null
+      },
+      {
+        "w": "corner",
+        "c": null
+      },
+      {
+        "w": "by",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "stairs,",
+        "c": null
+      },
+      {
+        "w": "says",
+        "c": null
+      },
+      {
+        "w": "three.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Count again.",
+    "words": [
+      {
+        "w": "Count",
+        "c": null
+      },
+      {
+        "w": "again.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Out loud.",
+    "words": [
+      {
+        "w": "Out",
+        "c": null
+      },
+      {
+        "w": "loud.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Don't look at the corner until the number is right.",
+    "words": [
+      {
+        "w": "Don't",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "corner",
+        "c": null
+      },
+      {
+        "w": "until",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "number",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "right.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "DAY 12 · THE ROOF",
+    "spoken": "Day onetwo. The roof."
+  },
+  {
+    "kind": "line",
+    "text": "On the twelfth day, the house starts to talk.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "twelfth",
+        "c": null
+      },
+      {
+        "w": "day,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "house",
+        "c": null
+      },
+      {
+        "w": "starts",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "talk.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Little cracks.",
+    "words": [
+      {
+        "w": "Little",
+        "c": null
+      },
+      {
+        "w": "cracks.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Long, slow groans from the ceiling.",
+    "words": [
+      {
+        "w": "Long,",
+        "c": null
+      },
+      {
+        "w": "slow",
+        "c": null
+      },
+      {
+        "w": "groans",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "ceiling.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Snow is heavy.",
+    "words": [
+      {
+        "w": "Snow",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "heavy.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "A foot of wet snow on a roof weighs as much as a car.",
+    "words": [
+      {
+        "w": "A",
+        "c": null
+      },
+      {
+        "w": "foot",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "wet",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "roof",
+        "c": null
+      },
+      {
+        "w": "weighs",
+        "c": null
+      },
+      {
+        "w": "as",
+        "c": null
+      },
+      {
+        "w": "much",
+        "c": null
+      },
+      {
+        "w": "as",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "car.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And there are four feet.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "there",
+        "c": null
+      },
+      {
+        "w": "are",
+        "c": null
+      },
+      {
+        "w": "four",
+        "c": null
+      },
+      {
+        "w": "feet.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 10",
+    "imperative": "LISTEN TO THE ROOF"
+  },
+  {
+    "kind": "line",
+    "text": "Rule ten.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "ten.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Listen to the roof.",
+    "words": [
+      {
+        "w": "Listen",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "roof",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If it creaks, cracks, or the doors upstairs start sticking, the roof is bending.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "creaks,",
+        "c": null
+      },
+      {
+        "w": "cracks,",
+        "c": null
+      },
+      {
+        "w": "or",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "doors",
+        "c": null
+      },
+      {
+        "w": "upstairs",
+        "c": null
+      },
+      {
+        "w": "start",
+        "c": null
+      },
+      {
+        "w": "sticking,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "roof",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "bending.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Get everyone into the room with the strongest walls.",
+    "words": [
+      {
+        "w": "Get",
+        "c": null
+      },
+      {
+        "w": "everyone",
+        "c": null
+      },
+      {
+        "w": "into",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "room",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "strongest",
+        "c": null
+      },
+      {
+        "w": "walls.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And don't stand in the middle of it.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "don't",
+        "c": null
+      },
+      {
+        "w": "stand",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "middle",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Two houses down, the Lees' garage roof gives way at three in the morning.",
+    "words": [
+      {
+        "w": "Two",
+        "c": null
+      },
+      {
+        "w": "houses",
+        "c": null
+      },
+      {
+        "w": "down,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "Lees'",
+        "c": null
+      },
+      {
+        "w": "garage",
+        "c": null
+      },
+      {
+        "w": "roof",
+        "c": null
+      },
+      {
+        "w": "gives",
+        "c": null
+      },
+      {
+        "w": "way",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "three",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "morning.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It sounds like a gunshot.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "sounds",
+        "c": null
+      },
+      {
+        "w": "like",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "gunshot.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then it sounds like nothing at all.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "sounds",
+        "c": null
+      },
+      {
+        "w": "like",
+        "c": null
+      },
+      {
+        "w": "nothing",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "all.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 11",
+    "imperative": "NEVER SHOVEL ALONE"
+  },
+  {
+    "kind": "line",
+    "text": "Rule eleven.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "eleven.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never shovel alone.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "shovel",
+        "c": null
+      },
+      {
+        "w": "alone",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Shoveling heavy snow is one of the hardest things your heart can do.",
+    "words": [
+      {
+        "w": "Shoveling",
+        "c": null
+      },
+      {
+        "w": "heavy",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "hardest",
+        "c": null
+      },
+      {
+        "w": "things",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "heart",
+        "c": null
+      },
+      {
+        "w": "can",
+        "c": null
+      },
+      {
+        "w": "do.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Every winter, people collapse in their own driveways.",
+    "words": [
+      {
+        "w": "Every",
+        "c": null
+      },
+      {
+        "w": "winter,",
+        "c": null
+      },
+      {
+        "w": "people",
+        "c": null
+      },
+      {
+        "w": "collapse",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "their",
+        "c": null
+      },
+      {
+        "w": "own",
+        "c": null
+      },
+      {
+        "w": "driveways.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Take breaks.",
+    "words": [
+      {
+        "w": "Take",
+        "c": null
+      },
+      {
+        "w": "breaks.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Lift less.",
+    "words": [
+      {
+        "w": "Lift",
+        "c": null
+      },
+      {
+        "w": "less.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Push the snow instead of lifting it, if you can.",
+    "words": [
+      {
+        "w": "Push",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "instead",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "lifting",
+        "c": null
+      },
+      {
+        "w": "it,",
+        "c": null
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "can.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And have someone watching you from the window.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "have",
+        "c": null
+      },
+      {
+        "w": "someone",
+        "c": null
+      },
+      {
+        "w": "watching",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "window.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Mrs. Kowalski from next door shovels a path between your houses.",
+    "words": [
+      {
+        "w": "Mrs.",
+        "c": null
+      },
+      {
+        "w": "Kowalski",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "next",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "shovels",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "path",
+        "c": null
+      },
+      {
+        "w": "between",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "houses.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "She's seventy-eight.",
+    "words": [
+      {
+        "w": "She's",
+        "c": null
+      },
+      {
+        "w": "seventy-eight.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "She tells you she's done this before.",
+    "words": [
+      {
+        "w": "She",
+        "c": null
+      },
+      {
+        "w": "tells",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "she's",
+        "c": null
+      },
+      {
+        "w": "done",
+        "c": null
+      },
+      {
+        "w": "this",
+        "c": null
+      },
+      {
+        "w": "before.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "She doesn't say when.",
+    "words": [
+      {
+        "w": "She",
+        "c": null
+      },
+      {
+        "w": "doesn't",
+        "c": null
+      },
+      {
+        "w": "say",
+        "c": null
+      },
+      {
+        "w": "when.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Later, she shows you her own card.",
+    "words": [
+      {
+        "w": "Later,",
+        "c": null
+      },
+      {
+        "w": "she",
+        "c": null
+      },
+      {
+        "w": "shows",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "her",
+        "c": null
+      },
+      {
+        "w": "own",
+        "c": null
+      },
+      {
+        "w": "card.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's yellow and cracked.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "yellow",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "cracked.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The date in the corner says February, 1978.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "date",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "corner",
+        "c": null
+      },
+      {
+        "w": "says",
+        "c": null
+      },
+      {
+        "w": "February,",
+        "c": null
+      },
+      {
+        "w": "1978",
+        "c": "y"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The handwriting looks like a child's.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "handwriting",
+        "c": null
+      },
+      {
+        "w": "looks",
+        "c": null
+      },
+      {
+        "w": "like",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "child's.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 12",
+    "imperative": "NEVER SLEEP IN A RUNNING CAR"
+  },
+  {
+    "kind": "line",
+    "text": "Rule twelve.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "twelve.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never sit in a running car that's buried in snow.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "sit",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "running",
+        "c": null
+      },
+      {
+        "w": "car",
+        "c": null
+      },
+      {
+        "w": "that's",
+        "c": null
+      },
+      {
+        "w": "buried",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": "b"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "When the snow covers the exhaust pipe, the fumes have nowhere to go but inside.",
+    "words": [
+      {
+        "w": "When",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "covers",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "exhaust",
+        "c": null
+      },
+      {
+        "w": "pipe,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "fumes",
+        "c": null
+      },
+      {
+        "w": "have",
+        "c": null
+      },
+      {
+        "w": "nowhere",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "go",
+        "c": null
+      },
+      {
+        "w": "but",
+        "c": null
+      },
+      {
+        "w": "inside.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If you're ever stuck in a car, run the engine ten minutes an hour, keep a window open a crack, and keep the pipe clear.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "you're",
+        "c": null
+      },
+      {
+        "w": "ever",
+        "c": null
+      },
+      {
+        "w": "stuck",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "car,",
+        "c": null
+      },
+      {
+        "w": "run",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "engine",
+        "c": null
+      },
+      {
+        "w": "ten",
+        "c": null
+      },
+      {
+        "w": "minutes",
+        "c": null
+      },
+      {
+        "w": "an",
+        "c": null
+      },
+      {
+        "w": "hour,",
+        "c": null
+      },
+      {
+        "w": "keep",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "window",
+        "c": null
+      },
+      {
+        "w": "open",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "crack,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "keep",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "pipe",
+        "c": null
+      },
+      {
+        "w": "clear.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On day twelve, the Garcias try to warm up in their van.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "twelve,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "Garcias",
+        "c": null
+      },
+      {
+        "w": "try",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "warm",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "their",
+        "c": null
+      },
+      {
+        "w": "van.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Mrs. Kowalski finds them in time.",
+    "words": [
+      {
+        "w": "Mrs.",
+        "c": null
+      },
+      {
+        "w": "Kowalski",
+        "c": null
+      },
+      {
+        "w": "finds",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "time.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Barely.",
+    "words": [
+      {
+        "w": "Barely.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Quick question before day twenty.",
+    "words": [
+      {
+        "w": "Quick",
+        "c": null
+      },
+      {
+        "w": "question",
+        "c": null
+      },
+      {
+        "w": "before",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "twenty.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Which of these rules do you think you'd forget first?",
+    "words": [
+      {
+        "w": "Which",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "these",
+        "c": null
+      },
+      {
+        "w": "rules",
+        "c": null
+      },
+      {
+        "w": "do",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "think",
+        "c": null
+      },
+      {
+        "w": "you'd",
+        "c": null
+      },
+      {
+        "w": "forget",
+        "c": null
+      },
+      {
+        "w": "first?",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Tell me in the comments.",
+    "words": [
+      {
+        "w": "Tell",
+        "c": null
+      },
+      {
+        "w": "me",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "comments.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And stay warm.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "stay",
+        "c": null
+      },
+      {
+        "w": "warm.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "DAY 20 · THE LIGHTS",
+    "spoken": "Day two0. The lights."
+  },
+  {
+    "kind": "line",
+    "text": "On the twentieth day, the walkers start carrying lights.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "twentieth",
+        "c": null
+      },
+      {
+        "w": "day,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "walkers",
+        "c": null
+      },
+      {
+        "w": "start",
+        "c": null
+      },
+      {
+        "w": "carrying",
+        "c": null
+      },
+      {
+        "w": "lights.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "That same week, the radio crackles back to life for one hour.",
+    "words": [
+      {
+        "w": "That",
+        "c": null
+      },
+      {
+        "w": "same",
+        "c": null
+      },
+      {
+        "w": "week,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "radio",
+        "c": null
+      },
+      {
+        "w": "crackles",
+        "c": null
+      },
+      {
+        "w": "back",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "life",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "hour.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your dad's voice, really his, reading a list of names from the hospital.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "dad's",
+        "c": null
+      },
+      {
+        "w": "voice,",
+        "c": null
+      },
+      {
+        "w": "really",
+        "c": null
+      },
+      {
+        "w": "his,",
+        "c": null
+      },
+      {
+        "w": "reading",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "list",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "names",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "hospital.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Yours is on it.",
+    "words": [
+      {
+        "w": "Yours",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Safe.",
+    "words": [
+      {
+        "w": "Safe.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Waiting.",
+    "words": [
+      {
+        "w": "Waiting.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 13",
+    "imperative": "NEVER FOLLOW A LIGHT IN THE WHITEOUT"
+  },
+  {
+    "kind": "line",
+    "text": "Rule thirteen.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "thirteen.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never follow a light in the whiteout.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "follow",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "light",
+        "c": "r"
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "whiteout.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In a real whiteout, you can't tell up from down.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "real",
+        "c": null
+      },
+      {
+        "w": "whiteout,",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "can't",
+        "c": null
+      },
+      {
+        "w": "tell",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "down.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "People get lost ten steps from their own front door.",
+    "words": [
+      {
+        "w": "People",
+        "c": null
+      },
+      {
+        "w": "get",
+        "c": null
+      },
+      {
+        "w": "lost",
+        "c": null
+      },
+      {
+        "w": "ten",
+        "c": null
+      },
+      {
+        "w": "steps",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "their",
+        "c": null
+      },
+      {
+        "w": "own",
+        "c": null
+      },
+      {
+        "w": "front",
+        "c": null
+      },
+      {
+        "w": "door.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "So when you see a warm yellow light out there, it feels like rescue.",
+    "words": [
+      {
+        "w": "So",
+        "c": null
+      },
+      {
+        "w": "when",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "see",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "warm",
+        "c": null
+      },
+      {
+        "w": "yellow",
+        "c": null
+      },
+      {
+        "w": "light",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "there,",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "feels",
+        "c": null
+      },
+      {
+        "w": "like",
+        "c": null
+      },
+      {
+        "w": "rescue.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It moves when you move.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "moves",
+        "c": null
+      },
+      {
+        "w": "when",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "move.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It stops when you stop.",
+    "words": [
+      {
+        "w": "It",
+        "c": null
+      },
+      {
+        "w": "stops",
+        "c": null
+      },
+      {
+        "w": "when",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "stop.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's always just a little farther away.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "always",
+        "c": null
+      },
+      {
+        "w": "just",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "little",
+        "c": null
+      },
+      {
+        "w": "farther",
+        "c": null
+      },
+      {
+        "w": "away.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If you ever have to go out in a whiteout, tie a rope to the door and never let go of it.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "ever",
+        "c": null
+      },
+      {
+        "w": "have",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "go",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "whiteout,",
+        "c": null
+      },
+      {
+        "w": "tie",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "rope",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "never",
+        "c": null
+      },
+      {
+        "w": "let",
+        "c": null
+      },
+      {
+        "w": "go",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Mrs. Kowalski's dog, Bear, followed one on day twenty.",
+    "words": [
+      {
+        "w": "Mrs.",
+        "c": null
+      },
+      {
+        "w": "Kowalski's",
+        "c": null
+      },
+      {
+        "w": "dog,",
+        "c": null
+      },
+      {
+        "w": "Bear",
+        "c": "y"
+      },
+      {
+        "w": ",",
+        "c": null
+      },
+      {
+        "w": "followed",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "twenty.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In the spring, they find his collar on the roof of the school.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "spring,",
+        "c": null
+      },
+      {
+        "w": "they",
+        "c": null
+      },
+      {
+        "w": "find",
+        "c": null
+      },
+      {
+        "w": "his",
+        "c": null
+      },
+      {
+        "w": "collar",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "roof",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "school.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 14",
+    "imperative": "NEVER ANSWER A VOICE FROM THE ROOF"
+  },
+  {
+    "kind": "line",
+    "text": "Rule fourteen.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "fourteen.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never answer a voice from the roof.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "answer",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "voice",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "roof",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "At night, something walks on the snow above your ceiling.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "night,",
+        "c": null
+      },
+      {
+        "w": "something",
+        "c": null
+      },
+      {
+        "w": "walks",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "above",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "ceiling.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Slow steps.",
+    "words": [
+      {
+        "w": "Slow",
+        "c": null
+      },
+      {
+        "w": "steps.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then it lies down, right over your mattress, and it whispers your name through the shingles.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "lies",
+        "c": null
+      },
+      {
+        "w": "down,",
+        "c": null
+      },
+      {
+        "w": "right",
+        "c": null
+      },
+      {
+        "w": "over",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "mattress,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "whispers",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "name",
+        "c": null
+      },
+      {
+        "w": "through",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "shingles.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In your dad's voice.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "dad's",
+        "c": null
+      },
+      {
+        "w": "voice.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your dad is at the hospital, forty miles away.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "dad",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "hospital,",
+        "c": null
+      },
+      {
+        "w": "forty",
+        "c": null
+      },
+      {
+        "w": "miles",
+        "c": null
+      },
+      {
+        "w": "away.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You know that.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "know",
+        "c": null
+      },
+      {
+        "w": "that.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You put your hands over Maya's ears until the morning.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "put",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "hands",
+        "c": null
+      },
+      {
+        "w": "over",
+        "c": null
+      },
+      {
+        "w": "Maya's",
+        "c": null
+      },
+      {
+        "w": "ears",
+        "c": null
+      },
+      {
+        "w": "until",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "morning.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 15",
+    "imperative": "HANG SOMETHING BRIGHT ON THE DOOR"
+  },
+  {
+    "kind": "line",
+    "text": "Rule fifteen.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "fifteen.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Hang something bright on your door, so rescuers can find the house.",
+    "words": [
+      {
+        "w": "Hang",
+        "c": null
+      },
+      {
+        "w": "something",
+        "c": null
+      },
+      {
+        "w": "bright",
+        "c": "g"
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "door,",
+        "c": null
+      },
+      {
+        "w": "so",
+        "c": null
+      },
+      {
+        "w": "rescuers",
+        "c": null
+      },
+      {
+        "w": "can",
+        "c": null
+      },
+      {
+        "w": "find",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "house.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "A red towel.",
+    "words": [
+      {
+        "w": "A",
+        "c": null
+      },
+      {
+        "w": "red",
+        "c": null
+      },
+      {
+        "w": "towel.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "An orange vest.",
+    "words": [
+      {
+        "w": "An",
+        "c": null
+      },
+      {
+        "w": "orange",
+        "c": null
+      },
+      {
+        "w": "vest.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Anything that doesn't look like snow.",
+    "words": [
+      {
+        "w": "Anything",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "doesn't",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "like",
+        "c": null
+      },
+      {
+        "w": "snow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You hang Maya's red sled on the door handle.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "hang",
+        "c": null
+      },
+      {
+        "w": "Maya's",
+        "c": null
+      },
+      {
+        "w": "red",
+        "c": null
+      },
+      {
+        "w": "sled",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "handle.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "By morning, someone has hung a second one next to it.",
+    "words": [
+      {
+        "w": "By",
+        "c": null
+      },
+      {
+        "w": "morning,",
+        "c": null
+      },
+      {
+        "w": "someone",
+        "c": null
+      },
+      {
+        "w": "has",
+        "c": null
+      },
+      {
+        "w": "hung",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "second",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "next",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You don't own a second one.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "don't",
+        "c": null
+      },
+      {
+        "w": "own",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "second",
+        "c": null
+      },
+      {
+        "w": "one.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "DAY 30 · THE KNOCK",
+    "spoken": "Day three0. The knock."
+  },
+  {
+    "kind": "line",
+    "text": "By day thirty, the food is running low.",
+    "words": [
+      {
+        "w": "By",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "thirty,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "food",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "running",
+        "c": null
+      },
+      {
+        "w": "low.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You've burned the coffee table, two chairs, and a bookshelf.",
+    "words": [
+      {
+        "w": "You've",
+        "c": null
+      },
+      {
+        "w": "burned",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "coffee",
+        "c": null
+      },
+      {
+        "w": "table,",
+        "c": null
+      },
+      {
+        "w": "two",
+        "c": null
+      },
+      {
+        "w": "chairs,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "bookshelf.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And Maya has stopped asking when Dad is coming home.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "Maya",
+        "c": null
+      },
+      {
+        "w": "has",
+        "c": null
+      },
+      {
+        "w": "stopped",
+        "c": null
+      },
+      {
+        "w": "asking",
+        "c": null
+      },
+      {
+        "w": "when",
+        "c": null
+      },
+      {
+        "w": "Dad",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "coming",
+        "c": null
+      },
+      {
+        "w": "home.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On the night of day thirty, someone knocks.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "night",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "thirty,",
+        "c": null
+      },
+      {
+        "w": "someone",
+        "c": null
+      },
+      {
+        "w": "knocks.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 16",
+    "imperative": "NO SNOW ON THEIR SHOULDERS, DON'T OPEN"
+  },
+  {
+    "kind": "line",
+    "text": "Rule sixteen.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "sixteen.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "If someone knocks and there's no snow on their shoulders, don't open the door.",
+    "words": [
+      {
+        "w": "If",
+        "c": null
+      },
+      {
+        "w": "someone",
+        "c": null
+      },
+      {
+        "w": "knocks",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "there's",
+        "c": null
+      },
+      {
+        "w": "no",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": "r"
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "their",
+        "c": null
+      },
+      {
+        "w": "shoulders,",
+        "c": null
+      },
+      {
+        "w": "don't",
+        "c": null
+      },
+      {
+        "w": "open",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You look through the gap in the curtain.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "through",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "gap",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "curtain.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's Dad.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "Dad.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "His hospital coat.",
+    "words": [
+      {
+        "w": "His",
+        "c": null
+      },
+      {
+        "w": "hospital",
+        "c": null
+      },
+      {
+        "w": "coat.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "His glasses.",
+    "words": [
+      {
+        "w": "His",
+        "c": null
+      },
+      {
+        "w": "glasses.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He's smiling.",
+    "words": [
+      {
+        "w": "He's",
+        "c": null
+      },
+      {
+        "w": "smiling.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He's been walking through a blizzard for forty miles.",
+    "words": [
+      {
+        "w": "He's",
+        "c": null
+      },
+      {
+        "w": "been",
+        "c": null
+      },
+      {
+        "w": "walking",
+        "c": null
+      },
+      {
+        "w": "through",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "blizzard",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "forty",
+        "c": null
+      },
+      {
+        "w": "miles.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And there is not a single flake of snow on him.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "there",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "not",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "single",
+        "c": null
+      },
+      {
+        "w": "flake",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "him.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He knocks again.",
+    "words": [
+      {
+        "w": "He",
+        "c": null
+      },
+      {
+        "w": "knocks",
+        "c": null
+      },
+      {
+        "w": "again.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then he says, open up, kiddo, it's cold out here.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "he",
+        "c": null
+      },
+      {
+        "w": "says,",
+        "c": null
+      },
+      {
+        "w": "open",
+        "c": null
+      },
+      {
+        "w": "up,",
+        "c": null
+      },
+      {
+        "w": "kiddo,",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "cold",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "here.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "He's not shivering.",
+    "words": [
+      {
+        "w": "He's",
+        "c": null
+      },
+      {
+        "w": "not",
+        "c": null
+      },
+      {
+        "w": "shivering.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "His breath doesn't steam.",
+    "words": [
+      {
+        "w": "His",
+        "c": null
+      },
+      {
+        "w": "breath",
+        "c": null
+      },
+      {
+        "w": "doesn't",
+        "c": null
+      },
+      {
+        "w": "steam.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Close the curtain.",
+    "words": [
+      {
+        "w": "Close",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "curtain.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Sit with your back against the door.",
+    "words": [
+      {
+        "w": "Sit",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "back",
+        "c": null
+      },
+      {
+        "w": "against",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And wait for the knocking to stop.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "wait",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "knocking",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "stop.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Maya wakes up and starts walking toward the door, because it's Dad.",
+    "words": [
+      {
+        "w": "Maya",
+        "c": null
+      },
+      {
+        "w": "wakes",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "starts",
+        "c": null
+      },
+      {
+        "w": "walking",
+        "c": null
+      },
+      {
+        "w": "toward",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door,",
+        "c": null
+      },
+      {
+        "w": "because",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "Dad.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You hold her so tight that she cries.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "hold",
+        "c": null
+      },
+      {
+        "w": "her",
+        "c": null
+      },
+      {
+        "w": "so",
+        "c": null
+      },
+      {
+        "w": "tight",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "she",
+        "c": null
+      },
+      {
+        "w": "cries.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "In the morning, there are footprints on the porch.",
+    "words": [
+      {
+        "w": "In",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "morning,",
+        "c": null
+      },
+      {
+        "w": "there",
+        "c": null
+      },
+      {
+        "w": "are",
+        "c": null
+      },
+      {
+        "w": "footprints",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "porch.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Leading away.",
+    "words": [
+      {
+        "w": "Leading",
+        "c": null
+      },
+      {
+        "w": "away.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "For the first time.",
+    "words": [
+      {
+        "w": "For",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "time.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 17",
+    "imperative": "EAT BEFORE YOU'RE HUNGRY"
+  },
+  {
+    "kind": "line",
+    "text": "Rule seventeen.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "seventeen.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Eat before you're hungry.",
+    "words": [
+      {
+        "w": "Eat",
+        "c": null
+      },
+      {
+        "w": "before",
+        "c": null
+      },
+      {
+        "w": "you're",
+        "c": null
+      },
+      {
+        "w": "hungry",
+        "c": "g"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your body burns food to make heat.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "body",
+        "c": null
+      },
+      {
+        "w": "burns",
+        "c": null
+      },
+      {
+        "w": "food",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "make",
+        "c": null
+      },
+      {
+        "w": "heat.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Skipping meals to make the food last longer makes you colder, slower, and more likely to make mistakes.",
+    "words": [
+      {
+        "w": "Skipping",
+        "c": null
+      },
+      {
+        "w": "meals",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "make",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "food",
+        "c": null
+      },
+      {
+        "w": "last",
+        "c": null
+      },
+      {
+        "w": "longer",
+        "c": null
+      },
+      {
+        "w": "makes",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "colder,",
+        "c": null
+      },
+      {
+        "w": "slower,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "more",
+        "c": null
+      },
+      {
+        "w": "likely",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "make",
+        "c": null
+      },
+      {
+        "w": "mistakes.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Small meals.",
+    "words": [
+      {
+        "w": "Small",
+        "c": null
+      },
+      {
+        "w": "meals.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Often.",
+    "words": [
+      {
+        "w": "Often.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Hot drinks whenever you can.",
+    "words": [
+      {
+        "w": "Hot",
+        "c": null
+      },
+      {
+        "w": "drinks",
+        "c": null
+      },
+      {
+        "w": "whenever",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "can.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You split the last can of soup with Maya, and you let her have the bigger half.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "split",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "last",
+        "c": null
+      },
+      {
+        "w": "can",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "soup",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "Maya,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "let",
+        "c": null
+      },
+      {
+        "w": "her",
+        "c": null
+      },
+      {
+        "w": "have",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "bigger",
+        "c": null
+      },
+      {
+        "w": "half.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 18",
+    "imperative": "NEVER BURN THE CARD"
+  },
+  {
+    "kind": "line",
+    "text": "Rule eighteen.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "eighteen.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never burn the card.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "burn",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "card",
+        "c": "r"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "By day thirty-two, there's nothing left in the living room to burn.",
+    "words": [
+      {
+        "w": "By",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "thirty-two,",
+        "c": null
+      },
+      {
+        "w": "there's",
+        "c": null
+      },
+      {
+        "w": "nothing",
+        "c": null
+      },
+      {
+        "w": "left",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "living",
+        "c": null
+      },
+      {
+        "w": "room",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "burn.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You look at the white plastic card on the fridge for a long time.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "white",
+        "c": null
+      },
+      {
+        "w": "plastic",
+        "c": null
+      },
+      {
+        "w": "card",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "fridge",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "long",
+        "c": null
+      },
+      {
+        "w": "time.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then you burn your homework instead.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "burn",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "homework",
+        "c": null
+      },
+      {
+        "w": "instead.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Every notebook since second grade.",
+    "words": [
+      {
+        "w": "Every",
+        "c": null
+      },
+      {
+        "w": "notebook",
+        "c": null
+      },
+      {
+        "w": "since",
+        "c": null
+      },
+      {
+        "w": "second",
+        "c": null
+      },
+      {
+        "w": "grade.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Mrs. Kowalski burned hers on day twenty-nine.",
+    "words": [
+      {
+        "w": "Mrs.",
+        "c": null
+      },
+      {
+        "w": "Kowalski",
+        "c": null
+      },
+      {
+        "w": "burned",
+        "c": null
+      },
+      {
+        "w": "hers",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "twenty-nine.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On day thirty, her house was dark.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "thirty,",
+        "c": null
+      },
+      {
+        "w": "her",
+        "c": null
+      },
+      {
+        "w": "house",
+        "c": null
+      },
+      {
+        "w": "was",
+        "c": null
+      },
+      {
+        "w": "dark.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "On day thirty-one, her porch had a second set of footprints.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "day",
+        "c": null
+      },
+      {
+        "w": "thirty-one,",
+        "c": null
+      },
+      {
+        "w": "her",
+        "c": null
+      },
+      {
+        "w": "porch",
+        "c": null
+      },
+      {
+        "w": "had",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "second",
+        "c": null
+      },
+      {
+        "w": "set",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "footprints.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Only going in.",
+    "words": [
+      {
+        "w": "Only",
+        "c": null
+      },
+      {
+        "w": "going",
+        "c": null
+      },
+      {
+        "w": "in.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "DAY 40 · THE LAST SNOW",
+    "spoken": "Day four0. The last snow."
+  },
+  {
+    "kind": "line",
+    "text": "On the fortieth morning, you wake up to a sound you forgot existed.",
+    "words": [
+      {
+        "w": "On",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "fortieth",
+        "c": null
+      },
+      {
+        "w": "morning,",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "wake",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "sound",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "forgot",
+        "c": null
+      },
+      {
+        "w": "existed.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Dripping.",
+    "words": [
+      {
+        "w": "Dripping.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The snow has stopped.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "has",
+        "c": null
+      },
+      {
+        "w": "stopped.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The sky is blue.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "sky",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "blue.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And it's so bright outside that it hurts.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "it's",
+        "c": null
+      },
+      {
+        "w": "so",
+        "c": null
+      },
+      {
+        "w": "bright",
+        "c": null
+      },
+      {
+        "w": "outside",
+        "c": null
+      },
+      {
+        "w": "that",
+        "c": null
+      },
+      {
+        "w": "it",
+        "c": null
+      },
+      {
+        "w": "hurts.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "RULE 19",
+    "imperative": "WAIT FOR THE BIRDS"
+  },
+  {
+    "kind": "line",
+    "text": "Rule nineteen.",
+    "words": [
+      {
+        "w": "Rule",
+        "c": null
+      },
+      {
+        "w": "nineteen.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "When the snow stops, don't go outside until you hear birds.",
+    "words": [
+      {
+        "w": "When",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "stops,",
+        "c": null
+      },
+      {
+        "w": "don't",
+        "c": null
+      },
+      {
+        "w": "go",
+        "c": null
+      },
+      {
+        "w": "outside",
+        "c": null
+      },
+      {
+        "w": "until",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "hear",
+        "c": null
+      },
+      {
+        "w": "birds",
+        "c": "g"
+      },
+      {
+        "w": ".",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The first quiet morning feels like the end.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "quiet",
+        "c": null
+      },
+      {
+        "w": "morning",
+        "c": null
+      },
+      {
+        "w": "feels",
+        "c": null
+      },
+      {
+        "w": "like",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "end.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Your neighbors are already outside, waving at you from the drifts.",
+    "words": [
+      {
+        "w": "Your",
+        "c": null
+      },
+      {
+        "w": "neighbors",
+        "c": null
+      },
+      {
+        "w": "are",
+        "c": null
+      },
+      {
+        "w": "already",
+        "c": null
+      },
+      {
+        "w": "outside,",
+        "c": null
+      },
+      {
+        "w": "waving",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "from",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "drifts.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "All of them.",
+    "words": [
+      {
+        "w": "All",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "them.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Even the Pratts.",
+    "words": [
+      {
+        "w": "Even",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "Pratts.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Even Mrs. Kowalski.",
+    "words": [
+      {
+        "w": "Even",
+        "c": null
+      },
+      {
+        "w": "Mrs.",
+        "c": null
+      },
+      {
+        "w": "Kowalski.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Even Bear.",
+    "words": [
+      {
+        "w": "Even",
+        "c": null
+      },
+      {
+        "w": "Bear.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "None of them are wearing coats.",
+    "words": [
+      {
+        "w": "None",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": null
+      },
+      {
+        "w": "are",
+        "c": null
+      },
+      {
+        "w": "wearing",
+        "c": null
+      },
+      {
+        "w": "coats.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "There are no birds.",
+    "words": [
+      {
+        "w": "There",
+        "c": null
+      },
+      {
+        "w": "are",
+        "c": null
+      },
+      {
+        "w": "no",
+        "c": null
+      },
+      {
+        "w": "birds.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You keep the door shut.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "keep",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "shut.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You wait.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "wait.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "At noon, a crow lands on the power line and screams.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "noon,",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "crow",
+        "c": null
+      },
+      {
+        "w": "lands",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "power",
+        "c": null
+      },
+      {
+        "w": "line",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "screams.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And when you look back down, the street is empty.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "when",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "back",
+        "c": null
+      },
+      {
+        "w": "down,",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "street",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "empty.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No people.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "people.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "No footprints.",
+    "words": [
+      {
+        "w": "No",
+        "c": null
+      },
+      {
+        "w": "footprints.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Just snow.",
+    "words": [
+      {
+        "w": "Just",
+        "c": null
+      },
+      {
+        "w": "snow.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Mrs. Kowalski's house is still dark.",
+    "words": [
+      {
+        "w": "Mrs.",
+        "c": null
+      },
+      {
+        "w": "Kowalski's",
+        "c": null
+      },
+      {
+        "w": "house",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "still",
+        "c": null
+      },
+      {
+        "w": "dark.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Her front door is open.",
+    "words": [
+      {
+        "w": "Her",
+        "c": null
+      },
+      {
+        "w": "front",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "is",
+        "c": null
+      },
+      {
+        "w": "open.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "rule",
+    "label": "LAST RULE",
+    "imperative": "WRITE THE RULES FOR WHOEVER COMES NEXT"
+  },
+  {
+    "kind": "line",
+    "text": "At sunset, you hear the plows.",
+    "words": [
+      {
+        "w": "At",
+        "c": null
+      },
+      {
+        "w": "sunset,",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "hear",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "plows.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then a helicopter.",
+    "words": [
+      {
+        "w": "Then",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "helicopter.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Then, finally, your dad, wearing a coat covered in snow, banging on the door and crying.",
+    "words": [
+      {
+        "w": "Then,",
+        "c": null
+      },
+      {
+        "w": "finally,",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "dad,",
+        "c": null
+      },
+      {
+        "w": "wearing",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "coat",
+        "c": null
+      },
+      {
+        "w": "covered",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "snow,",
+        "c": null
+      },
+      {
+        "w": "banging",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "door",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "crying.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Later, while the soldiers carry Maya to the truck, you go to the shed for her sled.",
+    "words": [
+      {
+        "w": "Later,",
+        "c": null
+      },
+      {
+        "w": "while",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "soldiers",
+        "c": null
+      },
+      {
+        "w": "carry",
+        "c": null
+      },
+      {
+        "w": "Maya",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "truck,",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "go",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "shed",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "her",
+        "c": null
+      },
+      {
+        "w": "sled.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And on the workbench, there's a box.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "workbench,",
+        "c": null
+      },
+      {
+        "w": "there's",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "box.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "White plastic cards.",
+    "words": [
+      {
+        "w": "White",
+        "c": null
+      },
+      {
+        "w": "plastic",
+        "c": null
+      },
+      {
+        "w": "cards.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Hundreds of them.",
+    "words": [
+      {
+        "w": "Hundreds",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "them.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Blank.",
+    "words": [
+      {
+        "w": "Blank.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And a black marker.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "black",
+        "c": null
+      },
+      {
+        "w": "marker.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Half used.",
+    "words": [
+      {
+        "w": "Half",
+        "c": null
+      },
+      {
+        "w": "used.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "You take the card off your fridge and look at the handwriting closely, for the first time.",
+    "words": [
+      {
+        "w": "You",
+        "c": null
+      },
+      {
+        "w": "take",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "card",
+        "c": null
+      },
+      {
+        "w": "off",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "fridge",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "at",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "handwriting",
+        "c": null
+      },
+      {
+        "w": "closely,",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "first",
+        "c": null
+      },
+      {
+        "w": "time.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "It's yours.",
+    "words": [
+      {
+        "w": "It's",
+        "c": null
+      },
+      {
+        "w": "yours.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The last rule.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "last",
+        "c": null
+      },
+      {
+        "w": "rule.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Write the rules for whoever comes next.",
+    "words": [
+      {
+        "w": "Write",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "rules",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "whoever",
+        "c": null
+      },
+      {
+        "w": "comes",
+        "c": null
+      },
+      {
+        "w": "next.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "chapter",
+    "title": "FINALE",
+    "spoken": ""
+  },
+  {
+    "kind": "line",
+    "text": "So, here's the thing about those cards.",
+    "words": [
+      {
+        "w": "So,",
+        "c": null
+      },
+      {
+        "w": "here's",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "thing",
+        "c": null
+      },
+      {
+        "w": "about",
+        "c": null
+      },
+      {
+        "w": "those",
+        "c": null
+      },
+      {
+        "w": "cards.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Every winter, somewhere, one of them shows up on a door.",
+    "words": [
+      {
+        "w": "Every",
+        "c": null
+      },
+      {
+        "w": "winter,",
+        "c": null
+      },
+      {
+        "w": "somewhere,",
+        "c": null
+      },
+      {
+        "w": "one",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": null
+      },
+      {
+        "w": "shows",
+        "c": null
+      },
+      {
+        "w": "up",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "door.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And somebody, somewhere, has to write it.",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "somebody,",
+        "c": null
+      },
+      {
+        "w": "somewhere,",
+        "c": null
+      },
+      {
+        "w": "has",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "write",
+        "c": null
+      },
+      {
+        "w": "it.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Twenty rules.",
+    "words": [
+      {
+        "w": "Twenty",
+        "c": null
+      },
+      {
+        "w": "rules.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Some of them could save your life this winter, for real.",
+    "words": [
+      {
+        "w": "Some",
+        "c": null
+      },
+      {
+        "w": "of",
+        "c": null
+      },
+      {
+        "w": "them",
+        "c": null
+      },
+      {
+        "w": "could",
+        "c": null
+      },
+      {
+        "w": "save",
+        "c": null
+      },
+      {
+        "w": "your",
+        "c": null
+      },
+      {
+        "w": "life",
+        "c": null
+      },
+      {
+        "w": "this",
+        "c": null
+      },
+      {
+        "w": "winter,",
+        "c": null
+      },
+      {
+        "w": "for",
+        "c": null
+      },
+      {
+        "w": "real.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Fill the bathtub.",
+    "words": [
+      {
+        "w": "Fill",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "bathtub.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Clear the vents.",
+    "words": [
+      {
+        "w": "Clear",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "vents.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Never burn anything indoors.",
+    "words": [
+      {
+        "w": "Never",
+        "c": null
+      },
+      {
+        "w": "burn",
+        "c": null
+      },
+      {
+        "w": "anything",
+        "c": null
+      },
+      {
+        "w": "indoors.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "The rest, well, I hope you never need them.",
+    "words": [
+      {
+        "w": "The",
+        "c": null
+      },
+      {
+        "w": "rest,",
+        "c": null
+      },
+      {
+        "w": "well,",
+        "c": null
+      },
+      {
+        "w": "I",
+        "c": null
+      },
+      {
+        "w": "hope",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "never",
+        "c": null
+      },
+      {
+        "w": "need",
+        "c": null
+      },
+      {
+        "w": "them.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "But if you ever look out the window during a storm, and someone's standing there with no snow on their shoulders, you already know what to do.",
+    "words": [
+      {
+        "w": "But",
+        "c": null
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "ever",
+        "c": null
+      },
+      {
+        "w": "look",
+        "c": null
+      },
+      {
+        "w": "out",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "window",
+        "c": null
+      },
+      {
+        "w": "during",
+        "c": null
+      },
+      {
+        "w": "a",
+        "c": null
+      },
+      {
+        "w": "storm,",
+        "c": null
+      },
+      {
+        "w": "and",
+        "c": null
+      },
+      {
+        "w": "someone's",
+        "c": null
+      },
+      {
+        "w": "standing",
+        "c": null
+      },
+      {
+        "w": "there",
+        "c": null
+      },
+      {
+        "w": "with",
+        "c": null
+      },
+      {
+        "w": "no",
+        "c": null
+      },
+      {
+        "w": "snow",
+        "c": null
+      },
+      {
+        "w": "on",
+        "c": null
+      },
+      {
+        "w": "their",
+        "c": null
+      },
+      {
+        "w": "shoulders,",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "already",
+        "c": null
+      },
+      {
+        "w": "know",
+        "c": null
+      },
+      {
+        "w": "what",
+        "c": null
+      },
+      {
+        "w": "to",
+        "c": null
+      },
+      {
+        "w": "do.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "And if you were writing the card, what would rule twenty-one be?",
+    "words": [
+      {
+        "w": "And",
+        "c": null
+      },
+      {
+        "w": "if",
+        "c": null
+      },
+      {
+        "w": "you",
+        "c": null
+      },
+      {
+        "w": "were",
+        "c": null
+      },
+      {
+        "w": "writing",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "card,",
+        "c": null
+      },
+      {
+        "w": "what",
+        "c": null
+      },
+      {
+        "w": "would",
+        "c": null
+      },
+      {
+        "w": "rule",
+        "c": null
+      },
+      {
+        "w": "twenty-one",
+        "c": null
+      },
+      {
+        "w": "be?",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "Tell me in the comments.",
+    "words": [
+      {
+        "w": "Tell",
+        "c": null
+      },
+      {
+        "w": "me",
+        "c": null
+      },
+      {
+        "w": "in",
+        "c": null
+      },
+      {
+        "w": "the",
+        "c": null
+      },
+      {
+        "w": "comments.",
+        "c": null
+      }
+    ]
+  },
+  {
+    "kind": "line",
+    "text": "I'll be reading them.",
+    "words": [
+      {
+        "w": "I'll",
+        "c": null
+      },
+      {
+        "w": "be",
+        "c": null
+      },
+      {
+        "w": "reading",
+        "c": null
+      },
+      {
+        "w": "them.",
+        "c": null
+      }
+    ]
+  }
+]
