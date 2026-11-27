@@ -122,8 +122,8 @@ function drawFX(t){
     else if(typ==="sparks"){var dur=p.dur||0.5;if(lt<=dur){var q=lt/dur;for(var i=0;i<p.n;i++){var ang=R()*6.283,spd=(0.4+R())*p.r;
       var x=p.cx+Math.cos(ang)*spd*q,y=p.cy+Math.sin(ang)*spd*q+(p.g||0)*q*q;c.globalAlpha=(1-q);c.fillStyle=p.color||"#FFB070";c.beginPath();c.arc(x,y,(p.sz||4)*(1-q*0.5),0,6.283);c.fill();}}}
     else if(typ==="stones"){for(var i=0;i<p.n;i++){var bx=p.x0+R()*(p.x1-p.x0),ph=R(),sp=p.sp*(0.7+R()*0.6),sz=6+R()*10,H=1300;
-      var y=250+((lt*sp+ph*H)%H);c.globalAlpha=fade*0.95;c.fillStyle="#7a706a";c.strokeStyle="#DCD4CE";c.lineWidth=3;
-      c.beginPath();c.arc(bx,y,sz,0,6.283);c.fill();c.stroke();}}
+      var y=250+((lt*sp+ph*H)%H);c.globalAlpha=fade*0.95;c.fillStyle=p.fill||"#7a706a";c.strokeStyle=p.stroke||"#DCD4CE";c.lineWidth=3;if(p.glow){c.shadowColor=p.stroke;c.shadowBlur=18;}
+      c.beginPath();c.arc(bx,y,sz,0,6.283);c.fill();c.stroke();c.shadowBlur=0;}}
     else if(typ==="dust"){for(var i=0;i<p.xs.length;i++){for(var j=0;j<14;j++){var H=p.y1-p.y0,ph=R();var y=p.y0+((lt*260+ph*H)%H);
       c.globalAlpha=fade*0.6*(1-(y-p.y0)/H);c.fillStyle="#9a908a";c.beginPath();c.arc(p.xs[i]+Math.sin(y*0.05+i)*4,y,2.5,0,6.283);c.fill();}}}
     else if(typ==="notes"){for(var i=0;i<p.n;i++){var ph=R(),life=2.2;var age=((lt+ph*life)%life)/life;var x=p.cx+Math.sin(lt*2+i*1.7)*40+age*(p.drift||-120)+(R()-0.5)*60;var y=p.cy-age*p.h;

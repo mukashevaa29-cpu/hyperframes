@@ -15,7 +15,7 @@ def plant(gid, roof=True, y=1500):
     stack = glow(N(f"M 900 {y} L 920 {y - 900} L 980 {y - 900} L 1000 {y} Z", fill="#0c0a0c", sw=10, cw=3)) + "".join(line(915 - k * 1.5, y - 860 + k * 120, 985 + k * 1.5, y - 860 + k * 120, "#FB2945", 6) for k in range(7))
     windows = "".join(f'<rect x="{180 + k * 70}" y="{y - 330 + (k % 2) * 120}" width="34" height="50" fill="#FFD27A" opacity="0.8"/>' for k in range(9))
     roof_svg = f'<g id="{gid}-roof">' + glow(N(f"M 400 {y - 420} L 400 {y - 520} L 700 {y - 520} L 700 {y - 420} Z", fill="#0c0a0c", sw=10, cw=3)) + '</g>' if roof else ""
-    label_ = label(560, y - 450 if not roof else y - 545, "REACTOR 4", 30, GREY)
+    label_ = label(560, y - 450 if not roof else y - 545, "REACTOR 4", 30, GREY, extra=f'id="{gid}-lab"')
     return f'<g id="{gid}">{stack}{body}{windows}{roof_svg}{label_}</g>'
 
 
@@ -52,7 +52,7 @@ svg = plant("p1", roof=False) + beam("s01-beam", op=1.0)
 ep.scene("s01", s, e, svg, origin="50% 55%", custom_cam=True, fx=[(s, e, "fire", dict(cx=550, base=1090, w=300, h=200, n=8, amp=1.0, sp=7, nofade=True)),
                                                                   (s, e, "smoke", dict(n=14, cx=550, base=1000, w=200, h=800, r0=60, r1=260, life=3, alpha=0.4)),
                                                                   (s, e, "embers", dict(n=40, x0=300, x1=800, y0=500, y1=1100, sp=160))])
-ep.js(f'tl.fromTo("#s01-cam",{{scale:1.7}},{{scale:1.75,duration:{W(4) - 0.15:.3f},ease:"none"}},0);')
+ep.js(f'tl.fromTo("#s01-cam",{{scale:1.35}},{{scale:1.4,duration:{W(4) - 0.15:.3f},ease:"none"}},0);')
 ep.js(f'tl.to("#s01-cam",{{scale:1.0,duration:0.9,ease:"power2.inOut"}},{W(4) - 0.15:.3f});')
 geiger(0, e, 10, 25, 1)
 ep.floor(0, 0.4, 0.6, 0.01)
@@ -69,8 +69,8 @@ hands = (f'<g transform="translate({cx},{cy})"><g id="s02-hh" transform="rotate(
 html = '<div class="num" id="s02-d" style="top:600px;font-size:110px;">APRIL 26, 1986</div>'
 ep.scene("s02", s, e, clock + hands, html, origin="50% 55%")
 ep.pop("#s02-d", s + 0.02, 0.16, 0.8)
-ep.js(f'tl.to("#s02-hh",{{attr:{{transform:"rotate(41.5)"}},duration:{WE(19) - W(16):.3f},ease:"power2.out"}},{W(16) - 0.05:.3f});')
-ep.js(f'tl.to("#s02-mh",{{attr:{{transform:"rotate(498)"}},duration:{WE(19) - W(16):.3f},ease:"power2.out"}},{W(16) - 0.05:.3f});')
+ep.js(f'tl.to("#s02-hh",{{attr:{{transform:"rotate(41.5)"}},duration:{WE(19) - s - 0.2:.3f},ease:"power2.inOut"}},{s + 0.15:.3f});')
+ep.js(f'tl.to("#s02-mh",{{attr:{{transform:"rotate(498)"}},duration:{WE(19) - s - 0.2:.3f},ease:"power2.inOut"}},{s + 0.15:.3f});')
 ep.cue("tick.wav", W(16), 0.5)
 ep.floor(s, 0.4, 0.0)
 
@@ -82,6 +82,7 @@ ep.scene("s03", s, e, svg, origin="50% 55%", fx=[(tb, e + 0.1, "fire", dict(cx=5
                                                  (tb, e, "sparks", dict(cx=550, cy=980, n=50, r=420, dur=1.0, color="#FFB070", g=500))])
 ep.js(f'tl.to("#p3-roof",{{y:-900,rotation:-40,svgOrigin:"550 980",duration:0.9,ease:"power2.out"}},{tb:.3f});')
 ep.js(f'tl.to("#s03-beam",{{opacity:1,duration:0.6}},{tb + 0.2:.3f});')
+ep.js(f'tl.to("#p3-lab",{{opacity:0,duration:0.1}},{tb:.3f});')
 ep.flash(tb, 0.95, 0.8)
 ep.shake("#s03-shake", tb, 0.8, 18)
 ep.cue("sfx_open_roar.mp3", tb, 1.0)
@@ -113,15 +114,16 @@ teeth = "".join(f'<rect x="{300 + k * 62}" y="905" width="46" height="46" rx="8"
 shine = '<rect id="s05-sh" x="200" y="980" width="60" height="260" fill="#E6EEFF" opacity="0.6" transform="rotate(18 230 1100)" filter="url(#soft2)"/>'
 svg = mouth + teeth + tongue + f'<defs><clipPath id="s05-c"><path d="M 330 1080 Q 540 980 750 1080 Q 760 1170 640 1200 Q 540 1215 440 1200 Q 320 1170 330 1080 Z"/></clipPath></defs><g clip-path="url(#s05-c)">{shine}</g>' + label(540, 1330, "METALLIC TASTE", 32, "#9FC8FF")
 ep.scene("s05", s, e, svg, origin="50% 55%", drift=0.025)
-ep.js(f'tl.to("#s05-t path",{{attr:{{fill:"#6a6a78"}},duration:0.8}},{W(41):.3f});')
-ep.js(f'tl.fromTo("#s05-sh",{{x:0}},{{x:620,duration:0.9,repeat:2,ease:"power1.inOut",immediateRender:false}},{W(41):.3f});')
+ep.js(f'tl.to("#s05-t path",{{attr:{{fill:"#6a6a78"}},duration:1.2}},{W(36) - 0.1:.3f});')
+ep.js(f'tl.fromTo("#s05-sh",{{x:0}},{{x:620,duration:0.9,repeat:{int((e - W(36)) / 0.9)},ease:"power1.inOut",immediateRender:false}},{W(36) - 0.1:.3f});')
+ep.js(f'tl.to("#s05-t",{{y:12,duration:0.4,repeat:{int((e - s) / 0.4)},yoyo:true,ease:"sine.inOut"}},{s:.3f});')
 ep.floor(s, 0.35, 0.0)
 
 # ---------------------------------------------------------------- S06 your face tingles, like pins and needles
 s, e = cut(43), cut(50)
 face = mascot("m6", 540, 2260, 2.4, pose=dict(head=-4))
 ep.scene("s06", s, e, face, origin="50% 45%", drift=0.02,
-         fx=[(W(44) + k * 0.22, e, "sparks", dict(cx=440 + (k % 3) * 100, cy=860 + (k % 2) * 140, n=8, r=50, dur=0.3, color="#E6EEFF")) for k in range(int((e - W(44)) / 0.22))])
+         fx=[(W(44) + k * 0.12, e, "sparks", dict(cx=420 + (k % 4) * 80, cy=840 + (k % 3) * 90, n=14, r=80, dur=0.35, color="#FFFFFF", sz=6)) for k in range(int((e - W(44)) / 0.12))])
 ep.floor(s, 0.35, 0.0)
 
 # ---------------------------------------------------------------- S07 you can't see it, can't feel it — but it goes straight through you
@@ -130,7 +132,9 @@ rays = "".join(f'<line class="s07-r" x1="-200" y1="{700 + k * 80}" x2="80" y2="{
 svg = trefoil(880, 620, 110, "s07-tf") + mascot("m7", 540, 1520, 0.95) + rays
 ep.scene("s07", s, e, svg, origin="50% 55%")
 ep.pop("#s07-tf", s + 0.05, 0.2, 0.3)
-ep.js(f'tl.fromTo(".s07-r",{{x:0,opacity:0.9}},{{x:1300,duration:0.5,stagger:0.05,repeat:{int((e - W(58)) / 0.7)},repeatDelay:0.2,ease:"none",immediateRender:false}},{W(58):.3f});')
+ep.js(f'tl.fromTo(".s07-r",{{x:0,opacity:0.45}},{{x:1300,duration:0.5,stagger:0.05,repeat:{int((e - s) / 0.7)},repeatDelay:0.2,ease:"none",immediateRender:false}},{s + 0.3:.3f});')
+ep.js(f'tl.to(".s07-r",{{opacity:1,duration:0.2}},{W(58):.3f});')
+ep.js(f'tl.fromTo("#s07-tf",{{scale:1}},{{scale:1.12,svgOrigin:"880 620",duration:0.4,repeat:{int((e - s) / 0.4)},yoyo:true,ease:"sine.inOut",immediateRender:false}},{s + 0.3:.3f});')
 ep.js('tl.set(".s07-r",{opacity:0},0);')
 ep.js(f'tl.to("#m7 line, #m7 path, #m7 ellipse",{{attr:{{stroke:"#9FC8FF"}},duration:0.3}},{W(61):.3f});')
 geiger(s, e, 8, 45, 7)
@@ -138,10 +142,10 @@ ep.floor(s, 0.35, 0.0)
 
 # ---------------------------------------------------------------- S08 in one hour, more radiation than most people get in a lifetime
 s, e = cut(65), cut(79)
-bars = (label(140, 800, "A LIFETIME", 32, "#F5F5F5", "start") + f'<rect x="140" y="830" width="90" height="70" fill="#E8B040" filter="url(#glowG)"/>'
-        + label(140, 1060, "ONE HOUR AT THE REACTOR", 32, "#FF6A5A", "start") + f'<rect id="s08-b" x="140" y="1090" width="1100" height="70" fill="#FB2945" filter="url(#glow)"/>')
+bars = (label(100, 790, "A LIFETIME", 40, "#F5F5F5", "start") + f'<rect x="100" y="830" width="40" height="80" fill="#E8B040" filter="url(#glowG)"/>'
+        + label(100, 1060, "ONE HOUR AT THE REACTOR", 40, "#FF6A5A", "start") + f'<rect id="s08-b" x="100" y="1100" width="880" height="80" fill="#FB2945" filter="url(#glow)"/>')
 ep.scene("s08", s, e, bars + trefoil(540, 1400, 90), origin="50% 55%")
-ep.js(f'tl.fromTo("#s08-b",{{scaleX:0.02,transformOrigin:"0% 50%"}},{{scaleX:1,duration:{WE(78) - W(67):.3f},ease:"power2.in",immediateRender:false}},{W(67):.3f});')
+ep.js(f'tl.fromTo("#s08-b",{{scaleX:0.045,transformOrigin:"0% 50%"}},{{scaleX:1,duration:{WE(78) - s - 0.1:.3f},ease:"power2.in",immediateRender:false}},{s + 0.1:.3f});')
 ep.js('gsap.set("#s08-b",{scaleX:0.02,transformOrigin:"0% 50%"});')
 geiger(W(67), e, 10, 60, 8)
 ep.floor(s, 0.35, 0.3)
@@ -156,9 +160,9 @@ ep.floor(s, 0.35, 0.0)
 
 # ---------------------------------------------------------------- S10 a few days later you feel better — it's a trick
 s, e = cut(85), cut(95)
-html = '<div class="num" id="s10-n" style="top:780px;font-size:240px;color:#9FC8FF;text-shadow:0 0 18px rgba(90,120,255,.9);">1</div><div class="lbl" id="s10-l" style="top:1040px;">DAYS LATER · FEELING BETTER</div>'
+html = '<div class="num" id="s10-n" style="top:780px;font-size:240px;color:#9FC8FF;text-shadow:0 0 18px rgba(90,120,255,.9);">2</div><div class="lbl" id="s10-l" style="top:1040px;">DAYS LATER · FEELING BETTER</div>'
 ep.scene("s10", s, e, "", html, origin="50% 50%")
-ep.counter("#s10-n", s + 0.1, WE(88) - s, 1, 4, "n", "power1.out")
+ep.counter("#s10-n", s + 0.1, WE(88) - s, 2, 4, "n", "power1.out")
 tt = W(92) - 0.05
 ep.js(f'tl.to("#s10-n",{{color:"#FA2335",textShadow:"0 0 18px rgba(255,40,50,.9),0 0 50px rgba(255,20,40,.6)",duration:0.1}},{tt:.3f});')
 ep.shake("#s10-shake", tt, 0.35, 14)
@@ -178,19 +182,19 @@ tstop = W(99) - 0.1
 for k in range(int((tstop - s) / 0.15)):
     cx_, cy_ = r11.uniform(150, 930), r11.uniform(600, 1400)
     ep.js(f'tl.fromTo("#s11-c{k % 12}",{{opacity:1,attr:{{cx:540,cy:950}}}},{{opacity:0,attr:{{cx:{cx_:.0f},cy:{cy_:.0f}}},duration:0.7,ease:"power1.out",immediateRender:false}},{s + k * 0.15:.3f});')
-ep.js(f'tl.to("#s11-m",{{attr:{{fill:"#3a3532"}},duration:0.6}},{tstop:.3f});')
+ep.js(f'tl.to("#s11-m",{{attr:{{fill:"#3a3532"}},duration:{e - tstop:.3f}}},{tstop:.3f});')
 ep.cue("beep.wav", tstop + 0.3, 0.06)
 ep.floor(s, 0.35, 0.0)
 
 # ---------------------------------------------------------------- S12 your skin blisters and peels away
 s, e = cut(103), cut(109)
 skin = glow(N("M 180 960 L 900 960 L 900 1260 L 180 1260 Z", fill="#1a0a0a")) + "".join(f'<path d="M 200 {1030 + k * 60} Q 380 {1000 + k * 60} 540 {1030 + k * 60} T 880 {1030 + k * 60}" fill="none" stroke="#E87A8A" stroke-width="4" opacity="0.7"/>' for k in range(3))
-blis = "".join(f'<g id="s12-b{k}" opacity="0"><path d="M {230 + k * 120} 962 A 50 56 0 0 1 {330 + k * 120} 962 Z" fill="#E8A0A0" stroke="#FFF1DC" stroke-width="5" filter="url(#glowS)"/></g>' for k in range(6))
+blis = "".join(f'<g id="s12-b{k}" opacity="0"><path d="M {210 + k * 110} 962 A 46 52 0 0 1 {300 + k * 110} 962 Z" fill="#E8A0A0" stroke="#FFF1DC" stroke-width="5" filter="url(#glowS)"/></g>' for k in range(6))
 peel = '<path id="s12-peel" d="M 180 960 L 900 960 L 900 990 L 180 990 Z" fill="#E8A0A0" stroke="#FFF1DC" stroke-width="4" opacity="0"/>'
-svg = skin + blis + peel + label(540, 900, "SKIN", 30, GREY)
+svg = skin + blis + peel + label(540, 860, "SKIN", 30, GREY)
 ep.scene("s12", s, e, svg, origin="50% 52%", drift=0.025)
 for k in range(6):
-    ep.js(f'tl.fromTo("#s12-b{k}",{{opacity:1,scale:0,svgOrigin:"{280 + k * 120} 962"}},{{scale:1,duration:0.16,ease:"back.out(2)",immediateRender:false}},{W(105) - 0.05 + k * 0.07:.3f});')
+    ep.js(f'tl.fromTo("#s12-b{k}",{{opacity:1,scale:0,svgOrigin:"{255 + k * 110} 962"}},{{scale:1,duration:0.16,ease:"back.out(2)",immediateRender:false}},{W(105) - 0.05 + k * 0.07:.3f});')
     ep.js(f'tl.set("#s12-b{k}",{{opacity:0}},0);')
 ep.js(f'tl.set("#s12-peel",{{opacity:1}},{W(107) - 0.1:.3f});')
 ep.js(f'tl.to("#s12-peel",{{rotation:-9,svgOrigin:"900 975",y:-24,duration:0.7,ease:"power2.out"}},{W(107) - 0.1:.3f});')
@@ -199,13 +203,14 @@ ep.floor(s, 0.35, 0.2)
 
 # ---------------------------------------------------------------- S13 of the first responders, twenty-eight die within months
 s, e = cut(109), cut(117)
-helmets = "".join(f'<g class="s13-h"><path d="M {150 + (k % 7) * 130 - 40} {760 + (k // 7) * 150} Q {150 + (k % 7) * 130} {700 + (k // 7) * 150} {150 + (k % 7) * 130 + 40} {760 + (k // 7) * 150} L {150 + (k % 7) * 130 + 52} {760 + (k // 7) * 150} L {150 + (k % 7) * 130 - 52} {760 + (k // 7) * 150} Z" fill="#1a1416" stroke="#FB2945" stroke-width="6"/></g>' for k in range(28))
-html = '<div class="num" id="s13-n" style="top:1360px;font-size:150px;">0</div><div class="lbl" style="top:1520px;">FIRST RESPONDERS</div>'
+helmets = "".join(f'<g class="s13-h"><circle cx="{150 + (k % 7) * 130}" cy="{700 + (k // 7) * 160}" r="22" fill="#1a1416" stroke="#FB2945" stroke-width="6"/>'
+                  f'<path d="M {150 + (k % 7) * 130 - 34} {700 + (k // 7) * 160 + 34} L {150 + (k % 7) * 130 + 34} {700 + (k // 7) * 160 + 34} L {150 + (k % 7) * 130 + 26} {700 + (k // 7) * 160 + 100} L {150 + (k % 7) * 130 - 26} {700 + (k // 7) * 160 + 100} Z" fill="#1a1416" stroke="#FB2945" stroke-width="6"/></g>' for k in range(28))
+html = '<div class="num" id="s13-n" style="top:1360px;font-size:150px;">1</div><div class="lbl" style="top:1520px;">FIRST RESPONDERS DIED</div>'
 ep.scene("s13", s, e, f'<g filter="url(#glowS)">{helmets}</g>', html, origin="50% 55%")
 ep.js(f'tl.fromTo(".s13-h",{{opacity:0,scale:0.4,transformOrigin:"50% 50%"}},{{opacity:1,scale:1,duration:0.12,stagger:0.07,ease:"back.out(2)",immediateRender:false}},{W(110):.3f});')
 ep.js('tl.set(".s13-h",{opacity:0},0);')
-ep.counter("#s13-n", W(110), WE(116) - W(110), 0, 28, "n", "none")
-ep.js(f'tl.to(".s13-h path",{{attr:{{stroke:"#555"}},duration:0.6}},{W(114):.3f});')
+ep.counter("#s13-n", W(110), WE(116) - W(110), 1, 28, "n", "none")
+ep.js(f'tl.to(".s13-h path, .s13-h circle",{{attr:{{stroke:"#555"}},duration:0.6}},{W(114):.3f});')
 ep.floor(s, 0.3, 0.0)
 
 # ---------------------------------------------------------------- ending

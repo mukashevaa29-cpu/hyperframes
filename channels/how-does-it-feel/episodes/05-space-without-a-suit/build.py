@@ -3,6 +3,7 @@ import math, os, random, sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../kit"))
 from lib import *  # noqa
+from lib import brain as brain_svg
 
 ep = Episode(__file__)
 W, WE, cut = ep.W, ep.WE, ep.cut
@@ -50,7 +51,7 @@ def boil(prefix, t0, t1, n=12, rise=160, seed=6):
 # ---------------------------------------------------------------- S01 cold open: floating in space, face first → pull out
 s, e = 0.0, cut(12)
 hatch = glow(N("M 80 520 L 380 520 L 380 900 L 80 900 Z", fill="#0b1430", red=BLUE, core=BLUE_CORE), f="glowB") + '<rect x="110" y="550" width="240" height="320" fill="#000" stroke="#9FC8FF" stroke-width="3"/>'
-svg = space(1) + hatch + f'<g id="s01-m">{floating("m1", 600, 1500, 0.95, mouth=True)}</g>' + bubbles("s01-b", 600, 980, 10, 40, 1)
+svg = space(1) + f'<g id="s01-m">{floating("m1", 600, 1500, 0.95, mouth=True)}</g>' + bubbles("s01-b", 600, 1012, 10, 22, 1)
 ep.scene("s01", s, e, svg, origin="56% 51%", custom_cam=True)
 ep.js(f'tl.fromTo("#s01-cam",{{scale:2.6}},{{scale:2.7,duration:{W(4) - 0.15:.3f},ease:"none"}},0);')
 ep.js(f'tl.to("#s01-cam",{{scale:1.0,duration:0.9,ease:"power2.inOut"}},{W(4) - 0.15:.3f});')
@@ -66,7 +67,7 @@ svg = lungs_shape("s02-lg") + "".join(f'<circle class="s02-air" cx="{r_[0]}" cy=
 xmark = ('<path id="s02-x1" d="M 200 760 L 880 1460" stroke="#FF3B36" stroke-width="26" stroke-linecap="round" stroke-dasharray="1000" stroke-dashoffset="1000" filter="url(#glow)"/>'
          '<path id="s02-x2" d="M 880 760 L 200 1460" stroke="#FF3B36" stroke-width="26" stroke-linecap="round" stroke-dasharray="1000" stroke-dashoffset="1000" filter="url(#glow)"/>')
 ep.scene("s02", s, e, svg + xmark + label(540, 1560, "HOLDING YOUR BREATH", 30, GREY), origin="50% 55%")
-ep.js(f'tl.fromTo("#s02-lg",{{scale:1}},{{scale:1.1,transformOrigin:"50% 40%",duration:0.6,ease:"power2.out",immediateRender:false}},{W(17) - 0.1:.3f});')
+ep.js(f'tl.fromTo("#s02-lg",{{scale:0.96}},{{scale:1.12,transformOrigin:"50% 40%",duration:{W(20) - s:.3f},ease:"sine.inOut",immediateRender:false}},{s:.3f});')
 ep.js(f'tl.to("#s02-x1",{{strokeDashoffset:0,duration:0.14,ease:"power2.out"}},{W(20) - 0.05:.3f});')
 ep.js(f'tl.to("#s02-x2",{{strokeDashoffset:0,duration:0.14,ease:"power2.out"}},{W(20) + 0.1:.3f});')
 ep.cue("impact-bass-2.mp3", W(20) - 0.05, 0.7)
@@ -75,7 +76,7 @@ ep.floor(s, 0.5, 0.0)
 # ---------------------------------------------------------------- S03 the air would tear your lungs apart
 s, e = cut(21), cut(31)
 cracks = '<path id="s03-cr" d="M 400 950 L 440 1020 L 410 1090 L 460 1160 M 680 960 L 640 1040 L 690 1110 L 650 1200" fill="none" stroke="#FFF1DC" stroke-width="7" stroke-dasharray="600" stroke-dashoffset="600" filter="url(#glowO)"/>'
-gauge = label(540, 600, "PRESSURE INSIDE", 30, GREY)
+gauge = label(470, 640, "PRESSURE INSIDE", 30, GREY, "end")
 svg = lungs_shape("s03-lg") + cracks + gauge
 ep.scene("s03", s, e, svg, origin="50% 55%")
 ep.js(f'tl.fromTo("#s03-lg",{{scale:1.1}},{{scale:1.32,transformOrigin:"50% 40%",duration:{W(28) - s:.3f},ease:"power2.in",immediateRender:false}},{s:.3f});')
@@ -94,9 +95,13 @@ tr = W(33) - 0.05
 ep.js(f'tl.fromTo("#s04-lg",{{scale:1.15}},{{scale:0.92,transformOrigin:"50% 40%",duration:0.9,ease:"power3.out",immediateRender:false}},{tr:.3f});')
 rr = random.Random(4)
 for k in range(30):
-    ep.js(f'tl.fromTo("#s04-a{k}",{{attr:{{cx:540,cy:{rr.uniform(800, 1300):.0f}}},opacity:1}},{{keyframes:[{{attr:{{cx:540,cy:470}},duration:0.25,ease:"power1.in"}},{{attr:{{cx:{rr.uniform(-100, 1180):.0f},cy:{rr.uniform(-200, 300):.0f}}},opacity:0,duration:0.5,ease:"power2.out"}}],immediateRender:false}},{tr + k * 0.03:.3f});')
+    ep.js(f'tl.fromTo("#s04-a{k}",{{attr:{{cx:540,cy:{rr.uniform(800, 1300):.0f}}},opacity:1}},{{keyframes:[{{attr:{{cx:540,cy:470}},duration:0.25,ease:"power1.in"}},{{attr:{{cx:{rr.uniform(-100, 1180):.0f},cy:{rr.uniform(620, 900):.0f}}},opacity:0,duration:0.5,ease:"power2.out"}}],immediateRender:false}},{tr + k * 0.03:.3f});')
     ep.js(f'tl.set("#s04-a{k}",{{opacity:0}},0);')
 ep.cue("whoosh-cinematic.mp3", tr, 0.7)
+ep.js(f'tl.to("#s04-lg",{{scale:0.78,transformOrigin:"50% 40%",duration:0.35,ease:"power3.out"}},{W(41) - 0.05:.3f});')
+for k in range(30):
+    ep.js(f'tl.fromTo("#s04-a{k}",{{attr:{{cx:540,cy:{rr.uniform(800, 1300):.0f}}},opacity:1}},{{keyframes:[{{attr:{{cx:540,cy:470}},duration:0.18,ease:"power1.in"}},{{attr:{{cx:{rr.uniform(-100, 1180):.0f},cy:{rr.uniform(620, 900):.0f}}},opacity:0,duration:0.4,ease:"power2.out"}}],immediateRender:false}},{W(41) - 0.05 + k * 0.012:.3f});')
+ep.cue("sfx_whoosh.mp3", W(41) - 0.05, 0.6)
 ep.floor(s, 0.3, 0.0)
 
 # ---------------------------------------------------------------- S05 three seconds
@@ -142,7 +147,7 @@ ep.floor(s, 0.45, 0.0)
 # ---------------------------------------------------------------- S09 no oxygen left to send to your brain
 s, e = cut(70), cut(80)
 gyri = "".join(f'<path d="M {360 + k * 52} 840 Q {380 + k * 52} 920 {360 + k * 52} 1000 Q {340 + k * 52} 1080 {360 + k * 52} 1160" fill="none" stroke="#F2EEEA" stroke-width="4" opacity="0.6"/>' for k in range(8))
-brain = glow(N("M 540 800 C 380 780 300 880 310 1000 C 320 1140 420 1220 540 1210 C 660 1220 760 1140 770 1000 C 780 880 700 780 540 800 Z", fill="#3a0a0c") + gyri, gid="s09-brain")
+brain = brain_svg(540, 1000, 460, 400, gid="s09-brain")
 o2 = ""
 for k in range(8):
     a = k * math.pi / 4
@@ -161,7 +166,7 @@ ep.floor(s, 0.45, 0.0)
 def pov(sid, start, end, r0, r1, t0, t1, label_txt):
     svg = space(10, n=160)
     html = (f'<div id="{sid}-vig" style="position:absolute;inset:0;background:radial-gradient(circle at 50% 58%, rgba(1,1,1,0) {r0}px, rgba(1,1,1,1) {r0 + 120}px);"></div>'
-            f'<div class="num" id="{sid}-num" style="top:420px;font-size:150px;color:#9FC8FF;text-shadow:0 0 18px rgba(90,120,255,.9);">{label_txt}</div>')
+            f'<div class="num" id="{sid}-num" style="top:1380px;font-size:120px;color:#9FC8FF;text-shadow:0 0 18px rgba(90,120,255,.9);">{label_txt}</div>')
     ep.scene(sid, start, end, svg, html, origin="50% 58%", drift=0.01)
     ep.js(f'(function(){{var o={{r:{r0}}};var el=document.getElementById("{sid}-vig");tl.to(o,{{r:{r1},duration:{t1 - t0:.3f},ease:"power2.in",onUpdate:function(){{el.style.background="radial-gradient(circle at 50% 58%, rgba(1,1,1,0) "+o.r+"px, rgba(1,1,1,1) "+(o.r+120)+"px)";}}}},{t0:.3f});}})();')
     ep.pop(f"#{sid}-num", start + 0.02, 0.15, 0.6)
@@ -191,14 +196,14 @@ ep.floor(s, 0.0, 0.0)
 # ---------------------------------------------------------------- S14 1966, a NASA technician, vacuum chamber
 s, e = cut(111), cut(122)
 chamber = glow(N("M 200 780 L 880 780 Q 940 780 940 840 L 940 1460 Q 940 1520 880 1520 L 200 1520 Q 140 1520 140 1460 L 140 840 Q 140 780 200 780 Z", fill="#0b0c12", red=BLUE, core=BLUE_CORE), f="glowB")
-port = '<circle cx="540" cy="1080" r="170" fill="#000" stroke="#9FC8FF" stroke-width="10"/>'
-suit = mascot("m14", 540, 1470, 0.62, pose=dict(uarmL=20, uarmR=-20, head=6))
-html = ('<div class="big" id="s14-yr" style="top:560px;font-size:120px;">1966</div>'
-        '<div class="lbl" id="s14-lab" style="top:1560px;color:#9FC8FF;">NASA VACUUM CHAMBER</div>')
-svg = chamber + port + f'<g clip-path="url(#s14-c)">{suit}</g><defs><clipPath id="s14-c"><circle cx="540" cy="1080" r="165"/></clipPath></defs>'
+port = '<circle cx="540" cy="1120" r="300" fill="#000" stroke="#9FC8FF" stroke-width="10"/><circle id="s14-warn" cx="860" cy="840" r="34" fill="#FF3B36" filter="url(#glow)"/>'
+suit = mascot("m14", 540, 1740, 1.05, mouth_open=True, pose=dict(uarmL=30, farmL=-60, uarmR=-30, farmR=60, head=6))
+html = '<div class="lbl" id="s14-lab" style="top:1560px;color:#9FC8FF;">NASA VACUUM CHAMBER · 1966</div>'
+svg = chamber + port + f'<g clip-path="url(#s14-c)">{suit}</g><defs><clipPath id="s14-c"><circle cx="540" cy="1120" r="292"/></clipPath></defs>'
 ep.scene("s14", s, e, svg, html, origin="50% 55%", drift=0.02)
-ep.pop("#s14-yr", s + 0.02, 0.16, 0.7)
-ep.pop("#s14-lab", W(119), 0.2, 0.5)
+ep.pop("#s14-lab", s + 0.1, 0.2, 0.5)
+ep.js(f'tl.fromTo("#s14-warn",{{opacity:1}},{{opacity:0.15,duration:0.25,repeat:{int((e - s) / 0.25)},yoyo:true,ease:"none",immediateRender:false}},{s:.3f});')
+ep.js(f'tl.to("#m14",{{y:-24,duration:0.6,repeat:{int((e - s) / 0.6)},yoyo:true,ease:"sine.inOut"}},{s:.3f});')
 ep.floor(s, 0.35, 0.0)
 
 # ---------------------------------------------------------------- S15 saliva on his tongue starting to bubble
@@ -228,6 +233,7 @@ html = '<div class="lbl" style="top:1040px;color:#9FC8FF;">AIR PRESSURE · %</di
 ep.scene("s16", s, e, svg, html, origin="50% 55%")
 ep.js(f'tl.to("#s16-needle",{{attr:{{transform:"rotate(90)"}},duration:{W(146) - W(139):.3f},ease:"power2.out"}},{W(139):.3f});')
 ep.pop("#s16-ok", W(137) - 0.05, 0.2, 0.6)
+ep.js(f'tl.to("#s16-ok",{{opacity:0,duration:0.3}},{W(139) + 0.3:.3f});')
 ep.cue("whoosh-cinematic.mp3", W(139), 0.5)
 ep.floor(s, 0.35, 0.0)
 

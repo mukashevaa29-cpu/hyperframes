@@ -3,6 +3,17 @@ import math, os, random, sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "../../kit"))
 from lib import *  # noqa
+from lib import brain as brain_svg
+
+
+def hand_pos(x, y, s, pose, side):
+    """forward kinematics of the mascot rig: centre of the fist in scene coords."""
+    sx = -84 if side == "L" else 84
+    a = math.radians(pose.get("uarm" + side, 0))
+    b = math.radians(pose.get("uarm" + side, 0) + pose.get("farm" + side, 0))
+    ex, ey = sx - 118 * math.sin(a), -458 + 118 * math.cos(a)
+    hx, hy = ex - 122 * math.sin(b), ey + 122 * math.cos(b)
+    return x + hx * s, y + hy * s
 
 ep = Episode(__file__)
 W, WE, cut = ep.W, ep.WE, ep.cut
@@ -11,7 +22,7 @@ SNOW = dict(n=110, sp=260, color="#E6EEFF")
 
 
 def ridge(y=1500, gid=""):
-    d = f"M -40 {y + 200} L 120 {y} L 300 {y - 160} L 460 {y - 60} L 640 {y - 380} L 760 {y - 300} L 900 {y - 520} L 1120 {y - 140} L 1120 {y + 420} L -40 {y + 420} Z"
+    d = f"M -40 {y + 200} L 120 {y} L 300 {y - 160} L 460 {y - 60} L 640 {y - 380} L 760 {y - 300} L 900 {y - 520} L 1120 {y - 140} L 1120 {y + 900} L -40 {y + 900} Z"
     return glow(N(d, fill="#0a0c14", red=ICE, core=ICE_CORE, sw=12, cw=4), f="glowB", gid=gid)
 
 
@@ -84,20 +95,21 @@ ep.floor(s, 0.45, 0.0)
 
 # ---------------------------------------------------------------- S05 each step takes three, four, five breaths
 s, e = cut(41), cut(48)
-puffs_ = "".join(f'<g id="s05-p{k}" opacity="0"><ellipse cx="{560 + k * 60}" cy="{880 - k * 20}" rx="50" ry="30" fill="#E6EEFF" opacity="0.5" filter="url(#soft2)"/></g>' for k in range(5))
+puffs_ = "".join(f'<g id="s05-p{k}" opacity="0"><circle cx="530" cy="955" r="22" fill="none" stroke="#E6EEFF" stroke-width="5"/><circle cx="565" cy="935" r="14" fill="none" stroke="#E6EEFF" stroke-width="4"/></g>' for k in range(5))
 html = '<div class="num" id="s05-n" style="top:560px;left:560px;width:500px;font-size:160px;color:#9FC8FF;text-shadow:0 0 18px rgba(90,120,255,.9);">1</div><div class="lbl" style="top:740px;left:560px;width:500px;">BREATHS PER STEP</div>'
 svg = ridge(1500) + climber("m5", 460, 1290, 0.6) + puffs_
 ep.scene("s05", s, e, svg, html, origin="45% 60%", fx=[(s, e, "ash", SNOW)])
-ep.counter("#s05-n", W(44) - 0.1, WE(46) - W(44), 2.6, 5.4, "n", "none")
+for k, (wi, v) in enumerate([(41, 2), (44, 3), (45, 4), (46, 5)]):
+    ep.counter("#s05-n", W(wi) - 0.03, 0.05, v - 0.4, v, "n", "none")
+    ep.js(f'tl.to("#m5",{{x:{(k + 1) * 26},y:{-(k + 1) * 14},duration:0.25,ease:"power2.out"}},{W(wi):.3f});')
+    ep.cue("whoosh-short.mp3", W(wi), 0.15)
 for k in range(5):
-    ep.js(f'tl.fromTo("#s05-p{k}",{{opacity:1,scale:0.4,transformOrigin:"50% 50%"}},{{opacity:0,scale:1.6,duration:0.7,ease:"power1.out",immediateRender:false}},{s + 0.2 + k * 0.45:.3f});')
-ep.js(f'tl.to("#m5",{{x:60,y:-40,duration:{e - s:.3f},ease:"steps(3)"}},{s:.3f});')
+    ep.js(f'tl.fromTo("#s05-p{k}",{{opacity:1,x:0,y:0}},{{opacity:0,x:80,y:-60,duration:0.6,ease:"power1.out",immediateRender:false}},{s + 0.15 + k * 0.42:.3f});')
 ep.floor(s, 0.0, 0.0)
 
 # ---------------------------------------------------------------- S06 fluid leaks into your lungs, the cough gurgles
 s, e = cut(48), cut(59)
 ep.lungs("s06", s, e, t_flood=W(50) - 0.1, t_burn=W(51), t_burn_end=WE(53) + 0.4, flood_color="#5A78FF", burn_color="#1a2a6a", label_txt="FLUID IN THE LUNGS")
-ep.overlay_fx(W(55), e, "sparks", dict(cx=540, cy=600, n=14, r=120, dur=0.6, color="#9FC8FF", g=-80))
 ep.cue("sizzle.wav", W(55), 0.25)
 ep.floor(s, 0.35, 0.0)
 
@@ -105,11 +117,11 @@ ep.floor(s, 0.35, 0.0)
 s, e = cut(59), cut(65)
 skull = glow(N("M 540 700 C 340 700 250 860 260 1020 C 270 1180 380 1290 540 1290 C 700 1290 810 1180 820 1020 C 830 860 740 700 540 700 Z", fill="none", sw=14, cw=5))
 gyri = "".join(f'<path d="M {380 + k * 46} 820 Q {400 + k * 46} 920 {380 + k * 46} 1020 Q {360 + k * 46} 1120 {380 + k * 46} 1200" fill="none" stroke="#F2EEEA" stroke-width="4" opacity="0.6"/>' for k in range(8))
-brain = f'<g id="s07-b"><path d="M 540 780 C 390 770 330 880 335 1010 C 340 1140 430 1210 540 1205 C 650 1210 740 1140 745 1010 C 750 880 690 770 540 780 Z" fill="#3a0a0c" stroke="#FB2945" stroke-width="8"/>{gyri}</g>'
+brain = brain_svg(540, 995, 410, 360, gid="s07-b")
 svg = skull + brain + label(540, 1380, "BRAIN SWELLING", 32, "#FF6A5A")
 ep.scene("s07", s, e, svg, origin="50% 52%")
 ep.js(f'tl.to("#s07-b",{{scale:1.16,svgOrigin:"540 1000",duration:{e - W(61):.3f},ease:"power1.in"}},{W(61):.3f});')
-ep.js(f'tl.to("#s07-b path",{{attr:{{fill:"#7a1418"}},duration:{e - W(61):.3f}}},{W(61):.3f});')
+ep.js(f'tl.to("#s07-b path:first-child",{{attr:{{fill:"#7a1418"}},duration:{e - W(61):.3f}}},{W(61):.3f});')
 ep.shake("#s07-shake", e - 0.6, 0.6, 5)
 ep.floor(s, 0.4, 0.2)
 
@@ -120,7 +132,7 @@ marks = "".join(f'<text class="s08-q" x="{x}" y="{y}" fill="#9FC8FF" font-family
 svg = ghosts + climber("m8", 540, 1500, 0.75, pose=dict(uarmL=10, farmL=0, uarmR=-10, farmR=0, thighL=0, shinL=0)) + marks
 ep.scene("s08", s, e, svg, origin="50% 55%", fx=[(s, e, "ash", SNOW)])
 ep.js(f'tl.fromTo(".s08-q",{{opacity:0,y:20}},{{opacity:1,y:0,duration:0.2,stagger:0.15,immediateRender:false}},{W(66):.3f});')
-ep.js(f'tl.fromTo(".s08-g",{{opacity:0}},{{opacity:0.35,duration:0.5,stagger:0.25,immediateRender:false}},{W(71):.3f});')
+ep.js(f'tl.fromTo(".s08-g",{{opacity:0}},{{opacity:0.55,duration:0.5,stagger:0.25,immediateRender:false}},{W(71):.3f});')
 for k in range(int((e - s) / 0.6)):
     ep.rot("#m8-head", s + k * 0.6, 0.5, 14 if k % 2 else -14, "sine.inOut", about="0,-492")
 ep.floor(s, 0.0, 0.0)
@@ -130,7 +142,8 @@ s, e = cut(76), cut(86)
 fingers = ""
 for k, (fx, top) in enumerate([(412, 700), (492, 660), (572, 672), (652, 730)]):
     fingers += f'<g class="s09-f"><path d="M {fx - 32} 1000 L {fx - 32} {top + 32} A 32 32 0 0 1 {fx + 32} {top + 32} L {fx + 32} 1000 Z" fill="#2a1a1a" stroke="#FB2945" stroke-width="12"/></g>'
-svg = f'<g filter="url(#glow)">{fingers}' + N("M 372 990 L 700 990 Q 716 1180 680 1320 L 420 1320 Q 368 1200 372 990 Z", fill="#2a1a1a") + '</g>' + label(540, 1420, "FROSTBITE", 32, "#9FC8FF")
+thumb = '<g class="s09-f"><path d="M 380 1180 Q 300 1120 260 1020 A 34 34 0 0 1 318 990 Q 360 1080 420 1110 Z" fill="#2a1a1a" stroke="#FB2945" stroke-width="12"/></g>'
+svg = f'<g filter="url(#glow)">{fingers}{thumb}' + N("M 372 990 L 700 990 Q 716 1180 680 1320 L 420 1320 Q 368 1200 372 990 Z", fill="#2a1a1a") + '</g>' + label(540, 1420, "FROSTBITE", 32, "#9FC8FF")
 ep.scene("s09", s, e, svg, origin="50% 55%", fx=[(s, e, "ash", SNOW)])
 ep.js(f'tl.to(".s09-f path",{{attr:{{fill:"#ECE6E5",stroke:"#9FC8FF"}},duration:0.4,stagger:0.08}},{W(82) - 0.1:.3f});')
 ep.js(f'tl.to(".s09-f path",{{attr:{{fill:"#0a0808",stroke:"#3a3532"}},duration:0.4,stagger:0.08}},{W(85) - 0.1:.3f});')
@@ -138,35 +151,49 @@ ep.floor(s, 0.0, 0.0)
 
 # ---------------------------------------------------------------- S10 some climbers suddenly feel warm and take off their gloves
 s, e = cut(86), cut(96)
-gloves = "".join(f'<g id="s10-gl{k}"><rect x="{x}" y="1120" width="70" height="90" rx="22" fill="#FB2945" stroke="#F2EEEA" stroke-width="5"/></g>' for k, x in enumerate([330, 680]))
+P10 = dict(uarmL=30, farmL=-60, uarmR=-30, farmR=60, thighL=0, shinL=0)
+gl_pos = [hand_pos(540, 1520, 0.78, P10, sd) for sd in ("L", "R")]
+gloves = "".join(f'<g id="s10-gl{k}"><path d="M {gx - 30:.0f} {gy - 30:.0f} Q {gx - 34:.0f} {gy + 30:.0f} {gx:.0f} {gy + 34:.0f} Q {gx + 34:.0f} {gy + 30:.0f} {gx + 30:.0f} {gy - 30:.0f} Z" fill="#FB2945" stroke="#F2EEEA" stroke-width="5"/>'
+                 f'<path d="M {gx + (-38 if k == 0 else 38):.0f} {gy - 6:.0f} q {(-14 if k == 0 else 14)} 10 0 24" fill="none" stroke="#F2EEEA" stroke-width="10" stroke-linecap="round"/></g>' for k, (gx, gy) in enumerate(gl_pos))
 html = '<div class="num" id="s10-t" style="top:470px;left:540px;width:520px;font-size:130px;color:#9FC8FF;text-shadow:0 0 18px rgba(90,120,255,.9);">−30°C</div><div class="lbl" id="s10-w" style="top:640px;left:540px;width:520px;color:#FF6A5A;">FEELS WARM</div>'
-svg = f'<g id="s10-aura" opacity="0"><ellipse cx="540" cy="1150" rx="300" ry="440" fill="#FF6A3A" opacity="0.3" filter="url(#soft)"/></g>' + climber("m10", 540, 1520, 0.78, pose=dict(uarmL=30, farmL=-60, uarmR=-30, farmR=60, thighL=0, shinL=0)) + gloves
+svg = f'<g id="s10-aura" opacity="0"><ellipse cx="540" cy="1150" rx="300" ry="440" fill="#FF6A3A" opacity="0.3" filter="url(#soft)"/></g>' + climber("m10", 540, 1520, 0.78, pose=P10) + gloves
 ep.scene("s10", s, e, svg, html, origin="50% 55%", fx=[(s, e, "ash", SNOW)])
 ep.show("#s10-aura", W(89), 0.5)
 ep.pop("#s10-w", W(89), 0.2, 0.5)
 for k in range(2):
-    ep.js(f'tl.to("#s10-gl{k}",{{y:420,rotation:{60 if k else -60},svgOrigin:"{365 + k * 350} 1165",duration:0.6,ease:"power2.in"}},{W(92) + k * 0.15:.3f});')
+    gx, gy = gl_pos[k]
+    ep.js(f'tl.to("#s10-gl{k}",{{x:{-60 if k == 0 else 60},y:-30,duration:0.2,ease:"power2.out"}},{W(92) + k * 0.15:.3f});')
+    ep.js(f'tl.to("#s10-gl{k}",{{y:420,rotation:{60 if k else -60},svgOrigin:"{gx:.0f} {gy:.0f}",duration:0.6,ease:"power2.in"}},{W(92) + k * 0.15 + 0.2:.3f});')
 ep.floor(s, 0.0, 0.2)
 
 # ---------------------------------------------------------------- S11 you just want to sit down in the snow, to rest
 s, e = cut(96), cut(110)
-drift = '<path id="s11-snow" d="M -40 1560 Q 200 1490 420 1530 Q 640 1480 860 1530 Q 1000 1500 1120 1560 L 1120 1700 L -40 1700 Z" fill="#cfd8ee" stroke="#E6EEFF" stroke-width="4" opacity="0.9"/>'
+drift = '<path id="s11-snow" d="M -40 1600 Q 200 1530 420 1570 Q 640 1520 860 1570 Q 1000 1540 1120 1600 L 1120 1980 L -40 1980 Z" fill="#cfd8ee" stroke="#E6EEFF" stroke-width="4"/>'
 svg = ridge(1560) + climber("m11", 540, 1560, 0.75, pose=dict(uarmL=10, farmL=0, uarmR=-10, farmR=0, thighL=0, shinL=0)) + drift
 ep.scene("s11", s, e, svg, origin="50% 65%", drift=0.025, fx=[(s, e, "ash", dict(SNOW, n=140))])
 ep.js(f'tl.to("#m11",{{y:150,duration:0.8,ease:"power2.inOut"}},{W(100) - 0.1:.3f});')
 ep.rot("#m11-thighL", W(100) - 0.1, 0.8, "rotate(14) scale(1,0.32)")
 ep.js(f'tl.to("#m11-head",{{attr:{{transform:"rotate(22,0,-492)"}},duration:1.2,ease:"sine.inOut"}},{W(107):.3f});')
-ep.js(f'tl.fromTo("#s11-snow",{{scaleY:0.6,svgOrigin:"540 1700"}},{{scaleY:1.4,svgOrigin:"540 1700",duration:{e - s:.3f},ease:"none",immediateRender:false}},{s:.3f});')
+ep.js(f'tl.fromTo("#s11-snow",{{y:60}},{{y:-60,duration:{e - s:.3f},ease:"none",immediateRender:false}},{s:.3f});')
 ep.floor(s, 0.0, 0.0)
 
 # ---------------------------------------------------------------- S12 more than three hundred people have died; many are still up there
 s, e = cut(110), cut(127)
 r12 = random.Random(12)
+RIDGE = [(120, 0), (300, -160), (460, -60), (640, -380), (760, -300), (900, -520), (1120, -140)]
+
+
+def ridge_y(x, y=1500):
+    for (xa, ya), (xb, yb) in zip(RIDGE, RIDGE[1:]):
+        if xa <= x <= xb:
+            return y + ya + (yb - ya) * (x - xa) / (xb - xa)
+    return y
+
+
 marks = ""
 for k in range(60):
-    x = r12.uniform(160, 960)
-    yb = 1500 - (520 - abs(x - 640) * 0.9) if 300 < x < 980 else 1450
-    marks += f'<circle class="s12-m" cx="{x:.0f}" cy="{yb + r12.uniform(10, 70):.0f}" r="7" fill="#FF3B36" opacity="0"/>'
+    x = r12.uniform(140, 1100)
+    marks += f'<circle class="s12-m" cx="{x:.0f}" cy="{ridge_y(x) + r12.uniform(12, 60):.0f}" r="7" fill="#FF3B36" opacity="0"/>'
 html = '<div class="num" id="s12-n" style="top:460px;font-size:180px;">0</div><div class="lbl" style="top:650px;">DEATHS ON EVEREST</div>'
 ep.scene("s12", s, e, ridge(1500) + marks, html, origin="50% 55%", fx=[(s, e, "ash", SNOW)])
 ep.counter("#s12-n", W(111), WE(119) - W(111), 0, 300, "n", "power2.out")

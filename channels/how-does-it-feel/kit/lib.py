@@ -119,6 +119,27 @@ def mascot(mid, x, y, s=1.0, pose=None, style="neon", crown=False, mouth_open=Fa
     return f'<g id="{mid}"><g transform="translate({x},{y}) scale({s})"><g{filt}>{inner}</g></g></g>'
 
 
+def brain(cx=540, cy=1000, w=440, h=380, gid="", fill="#3a0a0c", seed=4):
+    """Recognisable brain: two hemispheres, a midline fissure and winding folds."""
+    r = random.Random(seed)
+    x0, x1, y0, y1 = cx - w / 2, cx + w / 2, cy - h / 2, cy + h / 2
+    outline = (f"M {cx} {y0 + 10} C {cx - w * 0.2} {y0 - 20} {x0 - 10} {y0 + h * 0.15} {x0} {cy} C {x0 + 10} {y1 - h * 0.1} {cx - w * 0.25} {y1 + 10} {cx} {y1 - 20} "
+               f"C {cx + w * 0.25} {y1 + 10} {x1 - 10} {y1 - h * 0.1} {x1} {cy} C {x1 + 10} {y0 + h * 0.15} {cx + w * 0.2} {y0 - 20} {cx} {y0 + 10} Z")
+    folds = ""
+    for side in (-1, 1):
+        for k in range(5):
+            yy = y0 + h * (0.18 + k * 0.16)
+            xa = cx + side * 18
+            pts = [f"M {xa:.0f} {yy:.0f}"]
+            for j in range(1, 5):
+                xx = cx + side * (18 + j * w * 0.1)
+                pts.append(f"Q {xx - side * w * 0.05:.0f} {yy + (r.uniform(-30, 30)):.0f} {xx:.0f} {yy + r.uniform(-16, 16):.0f}")
+            folds += f'<path d="{" ".join(pts)}" fill="none" stroke="#F2EEEA" stroke-width="5" stroke-linecap="round" opacity="0.7"/>'
+    mid = f'<path d="M {cx} {y0 + 12} L {cx} {y1 - 24}" stroke="#F2EEEA" stroke-width="6" opacity="0.8"/>'
+    i = f' id="{gid}"' if gid else ""
+    return f'<g{i} filter="url(#glow)"><path d="{outline}" fill="{fill}" stroke="{RED}" stroke-width="14"/><path d="{outline}" fill="none" stroke="{CORE}" stroke-width="4"/>{folds}{mid}</g>'
+
+
 # ------------------------------------------------------------------ Episode
 class Episode:
     def __init__(self, build_file, off=0.12):
@@ -163,7 +184,7 @@ class Episode:
         self.js(f'gsap.set("{cam}",{{transformOrigin:"{origin}"}});')
         if not custom_cam:
             if land:
-                self.js(f'tl.fromTo("{cam}",{{scale:0.9}},{{scale:1,duration:{5 * F:.3f},ease:"power2.out",immediateRender:false}},{start:.3f});')
+                self.js(f'tl.fromTo("{cam}",{{scale:1.08}},{{scale:1,duration:{5 * F:.3f},ease:"power2.out",immediateRender:false}},{start:.3f});')
                 self.js(f'tl.to("{cam}",{{scale:{1 + drift * d:.4f},duration:{max(0.05, d - 5 * F):.3f},ease:"none"}},{start + 5 * F:.3f});')
             else:
                 self.js(f'tl.fromTo("{cam}",{{scale:1}},{{scale:{1 + drift * d:.4f},duration:{d:.3f},ease:"none",immediateRender:false}},{start:.3f});')

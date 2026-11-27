@@ -57,16 +57,16 @@ hands = (f'<g transform="translate({cx},{cy})"><g id="s02-hh" transform="rotate(
 html = '<div class="num" id="s02-d" style="top:600px;font-size:110px;">APRIL 15, 1912</div>'
 ep.scene("s02", s, e, clock + hands, html, origin="50% 55%")
 ep.pop("#s02-d", s + 0.02, 0.16, 0.8)
-ep.js(f'tl.to("#s02-hh",{{attr:{{transform:"rotate(70)"}},duration:{WE(18) - W(15):.3f},ease:"power2.out"}},{W(15) - 0.05:.3f});')
-ep.js(f'tl.to("#s02-mh",{{attr:{{transform:"rotate(840)"}},duration:{WE(18) - W(15):.3f},ease:"power2.out"}},{W(15) - 0.05:.3f});')
+ep.js(f'tl.to("#s02-hh",{{attr:{{transform:"rotate(70)"}},duration:{WE(18) - s - 0.2:.3f},ease:"power2.inOut"}},{s + 0.15:.3f});')
+ep.js(f'tl.to("#s02-mh",{{attr:{{transform:"rotate(840)"}},duration:{WE(18) - s - 0.2:.3f},ease:"power2.inOut"}},{s + 0.15:.3f});')
 ep.cue("tick.wav", W(15), 0.5)
 ep.floor(s, 0.4, 0.0)
 
 # ---------------------------------------------------------------- S03 the deck tilts beneath your feet
 s, e = cut(19), cut(25)
-svg = stars(3) + f'<g id="s03-tilt">{ship("t3")}' + mascot("m3", 760, 940, 0.16) + '</g>' + sea(1180)
+svg = stars(3) + f'<g transform="translate(540,1100) scale(0.88) translate(-540,-1100)"><g id="s03-tilt">{ship("t3")}</g></g>' + sea(1180)
 ep.scene("s03", s, e, svg, origin="50% 55%")
-ep.js(f'tl.fromTo("#s03-tilt",{{rotation:0,svgOrigin:"540 1100"}},{{rotation:10,svgOrigin:"540 1100",y:40,duration:{e - W(21):.3f},ease:"power2.inOut",immediateRender:false}},{W(21) - 0.1:.3f});')
+ep.js(f'tl.fromTo("#s03-tilt",{{rotation:0,svgOrigin:"540 1100"}},{{rotation:10,svgOrigin:"540 1100",y:40,duration:{e - s:.3f},ease:"power2.out",immediateRender:false}},{s + 0.05:.3f});')
 ep.cue("sfx_collapse.mp3", W(21), 0.3)
 ep.floor(s, 0.0, 0.0)
 
@@ -79,7 +79,7 @@ bars = (f'<rect x="140" y="1360" width="800" height="50" fill="#1a1416" stroke="
 ep.scene("s04", s, e, f'<g filter="url(#glowB)">{boats}</g>' + bars, origin="50% 55%")
 ep.js(f'tl.fromTo(".s04-b",{{opacity:0,y:-30}},{{opacity:1,y:0,duration:0.15,stagger:0.05,immediateRender:false}},{s + 0.05:.3f});')
 ep.js(f'tl.fromTo("#s04-bar",{{scaleX:0,transformOrigin:"0% 50%"}},{{scaleX:1,duration:0.6,ease:"power2.out",immediateRender:false}},{W(29) - 0.1:.3f});')
-ep.js(f'tl.to(".s04-b",{{x:"+=900",opacity:0,duration:0.5,stagger:{{each:0.04,from:"random"}},ease:"power2.in"}},{W(36):.3f});')
+ep.js(f'tl.to(".s04-b",{{x:"+=1400",opacity:0,duration:0.5,stagger:{{each:0.04,from:"random"}},ease:"power2.in"}},{W(36):.3f});')
 ep.js('gsap.set("#s04-bar",{scaleX:0,transformOrigin:"0% 50%"});')
 ep.cue("whoosh-cinematic.mp3", W(36), 0.4)
 ep.floor(s, 0.35, 0.0)
@@ -88,12 +88,11 @@ ep.floor(s, 0.35, 0.0)
 s, e = cut(42), cut(55)
 svg = stars(5) + ship("t5") + sea(1180)
 ep.scene("s05", s, e, svg, origin="50% 55%", fx=[(W(52), e, "sparks", dict(cx=560, cy=1040, n=40, r=260, dur=0.8, color="#FFD27A", g=200))])
-ep.js(f'tl.to("#t5",{{rotation:-28,svgOrigin:"760 1180",y:80,duration:{W(49) - s:.3f},ease:"power1.in"}},{s:.3f});')
+ep.js(f'tl.to("#t5",{{rotation:-28,svgOrigin:"760 1180",y:80,duration:{W(49) - s:.3f},ease:"power1.out"}},{s:.3f});')
 tb = W(52) - 0.05
 ep.js(f'tl.to("#t5-r",{{rotation:-30,svgOrigin:"560 1100",y:-40,duration:0.6,ease:"power2.out"}},{tb:.3f});')
 ep.js(f'tl.to("#t5-f",{{rotation:18,svgOrigin:"560 1100",y:220,duration:1.0,ease:"power2.in"}},{tb:.3f});')
 ep.shake("#s05-shake", tb, 0.6, 14)
-ep.flash(tb, 0.3, 0.3)
 ep.cue("sfx_collapse.mp3", tb, 0.9)
 ep.cue("sub.wav", tb, 0.9)
 ep.floor(s, 0.0, 0.0)
@@ -102,7 +101,7 @@ ep.floor(s, 0.0, 0.0)
 s, e = cut(55), cut(57)
 svg = stars(6) + sea(1300) + mascot("m6", 540, 900, 0.7, pose=dict(uarmL=150, farmL=20, uarmR=-150, farmR=-20))
 ep.scene("s06", s, e, svg, origin="50% 55%", fx=[(e - 0.25, e, "sparks", dict(cx=540, cy=1300, n=30, r=220, dur=0.5, color="#E6EEFF", g=300))])
-ep.js(f'tl.fromTo("#m6",{{y:-300}},{{y:500,duration:{e - s:.3f},ease:"power2.in",immediateRender:false}},{s:.3f});')
+ep.js(f'tl.fromTo("#m6",{{y:180}},{{y:640,duration:{e - s:.3f},ease:"power2.in",immediateRender:false}},{s:.3f});')
 ep.cue("whoosh-cinematic.mp3", s, 0.6)
 ep.floor(s, 0.0, 0.0)
 
@@ -125,10 +124,10 @@ for k in range(24):
     knives += f'<g class="s08-k" transform="translate({x:.0f},{y:.0f}) rotate({math.degrees(a) + 90:.0f})"><path d="M 0 -50 L 12 30 L 0 50 L -12 30 Z" fill="#E6EEFF" stroke="#9FC8FF" stroke-width="3"/></g>'
 svg = sea(1150) + mascot("m8", 540, 1420, 0.7, mouth_open=True, pose=dict(uarmL=120, farmL=40, uarmR=-120, farmR=-40)) + f'<g id="s08-ks" filter="url(#glowB)">{knives}</g>'
 ep.scene("s08", s, e, svg, origin="50% 55%")
-ep.js(f'tl.fromTo("#s08-ks",{{scale:1.6,svgOrigin:"540 1050",opacity:0}},{{scale:0.55,opacity:1,duration:0.45,ease:"power3.in",immediateRender:false}},{W(66) - 0.1:.3f});')
-ep.js(f'tl.to("#s08-ks",{{opacity:0,duration:0.3}},{W(66) + 0.4:.3f});')
-ep.shake("#s08-shake", W(66) + 0.3, 0.4, 10)
-ep.cue("impact-bass-1.mp3", W(66) + 0.3, 0.7)
+ep.js(f'tl.fromTo("#s08-ks",{{scale:1.6,svgOrigin:"540 1050",opacity:0}},{{scale:0.55,opacity:1,duration:{W(70) - W(66) + 0.1:.3f},ease:"power3.in",immediateRender:false}},{W(66) - 0.1:.3f});')
+ep.js('gsap.set("#s08-ks",{opacity:0});')
+ep.shake("#s08-shake", W(70), 0.45, 12)
+ep.cue("impact-bass-1.mp3", W(70), 0.7)
 ep.floor(s, 0.0, 0.0)
 
 # ---------------------------------------------------------------- S09 you gasp, swallow seawater, can't control your breathing
@@ -160,7 +159,7 @@ ep.rot("#m11-farmL", W(95) - 0.1, 0.6, 0)
 ep.rot("#m11-farmR", W(95) - 0.1, 0.6, 0)
 ep.rot("#m11-thighL", W(98), 0.6, 0)
 ep.rot("#m11-thighR", W(98), 0.6, 0)
-ep.js(f'tl.to("#m11 line, #m11 path, #m11 ellipse, #m11 circle",{{attr:{{stroke:"#7a8aa8"}},duration:1.0}},{W(95):.3f});')
+ep.js(f'tl.to("#m11 line, #m11 path, #m11 ellipse, #m11 circle",{{attr:{{stroke:"#7a8aa8"}},duration:1.0}},{W(98):.3f});')
 ep.floor(s, 0.0, 0.0)
 
 # ---------------------------------------------------------------- S12 fifteen hundred people screaming in the dark
@@ -170,13 +169,15 @@ people = "".join(f'<circle class="s12-p" cx="{r12.uniform(40, 1040):.0f}" cy="{r
 html = '<div class="num" id="s12-n" style="top:600px;font-size:200px;">0</div><div class="lbl" style="top:820px;">PEOPLE IN THE WATER</div>'
 ep.scene("s12", s, e, stars(12) + sea(1250) + people, html, origin="50% 60%")
 ep.counter("#s12-n", W(102) - 0.1, WE(104) - W(102) + 0.3, 0, 1500, "c")
-for k in range(int((e - s) / 0.12)):
-    ep.js(f'tl.set(".s12-p",{{opacity:{r12.choice([0.9, 0.6, 1.0])}}},{s + k * 0.12:.3f});')
+ep.js(f'tl.fromTo(".s12-p",{{opacity:0}},{{opacity:0.9,duration:0.05,stagger:{{each:{(WE(104) - W(102) + 0.3) / 220:.4f},from:"random"}},immediateRender:false}},{W(102) - 0.1:.3f});')
+ep.js('gsap.set(".s12-p",{opacity:0});')
+for k in range(int((e - WE(104) - 0.3) / 0.12)):
+    ep.js(f'tl.set(".s12-p",{{opacity:{r12.choice([0.9, 0.6, 1.0])}}},{WE(104) + 0.3 + k * 0.12:.3f});')
 ep.floor(s, 0.0, 0.0)
 
 # ---------------------------------------------------------------- S13 within twenty minutes, it goes quiet
 s, e = cut(110), cut(116)
-ep.timer("s13", s, e, W(111) - 0.1, WE(112), 0, 1200, "ms", "MINUTES", 20 / 60, ring_color=SEA)
+ep.timer("s13", s, e, W(111) - 0.1, WE(112), 0, 1200, "ms", "MINUTES", 1.0, ring_color=SEA)
 ep.floor(s, 0.0, 0.0)
 
 # ---------------------------------------------------------------- ending
