@@ -1,0 +1,47 @@
+{
+  "global": [
+    "dark claustrophobic horror cinematic score",
+    "instrumental",
+    "dramatic and intriguing until the very end",
+    "deep sub bass",
+    "suffocating dread"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Awakening",
+      "until_word": 24,
+      "styles": ["muffled low drone", "distant thuds", "eerie music box tone", "dread"]
+    },
+    {
+      "name": "Six feet under",
+      "until_word": 37,
+      "styles": ["deep heavy hits", "low choir-like pad without words", "isolation"]
+    },
+    {
+      "name": "Air running out",
+      "until_word": 59,
+      "styles": ["ticking pulse", "rising panic strings", "fast breathing rhythm in percussion"]
+    },
+    {
+      "name": "Suffocation",
+      "until_word": 84,
+      "styles": ["pounding drums", "dissonant screeching strings", "frantic climax"]
+    },
+    {
+      "name": "The bell",
+      "until_word": 111,
+      "styles": ["haunting victorian music box", "tense quiet strings", "small bell motif"]
+    },
+    {
+      "name": "Fading",
+      "until_word": 125,
+      "styles": ["slowing heartbeat", "fading mournful cello", "breath getting weaker"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["one low drone fading", "ends in total silence"]
+    }
+  ]
+}

@@ -86,6 +86,53 @@ Title ≤ 100 characters, the brand phrase first. Put 3–5 hashtags in the desc
 - **Description:** April 26, 1986, 1:23 AM. What an invisible dose of radiation does to the first responders, from the metallic taste to the deceptive "recovery".
 - **Hashtags:** #howdoesitfeel #chernobyl #history #science #darkhistory #shorts
 
+## 10 Stuck Upside Down in a Cave
+
+- **Title:** How Does It Feel to Be Stuck Upside Down in a Cave?
+- **Alt:**
+  - 27 Hours Upside Down: The Nutty Putty Cave Tragedy
+  - The Cave They Sealed With a Man Still Inside
+- **Description:** Nutty Putty Cave, Utah, 2009. A 25 cm passage, head first, a rope anchor that failed and 27 hours upside down. The cave was sealed with concrete, and he is still inside.
+- **Hashtags:** #howdoesitfeel #nuttyputty #truestory #caving #scary #shorts
+- **Note:** a real person (John Edward Jones, 1983–2009). Keep the title factual, no emojis.
+
+## 11 Buried Alive
+
+- **Title:** How Does It Feel to Wake Up Buried Alive? ⚰️
+- **Alt:**
+  - Why 1800s Coffins Had a Bell on Top
+  - How Long Can You Survive Inside a Coffin?
+- **Description:** Total darkness, wood inches from your face, six feet of earth above. About five hours of air, if you stay calm. And why people in the 1800s built coffins with a bell.
+- **Hashtags:** #howdoesitfeel #buriedalive #scary #darkhistory #horror #shorts
+
+## 12 Falling Into Lava
+
+- **Title:** How Does It Feel to Fall Into Lava? 🌋
+- **Alt:**
+  - You Don't Sink in Lava. Here's What Really Happens
+  - What 1,200 °C Lava Actually Does to a Human Body
+- **Description:** In the movies you sink. In reality, lava is three times denser than you: you land on top of it. Second by second, what the heat, the gas and the molten rock do to the body.
+- **Hashtags:** #howdoesitfeel #lava #volcano #science #didyouknow #shorts
+
+## 13 Inside the Titan Submersible
+
+- **Title:** How Does It Feel Inside the Titan Submersible?
+- **Alt:**
+  - The Titan Sub Imploded in One Millisecond
+  - Why the Titan Passengers Never Felt a Thing
+- **Description:** June 18, 2023. Five people, a tube the size of a minivan, a dive to the Titanic almost four kilometers down. One hour and forty-five minutes in, the messages stopped.
+- **Hashtags:** #howdoesitfeel #titan #titanic #deepsea #ocean #shorts
+- **Note:** a recent tragedy with families of the victims. No emojis, keep it factual.
+
+## 14 Eleven Days Without Sleep
+
+- **Title:** How Does It Feel to Not Sleep for 11 Days? 😵
+- **Alt:**
+  - The 17-Year-Old Who Stayed Awake for 264 Hours
+  - What 11 Days Without Sleep Does to Your Brain
+- **Description:** San Diego, 1963. Randy Gardner, 17, stayed awake for 264 hours for a world record. Day by day, what sleep deprivation does: blurred eyes, hallucinations, microsleeps and a blank face.
+- **Hashtags:** #howdoesitfeel #sleep #brain #science #psychology #shorts
+
 ## Channel-wide
 
 - **Pinned comment idea:** "Which one should we cover next? 👇" (drives comments, and comments push Shorts).

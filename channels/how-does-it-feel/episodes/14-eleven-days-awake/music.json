@@ -1,0 +1,57 @@
+{
+  "global": [
+    "psychological thriller cinematic score",
+    "instrumental",
+    "dramatic and intriguing until the very end",
+    "deep sub bass",
+    "unsettling, hypnotic, sleep-deprived"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Awake",
+      "until_word": 22,
+      "styles": [
+        "relentless ticking clock",
+        "glitchy pulses",
+        "tense low synth",
+        "retro 1960s color"
+      ]
+    },
+    {
+      "name": "Days pass",
+      "until_word": 44,
+      "styles": ["hypnotic repeating motif", "slowly detuning piano", "growing unease"]
+    },
+    {
+      "name": "Hallucinations",
+      "until_word": 78,
+      "styles": [
+        "warped reversed textures",
+        "distorted dreamy pads",
+        "eerie, disorienting",
+        "heartbeat pulse"
+      ]
+    },
+    {
+      "name": "Breaking",
+      "until_word": 103,
+      "styles": ["pounding drums", "dissonant strings", "climax"]
+    },
+    {
+      "name": "Record",
+      "until_word": 110,
+      "styles": ["bittersweet triumphant swell", "exhausted"]
+    },
+    {
+      "name": "Sleep",
+      "until_word": 118,
+      "styles": ["everything slows", "soft fading lullaby tone", "drifting off"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["one low drone fading", "ends in total silence"]
+    }
+  ]
+}

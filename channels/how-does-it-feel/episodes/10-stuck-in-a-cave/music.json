@@ -1,0 +1,47 @@
+{
+  "global": [
+    "dark claustrophobic cinematic thriller score",
+    "instrumental",
+    "dramatic and intriguing until the very end",
+    "deep sub bass",
+    "tense and suffocating"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Cold open",
+      "until_word": 18,
+      "styles": ["low drone", "echoing cave drips", "single heartbeat pulse", "eerie"]
+    },
+    {
+      "name": "The squeeze",
+      "until_word": 48,
+      "styles": ["creeping low strings", "ticking pulse", "growing unease"]
+    },
+    {
+      "name": "Stuck",
+      "until_word": 82,
+      "styles": ["pounding heartbeat percussion", "dissonant strings tightening", "panic building"]
+    },
+    {
+      "name": "Rescue",
+      "until_word": 92,
+      "styles": ["rising strings with fragile hope", "driving pulse"]
+    },
+    {
+      "name": "The fall",
+      "until_word": 109,
+      "styles": ["massive impact", "despair", "slow heavy drums", "collapsing tension"]
+    },
+    {
+      "name": "Sealed",
+      "until_word": 121,
+      "styles": ["mournful low cello", "vast cold silence growing", "fading heartbeat"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["one low drone fading", "ends in total silence"]
+    }
+  ]
+}

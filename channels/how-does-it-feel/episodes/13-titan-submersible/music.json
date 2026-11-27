@@ -1,0 +1,53 @@
+{
+  "global": [
+    "dark deep ocean cinematic thriller score",
+    "instrumental",
+    "dramatic and intriguing until the very end",
+    "deep sub bass",
+    "crushing pressure",
+    "isolation"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Descent",
+      "until_word": 26,
+      "styles": ["vast low drone", "sonar-like pulses", "cold synth pads", "mystery"]
+    },
+    {
+      "name": "The vessel",
+      "until_word": 51,
+      "styles": ["uneasy minimal piano", "ticking pulse", "growing unease"]
+    },
+    {
+      "name": "The abyss",
+      "until_word": 85,
+      "styles": [
+        "descending dark strings",
+        "metallic creaks",
+        "pressure building",
+        "heavy sub bass swells"
+      ]
+    },
+    {
+      "name": "Silence",
+      "until_word": 96,
+      "styles": ["tense near silence", "single sonar ping motif", "held breath"]
+    },
+    {
+      "name": "Implosion",
+      "until_word": 109,
+      "styles": ["massive impact then sudden silence", "sharp crack"]
+    },
+    {
+      "name": "Aftermath",
+      "until_word": 128,
+      "styles": ["mournful slow strings", "deep calm ocean drone", "grief"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["one low drone fading", "ends in total silence"]
+    }
+  ]
+}

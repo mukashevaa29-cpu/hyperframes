@@ -40,3 +40,9 @@ Same pipeline: Jax (w1ovTGXs1yF9qRmr8AO9), `kit/tts.py` → `kit/tighten.py` →
 Every script opens "How does it feel? When…" and ends "And then... comes darkness." (shared `ep.ending`).
 Facts kept conservative (LeBlanc 1966 vacuum accident; Chicxulub 10 km / 20 km/s; death zone 8,000 m, 1/3 oxygen;
 Titanic −2 °C, ~1,500 dead, 2:20 AM; Chernobyl 1:23 AM, 28 ARS deaths within months).
+
+## Batch 3 (owner picked 2026-11-27): 10 Nutty Putty cave · 11 buried alive · 12 lava · 13 Titan submersible · 14 eleven days awake
+
+Same pipeline. New ElevenLabs sound effects via `kit/sfxgen.py` (rock scrape, rope snap, dirt thuds, nails on wood, lava, sonar, hull creak, implosion, glitch).
+Facts kept conservative: Nutty Putty 2009, ~25 cm passage, 27 h, >100 rescuers, cave sealed; coffin air ~5 h; lava ~1,200 °C and ~3× denser than a body;
+Titan 18 June 2023, five aboard, comms lost at 1 h 45 min, implosion ~1 ms vs ~100 ms to perceive pain; Randy Gardner 1963–64, 264 h.

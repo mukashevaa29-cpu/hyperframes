@@ -1,0 +1,47 @@
+{
+  "global": [
+    "epic dark volcanic cinematic score",
+    "instrumental",
+    "dramatic and intriguing until the very end",
+    "deep sub bass rumble",
+    "infernal heat"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Falling",
+      "until_word": 17,
+      "styles": ["deep rumbling drone", "rising tension", "taiko hit"]
+    },
+    {
+      "name": "The lake",
+      "until_word": 37,
+      "styles": ["menacing low brass", "bubbling textures", "ominous"]
+    },
+    {
+      "name": "Impact",
+      "until_word": 68,
+      "styles": ["massive impact", "pounding war drums", "aggressive strings", "fire"]
+    },
+    {
+      "name": "Burning",
+      "until_word": 106,
+      "styles": ["frantic dissonant strings", "relentless percussion", "climax of agony"]
+    },
+    {
+      "name": "Trapped",
+      "until_word": 117,
+      "styles": ["heavy slow drums", "despair", "choir-like pad without words"]
+    },
+    {
+      "name": "Fading",
+      "until_word": 126,
+      "styles": ["everything drops away", "single low cello note", "fading"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["one low drone fading", "ends in total silence"]
+    }
+  ]
+}
