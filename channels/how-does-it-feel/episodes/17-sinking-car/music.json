@@ -1,0 +1,47 @@
+{
+  "global": [
+    "dark cinematic survival thriller score",
+    "instrumental",
+    "dramatic and intriguing until the very end",
+    "deep sub bass",
+    "suffocating underwater dread"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Underwater",
+      "until_word": 11,
+      "styles": ["muffled deep drone", "bubbling textures", "dread"]
+    },
+    {
+      "name": "Crash",
+      "until_word": 33,
+      "styles": ["pounding drums", "screeching strings", "massive impacts"]
+    },
+    {
+      "name": "Sinking",
+      "until_word": 78,
+      "styles": ["ticking clock pulse", "rising panic strings", "cold watery synths"]
+    },
+    {
+      "name": "Going down",
+      "until_word": 107,
+      "styles": ["descending low strings", "heavy slow drums", "suffocation climax"]
+    },
+    {
+      "name": "The way out",
+      "until_word": 123,
+      "styles": ["tense hopeful pulse", "clear determined piano"]
+    },
+    {
+      "name": "Too late",
+      "until_word": 130,
+      "styles": ["everything sinks away", "mournful cello", "fading"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["one low drone fading", "ends in total silence"]
+    }
+  ]
+}

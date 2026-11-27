@@ -133,6 +133,44 @@ Title ≤ 100 characters, the brand phrase first. Put 3–5 hashtags in the desc
 - **Description:** San Diego, 1963. Randy Gardner, 17, stayed awake for 264 hours for a world record. Day by day, what sleep deprivation does: blurred eyes, hallucinations, microsleeps and a blank face.
 - **Hashtags:** #howdoesitfeel #sleep #brain #science #psychology #shorts
 
+## 15 Falling 10 km Without a Parachute
+
+- **Title:** How Does It Feel to Fall 10 km Without a Parachute?
+- **Alt:**
+  - She Fell 10,160 Meters and Survived
+  - The Highest Fall Anyone Has Ever Survived
+- **Description:** January 26, 1972. A flight attendant, 22, trapped in a piece of the cabin when a bomb tore the plane apart at 10,000 meters. She fell into a snowy forest and became the only survivor out of 28.
+- **Hashtags:** #howdoesitfeel #survival #truestory #aviation #history #shorts
+- **Note:** a real person (Vesna Vulović) and a deadly crash. No emojis in the title.
+
+## 16 Elevator Falls 75 Floors
+
+- **Title:** How Does It Feel When Your Elevator Falls 75 Floors? 🛗
+- **Alt:**
+  - She Survived a 75-Floor Elevator Fall in the Empire State Building
+  - The Two Things That Saved Her in a Falling Elevator
+- **Description:** New York, July 28, 1945. A bomber hits the Empire State Building in the fog, an elevator's cables snap, and a 20-year-old falls 75 floors. A coiled cable and a cushion of air saved her.
+- **Hashtags:** #howdoesitfeel #empirestatebuilding #survival #history #truestory #shorts
+
+## 17 Sinking Car
+
+- **Title:** How Does It Feel When Your Car Sinks Into a River? 🚗
+- **Alt:**
+  - You Have About 60 Seconds to Escape a Sinking Car
+  - Why You Can't Open Your Car Door Underwater
+- **Description:** The car floats for about a minute. Then the water pins the door shut and the electrics die. Second by second inside a sinking car, and the one way out experts teach: seatbelt off, window open, get out.
+- **Hashtags:** #howdoesitfeel #survival #carsafety #lifehacks #didyouknow #shorts
+- **Note:** safety content people share. Pin a comment: "Seatbelt off, window open, get out. Share it with someone who drives."
+
+## 18 Sucked Out of a Plane Window
+
+- **Title:** How Does It Feel to Be Sucked Out of a Plane Window? ✈️
+- **Alt:**
+  - The Pilot Who Hung Outside His Plane for 20 Minutes
+  - Wrong Bolts, 5 km Up: The Windscreen That Blew Out
+- **Description:** June 10, 1990. At about five kilometers up, the cockpit windscreen blows out and the captain is pulled through it. For twenty minutes his crew holds his legs until the plane lands. He survived.
+- **Hashtags:** #howdoesitfeel #aviation #survival #truestory #pilot #shorts
+
 ## Channel-wide
 
 - **Pinned comment idea:** "Which one should we cover next? 👇" (drives comments, and comments push Shorts).

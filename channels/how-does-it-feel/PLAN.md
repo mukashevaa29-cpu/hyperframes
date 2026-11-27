@@ -46,3 +46,10 @@ Titanic −2 °C, ~1,500 dead, 2:20 AM; Chernobyl 1:23 AM, 28 ARS deaths within 
 Same pipeline. New ElevenLabs sound effects via `kit/sfxgen.py` (rock scrape, rope snap, dirt thuds, nails on wood, lava, sonar, hull creak, implosion, glitch).
 Facts kept conservative: Nutty Putty 2009, ~25 cm passage, 27 h, >100 rescuers, cave sealed; coffin air ~5 h; lava ~1,200 °C and ~3× denser than a body;
 Titan 18 June 2023, five aboard, comms lost at 1 h 45 min, implosion ~1 ms vs ~100 ms to perceive pain; Randy Gardner 1963–64, 264 h.
+
+## Batch 4 (owner picked 2026-11-27): 15 ten-km fall · 16 elevator fall · 17 sinking car · 18 sucked out of a plane window
+
+Facts kept conservative: Vulović 26 Jan 1972, 10,160 m, sole survivor of 28; Betty Lou Oliver 28 Jul 1945, 75 floors, coiled cable + air cushion;
+sinking car floats ~1 min, door load ~500 kg, "seatbelt off, window open, get out"; BA 5390 10 Jun 1990, ~5.3 km, 84 of 90 bolts undersized, ~20 min, survived.
+Gotcha: tweening x/y/rotation with svgOrigin on a group nested inside a translated/scaled group misplaces it; tween `attr:{transform:"translate() rotate(a cx cy)"}` instead.
+ElevenLabs Music rejects plans that echo famous titles (e.g. "vertigo") as copyrighted_material_detected; reword the style.

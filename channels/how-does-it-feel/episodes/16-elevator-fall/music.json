@@ -1,0 +1,47 @@
+{
+  "global": [
+    "dark 1940s cinematic thriller score",
+    "instrumental",
+    "dramatic and intriguing until the very end",
+    "deep sub bass",
+    "suspenseful vintage thriller ambiance"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Freefall",
+      "until_word": 10,
+      "styles": ["rattling metal textures", "screaming strings glissando down", "panic"]
+    },
+    {
+      "name": "Morning",
+      "until_word": 27,
+      "styles": ["foggy 1940s orchestral calm", "uneasy low clarinet", "ticking"]
+    },
+    {
+      "name": "The crash",
+      "until_word": 63,
+      "styles": ["massive impact", "war drums", "fire and chaos strings"]
+    },
+    {
+      "name": "The drop",
+      "until_word": 80,
+      "styles": ["accelerating descending strings", "relentless percussion", "terrifying climax"]
+    },
+    {
+      "name": "Saved",
+      "until_word": 108,
+      "styles": ["suspended tension", "mechanical pulses", "slow building wonder"]
+    },
+    {
+      "name": "Alive",
+      "until_word": 131,
+      "styles": ["emotional strings", "bittersweet heartbeat", "fading"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["one low drone fading", "ends in total silence"]
+    }
+  ]
+}

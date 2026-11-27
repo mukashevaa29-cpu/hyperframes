@@ -1,0 +1,52 @@
+{
+  "global": [
+    "intense aviation disaster cinematic score",
+    "instrumental",
+    "dramatic and intriguing until the very end",
+    "deep sub bass",
+    "howling wind energy"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Outside",
+      "until_word": 12,
+      "styles": ["roaring chaotic strings", "deep pounding drums", "wind"]
+    },
+    {
+      "name": "Takeoff",
+      "until_word": 26,
+      "styles": ["calm early 1990s cockpit ambience", "uneasy synth pad", "ticking"]
+    },
+    {
+      "name": "Blowout",
+      "until_word": 59,
+      "styles": ["massive impact", "violent rushing strings", "panic"]
+    },
+    {
+      "name": "Hanging on",
+      "until_word": 109,
+      "styles": ["relentless driving percussion", "desperate high strings", "unbearable tension"]
+    },
+    {
+      "name": "Twenty minutes",
+      "until_word": 121,
+      "styles": ["heroic determined brass swell", "heartbeat drums"]
+    },
+    {
+      "name": "Survival",
+      "until_word": 134,
+      "styles": ["emotional relief strings", "bittersweet"]
+    },
+    {
+      "name": "Quiet",
+      "until_word": 147,
+      "styles": ["everything falls silent", "lonely high drone", "fading wind"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["one low drone fading", "ends in total silence"]
+    }
+  ]
+}
