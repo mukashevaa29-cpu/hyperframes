@@ -44,3 +44,24 @@ Title ≤ 100 characters, the brand phrase first. Put 3–5 hashtags in the desc
 
 - **Pinned comment idea:** "Which one should we cover next? 👇" (drives comments, and comments push Shorts).
 - **Always:** #howdoesitfeel as the first hashtag, so the channel builds its own searchable tag.
+
+## Channel description (YouTube Studio → Customization → Basic info)
+
+```text
+How does it feel?
+
+History's most brutal moments, lived second by second, through your own eyes.
+
+Inside the Brazen Bull. 500 meters from the Hiroshima bomb. Strapped into the first electric chair. Tied to the stake. Each short takes you through what happened to the human body, beat by beat: the heat, the shock, the last breath. Then comes darkness.
+
+Every episode is researched and illustrated with neon animation, with no gore and no graphic footage. Just history, physics and the human body, told the way you'd actually feel it.
+
+New shorts every week: executions, disasters, ancient tortures, and the strange ways people have died.
+
+👇 Tell us in the comments what we should cover next.
+
+#howdoesitfeel #darkhistory #history
+```
+
+- **Channel keywords** (Settings → Channel → Basic info): how does it feel, dark history, history shorts, execution methods, ancient torture, medieval history, historical disasters, true crime history, what it feels like, history animation
+- **Banner tagline:** DARK HISTORY · SECOND BY SECOND
