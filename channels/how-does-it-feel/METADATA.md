@@ -48,20 +48,16 @@ Title ≤ 100 characters, the brand phrase first. Put 3–5 hashtags in the desc
 ## Channel description (YouTube Studio → Customization → Basic info)
 
 ```text
-How does it feel?
+Ever wondered what history's darkest moments actually felt like?
 
-History's most brutal moments, lived second by second, through your own eyes.
+How does it feel? is a channel about the most extreme experiences a human body has ever gone through: executions, ancient tortures, disasters, wars and deadly inventions. Every short puts you in the middle of it and walks you through what happens, second by second.
 
-Inside the Brazen Bull. 500 meters from the Hiroshima bomb. Strapped into the first electric chair. Tied to the stake. Each short takes you through what happened to the human body, beat by beat: the heat, the shock, the last breath. Then comes darkness.
+We research the real history and the science behind it, then bring it to life with neon animation. No gore, no shock footage: just the facts, told from your point of view.
 
-Every episode is researched and illustrated with neon animation, with no gore and no graphic footage. Just history, physics and the human body, told the way you'd actually feel it.
+Subscribe if you love dark history, strange facts and the stories they don't teach in school.
 
-New shorts every week: executions, disasters, ancient tortures, and the strange ways people have died.
-
-👇 Tell us in the comments what we should cover next.
-
-#howdoesitfeel #darkhistory #history
+👇 Got a topic you want us to cover? Leave it in the comments.
 ```
 
-- **Channel keywords** (Settings → Channel → Basic info): how does it feel, dark history, history shorts, execution methods, ancient torture, medieval history, historical disasters, true crime history, what it feels like, history animation
+- **Channel keywords** (Settings → Channel → Basic info): how does it feel, dark history, history shorts, execution methods, ancient torture, medieval history, historical disasters, history facts, what it feels like, history animation
 - **Banner tagline:** DARK HISTORY · SECOND BY SECOND
