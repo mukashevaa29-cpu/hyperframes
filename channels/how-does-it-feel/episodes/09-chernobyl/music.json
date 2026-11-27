@@ -1,0 +1,43 @@
+{
+  "global": [
+    "dark cinematic nuclear disaster score",
+    "instrumental",
+    "tense and intriguing until the very end",
+    "deep sub bass",
+    "industrial drones and geiger-like textures"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Burning reactor",
+      "until_word": 13,
+      "styles": ["roaring fire", "industrial alarm drone", "low impact"]
+    },
+    {
+      "name": "Night shift",
+      "until_word": 20,
+      "styles": ["uneasy industrial hum", "ticking clock", "calm before disaster"]
+    },
+    {
+      "name": "Explosion",
+      "until_word": 34,
+      "styles": ["massive blast", "metal shrapnel textures", "chaos drums"]
+    },
+    {
+      "name": "Invisible",
+      "until_word": 79,
+      "styles": ["eerie high sustained tones", "crackling static", "slow pulsing dread", "rising"]
+    },
+    {
+      "name": "The trick",
+      "until_word": 95,
+      "styles": ["false calm", "fragile piano", "sudden dissonant sting at the end"]
+    },
+    {
+      "name": "Collapse",
+      "until_word": 117,
+      "styles": ["mournful low strings", "slowing heartbeat", "industrial decay"]
+    },
+    { "name": "Darkness", "until": "end", "styles": ["single low drone", "ends in total silence"] }
+  ]
+}

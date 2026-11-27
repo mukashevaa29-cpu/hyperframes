@@ -1,0 +1,56 @@
+{
+  "global": [
+    "dark cinematic sci-fi suspense score",
+    "instrumental",
+    "tense and intriguing until the very end",
+    "deep sub bass",
+    "cold vast space ambience"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Airlock",
+      "until_word": 12,
+      "styles": ["sudden decompression hit", "violent rushing air", "low brass stab"]
+    },
+    {
+      "name": "Lungs",
+      "until_word": 42,
+      "styles": ["tight ticking pulse", "dissonant strings rising", "heartbeat", "claustrophobic"]
+    },
+    {
+      "name": "Boiling",
+      "until_word": 80,
+      "styles": ["eerie glassy textures", "bubbling synth", "slow tension build", "sub pulse"]
+    },
+    {
+      "name": "Blackout",
+      "until_word": 92,
+      "styles": ["everything muffles and narrows", "high sustained tone", "fading pulse"]
+    },
+    {
+      "name": "Silent sun",
+      "until_word": 111,
+      "styles": ["vast cold ambient", "lonely sparse piano", "drifting"]
+    },
+    {
+      "name": "The 1966 accident",
+      "until_word": 147,
+      "styles": [
+        "documentary mystery",
+        "ticking clock",
+        "rising string ostinato",
+        "relief swell at the end"
+      ]
+    },
+    {
+      "name": "Ninety seconds",
+      "until": "end",
+      "styles": [
+        "final tense countdown pulse",
+        "collapses to one low drone",
+        "ends in total silence"
+      ]
+    }
+  ]
+}

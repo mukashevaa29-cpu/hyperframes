@@ -32,3 +32,11 @@ owner buys an ElevenLabs plan and picks a voice — then re-run `kit/tts.py` + b
 
 - Built and checked: 01 brazen bull, 02 hiroshima, 03 electric chair, 04 stake (placeholder voice: Brian).
 - Next: the owner picks the channel voice, then re-voice, rebuild, remix and re-render all four.
+
+## Batch 2 (owner picked 2026-11-27): not only executions — any "How does it feel?"
+
+05 space without a suit · 06 dinosaur asteroid · 07 Everest death zone · 08 Titanic · 09 Chernobyl.
+Same pipeline: Jax (w1ovTGXs1yF9qRmr8AO9), `kit/tts.py` → `kit/tighten.py` → `build.py` → `kit/music.py` (music.json) → `kit/mix.py` → render → agent QC.
+Every script opens "How does it feel? When…" and ends "And then... comes darkness." (shared `ep.ending`).
+Facts kept conservative (LeBlanc 1966 vacuum accident; Chicxulub 10 km / 20 km/s; death zone 8,000 m, 1/3 oxygen;
+Titanic −2 °C, ~1,500 dead, 2:20 AM; Chernobyl 1:23 AM, 28 ARS deaths within months).

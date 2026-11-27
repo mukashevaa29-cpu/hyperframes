@@ -1,0 +1,42 @@
+{
+  "global": [
+    "dark cinematic historical tragedy score",
+    "instrumental",
+    "dramatic and intriguing until the very end",
+    "deep sub bass",
+    "early 1900s orchestral color"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key", "My Heart Will Go On"],
+  "sections": [
+    {
+      "name": "Sinking",
+      "until_word": 19,
+      "styles": ["groaning metal", "low ominous brass", "creaking hull"]
+    },
+    {
+      "name": "Lifeboats",
+      "until_word": 42,
+      "styles": ["frantic string ostinato", "ticking clock", "rising panic"]
+    },
+    {
+      "name": "The break",
+      "until_word": 57,
+      "styles": ["massive tearing impact", "pounding drums", "chaos"]
+    },
+    {
+      "name": "Freezing water",
+      "until_word": 93,
+      "styles": ["icy shimmering high strings", "breathless pulse", "cold dread"]
+    },
+    {
+      "name": "Fading",
+      "until_word": 116,
+      "styles": ["slow mournful cello", "fading heartbeat", "vast cold silence growing"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["one low drone fading", "ends in total silence"]
+    }
+  ]
+}

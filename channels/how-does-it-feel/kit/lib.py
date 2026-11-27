@@ -278,7 +278,7 @@ class Episode:
     def thermometer(self, sid, start, end, t0, t1, a, b, top=400, label_txt="CELSIUS", hot_floor=True):
         ty = lambda c: 1380 - c / top * 720
         tt = ""
-        step = 50 if top <= 400 else 100
+        step = 10 if top <= 60 else 50 if top <= 400 else 100
         for c in range(0, top + 1, step):
             tt += line(250, ty(c), 285, ty(c), CORE, 5) + label(236, ty(c) + 10, f"{c}°", 28, GREY, "end")
         waves = ""
@@ -303,7 +303,7 @@ class Episode:
             self.floor(start, 0.4, 0.7)
             self.floor(t0, 0.3, 1.0, t1 - t0)
 
-    def lungs(self, sid, start, end, t_breath=None, t_flood=None, t_burn=None, t_burn_end=None, flood_color="#FF8A3A", smoke=False, label_txt="LUNGS"):
+    def lungs(self, sid, start, end, t_breath=None, t_flood=None, t_burn=None, t_burn_end=None, flood_color="#FF8A3A", smoke=False, label_txt="LUNGS", burn_color=None):
         LL = "M 515 790 C 430 770 310 900 296 1150 C 284 1360 336 1440 430 1420 C 505 1404 515 1320 515 1150 Z"
         RL = "M 565 790 C 650 770 770 900 784 1150 C 796 1360 744 1440 650 1420 C 575 1404 565 1320 565 1150 Z"
         br = ('<path d="M 540 760 Q 500 820 450 880 M 470 860 L 420 940 M 450 880 L 470 980 M 540 760 Q 580 820 630 880 M 610 860 L 660 940 M 630 880 L 610 980" '
@@ -327,7 +327,7 @@ class Episode:
                 tx_, ty_ = 540 + side * pr.uniform(70, 210), pr.uniform(900, 1380)
                 self.js(f'tl.fromTo("#{sid}-p{k}",{{attr:{{cx:540,cy:440}},opacity:1}},{{keyframes:[{{attr:{{cy:770}},duration:0.25,ease:"none"}},{{attr:{{cx:{tx_:.0f},cy:{ty_:.0f}}},duration:0.4,ease:"power2.out"}}],immediateRender:false}},{t_flood + k * 0.035:.3f});')
         if t_burn:
-            tgt = "#3a3532" if smoke else "#871712"
+            tgt = burn_color or ("#3a3532" if smoke else "#871712")
             self.js(f'tl.to("#{sid}-LL, #{sid}-RL",{{fill:"{tgt}",duration:{(t_burn_end or t_burn + 1) - t_burn:.3f},ease:"power1.in"}},{t_burn:.3f});')
             if not smoke:
                 self.js(f'tl.to(".{sid}-core",{{stroke:"#FFB3B0",duration:0.6}},{t_burn:.3f});')

@@ -1,0 +1,52 @@
+{
+  "global": [
+    "dark cinematic survival thriller score",
+    "instrumental",
+    "tense and intriguing until the very end",
+    "howling wind textures",
+    "deep sub bass"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Summit wind",
+      "until_word": 11,
+      "styles": ["howling high-altitude wind", "low brass swell", "isolation"]
+    },
+    {
+      "name": "Death zone",
+      "until_word": 48,
+      "styles": [
+        "heavy breathing rhythm",
+        "slow heartbeat percussion accelerating",
+        "cold strings",
+        "rising dread"
+      ]
+    },
+    {
+      "name": "Body failing",
+      "until_word": 76,
+      "styles": [
+        "disorienting detuned textures",
+        "ghostly whispers feel",
+        "pulsing tension",
+        "hallucinatory"
+      ]
+    },
+    {
+      "name": "Frostbite",
+      "until_word": 96,
+      "styles": ["glassy cold tones", "brittle ice textures", "fragile piano"]
+    },
+    {
+      "name": "Rest",
+      "until_word": 127,
+      "styles": ["deceptively warm calm", "slow fading heartbeat", "mournful strings"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["wind fades to a single low drone", "ends in total silence"]
+    }
+  ]
+}

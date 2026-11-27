@@ -1,0 +1,47 @@
+{
+  "global": [
+    "epic dark cinematic disaster score",
+    "instrumental",
+    "dramatic and intriguing from start to finish",
+    "huge sub bass",
+    "orchestral and percussive"
+  ],
+  "negative": ["vocals", "happy", "upbeat", "EDM", "major key"],
+  "sections": [
+    {
+      "name": "Impact",
+      "until_word": 14,
+      "styles": ["massive cinematic impact", "roaring fire", "deep boom"]
+    },
+    {
+      "name": "The rock",
+      "until_word": 44,
+      "styles": [
+        "ominous prehistoric atmosphere",
+        "low brass",
+        "accelerating tension",
+        "rushing wind"
+      ]
+    },
+    {
+      "name": "Flash and shock",
+      "until_word": 72,
+      "styles": ["blinding high tone", "colossal drums", "rumbling earthquake bass", "chaos"]
+    },
+    {
+      "name": "Fire from the sky",
+      "until_word": 112,
+      "styles": ["relentless pounding taiko", "screaming strings", "burning intensity", "climax"]
+    },
+    {
+      "name": "Impact winter",
+      "until_word": 137,
+      "styles": ["cold desolate drone", "slow mournful strings", "emptiness"]
+    },
+    {
+      "name": "Darkness",
+      "until": "end",
+      "styles": ["single low drone fading", "ends in total silence"]
+    }
+  ]
+}
